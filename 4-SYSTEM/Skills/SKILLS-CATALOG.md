@@ -77,6 +77,12 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Outputs:** One file at `2-RAILS/Verses/<verse-id>.md` containing: (1) transclusions of commentary passages, (2) a synthesis of the commentators' interpretations in the original language, (3) a disambiguated restatement of the verse in the original language precise enough to exclude any mistranslation.
 → [`verse-context/SKILL.md`](verse-context/SKILL.md)
 
+### `verse-rail` **[exists]**
+**Purpose:** Build a **translation-grounded** verse rail for one verse of any canon — the WeBuddhist anthology's adaptation of `verse-context`, used because no commentaries are imported. Grounds the rail in the authoritative translation(s) the vault holds (Sujato / Patton / 84000) rather than a commentary tradition (which About Rails permits).
+**Inputs:** Source block id(s) in `1-SOURCES/Text/`; aligned translation block(s) in `1-SOURCES/Translations/`; the `source_ref` label.
+**Outputs:** One file at `2-RAILS/Verses/<text-slug>-<verse>.md` containing: source transclusion, authoritative rendering(s), a precise English disambiguated meaning (every claim cited), and theme/selection notes. `grounding: translation` (or `hybrid` if a commentary is later added).
+→ [`verse-rail/SKILL.md`](verse-rail/SKILL.md)
+
 ### `local-wiki-article` **[exists]**
 **Purpose:** Create or update a Local-Wiki article for one key term.
 **Inputs:** Commentary passages that explain or define the term (via block citations from `1-SOURCES/`).
