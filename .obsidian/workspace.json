@@ -197,6 +197,9 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "1-SOURCES/Text/bo-udanavarga.md",
+    "0-INBOX/temp/bo-udanavarga.md",
+    "4-SYSTEM/Skills/json-to-source-text/converters/openpecha_kangyur.py",
     "1-SOURCES/Translations/en-udana-sujato.md",
     "1-SOURCES/Translations/en-sutta-nipata-sujato.md",
     "1-SOURCES/Text/pi-digha-nikaya.md",
@@ -223,15 +226,12 @@
     "0-INBOX/temp/pi-anguttara-nikaya.md",
     "0-INBOX/temp/en-samyutta-nikaya-sujato.md",
     "0-INBOX/temp/pi-samyutta-nikaya.md",
-    "0-INBOX/temp/en-majjhima-nikaya-sujato.md",
-    "0-INBOX/temp/pi-majjhima-nikaya.md",
     "4-SYSTEM/Skills/json-to-source-text/scripts/import_suttacentral.sh",
     "4-SYSTEM/Skills/json-to-source-text/scripts",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/mn/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/days"
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/days"
   ]
 }

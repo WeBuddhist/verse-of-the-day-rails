@@ -41,9 +41,12 @@ Source-text files in `1-SOURCES/Text/` are added per canonical work as they are 
 | 10 | Madhyama Āgama (中阿含經, T26) | Chinese | `zh-madhyama-agama.md` | **imported** (222 sūtras; CBETA CC BY-NC-SA) |
 | 11 | Saṁyukta Āgama (雜阿含經, T99) | Chinese | `zh-samyukta-agama.md` | **imported** (1,355 sūtras; CBETA CC BY-NC-SA) |
 | 12 | Ekottarika Āgama (增壹阿含經, T125) | Chinese | `zh-ekottarika-agama.md` | **imported** (472 sūtras; CBETA CC BY-NC-SA) |
-| 13 | Kangyur sūtra sections (by Tohoku no.) | Tibetan | `bo-toh<N>.md` | **usable** — Degé Kangyur Tibetan root is **Public Domain** (Esukhia → OpenPecha/P000001, via BDRC). Import targeted sūtras (verse-rich first, e.g. Udānavarga Toh 326); classical Tibetan, render modern in-vault. 84000 English = reference-only (§7). |
+| 13 | Udānavarga (Toh 326) | Tibetan | `bo-udanavarga.md` | **imported** (PD; 89 Degé folio-blocks; mdo verse collection, Dhammapada parallel) |
+| 14 | Further Kangyur mdo sūtras (by Tohoku no.) | Tibetan | `bo-toh<N>.md` | on demand — PD Degé root (OpenPecha/P000001); **mdo / Mahāyāna sūtras only, no tantra/Vinaya** (§ Kangyur scope). 84000 English = verbatim reference (§7). |
 
 Āgama note: imported **source-only** (Literary Chinese, no paired translation exists under a clean license). Modern-language renderings are produced in-vault under review (§4). Use is **non-commercial / ShareAlike** per CBETA's license (§7) — keep separate from the CC0 Pali in any output licensing.
+
+**Kangyur scope boundary (what we take, what we don't).** From the Tibetan Kangyur we include the **sūtra section (mdo)** — the Buddha's discourses, including **Mahāyāna sūtras**. We **exclude**: the **Tantra section (rgyud)** — because WeBuddhist serves *all* Buddhists and tantra is tradition-specific and often restricted/empowerment-gated; the **Vinaya ('dul ba)** — monastic rules, not verse-of-the-day material; and any scholastic/abhidharma-type material. The flagship import is the **Udānavarga (Toh 326)**, a mdo-section verse collection of the Buddha's utterances (the Tibetan parallel to the Dhammapada). Tibetan root is Public Domain; we make our **own** modern translations from it, optionally consulting 84000's English as a verbatim reference (§7).
 
 **Pali coverage now in the vault:** the four main Nikāyas (DN, MN, SN, AN) plus the four buddhavacana verse collections of the Khuddaka Nikāya (Dhammapada, Sutta Nipāta, Udāna, Itivuttaka) — the core of the Sutta Piṭaka, all CC0 with paired Sujato English. **Not imported:** the Vinaya Piṭaka (monastic rules) and Abhidhamma Piṭaka (scholastic analysis) — neither is verse-of-the-day material; and the mixed-authorship KN texts (Jātaka, Apadāna, Buddhavaṁsa, Theragāthā/Therīgāthā, etc.), which are not direct words of the Buddha.
 
