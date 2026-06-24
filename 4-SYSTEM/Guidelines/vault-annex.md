@@ -37,8 +37,13 @@ Source-text files in `1-SOURCES/Text/` are added per canonical work as they are 
 | 6 | Majjhima Nikāya | Pali | `pi-majjhima-nikaya.md` | **imported** (152 suttas, CC0; en-sujato paired) |
 | 7 | Saṁyutta Nikāya | Pali | `pi-samyutta-nikaya.md` | **imported** (1,819 suttas, CC0; en-sujato paired) |
 | 8 | Aṅguttara Nikāya | Pali | `pi-anguttara-nikaya.md` | **imported** (1,408 suttas, CC0; en-sujato paired) |
-| 9 | Saṁyukta / Madhyama / Dīrgha / Ekottarika Āgama | Chinese | `zh-<agama>.md` | planned |
-| 10 | Kangyur sūtra sections | Tibetan | `bo-<work>.md` | planned (pending license — see §7) |
+| 9 | Dīrgha Āgama (長阿含經, T1) | Chinese | `zh-digha-agama.md` | **imported** (30 sūtras; CBETA CC BY-NC-SA, non-commercial; source-only, no translation) |
+| 10 | Madhyama Āgama (中阿含經, T26) | Chinese | `zh-madhyama-agama.md` | **imported** (222 sūtras; CBETA CC BY-NC-SA) |
+| 11 | Saṁyukta Āgama (雜阿含經, T99) | Chinese | `zh-samyukta-agama.md` | **imported** (1,355 sūtras; CBETA CC BY-NC-SA) |
+| 12 | Ekottarika Āgama (增壹阿含經, T125) | Chinese | `zh-ekottarika-agama.md` | **imported** (472 sūtras; CBETA CC BY-NC-SA) |
+| 13 | Kangyur sūtra sections | Tibetan | `bo-<work>.md` | planned (pending license — see §7) |
+
+Āgama note: imported **source-only** (Literary Chinese, no paired translation exists under a clean license). Modern-language renderings are produced in-vault under review (§4). Use is **non-commercial / ShareAlike** per CBETA's license (§7) — keep separate from the CC0 Pali in any output licensing.
 
 **Pali coverage now in the vault:** the four main Nikāyas (DN, MN, SN, AN) plus the four buddhavacana verse collections of the Khuddaka Nikāya (Dhammapada, Sutta Nipāta, Udāna, Itivuttaka) — the core of the Sutta Piṭaka, all CC0 with paired Sujato English. **Not imported:** the Vinaya Piṭaka (monastic rules) and Abhidhamma Piṭaka (scholastic analysis) — neither is verse-of-the-day material; and the mixed-authorship KN texts (Jātaka, Apadāna, Buddhavaṁsa, Theragāthā/Therīgāthā, etc.), which are not direct words of the Buddha.
 
@@ -131,7 +136,8 @@ usage_status: "cleared | pending-permission | blocked"
 | Source | License | Commercial | Derivatives | Status | Notes |
 | ------ | ------- | ---------- | ----------- | ------ | ----- |
 | **SuttaCentral — Bhikkhu Sujato** (Pali root + English) | CC0 / public domain | yes | yes | **cleared** | Best base. Modern English already. |
-| **CBETA** (Chinese Āgama / canon source text, Taishō v.1–55) | Creative Commons (verify per text) | verify | yes | cleared-with-check | Source text only; English is sparse — render modern downstream. |
+| **CBETA** (Chinese Āgama / canon source text) | CC BY-NC-SA 3.0 TW | non-commercial only | yes — derivatives must be ShareAlike | **usable (non-commercial)** | WeBuddhist is a non-profit using CBETA as an internal source to produce modern translations (not republishing CBETA's text). Conditions: (1) use stays genuinely non-commercial — a free, non-monetised app; (2) attribute CBETA + Taishō base text; (3) modern translations derived from it inherit CC BY-NC-SA (**ShareAlike** — they can't later go under a commercial/more-restrictive license); (4) don't redistribute CBETA's source text unchanged as a product. CBETA's non-commercial grant covers the Taishō base text for this use. *Not legal advice — confirm the app's non-commercial status.* |
+| **SuttaCentral lzh** (Literary Chinese Āgama fragments) | CC0 (SC) | yes | yes | partial-only | Clean license but **incomplete** — only fragments of SA/MA/EA are segmented, and there is **no paired translation**. Not a viable full Āgama source on its own. |
 | **84000** (Tibetan Kangyur → English) | CC BY-NC-ND | no | no | **blocked** | Non-commercial + no-derivatives. Pursue a Khyentse Foundation content-use grant (KF runs 84000 and is a WeBuddhist partner) before importing. |
 | **Access to Insight — Thanissaro** | CC BY-NC | no | yes | reference-only | Do not ship; reference for meaning only. |
 | 19th-c. translations (Müller etc.) | public domain (age) | yes | yes | usable-but-archaic | Fails the modern-language requirement (§4). |

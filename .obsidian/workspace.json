@@ -197,6 +197,16 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "4-SYSTEM/Skills/json-to-source-text/scripts/import_cbeta_agamas.sh",
+    "1-SOURCES/Text/zh-ekottarika-agama.md",
+    "1-SOURCES/Text/zh-samyukta-agama.md",
+    "1-SOURCES/Text/zh-madhyama-agama.md",
+    "1-SOURCES/Text/zh-digha-agama.md",
+    "0-INBOX/temp/zh-ekottarika-agama.md",
+    "0-INBOX/temp/zh-madhyama-agama.md",
+    "0-INBOX/temp/zh-digha-agama.md",
+    "0-INBOX/temp/zh-samyukta-agama.md",
+    "4-SYSTEM/Skills/json-to-source-text/converters/cbeta_agama.py",
     "1-SOURCES/Translations/en-anguttara-nikaya-sujato.md",
     "1-SOURCES/Text/pi-anguttara-nikaya.md",
     "1-SOURCES/Translations/en-samyutta-nikaya-sujato.md",
@@ -214,15 +224,6 @@
     "0-INBOX/temp/en-digha-nikaya-sujato.md",
     "0-INBOX/temp/pi-digha-nikaya.md",
     "1-SOURCES/Translations/en-itivuttaka-sujato.md",
-    "1-SOURCES/Text/pi-itivuttaka.md",
-    "1-SOURCES/Translations/en-udana-sujato.md",
-    "1-SOURCES/Text/pi-udana.md",
-    "1-SOURCES/Translations/en-sutta-nipata-sujato.md",
-    "1-SOURCES/Text/pi-sutta-nipata.md",
-    "0-INBOX/temp/en-itivuttaka-sujato.md",
-    "0-INBOX/temp/pi-itivuttaka.md",
-    "0-INBOX/temp/en-udana-sujato.md",
-    "0-INBOX/temp/pi-udana.md",
     "4-SYSTEM/Skills/json-to-source-text/scripts/import_suttacentral.sh",
     "4-SYSTEM/Skills/json-to-source-text/scripts",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/days",
@@ -231,7 +232,6 @@
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne"
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh"
   ]
 }
