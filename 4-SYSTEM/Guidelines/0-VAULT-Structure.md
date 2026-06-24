@@ -8,6 +8,14 @@ This guideline is **text-agnostic**. The structure below applies to any Railroad
 
 ## 1. One Vault Per Text
 
+> **Exception — this vault is an anthology.** This is the standard Railroads
+> rule, but *this* vault deliberately departs from it: it is a multi-text
+> **verse-of-the-day anthology** (Pali Canon, Chinese Āgamas, Tibetan Kangyur),
+> not one text. Block-ID collisions are avoided by **text-qualified filenames**
+> and **per-source `verse_id_format`** instead of a single spine. See
+> [`vault-annex.md`](vault-annex.md) §0 and §2. The rest of this section explains
+> the standard rule it overrides.
+
 A Railroads vault holds the complete interpretive ecosystem for **one classical text**: its editions, translations, commentaries, sub-commentaries, secondary literature, the compiled rails, and any generated outputs.
 
 This is a deliberate constraint. Mixing texts in a single vault would mean:

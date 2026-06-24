@@ -29,9 +29,12 @@ m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 out=f"{vault}/1-SOURCES/Translations"
 def toh(fn):
     x=re.search(r"toh(\d+)",os.path.basename(fn)); return int(x.group(1)) if x else None
+# Giant prose works trimmed from the daily-verse corpus (audit 2026-06-24):
+# Perfection of Wisdom (8,9,10), Avataṃsaka (44), Saddharmasmṛtyupasthāna (287).
+TRIM = {8, 9, 10, 44, 287}
 for f in glob.glob(f"{tei_root}/translations/kangyur/translations/*.xml"):
     n=toh(f)
-    if n and 8<=n<=359:
+    if n and 8<=n<=359 and n not in TRIM:
         try: m.convert(f,n,f"toh{n}",f"1-SOURCES/Text/bo-toh{n}.md",f"{out}/en-toh{n}-84000.md")
         except SystemExit: pass
 PY

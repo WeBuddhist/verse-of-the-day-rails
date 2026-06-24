@@ -1,5 +1,15 @@
 # 2-RAILS — Descriptive interpretive layer
 
+> **Anthology note.** This document is written for the commentary-centric,
+> single-text case. *This* vault holds **no commentaries**, so its rails are
+> **translation-grounded**: a verse rail cites the authoritative **translation
+> passage** (which this README's own rule permits — "a commentary block ID, **a
+> translation passage**") rather than a commentary synthesis. Build verse rails
+> with the [`verse-rail`](../4-SYSTEM/Skills/verse-rail/SKILL.md) skill, not
+> `verse-context`. The commentary-specific sections below (Traditional
+> Interpretation, Sections/, the multi-commentary apparatus) do not apply here
+> unless a commentary is later imported. See [`vault-annex.md`](../4-SYSTEM/Guidelines/vault-annex.md) §0.
+
 This folder distills the human-authored material in `1-SOURCES/` into **original-language descriptive context** at every level any AI-powered transformation might need — section summaries, verse-by-verse packages, per-term local-wiki articles, bilingual glossaries. Every claim cites a specific human source (a commentary block ID, a translation passage). The authority of a rail comes from the tradition it compiles, not from the LLM that compiled it.
 
 This README is the **authoritative document** for everything in `2-RAILS/`: the disambiguation stack, the per-folder file format, the bilingual glossary chain, the divergence-flagging convention, and the checklist for a new verse package. The LLM-facing operational summary lives in [`../4-SYSTEM/CLAUDE.md`](../4-SYSTEM/CLAUDE.md) §7–8.

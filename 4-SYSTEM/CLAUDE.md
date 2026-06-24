@@ -30,9 +30,9 @@ When this file and a folder README disagree, the folder README wins.
 
 **Railroads** is a method for making AI-powered work on classical texts reliable. Instead of feeding a model raw commentary and hoping it synthesises correctly, we lay the **rails** first: structured, machine-readable context packages that resolve every ambiguity in a passage and cite the human source for each decision. Once the rails are laid, any model can run any transformation — translation, adaptation, lesson plan, daily reading, study guide, anything — without redoing the philological work.
 
-Authority comes from the human commentary tradition, never from the LLM's parametric knowledge.
+Authority comes from the human source — for this vault, the canonical text and its **authoritative translations**, never from the LLM's parametric knowledge.
 
-**One vault per text.** This vault is for **[name of text]**. For vault-specific conventions (addressing scheme, registered commentary IDs, language tracks), see [`Guidelines/vault-annex.md`](Guidelines/vault-annex.md).
+**This vault is an anthology, not a single text.** It serves **WeBuddhist Verse of the Day** — buddhavacana across the Pali Canon, Chinese Āgamas, and Tibetan Kangyur (sūtra sections; no tantra/Vinaya/scholastic). It holds **no commentaries**, so rails are **translation-grounded** via the `verse-rail` skill (use it, not `verse-context`, which is commentary-centric and superseded here). Per-source addressing, the licensing register, and all deviations are in [`Guidelines/vault-annex.md`](Guidelines/vault-annex.md) — read §0 first.
 
 ---
 

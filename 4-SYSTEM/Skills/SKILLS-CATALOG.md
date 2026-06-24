@@ -20,29 +20,9 @@ Converts EPUB files (commentaries, reference texts) into formatted Obsidian mark
 Converts JSON exports of root texts (e.g. from tipitaka.org or SuttaCentral) into formatted source-text markdown files. Includes example converters for tipitaka.org and English paired translations; new source schemas get their own converter in `json-to-source-text/converters/`.
 → [`json-to-source-text/SKILL.md`](json-to-source-text/SKILL.md)
 
-### `json-to-commentary` **[exists]**
-Converts JSON exports of classical commentaries into formatted commentary markdown files.
-→ [`json-to-commentary/SKILL.md`](json-to-commentary/SKILL.md)
-
-### `format-root-text` **[exists]**
-Normalises an existing root-text file: heading structure, block IDs, verse formatting.
-→ [`format-root-text/SKILL.md`](format-root-text/SKILL.md)
-
-### `format-commentary` **[exists]**
-Normalises an existing commentary file: OCR cleanup, heading structure, paragraph granularity, block IDs.
-→ [`format-commentary/SKILL.md`](format-commentary/SKILL.md)
-
-### `add-toc` **[exists]**
-Inserts or regenerates a table of contents in a source or rails file.
-→ [`add-toc/SKILL.md`](add-toc/SKILL.md)
-
 ### `root-text-frontmatter` **[exists]**
 Generates complete YAML frontmatter for a root-text file in `1-SOURCES/Text/` by extracting metadata from its title, colophon, and opening content.
 → [`root-text-frontmatter/SKILL.md`](root-text-frontmatter/SKILL.md)
-
-### `commentary-frontmatter` **[exists]**
-Generates complete YAML frontmatter for a commentary file in `1-SOURCES/Commentaries/`, including the `registered_id`, `root_text`, and `covers_verses` fields.
-→ [`commentary-frontmatter/SKILL.md`](commentary-frontmatter/SKILL.md)
 
 ### `translation-frontmatter` **[exists]**
 Generates complete YAML frontmatter for a translation file in `1-SOURCES/Translations/`, including translator, target language, and `translation_basis`.
@@ -58,25 +38,6 @@ Generates complete YAML frontmatter for a secondary-literature or reference file
 
 These skills populate `2-RAILS/` with the structured context that translation and QA skills consume.
 
-### `section-summary-raw` **[exists]**
-**Purpose:** Generate a summary of one table-of-contents node in the original language, drawn from a single commentary.
-**Inputs:** Commentary file(s) in `1-SOURCES/`, the TOC node to summarise.
-**Outputs:** One summary file per commentary under `2-RAILS/Sections/Raw/<commentary-id>/<node-id>.md`.
-**Rules:** Use only the terminology the commentary itself uses. No translation. No paraphrase beyond compression. Every claim cites a block ID from the source file.
-→ [`section-summary-raw/SKILL.md`](section-summary-raw/SKILL.md)
-
-### `section-summary-combined` **[exists]**
-**Purpose:** Combine the per-commentary raw summaries for one TOC node and add an English translation of the combined summary.
-**Inputs:** All raw summary files for the target node under `2-RAILS/Sections/Raw/`.
-**Outputs:** One combined file at `2-RAILS/Sections/<node-id>.md` containing the original-language synthesis and an English translation.
-→ [`section-summary-combined/SKILL.md`](section-summary-combined/SKILL.md)
-
-### `verse-context` **[exists]**
-**Purpose:** Build the verse-level context file for one verse.
-**Inputs:** Root-text verse (from `1-SOURCES/`), all commentary passages that discuss it (via block transclusions from `1-SOURCES/`).
-**Outputs:** One file at `2-RAILS/Verses/<verse-id>.md` containing: (1) transclusions of commentary passages, (2) a synthesis of the commentators' interpretations in the original language, (3) a disambiguated restatement of the verse in the original language precise enough to exclude any mistranslation.
-→ [`verse-context/SKILL.md`](verse-context/SKILL.md)
-
 ### `verse-rail` **[exists]**
 **Purpose:** Build a **translation-grounded** verse rail for one verse of any canon — the WeBuddhist anthology's adaptation of `verse-context`, used because no commentaries are imported. Grounds the rail in the authoritative translation(s) the vault holds (Sujato / Patton / 84000) rather than a commentary tradition (which About Rails permits).
 **Inputs:** Source block id(s) in `1-SOURCES/Text/`; aligned translation block(s) in `1-SOURCES/Translations/`; the `source_ref` label.
@@ -88,30 +49,6 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Inputs:** Commentary passages that explain or define the term (via block citations from `1-SOURCES/`).
 **Outputs:** One file at `2-RAILS/Local-Wiki/<term>_(<disambiguator>).md` containing: cited commentary explanations in the original language, and a short contextual definition drafted from those citations (also in the original language).
 → [`local-wiki-article/SKILL.md`](local-wiki-article/SKILL.md)
-
-### `interlinear-gloss` **[exists]**
-**Purpose:** For one root text + one translation, build an interlinear gloss file at `2-RAILS/Bilingual-Glossaries/Raw/<source>-<target>-gloss.md` pairing them verse by verse. Each verse becomes a `gloss` block in the Obsidian Interlinear Glossing plugin format (`\gla` source tokens, `\glb` morphology/lemma, `\glc` token-by-token target glosses, `\ex` free translation). Token-level alignment lives here so every downstream bilingual glossary step reads from one place.
-**Inputs:** `1-SOURCES/Text/<root-text>.md`, one translation under `1-SOURCES/Translations/`.
-**Outputs:** One gloss file per translation under `2-RAILS/Bilingual-Glossaries/Raw/<source-lang>-<target-lang>-gloss.md`.
-→ [`interlinear-gloss/SKILL.md`](interlinear-gloss/SKILL.md)
-
-### `glossary-extract-raw` **[exists]**
-**Purpose:** Extract every source-language keyword and the rendering(s) it receives, from one interlinear gloss file, into a raw per-source bilingual glossary.
-**Inputs:** One gloss file at `2-RAILS/Bilingual-Glossaries/Raw/<source>-<target>-gloss.md`.
-**Outputs:** One bilingual glossary file at `2-RAILS/Bilingual-Glossaries/Raw/<source>-<target>.md` with a table mapping source lemma → rendering used in that translation.
-→ [`glossary-extract-raw/SKILL.md`](glossary-extract-raw/SKILL.md)
-
-### `glossary-combine` **[exists]**
-**Purpose:** Merge all raw bilingual glossary files for one language pair into a single consolidated bilingual glossary.
-**Inputs:** All relevant files under `2-RAILS/Bilingual-Glossaries/Raw/`.
-**Outputs:** One consolidated bilingual glossary at `2-RAILS/Bilingual-Glossaries/<lang-pair>.md` showing every attested rendering side by side.
-→ [`glossary-combine/SKILL.md`](glossary-combine/SKILL.md)
-
-### `glossary-select` **[exists]**
-**Purpose:** Build the prescriptive per-track termbase for one track by selecting the preferred rendering for each term from the consolidated bilingual glossary, guided by the track's `requirements.md`. If no existing rendering is satisfactory, derive one from the Local-Wiki article for that term and feed the new rendering back into the consolidated bilingual glossary.
-**Inputs:** `2-RAILS/Bilingual-Glossaries/<lang-pair>.md`, `3-TRANSFORMATIONS/Translations/<track-name>/requirements.md`, Local-Wiki articles as needed.
-**Outputs:** `3-TRANSFORMATIONS/Translations/<track-name>/termbase.md` — the prescriptive termbase scoped to keywords that appear in the text being translated; plus updates to the consolidated bilingual glossary for any new derived renderings.
-→ [`glossary-select/SKILL.md`](glossary-select/SKILL.md)
 
 ---
 
@@ -162,10 +99,6 @@ Extracts structured metadata (author, date, edition, language, publisher) from a
 Creates or updates Obsidian frontmatter properties on a file.
 → [`property-creator/SKILL.md`](property-creator/SKILL.md)
 
-### `structural-outline-ingest` **[exists]**
-Ingests a structural outline (TOC) into a source or rails file.
-→ [`structural-outline-ingest/SKILL.md`](structural-outline-ingest/SKILL.md)
-
 ---
 
 ## System skills
@@ -189,3 +122,11 @@ These skills check and report on vault integrity. They are read-only and safe to
 **Inputs:** None — operates on the vault as a whole.
 **Outputs:** One dated report at `0-INBOX/vault-audit-<YYYY-MM-DD>.md` with checkboxed issues per category.
 → [`vault-audit/SKILL.md`](vault-audit/SKILL.md)
+
+---
+
+## Archived / removed (not used in this anthology vault)
+
+These template skills assume a single commentary-bearing text and don't apply to a translation-grounded anthology; moved to `Skills/_archived/` (see `0-INBOX/vault-audit-2026-06-24.md`):
+
+`add-toc`, `commentary-frontmatter`, `format-commentary`, `format-root-text`, `glossary-combine`, `glossary-extract-raw`, `glossary-select`, `interlinear-gloss`, `json-to-commentary`, `section-summary-combined`, `section-summary-raw`, `structural-outline-ingest`, `verse-context`.
