@@ -8,6 +8,8 @@ source_block: "^sa1-0"
 grounding: translation
 translations: [patton]
 theme: impermanence
+speaks_to: [grieving, craving, afraid, equanimity]
+buddhist_lens: "clinging → seeing impermanence → release (equanimity, liberation of mind)"
 concepts: [無常 (impermanence), 厭離 (disenchantment), 心解脫 (liberation of mind)]
 status: draft
 ---

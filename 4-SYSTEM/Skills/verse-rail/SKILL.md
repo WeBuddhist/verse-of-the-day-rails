@@ -53,6 +53,9 @@ source_block: "^<id>"
 grounding: translation | hybrid
 translations: [sujato | patton | 84000 | ...]
 theme: <one-word tag>
+speaks_to: [<everyday felt-states this verse meets, e.g. angry, lonely>]
+buddhist_lens: "<one-line: hindrance/wholesome-state → skillful turn>"
+occasions: [<Buddhist holidays this verse suits, if any — see occasions.md>]
 concepts: [term (gloss), ...]
 status: draft
 ---
@@ -88,6 +91,7 @@ stream's termbase). Every claim cites a 1-SOURCES translation/source block.>
 4. **84000 English is reference-only** (CC BY-NC-ND): cite/point to it, do not reproduce large excerpts in the rail; the shipped verse is the vault's own rendering.
 5. **`status: draft` always** — a domain specialist sets `complete`.
 6. **One canon's translation per `### Authoritative Renderings` subsection**, each labelled with its license.
+7. **Tag `speaks_to:` honestly** with the everyday felt-states the verse genuinely meets (anger, grief, worry, craving, gratitude…), per `discovery-by-feeling.md`. These power the "where are you right now?" discovery feature. Don't over-tag; tag what the verse actually addresses. Observe the wellbeing guardrail for distress-related states.
 
 ## Procedure
 

@@ -8,6 +8,8 @@ source_block: "^1"
 grounding: translation
 translations: [sujato]
 theme: mind
+speaks_to: [overwhelmed, restless, hopeful]
+buddhist_lens: "the mind precedes all experience → tend intention, act from a clear heart"
 concepts: [mano (mind/intention), dhamma (experience/mental-state)]
 status: draft
 ---

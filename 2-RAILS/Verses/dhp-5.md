@@ -8,6 +8,8 @@ source_block: "^5"
 grounding: translation          # translation-grounded (no commentary imported yet)
 translations: [sujato]
 theme: non-hatred
+speaks_to: [angry, resentful, loving-kindness]
+buddhist_lens: "ill-will → reconciliation through non-hatred (mettā)"
 concepts: [vera (enmity), avera (non-hatred)]
 status: draft
 ---
