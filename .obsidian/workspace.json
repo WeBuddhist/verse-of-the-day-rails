@@ -197,6 +197,10 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "1-SOURCES/Translations/en-madhyama-agama-patton.md",
+    "1-SOURCES/Translations/en-samyukta-agama-patton.md",
+    "0-INBOX/temp/en-samyukta-agama-patton.md",
+    "4-SYSTEM/Skills/json-to-source-text/converters/suttacentral_agama_en.py",
     "1-SOURCES/Text/bo-udanavarga.md",
     "0-INBOX/temp/bo-udanavarga.md",
     "4-SYSTEM/Skills/json-to-source-text/converters/openpecha_kangyur.py",
@@ -223,15 +227,11 @@
     "1-SOURCES/Text/pi-majjhima-nikaya.md",
     "1-SOURCES/Translations/en-digha-nikaya-sujato.md",
     "0-INBOX/temp/en-anguttara-nikaya-sujato.md",
-    "0-INBOX/temp/pi-anguttara-nikaya.md",
-    "0-INBOX/temp/en-samyutta-nikaya-sujato.md",
-    "0-INBOX/temp/pi-samyutta-nikaya.md",
     "4-SYSTEM/Skills/json-to-source-text/scripts/import_suttacentral.sh",
     "4-SYSTEM/Skills/json-to-source-text/scripts",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/mn/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/days"
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi/days"
   ]
 }

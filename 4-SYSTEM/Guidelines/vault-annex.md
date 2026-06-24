@@ -44,7 +44,11 @@ Source-text files in `1-SOURCES/Text/` are added per canonical work as they are 
 | 13 | Udānavarga (Toh 326) | Tibetan | `bo-udanavarga.md` | **imported** (PD; 89 Degé folio-blocks; mdo verse collection, Dhammapada parallel) |
 | 14 | Further Kangyur mdo sūtras (by Tohoku no.) | Tibetan | `bo-toh<N>.md` | on demand — PD Degé root (OpenPecha/P000001); **mdo / Mahāyāna sūtras only, no tantra/Vinaya** (§ Kangyur scope). 84000 English = verbatim reference (§7). |
 
-Āgama note: imported **source-only** (Literary Chinese, no paired translation exists under a clean license). Modern-language renderings are produced in-vault under review (§4). Use is **non-commercial / ShareAlike** per CBETA's license (§7) — keep separate from the CC0 Pali in any output licensing.
+**Chinese Āgama scope boundary (what we take, what we don't).** From the Chinese canon we include **only the four Āgamas** (長/中/雜/增壹阿含經 = Taishō T1, T26, T99, T125) — the discourse section, the Chinese parallels to the Pali Nikāyas. We **exclude** the Chinese **Vinaya (律部)** — monastic rules — and the **Abhidharma / treatise sections (論部 / 毘曇)** — scholastic analysis. This mirrors the Pali boundary (Sutta Piṭaka only; no Vinaya or Abhidhamma) and the Kangyur boundary (mdo sūtras only; no tantra or Vinaya): **across all three canons, this vault holds the Buddha's discourses and verses only — never the disciplinary or scholastic literature.**
+
+Āgama note: imported **source-only** (Literary Chinese). The CBETA source is **non-commercial / ShareAlike** (§7) — keep separate from the CC0 Pali in any output licensing. Modern-language renderings are produced in-vault under review (§4); the **`zh` output targets modern Traditional Chinese for Taiwan/HK/Singapore** (§4).
+
+**Partial English reference (CC0).** SuttaCentral hosts a small set of CC0 English Āgama translations (Charles Patton): **39 Saṁyukta** (`en-samyukta-agama-patton.md`) + **15 Madhyama** (`en-madhyama-agama-patton.md`) sūtras. Imported as a **reference layer**, keyed by sūtra number and cross-linked to the CBETA Chinese source (`^saN` ↔ `zh-samyukta-agama.md#^saN-0`). Coverage is sparse (no Dīrgha/Ekottarika; ~54 sūtras total) and the complete Madhyama translation (BDK/Anālayo) is **copyrighted** — so for most Āgama material, the in-vault modern translation is the only path. Being CC0, the Patton text is itself freely usable, not just reference.
 
 **Kangyur scope boundary (what we take, what we don't).** From the Tibetan Kangyur we include the **sūtra section (mdo)** — the Buddha's discourses, including **Mahāyāna sūtras**. We **exclude**: the **Tantra section (rgyud)** — because WeBuddhist serves *all* Buddhists and tantra is tradition-specific and often restricted/empowerment-gated; the **Vinaya ('dul ba)** — monastic rules, not verse-of-the-day material; and any scholastic/abhidharma-type material. The flagship import is the **Udānavarga (Toh 326)**, a mdo-section verse collection of the Buddha's utterances (the Tibetan parallel to the Dhammapada). Tibetan root is Public Domain; we make our **own** modern translations from it, optionally consulting 84000's English as a verbatim reference (§7).
 
@@ -117,6 +121,8 @@ Source languages and the six app output (localization) languages. Note that `zh`
 The verse-of-the-day **Plan** (`3-TRANSFORMATIONS/Plans/verse-of-the-day/`) has one stream per output language: `en/`, `bo/`, `zh/`, `hi/`, `ne/`, `mn/`.
 
 **Output language requirement — modern, plain language.** Every output stream must render verses in *contemporary, immediately understandable* language (modern Mandarin, modern colloquial Tibetan, contemporary Hindi/Nepali, modern Mongolian, plain English) — not classical or scholarly register. Where the only authoritative translation is classical (e.g. Literary Chinese, classical Tibetan), the meaning is sourced from it but the output is freshly rendered in modern language and flagged for native-reviewer sign-off.
+
+**Chinese (`zh`) output target.** The Chinese stream targets **modern Traditional Chinese** for **Taiwan, Hong Kong, and Singapore** audiences — Traditional characters, Taiwan/HK Mandarin conventions and vocabulary. Not Simplified / mainland register. (Note this means rendering the Literary-Chinese Āgama source into *modern* Chinese is itself a core translation task, not a script conversion.)
 
 ---
 
