@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/About Sources.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About Sources"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -195,42 +195,43 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "d066ca5c15f520a5",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
-    "0-INBOX/temp/en-dhammapada-sujato.md",
+    "1-SOURCES/Translations/en-anguttara-nikaya-sujato.md",
+    "1-SOURCES/Text/pi-anguttara-nikaya.md",
+    "1-SOURCES/Translations/en-samyutta-nikaya-sujato.md",
+    "1-SOURCES/Text/pi-samyutta-nikaya.md",
+    "1-SOURCES/Translations/en-majjhima-nikaya-sujato.md",
+    "1-SOURCES/Text/pi-majjhima-nikaya.md",
+    "1-SOURCES/Translations/en-digha-nikaya-sujato.md",
+    "1-SOURCES/Text/pi-digha-nikaya.md",
+    "0-INBOX/temp/en-anguttara-nikaya-sujato.md",
+    "0-INBOX/temp/pi-anguttara-nikaya.md",
+    "0-INBOX/temp/en-samyutta-nikaya-sujato.md",
+    "0-INBOX/temp/pi-samyutta-nikaya.md",
+    "0-INBOX/temp/en-majjhima-nikaya-sujato.md",
+    "0-INBOX/temp/pi-majjhima-nikaya.md",
+    "0-INBOX/temp/en-digha-nikaya-sujato.md",
+    "0-INBOX/temp/pi-digha-nikaya.md",
+    "1-SOURCES/Translations/en-itivuttaka-sujato.md",
+    "1-SOURCES/Text/pi-itivuttaka.md",
+    "1-SOURCES/Translations/en-udana-sujato.md",
+    "1-SOURCES/Text/pi-udana.md",
+    "1-SOURCES/Translations/en-sutta-nipata-sujato.md",
+    "1-SOURCES/Text/pi-sutta-nipata.md",
+    "0-INBOX/temp/en-itivuttaka-sujato.md",
+    "0-INBOX/temp/pi-itivuttaka.md",
+    "0-INBOX/temp/en-udana-sujato.md",
+    "0-INBOX/temp/pi-udana.md",
     "4-SYSTEM/Skills/json-to-source-text/scripts/import_suttacentral.sh",
     "4-SYSTEM/Skills/json-to-source-text/scripts",
-    "1-SOURCES/Translations/en-dhammapada-sujato.md",
-    "1-SOURCES/Text/pi-dhammapada.md",
-    "1-SOURCES/About Sources.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/termbase.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/schedule.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/requirements.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne/termbase.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne/schedule.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne/requirements.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/mn/termbase.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/mn/schedule.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/mn/requirements.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/mn/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi/termbase.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi/schedule.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi/requirements.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/termbase.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/schedule.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/requirements.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/termbase.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/schedule.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/requirements.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/About verse-of-the-day.md",
-    "4-SYSTEM/Guidelines/import-runbook.md",
-    "0-INBOX/temp/pi-dhammapada.md"
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne"
   ]
 }

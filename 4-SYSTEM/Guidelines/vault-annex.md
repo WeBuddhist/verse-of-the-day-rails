@@ -29,15 +29,20 @@ Source-text files in `1-SOURCES/Text/` are added per canonical work as they are 
 | Order | Work | Canon | Filename | Status |
 | ----- | ---- | ----- | -------- | ------ |
 | 1 | Dhammapada | Pali (KN) | `pi-dhammapada.md` | **imported** (423 verses, CC0; en-sujato translation paired) |
-| 2 | Sutta Nipāta | Pali (KN) | `pi-sutta-nipata.md` | planned |
-| 3 | Udāna | Pali (KN) | `pi-udana.md` | planned |
-| 4 | Itivuttaka | Pali (KN) | `pi-itivuttaka.md` | planned |
-| 5 | Theragāthā / Therīgāthā | Pali (KN) | `pi-theragatha.md` / `pi-therigatha.md` | planned |
-| 6 | Dīgha / Majjhima / Saṁyutta / Aṅguttara Nikāya | Pali | `pi-<nikaya>.md` | planned (prose; verse-bearing suttas) |
-| 7 | Saṁyukta / Madhyama / Dīrgha / Ekottarika Āgama | Chinese | `zh-<agama>.md` | planned |
-| 8 | Kangyur sūtra sections | Tibetan | `bo-<work>.md` | planned (pending license — see §7) |
+| 2 | Sutta Nipāta | Pali (KN) | `pi-sutta-nipata.md` | **imported** (73 suttas, CC0; en-sujato paired) |
+| 3 | Udāna | Pali (KN) | `pi-udana.md` | **imported** (80 suttas, CC0; en-sujato paired) |
+| 4 | Itivuttaka | Pali (KN) | `pi-itivuttaka.md` | **imported** (112 suttas, CC0; en-sujato paired) |
+| — | ~~Theragāthā / Therīgāthā~~ | Pali (KN) | — | **excluded** — verses of the elder monks/nuns, *not* buddhavacana |
+| 5 | Dīgha Nikāya | Pali | `pi-digha-nikaya.md` | **imported** (34 suttas, CC0; en-sujato paired) |
+| 6 | Majjhima Nikāya | Pali | `pi-majjhima-nikaya.md` | **imported** (152 suttas, CC0; en-sujato paired) |
+| 7 | Saṁyutta Nikāya | Pali | `pi-samyutta-nikaya.md` | **imported** (1,819 suttas, CC0; en-sujato paired) |
+| 8 | Aṅguttara Nikāya | Pali | `pi-anguttara-nikaya.md` | **imported** (1,408 suttas, CC0; en-sujato paired) |
+| 9 | Saṁyukta / Madhyama / Dīrgha / Ekottarika Āgama | Chinese | `zh-<agama>.md` | planned |
+| 10 | Kangyur sūtra sections | Tibetan | `bo-<work>.md` | planned (pending license — see §7) |
 
-The priority for verse-of-the-day is the **verse collections** (KN: Dhammapada, Sutta Nipāta, Udāna, Itivuttaka, Thera/Therīgāthā) — they are short verses by nature and the ideal daily-verse material.
+**Pali coverage now in the vault:** the four main Nikāyas (DN, MN, SN, AN) plus the four buddhavacana verse collections of the Khuddaka Nikāya (Dhammapada, Sutta Nipāta, Udāna, Itivuttaka) — the core of the Sutta Piṭaka, all CC0 with paired Sujato English. **Not imported:** the Vinaya Piṭaka (monastic rules) and Abhidhamma Piṭaka (scholastic analysis) — neither is verse-of-the-day material; and the mixed-authorship KN texts (Jātaka, Apadāna, Buddhavaṁsa, Theragāthā/Therīgāthā, etc.), which are not direct words of the Buddha.
+
+The priority for verse-of-the-day is the **buddhavacana verse collections** of the Khuddaka Nikāya: Dhammapada, Sutta Nipāta, Udāna, Itivuttaka — all now imported. **Theragāthā / Therīgāthā are deliberately excluded**: they are verses attributed to named elder monks and nuns, not words of the Buddha. Only the Buddha's words belong in this vault.
 
 ---
 

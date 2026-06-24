@@ -159,23 +159,140 @@ def build(root_files, tr_files, slug, title, *, source_uid_hint=""):
     return "\n".join(text_out) + "\n", "\n".join(tr_out) + "\n"
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Nested mode: collections stored as vagga subfolders with one file per sutta
+# (Sutta Nipāta, Udāna, Itivuttaka). These are mixed prose+verse suttas, so they
+# use the segment-id block scheme (vault-annex §2b): a segment id like
+# "snp1.10:1.1" becomes block id "^snp1-10-1-1".
+# ─────────────────────────────────────────────────────────────────────────────
+
+def dashify(seg_id: str) -> str:
+    return seg_id.replace(":", "-").replace(".", "-")
+
+
+def _num_key(s: str):
+    return [int(n) for n in re.findall(r"\d+", s)]
+
+
+def _group_label(dirname: str) -> str:
+    """Nice section heading from a subfolder name."""
+    for pat, word in ((r"^vagga(\d+)$", "Vagga"),
+                      (r"^sn(\d+)$", "Saṁyutta"),
+                      (r"^an(\d+)$", "Aṅguttara Nipāta")):
+        m = re.match(pat, dirname)
+        if m:
+            return f"{word} {m.group(1)}"
+    return dirname
+
+
+def _meta_nested(slug, title, *, is_tr):
+    meta = {
+        "title": title if not is_tr else f"{title} (English, Sujato)",
+        "author": "Buddha (buddhavacana)" if not is_tr else "Bhikkhu Sujato (translator)",
+        "language": "Pāli" if not is_tr else "English",
+        "script": "Roman-PTS" if not is_tr else "Roman",
+        "file_type": "root-text" if not is_tr else "translation",
+        "lang_tag": "pi" if not is_tr else "en",
+        "verse_id_format": "suttacentral-segment",
+        "canon": "Pali Canon (Khuddaka Nikāya)",
+        "source_description": ("SuttaCentral bilara-data, Mahāsaṅgīti Tipiṭaka (root/pli/ms)."
+                               if not is_tr else
+                               "Bhikkhu Sujato's English from SuttaCentral bilara-data (translation/en/sujato)."),
+        "source_url": "https://suttacentral.net/",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "rights_holder": "SuttaCentral (Mahāsaṅgīti edition)" if not is_tr else "Bhikkhu Sujato",
+        "commercial_use": True,
+        "derivatives_allowed": True,
+        "attribution_required": False,
+        "usage_status": "cleared",
+        "status": "draft",
+    }
+    if is_tr:
+        meta["root_text"] = f"1-SOURCES/Text/pi-{slug}.md"
+    return meta
+
+
+def build_nested(root_dir, tr_dir, slug, title):
+    root_dir, tr_dir = Path(root_dir), Path(tr_dir)
+    files = sorted(root_dir.rglob("*_root-pli-ms.json"),
+                   key=lambda p: (_num_key(p.parent.name), _num_key(p.stem.split("_")[0])))
+
+    text_out = [yaml_block(_meta_nested(slug, title, is_tr=False)), "", f"# {title}\n"]
+    tr_out = [yaml_block(_meta_nested(slug, title, is_tr=True)), "",
+              f"# {title} — English (Bhikkhu Sujato, CC0)\n"]
+
+    cur_vagga = None
+    for rf in files:
+        rel = rf.relative_to(root_dir)
+        tf = tr_dir / rel.parent / rf.name.replace("_root-pli-ms.json", "_translation-en-sujato.json")
+        root = load(str(rf))
+        tr = load(str(tf)) if tf.exists() else {}
+        uid = rf.stem.split("_")[0]
+
+        # group heading from the subfolder (skip for flat collections like DN/MN)
+        flat = (rf.parent == root_dir)
+        if not flat:
+            vagga = rf.parent.name
+            if vagga != cur_vagga:
+                cur_vagga = vagga
+                text_out.append(f"## {_group_label(vagga)} ^{vagga}-0\n")
+                tr_out.append(f"## {_group_label(vagga)} ^{vagga}-0\n")
+        sutta_level = "##" if flat else "###"
+
+        # sutta heading: ref = first 0.x segment, name = last 0.x segment
+        def fm(d):
+            fmsegs = [(k, v.strip()) for k, v in d.items() if is_frontmatter_sub(seg_parts(k)[1])]
+            ref = fmsegs[0][1] if fmsegs else uid
+            name = fmsegs[-1][1] if fmsegs else ""
+            return ref, name
+        r_ref, r_name = fm(root)
+        e_ref, e_name = fm(tr)
+        anchor = f"^{dashify(uid)}-0"
+        text_out.append(f"{sutta_level} {r_name} ({r_ref}) {anchor}\n")
+        tr_out.append(f"{sutta_level} {e_name or r_name} ({e_ref or r_ref}) {anchor}\n")
+
+        # content segments (sub not starting with 0), each its own block
+        for seg_id, txt in root.items():
+            if is_frontmatter_sub(seg_parts(seg_id)[1]):
+                continue
+            t = txt.strip()
+            if t:
+                text_out.append(f"{t} ^{dashify(seg_id)}\n")
+        for seg_id, txt in tr.items():
+            if is_frontmatter_sub(seg_parts(seg_id)[1]):
+                continue
+            t = txt.strip()
+            if t:
+                tr_out.append(f"{t} ^{dashify(seg_id)}\n")
+
+    return "\n".join(text_out) + "\n", "\n".join(tr_out) + "\n"
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--slug", required=True)
     ap.add_argument("--title", required=True)
-    ap.add_argument("--root", nargs="+", required=True, help="ordered root pli json files")
-    ap.add_argument("--tr", nargs="+", required=True, help="ordered translation json files")
+    ap.add_argument("--root", nargs="+", required=True,
+                    help="ordered root pli json files; or a single root DIR with --nested")
+    ap.add_argument("--tr", nargs="+", required=True,
+                    help="ordered translation json files; or a single translation DIR with --nested")
     ap.add_argument("--out-text", required=True)
     ap.add_argument("--out-tr", required=True)
     ap.add_argument("--uid-hint", default="")
+    ap.add_argument("--nested", action="store_true",
+                    help="treat --root/--tr as collection directories (vagga subfolders, per-sutta files)")
     args = ap.parse_args()
 
-    if len(args.root) != len(args.tr):
-        ap.error("--root and --tr must have the same number of files (paired by vagga)")
+    if args.nested:
+        text_md, tr_md = build_nested(args.root[0], args.tr[0], args.slug, args.title)
+    else:
+        if len(args.root) != len(args.tr):
+            ap.error("--root and --tr must have the same number of files (paired by vagga)")
+        text_md, tr_md = build(args.root, args.tr, args.slug, args.title,
+                               source_uid_hint=args.uid_hint)
 
-    text_md, tr_md = build(args.root, args.tr, args.slug, args.title,
-                           source_uid_hint=args.uid_hint)
     Path(args.out_text).parent.mkdir(parents=True, exist_ok=True)
     Path(args.out_tr).parent.mkdir(parents=True, exist_ok=True)
     Path(args.out_text).write_text(text_md, encoding="utf-8")

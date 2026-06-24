@@ -44,18 +44,36 @@ import_flat() {
   echo "  -> review $TMP/pi-$slug.md then move to 1-SOURCES/Text/ and 1-SOURCES/Translations/"
 }
 
-import_flat dhp dhammapada "Dhammapada"
+# 3. Import a nested collection (vagga subfolders, per-sutta files).
+#    Args: <uid-dir> <slug> <title>
+import_nested() {
+  local dir="$1" slug="$2" title="$3"
+  echo "Importing $title (nested) …"
+  python3 "$CONV" --nested --slug "$slug" --title "$title" \
+    --root "$WORK/root/pli/ms/sutta/kn/$dir" \
+    --tr   "$WORK/translation/en/sujato/sutta/kn/$dir" \
+    --out-text "$TMP/pi-$slug.md" \
+    --out-tr   "$TMP/en-$slug-sujato.md"
+  echo "  -> review $TMP/pi-$slug.md then move to 1-SOURCES/"
+}
+
+# ── buddhavacana verse collections of the Khuddaka Nikāya ──
+import_flat   dhp dhammapada   "Dhammapada"     # verses, continuous numbering
+import_nested snp sutta-nipata "Sutta Nipāta"   # suttas, segment scheme
+import_nested ud  udana        "Udāna"
+import_nested iti itivuttaka   "Itivuttaka"
+
+# NOTE: Theragāthā (thag) and Therīgāthā (thig) are intentionally NOT imported.
+# They are verses of named elder monks/nuns, not words of the Buddha, so they
+# do not belong in this buddhavacana anthology (see vault-annex §1).
 
 cat <<'NOTE'
 
-Done (flat collections). Review output in 0-INBOX/temp/, then move each pair:
+Done. Review output in 0-INBOX/temp/, then move each pair:
   mv 0-INBOX/temp/pi-<slug>.md           1-SOURCES/Text/
   mv 0-INBOX/temp/en-<slug>-sujato.md    1-SOURCES/Translations/
 
-TODO — nested collections need converter work before import:
-  snp (Sutta Nipata), ud (Udana), iti (Itivuttaka), thag (Theragatha),
-  thig (Therigatha) are organised as vagga subfolders with per-sutta files
-  and per-sutta segment numbering. Extend suttacentral_bilara.py with a
-  --nested mode that walks vaggaN/ subdirs, derives a stable block id from
-  the SuttaCentral uid, and emits one file per collection.
+NEXT SOURCES (not yet supported by this converter):
+  - Pali prose Nikāyas (DN/MN/SN/AN): verse-bearing suttas, segment scheme.
+  - Chinese Āgamas (CBETA) and Tibetan Kangyur (84000 — license-blocked, see annex §7).
 NOTE
