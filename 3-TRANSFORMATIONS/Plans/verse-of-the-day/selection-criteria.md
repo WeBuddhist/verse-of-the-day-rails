@@ -4,6 +4,8 @@ How a verse is chosen for the verse-of-the-day calendar. Two layers: **hard gate
 
 This governs curation for the `verse-of-the-day` Plan. A selected verse must have a `complete` rail (`2-RAILS/Verses/<slug>.md`) before it can be scheduled.
 
+> **Brand grounding** (per `knowledge-base 10_ORG/11_Strategy/🌟North_Star.md`). WeBuddhist's mission — *do a little less harm, a little more good, know your own mind* — is itself **Dhp 183**; that verse is the corpus anchor. The platform rule is that **every daily session includes a verified canonical quote** (this work is the "Reliability" half; relatability is the other half). Audience = **already-Buddhist practitioners** across traditions, served in modern language ("Sacred, Not Precious" — it should *feel like home*, not like a wellness app). Metric: **Daily Active Buddhists (DABs)**.
+
 ---
 
 ## 1. Hard gates (all required)

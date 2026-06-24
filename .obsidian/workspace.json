@@ -197,6 +197,7 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "0-INBOX/vault-audit-2026-06-24.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/occasions.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/discovery-by-feeling.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/selection-criteria.md",
@@ -224,7 +225,6 @@
     "1-SOURCES/Text/bo-toh346.md",
     "1-SOURCES/Text/bo-toh345.md",
     "1-SOURCES/Text/bo-toh344.md",
-    "1-SOURCES/Text/bo-toh342.md",
     "4-SYSTEM/Skills/json-to-source-text/converters/__pycache__/tei_84000_en.cpython-310.pyc",
     "4-SYSTEM/Skills/json-to-source-text/converters/__pycache__",
     "4-SYSTEM/Skills/json-to-source-text/converters/tei_84000_en.py",

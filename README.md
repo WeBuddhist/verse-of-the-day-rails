@@ -1,8 +1,8 @@
-# [text-slug]-rails
+# verse-of-the-day-rails — WeBuddhist Verse of the Day
 
-A collaborative [Obsidian](https://obsidian.md) vault that makes AI-powered work on a **classical text** reliable, traceable, and consistent at scale.
+A collaborative [Obsidian](https://obsidian.md) vault that makes AI-powered work on the **words of the Buddha** reliable, traceable, and consistent at scale.
 
-> **Using this template:** Replace every `[text-slug]` placeholder with your text's slug (e.g. `bodhisattvacharyavatara`, `mulamadhyamakakarika`). Fill in the per-vault annex at `4-SYSTEM/Guidelines/vault-annex.md` with the conventions specific to your text. Then delete this note.
+> **This vault is an anthology, not a single-text vault.** It departs from the standard Railroads "one vault per text" model: it is a curated **verse-of-the-day** corpus drawn from the **Pali Canon, the Chinese Āgamas, and the Tibetan Kangyur** (sūtra sections only — no tantra, Vinaya, or scholastic literature). Because it holds no commentaries, its rails are **translation-grounded** (the `verse-rail` skill), not commentary-grounded. The defining conventions and deviations are in [`4-SYSTEM/Guidelines/vault-annex.md`](4-SYSTEM/Guidelines/vault-annex.md) §0. Serves the WeBuddhist mission — *do a little less harm, a little more good, know your own mind* (Dhp 183).
 
 ## Why
 
@@ -55,7 +55,7 @@ material         descriptive     AI-generated output
 - **[`3-TRANSFORMATIONS/`](3-TRANSFORMATIONS/)** — three categories of output (**Translations**, **Adaptations**, **Plans**). Each track is governed by `requirements.md` (style contract) + `termbase.md` (vocabulary contract); the AI-generated output files sit alongside, citing the rails.
 - **[`4-SYSTEM/`](4-SYSTEM/)** — skills and workflows for every stage of the pipeline, plus cross-cutting methodology docs and templates.
 
-This vault serves **[name of text]**. Vault-specific conventions (addressing scheme, registered commentary IDs, language tracks) live in [`4-SYSTEM/Guidelines/vault-annex.md`](4-SYSTEM/Guidelines/vault-annex.md).
+This vault serves **WeBuddhist Verse of the Day** — a buddhavacana anthology across three canons. Vault-specific conventions (the anthology model, per-source addressing schemes, language tracks, the source-licensing register) live in [`4-SYSTEM/Guidelines/vault-annex.md`](4-SYSTEM/Guidelines/vault-annex.md).
 
 ## Getting started — pick your path
 

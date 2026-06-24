@@ -50,24 +50,37 @@ loving-kindness / friendship / gratitude today"* — is the Buddhist addition, a
 fits practice better: these are states one deliberately cultivates, not just
 moods that arrive. Both grow as needed.
 
-### Grounded in WeBuddhist's pillars (brand alignment)
+### Grounded in WeBuddhist's mission & pillars (confirmed against the knowledge base)
 
-WeBuddhist's three pillars are **Learn · Practice · Connect** ("We are Buddhists.
-We learn, practice and connect. Daily."). The "grow" themes map onto them, which
-keeps the feature on-brand and makes clear *what we want to cultivate*:
+Reconciled with `10_ORG/11_Strategy/🌟North_Star.md` (updated 2026-06-22).
 
-- **Learn** — wisdom, the path, mindfulness, aspiration (e.g. Dhp 1, Dhp 183).
-- **Practice** — the brahmavihāras (mettā, karuṇā, muditā, upekkhā), patience,
-  generosity, contentment, calm.
-- **Connect** — **sangha, spiritual friendship (*kalyāṇa-mittatā*), belonging,
-  generosity toward others.** This pillar is WeBuddhist Connect's whole reason
-  for being, so friendship/community is a first-class theme — and the Buddha put
-  it at the centre: *"Admirable friendship is the entire holy life"* (SN 45.2).
+**The mission *is* a verse.** WeBuddhist's stated mission — *"help Buddhists do a
+little less harm, a little more good, and know their own minds — day after day"*
+— is the Buddha's own summary, **Dhp 183** (avoid evil, do good, purify the
+mind). So the whole feature points back to one north-star teaching; treat
+Dhp 183 as the anchor verse of the corpus.
 
-> Brand note: this taxonomy was grounded in the WeBuddhist brief (pillars,
-> "Practitioners" not "users", the daily-habit ethos). When the knowledge-base
-> vault is reachable again, re-check the Strategy Overview and any "values / what
-> we cultivate" doc and reconcile this list with it.
+**Four pillars: Learn · Practice · Connect · Sustain.** The cultivation themes
+map onto the three practitioner-facing pillars (Sustain is the funding pillar):
+
+- **Learn** — *Dhamma in their own words*: wisdom, the path, mindfulness, aspiration (Dhp 1, Dhp 183).
+- **Practice** — *transformed through daily habits*: the brahmavihāras (mettā, karuṇā, muditā, upekkhā), patience, generosity (*dāna*), contentment, calm.
+- **Connect** — *share transformation through communities*: **sangha, spiritual friendship (*kalyāṇa-mittatā*), belonging.** A first-class theme — the Buddha put it at the centre: *"Admirable friendship is the entire holy life"* (SN 45.2).
+
+**This feature serves both halves of the platform.** The North Star frames the
+product as **Reliability + Relatability**: *"Without trusted content we are just a
+scripture database; without engaging content we are just another wellness app."*
+The rails are Reliability (every verse a verified canonical source); discovery-
+by-feeling is **Relatability**. And it's built for **Persona F** — "going through
+a difficult period, trusts the teachings can help, if she could only find the
+right ones."
+
+**Tone — "Sacred, Not Precious."** The audience is *already-Buddhist
+practitioners* (it should "feel like home," not like Headspace/Calm). So the
+"meets you / points through" framing is right: speak to a practitioner who knows
+the Dharma, not a wellness consumer. Keywords: depth, stillness, clarity,
+groundedness, contemporary. (YouVersion is an approved reference for *clean
+readability at scale* — we adapt its mechanic, in this register.)
 
 ## The Buddhist lens (what's underneath)
 
