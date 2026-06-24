@@ -28,7 +28,7 @@ Source-text files in `1-SOURCES/Text/` are added per canonical work as they are 
 
 | Order | Work | Canon | Filename | Status |
 | ----- | ---- | ----- | -------- | ------ |
-| 1 | Dhammapada | Pali (KN) | `pi-dhammapada.md` | importing (sample) |
+| 1 | Dhammapada | Pali (KN) | `pi-dhammapada.md` | **imported** (423 verses, CC0; en-sujato translation paired) |
 | 2 | Sutta Nipāta | Pali (KN) | `pi-sutta-nipata.md` | planned |
 | 3 | Udāna | Pali (KN) | `pi-udana.md` | planned |
 | 4 | Itivuttaka | Pali (KN) | `pi-itivuttaka.md` | planned |

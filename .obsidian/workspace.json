@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-INBOX/temp/en-dhammapada-sujato.md",
+                "file": "1-SOURCES/About Sources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "en-dhammapada-sujato"
+              "title": "About Sources"
             }
           }
         ]
@@ -197,6 +197,11 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "0-INBOX/temp/en-dhammapada-sujato.md",
+    "4-SYSTEM/Skills/json-to-source-text/scripts/import_suttacentral.sh",
+    "4-SYSTEM/Skills/json-to-source-text/scripts",
+    "1-SOURCES/Translations/en-dhammapada-sujato.md",
+    "1-SOURCES/Text/pi-dhammapada.md",
     "1-SOURCES/About Sources.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/termbase.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/schedule.md",
@@ -224,14 +229,8 @@
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/ne",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/mn",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/About verse-of-the-day.md",
     "4-SYSTEM/Guidelines/import-runbook.md",
-    "0-INBOX/temp/en-dhammapada-sujato.md",
-    "0-INBOX/temp/pi-dhammapada.md",
-    "README.md",
-    "gemini-scribe/Prompts/example-expert.md",
-    "CLAUDE.md"
+    "0-INBOX/temp/pi-dhammapada.md"
   ]
 }
