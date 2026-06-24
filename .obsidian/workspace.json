@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "1-SOURCES/About Sources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "About Sources"
             }
           }
         ]
@@ -195,8 +195,13 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "1-SOURCES/Translations/en-udana-sujato.md",
+    "1-SOURCES/Translations/en-sutta-nipata-sujato.md",
+    "1-SOURCES/Text/pi-digha-nikaya.md",
+    "1-SOURCES/Text/pi-dhammapada.md",
+    "CLAUDE.md",
     "4-SYSTEM/Skills/json-to-source-text/scripts/import_cbeta_agamas.sh",
     "1-SOURCES/Text/zh-ekottarika-agama.md",
     "1-SOURCES/Text/zh-samyukta-agama.md",
@@ -214,16 +219,12 @@
     "1-SOURCES/Translations/en-majjhima-nikaya-sujato.md",
     "1-SOURCES/Text/pi-majjhima-nikaya.md",
     "1-SOURCES/Translations/en-digha-nikaya-sujato.md",
-    "1-SOURCES/Text/pi-digha-nikaya.md",
     "0-INBOX/temp/en-anguttara-nikaya-sujato.md",
     "0-INBOX/temp/pi-anguttara-nikaya.md",
     "0-INBOX/temp/en-samyutta-nikaya-sujato.md",
     "0-INBOX/temp/pi-samyutta-nikaya.md",
     "0-INBOX/temp/en-majjhima-nikaya-sujato.md",
     "0-INBOX/temp/pi-majjhima-nikaya.md",
-    "0-INBOX/temp/en-digha-nikaya-sujato.md",
-    "0-INBOX/temp/pi-digha-nikaya.md",
-    "1-SOURCES/Translations/en-itivuttaka-sujato.md",
     "4-SYSTEM/Skills/json-to-source-text/scripts/import_suttacentral.sh",
     "4-SYSTEM/Skills/json-to-source-text/scripts",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh/days",
@@ -231,7 +232,6 @@
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/mn/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/hi/days",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/days",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/zh"
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/days"
   ]
 }

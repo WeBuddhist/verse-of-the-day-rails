@@ -41,7 +41,7 @@ Source-text files in `1-SOURCES/Text/` are added per canonical work as they are 
 | 10 | Madhyama Āgama (中阿含經, T26) | Chinese | `zh-madhyama-agama.md` | **imported** (222 sūtras; CBETA CC BY-NC-SA) |
 | 11 | Saṁyukta Āgama (雜阿含經, T99) | Chinese | `zh-samyukta-agama.md` | **imported** (1,355 sūtras; CBETA CC BY-NC-SA) |
 | 12 | Ekottarika Āgama (增壹阿含經, T125) | Chinese | `zh-ekottarika-agama.md` | **imported** (472 sūtras; CBETA CC BY-NC-SA) |
-| 13 | Kangyur sūtra sections | Tibetan | `bo-<work>.md` | planned (pending license — see §7) |
+| 13 | Kangyur sūtra sections (by Tohoku no.) | Tibetan | `bo-toh<N>.md` | **usable** — Degé Kangyur Tibetan root is **Public Domain** (Esukhia → OpenPecha/P000001, via BDRC). Import targeted sūtras (verse-rich first, e.g. Udānavarga Toh 326); classical Tibetan, render modern in-vault. 84000 English = reference-only (§7). |
 
 Āgama note: imported **source-only** (Literary Chinese, no paired translation exists under a clean license). Modern-language renderings are produced in-vault under review (§4). Use is **non-commercial / ShareAlike** per CBETA's license (§7) — keep separate from the CC0 Pali in any output licensing.
 
@@ -59,7 +59,28 @@ Because this is a multi-source anthology, **each source file declares its own `v
 
 **(b) Prose / segmented suttas — `verse_id_format: suttacentral-segment`.** Block ID = the SuttaCentral segment ID with colons and dots replaced by hyphens (Obsidian block IDs allow only alphanumerics and hyphens). Example: `mn1:1.2` → `^mn1-1-2`. The `uid` (e.g. `mn1`) is recorded in frontmatter so the original SuttaCentral reference is always recoverable.
 
-**Cross-canon references** in rails and plan files use the form `[[1-SOURCES/Text/<file>#^<block-id>]]`. Always record the canonical citation (e.g. "Dhammapada 1", "MN 1:1.2", "SĀ 262", "Toh 113") in the `source_ref` frontmatter field of the rail/plan file.
+**Cross-canon references** in rails and plan files use the form `[[1-SOURCES/Text/<file>#^<block-id>]]`. Always record the canonical citation in the `source_ref` frontmatter field of the rail/plan file.
+
+### Citation labels (shown with every verse of the day)
+
+Each verse of the day displays its source using the standard scholarly abbreviation below. This is the `source_ref` the app shows under the verse (e.g. **Dhp 16**).
+
+| Source | Label | Number format | Example | Links to |
+| ------ | ----- | ------------- | ------- | -------- |
+| Dhammapada | `Dhp` | verse | **Dhp 16** | `pi-dhammapada.md#^16` |
+| Sutta Nipāta | `Snp` | vagga.sutta (+ verse) | **Snp 1.8** | `pi-sutta-nipata.md#^snp1-8-...` |
+| Udāna | `Ud` | vagga.sutta | **Ud 1.10** | `pi-udana.md#^ud1-10-...` |
+| Itivuttaka | `Iti` | sutta | **Iti 26** | `pi-itivuttaka.md#^iti26-...` |
+| Dīgha Nikāya | `DN` | sutta | **DN 16** | `pi-digha-nikaya.md#^dn16-...` |
+| Majjhima Nikāya | `MN` | sutta | **MN 10** | `pi-majjhima-nikaya.md#^mn10-...` |
+| Saṁyutta Nikāya | `SN` | saṁyutta.sutta | **SN 56.11** | `pi-samyutta-nikaya.md#^sn56-11-...` |
+| Aṅguttara Nikāya | `AN` | nipāta.sutta | **AN 3.65** | `pi-anguttara-nikaya.md#^an3-65-...` |
+| Dīrgha Āgama | `DĀ` | sūtra | **DĀ 2** | `zh-digha-agama.md#^da2-0` |
+| Madhyama Āgama | `MĀ` | sūtra | **MĀ 1** | `zh-madhyama-agama.md#^ma1-0` |
+| Saṁyukta Āgama | `SĀ` | sūtra | **SĀ 262** | `zh-samyukta-agama.md#^sa262-0` |
+| Ekottarika Āgama | `EĀ` | sūtra | **EĀ 1** | `zh-ekottarika-agama.md#^ea1-0` |
+
+Rules: Pali sources use Roman abbreviations (`Dhp`, `MN`…); Chinese Āgamas use the diacritic `Ā` form (`SĀ`, `MĀ`…) to distinguish them from the Pali parallels. A verse-of-the-day day file records both the human label in `source_ref` and the exact block link in `source_link`, so the displayed "Dhp 16" always resolves to its grounded source.
 
 ---
 
@@ -138,7 +159,8 @@ usage_status: "cleared | pending-permission | blocked"
 | **SuttaCentral — Bhikkhu Sujato** (Pali root + English) | CC0 / public domain | yes | yes | **cleared** | Best base. Modern English already. |
 | **CBETA** (Chinese Āgama / canon source text) | CC BY-NC-SA 3.0 TW | non-commercial only | yes — derivatives must be ShareAlike | **usable (non-commercial)** | WeBuddhist is a non-profit using CBETA as an internal source to produce modern translations (not republishing CBETA's text). Conditions: (1) use stays genuinely non-commercial — a free, non-monetised app; (2) attribute CBETA + Taishō base text; (3) modern translations derived from it inherit CC BY-NC-SA (**ShareAlike** — they can't later go under a commercial/more-restrictive license); (4) don't redistribute CBETA's source text unchanged as a product. CBETA's non-commercial grant covers the Taishō base text for this use. *Not legal advice — confirm the app's non-commercial status.* |
 | **SuttaCentral lzh** (Literary Chinese Āgama fragments) | CC0 (SC) | yes | yes | partial-only | Clean license but **incomplete** — only fragments of SA/MA/EA are segmented, and there is **no paired translation**. Not a viable full Āgama source on its own. |
-| **84000** (Tibetan Kangyur → English) | CC BY-NC-ND | no | no | **blocked** | Non-commercial + no-derivatives. Pursue a Khyentse Foundation content-use grant (KF runs 84000 and is a WeBuddhist partner) before importing. |
+| **Degé Kangyur — Tibetan root** (Esukhia → OpenPecha/P000001, via BDRC) | Public Domain | yes | yes | **cleared** | Mechanical reproduction of a public-domain woodblock edition. No restrictions. The source to import for Tibetan. OpenPecha is WeBuddhist's own stack; BDRC is a partner. |
+| **84000** (Kangyur → English) | CC BY-NC-ND | non-commercial only | **no derivatives** | **reference-pairing only** | Two permitted uses: (a) store the **whole** translation verbatim as a paired reference layer — with attribution **and** its footnotes, non-commercial (ND allows verbatim redistribution; it forbids altering/excerpting); (b) consult it as a reference when writing our own translation (84000 explicitly permits this, acknowledgement appreciated). **NOT permitted for verse of the day:** publishing a single-verse **excerpt** of their translation, or adapting their English into our modern wording — both violate ND. So 84000 = grounding reference; the shipped verse must be **our own** modern rendering from the PD Tibetan, citing 84000. |
 | **Access to Insight — Thanissaro** | CC BY-NC | no | yes | reference-only | Do not ship; reference for meaning only. |
 | 19th-c. translations (Müller etc.) | public domain (age) | yes | yes | usable-but-archaic | Fails the modern-language requirement (§4). |
 
