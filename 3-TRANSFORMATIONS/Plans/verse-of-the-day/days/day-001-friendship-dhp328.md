@@ -3,6 +3,7 @@ ref: dhp-328
 transformation_type: plan-session
 plan: verse-of-the-day
 day: 1
+date: 2026-06-24
 source_ref: "Dhp 328"
 canon: Pali
 theme: friendship
@@ -31,7 +32,7 @@ review_status: "en: verified (CC0/PD anchor); zh,bo,hi,ne,mn: AI DRAFT — pendi
 ## Renderings
 
 **English** *(grounded in Bhikkhu Sujato, CC0)*
-> If you find a wise, good-hearted friend to share the journey, then, overcoming every hardship, walk on together — joyful and mindful.
+> If you find a wise, good-hearted friend to share the journey, then, overcoming all hardships, walk on together, joyful and mindful.
 
 **中文 (Traditional · Taiwan/HK/SG)** *(draft — native review)*
 > 若能尋得一位明智而良善的同伴，與你一同安樂前行，便能克服一切艱難；與他相伴同行，歡喜而正念。

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-INBOX/vault-audit-2026-06-24.md",
+                "file": "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-001-friendship-dhp328.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vault-audit-2026-06-24"
+              "title": "day-001-friendship-dhp328"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298.5
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -197,6 +197,12 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Adaptations/About Adaptations.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/requirements.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/schedule.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/bo/termbase.md",
+    "0-INBOX/vault-audit-2026-06-24.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/log.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-001-friendship-dhp328.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days",
     "2-RAILS/Verses/dhp-328.md",
@@ -226,12 +232,6 @@
     "4-SYSTEM/Skills/_archived/json-to-commentary/scripts/converters/__pycache__/tipitaka_org_atthakatha.cpython-310.pyc",
     "4-SYSTEM/Skills/_archived/json-to-commentary/SKILL.md",
     "4-SYSTEM/Skills/_archived/structural-outline-ingest/SKILL.md",
-    "4-SYSTEM/Skills/_archived/interlinear-gloss/SKILL.md",
-    "4-SYSTEM/Skills/_archived/glossary-select/SKILL.md",
-    "4-SYSTEM/Skills/_archived/glossary-extract-raw/SKILL.md",
-    "4-SYSTEM/Skills/_archived/glossary-combine/SKILL.md",
-    "4-SYSTEM/Skills/_archived/format-root-text/SKILL.md",
-    "4-SYSTEM/Skills/_archived/format-commentary/SKILL.md",
-    "4-SYSTEM/Skills/_archived/add-toc/SKILL.md"
+    "4-SYSTEM/Skills/_archived/interlinear-gloss/SKILL.md"
   ]
 }
