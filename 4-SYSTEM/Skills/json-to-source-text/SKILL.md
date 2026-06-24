@@ -73,6 +73,7 @@ Existing converters in this skill:
 | Slug | Source convention | Output convention | Languages |
 |---|---|---|---|
 | `tipitaka_org_book.py` | tipitaka.org book exports (Mūla layer): top-level metadata + `segments[]` array with `chapter`, `paragraph`, `content`, `css_class` | **Pāli Tipiṭaka root text (Bible-style book-verse numbering).** One file per book. Main-book verse IDs come directly from the source's leading `N.` markers (e.g. `583. Katame dhammā…` → `^1-583`), so source-N and block-ID stay aligned even when h4/h5 sub-section headings appear between numbered verses — a verse can span multiple subsections without restarting the counter. The Mātikā TOC chapter uses letter-suffixed sub-namespaces (`^1-0a-V`, `^1-0b-V`) with an internal counter, because the source itself restarts numbering across its TOC sub-sections. Heading hierarchy goes `#` (pitaka) → `##` (book) → `###`/`####`/`#####`. See `source-formatting.md` for the spec. | Pāli |
+| `suttacentral_bilara.py` | SuttaCentral **bilara-data** JSON: flat dicts keyed by segment id (`dhp1:1`, `mn1:1.2`); paired root (`root/pli/ms`) + translation (`translation/en/sujato`) layers share ids. | **Verse collections → `verse_id_format: verse`** (vault-annex §2a): one `##` heading per vagga (`^vagga-N-0`), each verse `^<verse-number>`. Emits a Pāli root file **and** a paired English translation file, both with CC0 licensing frontmatter (annex §7). Pairs root+translation files in order; takes `--root`/`--tr` lists. See `4-SYSTEM/Guidelines/import-runbook.md`. | Pāli + English (CC0) |
 
 ---
 

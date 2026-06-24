@@ -1,84 +1,98 @@
-# Vault Annex — [text-slug] conventions
+# Vault Annex — verse-of-the-day conventions
 
-The methodology guidelines (`0-VAULT-Structure.md`, `../../1-SOURCES/About Sources.md`, `../../2-RAILS/About Rails.md`, `../../3-TRANSFORMATIONS/About Transformations.md`) are **text-agnostic** — they apply to any Railroads vault built on any classical text. This annex records the conventions that are specific to *this* vault: **[name of text]**.
+The methodology guidelines (`0-VAULT-Structure.md`, `../../1-SOURCES/About Sources.md`, `../../2-RAILS/About Rails.md`, `../../3-TRANSFORMATIONS/About Transformations.md`) are **text-agnostic** — they apply to any Railroads vault built on any classical text. This annex records the conventions specific to *this* vault: **WeBuddhist Verse of the Day**.
 
 When the Guidelines and this annex disagree on a vault-specific detail, this annex wins.
 
-> **Template instructions:** Fill in each section below, replacing all `[placeholder]` text. Delete this instruction block when done.
+---
+
+## 0. How this vault differs from a standard Railroads vault
+
+A standard Railroads vault serves **one classical text** and produces versions of it (translations, adaptations, study plans). **This vault is different.** It is a **curated anthology**: its output is a stream of short daily verses — *verse of the day* — drawn from the **words of the Buddha (buddhavacana)** across three canonical collections:
+
+- the **Pali Canon** (Tipiṭaka, esp. the Sutta Piṭaka and the verse texts of the Khuddaka Nikāya);
+- the **Chinese Āgamas** (the Chinese parallels to the Nikāyas, in the Taishō canon);
+- the **Tibetan Kangyur** (the "translated word" — sūtra sections).
+
+So `1-SOURCES/Text/` holds **many source texts, not one**: one file per canonical work (or per logical unit), each keeping its own native numbering. The "transformation" is a **Plan** (`verse-of-the-day`) that selects individual verses, localizes them into the app's languages, and arranges them on a calendar. There is no single root-text spine; the addressing scheme (§2) is therefore **per-source**.
+
+The rails still apply: a verse is only published once its meaning is grounded against the source (and, where available, commentary), and every localized rendering cites its rail. The point of the system here is **authenticity and traceability of daily verses** — never an un-sourced or "fake Buddha quote."
 
 ---
 
-## 1. The text
+## 1. The text(s)
 
-This vault serves **[name of text]** — [one-sentence description of the text and its tradition].
+This vault serves **WeBuddhist Verse of the Day** — a curated daily-verse anthology of the Buddha's words across the Pali, Chinese, and Tibetan canons, localized for the WeBuddhist app.
 
-Source-text files in `1-SOURCES/Text/` correspond to the following books / volumes:
+Source-text files in `1-SOURCES/Text/` are added per canonical work as they are imported. Current and planned sources:
 
-| Order | Book / Volume | Filename |
-| ----- | ------------- | -------- |
-| 1 | [Title] | `[lang]-[slug].md` |
-| 2 | [Title] | `[lang]-[slug].md` |
+| Order | Work | Canon | Filename | Status |
+| ----- | ---- | ----- | -------- | ------ |
+| 1 | Dhammapada | Pali (KN) | `pi-dhammapada.md` | importing (sample) |
+| 2 | Sutta Nipāta | Pali (KN) | `pi-sutta-nipata.md` | planned |
+| 3 | Udāna | Pali (KN) | `pi-udana.md` | planned |
+| 4 | Itivuttaka | Pali (KN) | `pi-itivuttaka.md` | planned |
+| 5 | Theragāthā / Therīgāthā | Pali (KN) | `pi-theragatha.md` / `pi-therigatha.md` | planned |
+| 6 | Dīgha / Majjhima / Saṁyutta / Aṅguttara Nikāya | Pali | `pi-<nikaya>.md` | planned (prose; verse-bearing suttas) |
+| 7 | Saṁyukta / Madhyama / Dīrgha / Ekottarika Āgama | Chinese | `zh-<agama>.md` | planned |
+| 8 | Kangyur sūtra sections | Tibetan | `bo-<work>.md` | planned (pending license — see §7) |
 
-Only books that have been ingested are present in the folder. The primary text currently being railed out is **[book / chapter]**.
+The priority for verse-of-the-day is the **verse collections** (KN: Dhammapada, Sutta Nipāta, Udāna, Itivuttaka, Thera/Therīgāthā) — they are short verses by nature and the ideal daily-verse material.
 
 ---
 
 ## 2. Addressing scheme
 
-[Describe how block IDs are structured for this text. Use one of the standard schemes from `1-SOURCES/About Sources.md` §5, or document a custom scheme here if the text's structure requires it.]
+Because this is a multi-source anthology, **each source file declares its own `verse_id_format`**. There is no global spine. Two schemes are used:
 
-**`verse_id_format`:** `[chapter-verse | verse | book-chapter-verse | book-verse | custom]`
+**(a) Verse collections — `verse_id_format: verse`.** Block ID = the work's own continuous verse number, no zero-padding. Example: Dhammapada verse 1 → `^1`, verse 423 → `^423`. Vagga (chapter) headings are organizational only and use a `^vagga-N-0` heading anchor.
 
-**Format example:** `^[example]`
+**(b) Prose / segmented suttas — `verse_id_format: suttacentral-segment`.** Block ID = the SuttaCentral segment ID with colons and dots replaced by hyphens (Obsidian block IDs allow only alphanumerics and hyphens). Example: `mn1:1.2` → `^mn1-1-2`. The `uid` (e.g. `mn1`) is recorded in frontmatter so the original SuttaCentral reference is always recoverable.
 
-### Heading hierarchy
-
-| Markdown | Role | Anchor |
-| -------- | ---- | ------ |
-| `#` | [e.g. Piṭaka / collection] | `^[slug]-0` |
-| `##` | [e.g. Book / volume] | `^[book]-0` |
-| `###` | [e.g. Chapter / major section] | `^[book]-[ch]-0` |
-| `####` | [Sub-section] | `^[book]-[ch]-[s]-0` |
-
-### Verse numbering rule
-
-[Describe whether verse numbers restart at each chapter boundary, or run continuously through a book, and any exceptions.]
+**Cross-canon references** in rails and plan files use the form `[[1-SOURCES/Text/<file>#^<block-id>]]`. Always record the canonical citation (e.g. "Dhammapada 1", "MN 1:1.2", "SĀ 262", "Toh 113") in the `source_ref` frontmatter field of the rail/plan file.
 
 ---
 
 ## 3. Registered commentary IDs
 
-Every commentary file in `1-SOURCES/Commentaries/` declares a `registered_id` in its frontmatter. That short ID is the only string used to attribute claims to the commentary throughout `2-RAILS/`.
-
-Once assigned, a `registered_id` never changes. New commentaries must be added to the roster below before their `registered_id` is used in any rail.
+Verse-of-the-day is primarily a **source + translation** anthology; commentary is consulted to ground meaning but is optional per verse. Commentaries are registered here as they are added.
 
 | `registered_id` | Title | Tier | Language | File |
 | --------------- | ----- | ---- | -------- | ---- |
-| `[short-id]` | [Commentary title] | [commentary \| sub-commentary \| …] | [Language] | `1-SOURCES/Commentaries/[lang]-[slug].md` |
+| _(none registered yet)_ | | | | |
 
-**Tier ordering** within a verse package's Traditional Interpretation section: [describe the preferred order, e.g. primary commentary first, then sub-commentaries].
+When a commentary is needed to disambiguate a verse (e.g. Dhammapada-aṭṭhakathā for a Dhammapada verse), register it here before citing it in any rail.
 
 ---
 
 ## 4. Language tracks
 
-| Tag | Language | Translation track | Plan stream |
-| --- | -------- | ----------------- | ----------- |
-| `[src-tag]` | [Source language] | — (source) | `days/[tag]/` (if applicable) |
-| `[tgt-tag]` | [Target language 1] | `[lang]-[descriptor]/` | — |
-| `[tgt-tag]` | [Target language 2] | `[lang]-[descriptor]/` | — |
+Source languages and the six app output (localization) languages. Note that `zh` and `bo` appear as **both** source and output languages — keep source files (`zh` = Chinese Āgama text; `bo` = Kangyur text) distinct from output streams (modern Chinese / modern Tibetan renderings).
 
-Each translation track's `requirements.md` is written in its own target language. New tracks are added by creating `Translations/[lang]-[descriptor]/` and running the `glossary-select` skill from the consolidated `2-RAILS/Bilingual-Glossaries/[src]-[tgt].md`.
+| Tag | Language | Role |
+| --- | -------- | ---- |
+| `pi` | Pāli | source |
+| `zh` | Chinese | source (Āgamas) **and** output (modern Mandarin) |
+| `bo` | Tibetan | source (Kangyur) **and** output (modern Tibetan) |
+| `sa` | Sanskrit | source (where extant; Devanāgarī) |
+| `en` | English | output |
+| `hi` | Hindi | output |
+| `ne` | Nepali | output |
+| `mn` | Mongolian (Cyrillic) | output |
+
+The verse-of-the-day **Plan** (`3-TRANSFORMATIONS/Plans/verse-of-the-day/`) has one stream per output language: `en/`, `bo/`, `zh/`, `hi/`, `ne/`, `mn/`.
+
+**Output language requirement — modern, plain language.** Every output stream must render verses in *contemporary, immediately understandable* language (modern Mandarin, modern colloquial Tibetan, contemporary Hindi/Nepali, modern Mongolian, plain English) — not classical or scholarly register. Where the only authoritative translation is classical (e.g. Literary Chinese, classical Tibetan), the meaning is sourced from it but the output is freshly rendered in modern language and flagged for native-reviewer sign-off.
 
 ---
 
 ## 5. Bilingual glossary pairs
 
-The consolidated bilingual glossaries in `2-RAILS/Bilingual-Glossaries/` cover the following source→target combinations:
+Built as translation streams come online. Source→output pairs anticipated: `pi-en`, `pi-zh`, `pi-bo`, `pi-hi`, `pi-ne`, `pi-mn` (and `zh-*`, `bo-*` for Āgama/Kangyur sources).
 
-| File | Source language | Target language | Status |
-| ---- | --------------- | --------------- | ------ |
-| `[src]-[tgt].md` | [Source] | [Target] | `draft` |
+| File | Source | Target | Status |
+| ---- | ------ | ------ | ------ |
+| _(none yet)_ | | | |
 
 ---
 
@@ -86,25 +100,58 @@ The consolidated bilingual glossaries in `2-RAILS/Bilingual-Glossaries/` cover t
 
 | Track | Category | Status |
 | ----- | -------- | ------ |
-| `[lang]-[descriptor]` | Translation | `draft` |
-| `[plan-id]` | Plan | `draft` |
+| `verse-of-the-day` | Plan | scaffolding |
 
 ---
 
-## 7. Source-language tags used in this vault
+## 7. Source licensing register
 
-| Tag | Script / System | Use in this vault |
-| --- | --------------- | ----------------- |
-| `-[tag]` | [Script] | [When used] |
+**Critical for this vault.** Verse-of-the-day ships in a commercial app, and modernizing a verse is a *derivative work*. Every source file therefore carries licensing frontmatter, and no source enters the pipeline until its license is recorded here and cleared for use.
 
-The default for every [language] source is `-[default-tag]`.
+### Required licensing frontmatter (add to every `1-SOURCES/` file)
+
+```yaml
+license: "CC0 | CC-BY-4.0 | CC-BY-NC-4.0 | CC-BY-NC-ND | public-domain | proprietary"
+license_url: "https://..."
+rights_holder: "e.g. Bhikkhu Sujato / SuttaCentral"
+commercial_use: true | false
+derivatives_allowed: true | false        # modernizing/translating requires this
+attribution_required: true | false
+attribution_text: "credit line to display, if required"
+usage_status: "cleared | pending-permission | blocked"
+```
+
+### Register
+
+| Source | License | Commercial | Derivatives | Status | Notes |
+| ------ | ------- | ---------- | ----------- | ------ | ----- |
+| **SuttaCentral — Bhikkhu Sujato** (Pali root + English) | CC0 / public domain | yes | yes | **cleared** | Best base. Modern English already. |
+| **CBETA** (Chinese Āgama / canon source text, Taishō v.1–55) | Creative Commons (verify per text) | verify | yes | cleared-with-check | Source text only; English is sparse — render modern downstream. |
+| **84000** (Tibetan Kangyur → English) | CC BY-NC-ND | no | no | **blocked** | Non-commercial + no-derivatives. Pursue a Khyentse Foundation content-use grant (KF runs 84000 and is a WeBuddhist partner) before importing. |
+| **Access to Insight — Thanissaro** | CC BY-NC | no | yes | reference-only | Do not ship; reference for meaning only. |
+| 19th-c. translations (Müller etc.) | public domain (age) | yes | yes | usable-but-archaic | Fails the modern-language requirement (§4). |
+
+**Tibetan/Kangyur note:** the Kangyur *root text* (Tibetan) is ancient and not under copyright; the block is on modern *translations* like 84000's. Importing Tibetan source text from an openly-licensed edition is possible; the modern-language Tibetan output is then produced in-vault under review.
 
 ---
 
-## 8. Where to look next
+## 8. Source-language tags used in this vault
+
+| Tag | Script / System | Use |
+| --- | --------------- | --- |
+| `-pi` | Pāli romanisation (diacritics) | Pali root texts |
+| `-zh` | Chinese (Traditional unless noted) | Āgama / canon source |
+| `-bo` | Unicode Tibetan | Kangyur source |
+| `-sa` | Devanāgarī | Sanskrit source where extant |
+
+Default for Pali sources is `-pi`. Roman/Wylie alternative scripts go in separate edition files.
+
+---
+
+## 9. Where to look next
 
 - [`0-VAULT-Structure.md`](0-VAULT-Structure.md) — the architecture in full.
 - [`../../1-SOURCES/About Sources.md`](../../1-SOURCES/About%20Sources.md) — source-file rules.
-- [`../../2-RAILS/About Rails.md`](../../2-RAILS/About%20Rails.md) — rails schema.
-- [`../../3-TRANSFORMATIONS/About Transformations.md`](../../3-TRANSFORMATIONS/About%20Transformations.md) — track and output rules.
-- [Top-level `README.md`](../../README.md) — pipeline overview and reading paths.
+- [`../../3-TRANSFORMATIONS/About Transformations.md`](../../3-TRANSFORMATIONS/About%20Transformations.md) — Plan-track rules.
+- [`Skills/json-to-source-text/SKILL.md`](Skills/json-to-source-text/SKILL.md) — source import; the `suttacentral_bilara` converter handles SuttaCentral CC0 data.
+- [`import-runbook.md`](import-runbook.md) — how to bulk-import the Pali Canon from SuttaCentral.
