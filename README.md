@@ -79,6 +79,7 @@ For day-to-day workflows not in the Skills catalog, see the rest of [`4-SYSTEM/H
 1. [`4-SYSTEM/CLAUDE.md`](4-SYSTEM/CLAUDE.md) — operational instructions: citation chain, write permissions, do-nots, standard operations. Read in full before touching any file.
 2. The `About <Folder>.md` for the folder you're working in — [`1-SOURCES/About Sources.md`](1-SOURCES/About%20Sources.md), [`2-RAILS/About Rails.md`](2-RAILS/About%20Rails.md), or [`3-TRANSFORMATIONS/About Transformations.md`](3-TRANSFORMATIONS/About%20Transformations.md). Each is the canonical authority for that folder's rules.
 3. [`4-SYSTEM/Guidelines/vault-annex.md`](4-SYSTEM/Guidelines/vault-annex.md) — vault-specific conventions.
-4. The relevant `4-SYSTEM/Skills/<skill>/SKILL.md` for the specific task.
+4. The relevant `4-SYSTEM/Skills/<skill>/SKILL.md` for the specific task — for building verses, [`verse-rail`](4-SYSTEM/Skills/verse-rail/SKILL.md).
+5. For verse-of-the-day work, the Plan's curation docs in [`3-TRANSFORMATIONS/Plans/verse-of-the-day/`](3-TRANSFORMATIONS/Plans/verse-of-the-day/): [selection-criteria](3-TRANSFORMATIONS/Plans/verse-of-the-day/selection-criteria.md), [discovery-by-feeling](3-TRANSFORMATIONS/Plans/verse-of-the-day/discovery-by-feeling.md), [occasions](3-TRANSFORMATIONS/Plans/verse-of-the-day/occasions.md), and the [log](3-TRANSFORMATIONS/Plans/verse-of-the-day/log.md).
 
-`AGENTS.md` files exist for tooling that expects them ([`4-SYSTEM/gemini-scribe/AGENTS.md`](4-SYSTEM/gemini-scribe/AGENTS.md)) — they are thin pointers to `CLAUDE.md` and the folder docs.
+If an `AGENTS.md` is added for tooling that expects one, keep it a thin pointer to `CLAUDE.md` and the folder docs (none exists in this vault yet).

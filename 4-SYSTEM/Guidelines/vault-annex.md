@@ -142,6 +142,12 @@ Built as translation streams come online. Source→output pairs anticipated: `pi
 | ----- | -------- | ------ |
 | `verse-of-the-day` | Plan | scaffolding |
 
+**Curation docs** (in `3-TRANSFORMATIONS/Plans/verse-of-the-day/`) — read these before selecting or building a verse:
+[selection-criteria](../../3-TRANSFORMATIONS/Plans/verse-of-the-day/selection-criteria.md) (which verses qualify) ·
+[discovery-by-feeling](../../3-TRANSFORMATIONS/Plans/verse-of-the-day/discovery-by-feeling.md) (emotion / cultivation themes) ·
+[occasions](../../3-TRANSFORMATIONS/Plans/verse-of-the-day/occasions.md) (holiday calendar) ·
+[log](../../3-TRANSFORMATIONS/Plans/verse-of-the-day/log.md) (the running calendar). Rails are built with the [`verse-rail`](../Skills/verse-rail/SKILL.md) skill.
+
 ---
 
 ## 7. Source licensing register
@@ -195,5 +201,5 @@ Default for Pali sources is `-pi`. Roman/Wylie alternative scripts go in separat
 - [`0-VAULT-Structure.md`](0-VAULT-Structure.md) — the architecture in full.
 - [`../../1-SOURCES/About Sources.md`](../../1-SOURCES/About%20Sources.md) — source-file rules.
 - [`../../3-TRANSFORMATIONS/About Transformations.md`](../../3-TRANSFORMATIONS/About%20Transformations.md) — Plan-track rules.
-- [`Skills/json-to-source-text/SKILL.md`](Skills/json-to-source-text/SKILL.md) — source import; the `suttacentral_bilara` converter handles SuttaCentral CC0 data.
+- [`json-to-source-text`](../Skills/json-to-source-text/SKILL.md) — source import; the `suttacentral_bilara`, `cbeta_agama`, and `openpecha_kangyur` converters handle our SuttaCentral / CBETA / OpenPecha data.
 - [`import-runbook.md`](import-runbook.md) — how to bulk-import the Pali Canon from SuttaCentral.

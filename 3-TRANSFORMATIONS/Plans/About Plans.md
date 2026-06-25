@@ -4,6 +4,8 @@ This folder holds calendar-driven study and practice arcs: daily readings, weekl
 
 See [`../About Transformations.md`](../About%20Transformations.md) for the top-level rules that govern all transformation categories.
 
+> **The live plan in this vault is [`verse-of-the-day/`](verse-of-the-day/).** It is deliberately simplified from the template (no per-language stream folders): one verse per day = one [`days/`](verse-of-the-day/days/) file, indexed by [`log.md`](verse-of-the-day/log.md). Its curation rules live in [`selection-criteria.md`](verse-of-the-day/selection-criteria.md), [`discovery-by-feeling.md`](verse-of-the-day/discovery-by-feeling.md), and [`occasions.md`](verse-of-the-day/occasions.md). Verses are built with the [`verse-rail`](../../4-SYSTEM/Skills/verse-rail/SKILL.md) skill.
+
 ---
 
 ## Plan structure

@@ -215,6 +215,6 @@ Adaptation and Plan skills are not yet catalogued; they will be added as those t
 - [Top-level `README.md`](../README.md) — the pipeline overview and reading paths.
 - [`Translations/About Translations.md`](Translations/About Translations.md) — the translation-track convention plus the Phase 1/2/3 workflow used to produce each track's output.
 - [`Adaptations/About Adaptations.md`](Adaptations/About Adaptations.md) — the adaptation-track convention.
-- [`Plans/About Plans.md`](Plans/About Plans.md) — the plan-track convention; currently houses [`Plans/[plan-id]/`](Plans/[plan-id]/).
+- [`Plans/About Plans.md`](Plans/About Plans.md) — the plan-track convention. The live plan is [`Plans/verse-of-the-day/`](Plans/verse-of-the-day/) — its curation docs ([selection-criteria](Plans/verse-of-the-day/selection-criteria.md), [discovery-by-feeling](Plans/verse-of-the-day/discovery-by-feeling.md), [occasions](Plans/verse-of-the-day/occasions.md), [log](Plans/verse-of-the-day/log.md)) are the source of truth for which verses run and when.
 - [`../2-RAILS/About Rails.md`](../2-RAILS/About Rails.md) — the descriptive context this folder consumes.
 - [`../4-SYSTEM/CLAUDE.md`](../4-SYSTEM/CLAUDE.md) — the operational quick-reference.
