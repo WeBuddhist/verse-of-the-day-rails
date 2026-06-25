@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-001-friendship-dhp328.md",
+                "file": "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-002-impermanence-sa1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-001-friendship-dhp328"
+              "title": "day-002-impermanence-sa1"
             }
           }
         ]
@@ -197,6 +197,11 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-003-nonhatred-dhp5.md",
+    "2-RAILS/Verses/sa-770.md",
+    "2-RAILS/Verses/sa-379.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-001-friendship-dhp328.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-002-impermanence-sa1.md",
     "4-SYSTEM/Skills/verse-selection/SKILL.md",
     "4-SYSTEM/Skills/verse-selection",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md",
@@ -224,14 +229,9 @@
     "0-INBOX/_deprecated-plan-streams/hi/days",
     "0-INBOX/_deprecated-plan-streams/en/termbase.md",
     "0-INBOX/_deprecated-plan-streams/en/schedule.md",
-    "0-INBOX/_deprecated-plan-streams/en/requirements.md",
     "0-INBOX/_deprecated-plan-streams/en/days",
-    "0-INBOX/_deprecated-plan-streams/bo/schedule.md",
-    "0-INBOX/_deprecated-plan-streams/bo/termbase.md",
-    "0-INBOX/_deprecated-plan-streams/bo/requirements.md",
     "0-INBOX/_deprecated-plan-streams/bo/days",
     "0-INBOX/_deprecated-plan-streams/zh",
-    "0-INBOX/_deprecated-plan-streams/ne",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/schedule.md"
+    "0-INBOX/_deprecated-plan-streams/ne"
   ]
 }

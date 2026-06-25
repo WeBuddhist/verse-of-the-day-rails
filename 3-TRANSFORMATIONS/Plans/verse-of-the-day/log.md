@@ -13,11 +13,12 @@ off + all six renderings reviewed, ready/published.
 | Date | Day | source_ref | Canon | Theme | speaks_to | Day card | Status |
 |------|-----|-----------|-------|-------|-----------|----------|--------|
 | 2026-06-24 | 1 | Dhp 328 | Pali | friendship | lonely, loving-kindness, hopeful | [[days/day-001-friendship-dhp328]] | draft |
+| 2026-06-25 | 2 | SĀ 1 | Chinese Āgama | impermanence | grieving, craving, equanimity | [[days/day-002-impermanence-sa1]] | draft |
 
 ## Running balance (update as the log grows)
 
-- **Canon mix so far:** Pali 1 · Chinese Āgama 0 · Tibetan Kangyur 0 → next picks should lean toward Chinese/Tibetan to move toward balance.
-- **Recent themes (avoid clustering):** friendship.
+- **Canon mix so far:** Pali 1 · Chinese Āgama 1 · Tibetan Kangyur 0 → **Tibetan next** for balance (needs a verse with a translation reference — Udānavarga still lacks one).
+- **Recent themes (avoid clustering):** friendship, impermanence. Day 3 should avoid both; lean uplifting after a sober verse.
 - **Last occasion verse:** — (none yet; Māgha Pūjā / Sangha Day is the next natural occasion to plan for).
 
 ## Convention
