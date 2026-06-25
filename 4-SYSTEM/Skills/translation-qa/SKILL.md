@@ -28,7 +28,7 @@ faster and higher-confidence, not optional.
   authority for *how to handle* contested words/structure).
 - **The day card** — `3-TRANSFORMATIONS/Plans/verse-of-the-day/days/<day>.md`
   with the draft renderings (en, zh, bo, hi, ne, mn).
-- **Term glossary** *(if present)* — locked key-term renderings per language.
+- **Termbase** — [`3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md`](../../../3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md): locked key-term renderings per language. The terminology check (step 4) compares each rendering's key terms against it; flag mismatches and ⚑ (unratified) rows.
 - The English rendering (Sujato-anchored) serves as a second meaning anchor.
 
 ## The QA pass — per language

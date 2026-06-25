@@ -87,7 +87,7 @@ stream's termbase). Every claim cites a 1-SOURCES translation/source block.>
 
 1. **Transclude source and translation — never copy.** `![[…#^id]]`.
 2. **Ground every claim in the disambiguated meaning** to a `1-SOURCES/` block (translation or source). No parametric claims. If it can't be cited, leave it out and keep `status: draft`.
-3. **Flag, don't fix, rendering choices.** Where translators differ (e.g. *averena* = "by love" vs "by non-hatred"), note the options; the choice belongs to each stream's `termbase.md`.
+3. **Flag, don't fix, rendering choices.** Where translators differ (e.g. *averena* = "by love" vs "by non-hatred"), note the options. For recurring **key terms**, use the shared [`termbase.md`](../../../3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md) (e.g. *sahāya* ≠ *kalyāṇa-mitta*); add a row there if a term is missing rather than deciding per-verse.
 4. **84000 English is reference-only** (CC BY-NC-ND): cite/point to it, do not reproduce large excerpts in the rail; the shipped verse is the vault's own rendering.
 5. **`status: draft` always** — a domain specialist sets `complete`.
 6. **One canon's translation per `### Authoritative Renderings` subsection**, each labelled with its license.

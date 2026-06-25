@@ -126,13 +126,9 @@ The verse-of-the-day **Plan** (`3-TRANSFORMATIONS/Plans/verse-of-the-day/`) has 
 
 ---
 
-## 5. Bilingual glossary pairs
+## 5. Termbase (key-term renderings)
 
-Built as translation streams come online. Source→output pairs anticipated: `pi-en`, `pi-zh`, `pi-bo`, `pi-hi`, `pi-ne`, `pi-mn` (and `zh-*`, `bo-*` for Āgama/Kangyur sources).
-
-| File | Source | Target | Status |
-| ---- | ------ | ------ | ------ |
-| _(none yet)_ | | | |
+In place of the template's per-language-pair bilingual glossaries, this anthology uses a **single shared termbase**: [`3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md`](../../3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md) — one agreed rendering per key term across all six output languages (en, zh, bo, hi, ne, mn). It locks the distinctions that matter (e.g. *sahāya* "companion" ≠ *kalyāṇa-mitta* "spiritual friend"). `verse-rail` consults it when rendering; `translation-qa` checks against it. Rows marked ⚑ are proposed and await native-reviewer ratification (esp. bo/mn).
 
 ---
 

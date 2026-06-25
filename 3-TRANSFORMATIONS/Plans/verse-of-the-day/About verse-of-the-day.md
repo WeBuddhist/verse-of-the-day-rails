@@ -11,6 +11,7 @@ verse-of-the-day/
 ├── selection-criteria.md       ← which verses qualify
 ├── discovery-by-feeling.md     ← emotion / cultivation themes
 ├── occasions.md                ← holiday calendar
+├── termbase.md                 ← locked key-term renderings per language
 ├── log.md                      ← the master calendar (date → verse), the index
 └── days/
     └── day-NNN-<slug>.md        ← ONE file per day, all six languages + metadata
