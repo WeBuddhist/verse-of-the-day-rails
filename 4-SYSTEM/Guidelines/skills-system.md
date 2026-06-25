@@ -50,7 +50,7 @@ Claude Code auto-loads `CLAUDE.md` from the git root at the start of every sessi
 
 ### Claude Code — slash commands
 
-`.claude/commands/` contains one `.md` file per skill. Each file tells Claude to load and execute a specific skill. In any Claude Code session, typing `/verse-context`, `/epub-to-markdown`, `/glossary-combine`, and so on will immediately load the correct `SKILL.md` and begin execution.
+`.claude/commands/` contains one `.md` file per skill. Each file tells Claude to load and execute a specific skill. In any Claude Code session, typing `/verse-rail`, `/json-to-source-text`, `/epub-to-markdown`, and so on will immediately load the correct `SKILL.md` and begin execution. (Active skills only — see `SKILLS-CATALOG.md`; commentary/glossary skills are archived.)
 
 Current commands mirror every skill in `SKILLS-CATALOG.md`. When you add a new skill, add a matching command file (see below).
 
@@ -75,7 +75,7 @@ Every `SKILL.md` must include:
 | Procedure | yes | Numbered execution steps in exact order |
 | Completion checklist | recommended | Checkbox list the agent ticks before declaring the task done |
 
-`verse-context/SKILL.md` is a clean reference for a prose-workflow skill. `epub-to-markdown/SKILL.md` is a reference for a technical multi-step skill that invokes Python scripts.
+`verse-rail/SKILL.md` is a clean reference for a prose-workflow skill. `epub-to-markdown/SKILL.md` is a reference for a technical multi-step skill that invokes Python scripts.
 
 ---
 

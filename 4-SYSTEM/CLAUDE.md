@@ -32,7 +32,12 @@ When this file and a folder README disagree, the folder README wins.
 
 Authority comes from the human source — for this vault, the canonical text and its **authoritative translations**, never from the LLM's parametric knowledge.
 
-**This vault is an anthology, not a single text.** It serves **WeBuddhist Verse of the Day** — buddhavacana across the Pali Canon, Chinese Āgamas, and Tibetan Kangyur (sūtra sections; no tantra/Vinaya/scholastic). It holds **no commentaries**, so rails are **translation-grounded** via the `verse-rail` skill (use it, not `verse-context`, which is commentary-centric and superseded here). Per-source addressing, the licensing register, and all deviations are in [`Guidelines/vault-annex.md`](Guidelines/vault-annex.md) — read §0 first.
+**This vault is an anthology, not a single text — and it overrides several template defaults below.** It serves **WeBuddhist Verse of the Day**: buddhavacana across the Pali Canon, Chinese Āgamas, and Tibetan Kangyur (sūtra sections only — no tantra, Vinaya, or scholastic). Read [`Guidelines/vault-annex.md`](Guidelines/vault-annex.md) §0 first. Where the generic sections below disagree with these, **these win:**
+
+- **No commentaries → translation-grounded rails.** Build rails with [`verse-rail`](Skills/verse-rail/SKILL.md) (citing the authoritative *translation*), **not** `verse-context` or the section/glossary/commentary skills — those are **archived**. §7's commentary-centric `2-RAILS/` description (Sections, Local-Wiki, Bilingual-Glossaries) is template background; here `2-RAILS/Verses/` is the only active rail type.
+- **Simplified Plan.** Verse-of-the-day is **one file per day** (all six languages) in `3-TRANSFORMATIONS/Plans/verse-of-the-day/days/`, indexed by `log.md` — **not** the per-language `requirements/termbase/schedule` streams described in §9. Curation rules: `selection-criteria.md`, `discovery-by-feeling.md`, `occasions.md` in that Plan folder.
+- **Active skills only:** `verse-rail`, `json-to-source-text` (+ our SuttaCentral/CBETA/OpenPecha converters), `epub-to-markdown`, `vault-audit`, `create-skill` (see §12). Anything else is in `Skills/_archived/`.
+- **Multi-source addressing & a source-licensing register:** annex §2 and §7.
 
 ---
 
@@ -266,6 +271,8 @@ transformation_note: "tradition must be specified for this verse"
 
 ## 9. `3-TRANSFORMATIONS/` — three categories, per-track governance
 
+> **Anthology override (see §1):** the verse-of-the-day Plan is simplified — one day card per day + `log.md`, **not** the per-language `requirements/termbase/schedule` streams below. The per-stream structure here is template background.
+
 Three top-level categories, each a top-level subfolder:
 
 - **`Translations/`** — language-by-language translations. Each track has `requirements.md` + `termbase.md` + `audience.md` + the generated translation file(s).
@@ -303,6 +310,8 @@ Full rules in [`../3-TRANSFORMATIONS/About Transformations.md`](../3-TRANSFORMAT
 ---
 
 ## 11. Standard operations
+
+> **Anthology override (see §1):** "Ingest a passage" and "Generate a transformation" below are commentary/per-stream procedures. In this vault: build a rail with **`verse-rail`** (source + authoritative translation → disambiguated meaning), then produce the day card (six renderings) per the Plan's curation docs. There is no commentary synthesis, local-wiki step, or per-track `requirements/termbase`.
 
 **Ingest a passage**
 1. Confirm the source is in `1-SOURCES/`.
@@ -347,16 +356,10 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 
 | Task | Skill |
 |------|-------|
-| Generate per-commentary raw section summary | `section-summary-raw` |
-| Combine raw summaries into one section file | `section-summary-combined` |
-| Build a verse context package | `verse-context` |
-| Create a local-wiki article | `local-wiki-article` |
-| Add or regenerate a TOC | `add-toc` |
-| Build an interlinear gloss | `interlinear-gloss` |
-| Extract a raw bilingual glossary | `glossary-extract-raw` |
-| Combine glossary files | `glossary-combine` |
-| Ingest EPUB as markdown | `epub-to-markdown` |
-| Ingest JSON (root text) | `json-to-source-text` |
-| Ingest JSON (commentary) | `json-to-commentary` |
+| **Build a verse rail** (translation-grounded) | **`verse-rail`** |
+| Import source text (SuttaCentral / CBETA / OpenPecha JSON·TEI) | `json-to-source-text` (+ its converters) |
+| Ingest an EPUB source | `epub-to-markdown` |
 | Create a new skill (with full registration) | `create-skill` |
-| Audit vault integrity (weekly maintenance) | `vault-audit` |
+| Audit vault integrity | `vault-audit` |
+
+*(The commentary/section/glossary skills — `verse-context`, `section-summary-*`, `local-wiki-article`, `interlinear-gloss`, `glossary-*`, `add-toc`, `json-to-commentary`, the frontmatter helpers — are **archived** in `Skills/_archived/` and not used in this anthology. See the §1 overrides and `SKILLS-CATALOG.md`.)*

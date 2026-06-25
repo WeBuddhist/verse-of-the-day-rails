@@ -1,5 +1,7 @@
 # Why rails — two analogies
 
+> **Anthology note:** this essay frames a rail's authority as the *commentary tradition*. In this verse-of-the-day vault there are no commentaries, so a rail's authority is the **authoritative translation** it cites (Sujato / Patton / 84000). The reasoning below holds — replace "commentary" with "authoritative translation" throughout. See `vault-annex.md` §0 and the `verse-rail` skill.
+
 A **rail** is a single Markdown file capturing the curated interpretive context for one unit of a classical text — a verse, a section, or a concept — covering morphology, the senses attested across the commentary tradition, translator decisions, and citations.
 
 The motivation behind the methodology can be approached from two complementary angles. The **specialist-pair analogy** explains the cognitive division of labour: *why* you need two distinct layers (source-side and target-side) rather than one model trying to do both jobs at once. The **Wikipedia analogy** explains the information architecture: *how* structuring knowledge once for repeated AI consumption beats fresh inference each time.
