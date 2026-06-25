@@ -22,6 +22,16 @@ Converts JSON exports of root texts (e.g. from tipitaka.org or SuttaCentral) int
 
 ---
 
+## Curation skills (verse-of-the-day selection)
+
+### `verse-selection` **[exists]**
+**Purpose:** Select the next verse of the day — reads the `log.md` (already-run rows + running balance) and the curation docs, then proposes the next verse: dedupes against the log/rails/days, rotates the canon toward balance, spaces themes, and honors holiday occasions. The selection step before `verse-rail`.
+**Inputs:** `log.md`; `selection-criteria.md`; `occasions.md`; `discovery-by-feeling.md`; `1-SOURCES/`; existing `2-RAILS/Verses/` + `days/` (dedupe set); the date.
+**Outputs:** A selection proposal — `source_ref`, canon, theme/speaks_to, rationale, source link, dedupe result, and the ready-to-paste log row. Hands off to `verse-rail`.
+→ [`verse-selection/SKILL.md`](verse-selection/SKILL.md)
+
+---
+
 ## Rails-building skills (context preparation for translation)
 
 These skills populate `2-RAILS/` with the structured context that translation and QA skills consume.

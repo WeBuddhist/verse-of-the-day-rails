@@ -356,6 +356,7 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 
 | Task | Skill |
 |------|-------|
+| **Select the next day's verse** (rotation + dedupe) | **`verse-selection`** |
 | **Build a verse rail** (translation-grounded) | **`verse-rail`** |
 | **Pre-review QA of a verse's six renderings** | **`translation-qa`** |
 | Import source text (SuttaCentral / CBETA / OpenPecha JSON·TEI) | `json-to-source-text` (+ its converters) |
