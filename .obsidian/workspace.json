@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/About Transformations.md",
+                "file": "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-001-friendship-dhp328.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About Transformations"
+              "title": "day-001-friendship-dhp328"
             }
           }
         ]
@@ -195,8 +195,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/About Transformations.md",
     "4-SYSTEM/Guidelines/why-rails.md",
     "4-SYSTEM/CLAUDE.md",
     "4-SYSTEM/Skills/translation-qa/SKILL.md",
@@ -229,7 +230,6 @@
     "0-INBOX/_deprecated-plan-streams/zh",
     "0-INBOX/_deprecated-plan-streams/ne",
     "0-INBOX/_deprecated-plan-streams/mn",
-    "3-TRANSFORMATIONS/About Transformations.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/schedule.md",
     "0-INBOX/vault-audit-2026-06-24.md",
     "4-SYSTEM/Skills/_archived/property-creator/SKILL.md"
