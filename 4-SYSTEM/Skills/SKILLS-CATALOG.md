@@ -57,11 +57,11 @@ These skills populate `2-RAILS/` with the structured context that translation an
 
 ## Translation QA skills
 
-### `translation-qa` **[planned]**
-**Purpose:** Review a translated section against the MQM translation error taxonomy, the track requirements, and the source rails.
-**Inputs:** Translated section(s); `requirements.md`; `termbase.md`; relevant `2-RAILS/` files.
-**Outputs:** Appended entries in `3-TRANSFORMATIONS/Translations/<track-name>/qa-report.md`. Each entry records: the segment, MQM error category, severity (critical / major / minor), and a suggested correction.
-→ `translation-qa/SKILL.md` *(to be written)*
+### `translation-qa` **[exists]**
+**Purpose:** Automated **pre-review** QA pass on a verse-of-the-day's renderings, run before a native reviewer sees them — critiques each language against its rail's *Disambiguated Meaning* and flagged choices, back-translates to catch drift, checks terminology + register (zh Traditional/Taiwan; no em-dash English), produces a revised draft, and flags low-confidence spots for the reviewer. Raises draft quality and cuts reviewer load; does **not** replace native sign-off (esp. bo/mn).
+**Inputs:** The verse's rail (`2-RAILS/Verses/<slug>.md`); the day card's draft renderings; the term glossary if present.
+**Outputs:** Revised renderings (still `status: draft`) + a per-language QA note (back-translation, MQM findings by severity, confidence flags) appended to the day card.
+→ [`translation-qa/SKILL.md`](translation-qa/SKILL.md)
 
 ### `style-consistency-check` **[planned]**
 **Purpose:** Catch style drift over long texts — creeping changes in register, sentence length, verse formatting, list handling, term gloss style.

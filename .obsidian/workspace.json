@@ -195,8 +195,10 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "d066ca5c15f520a5",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "4-SYSTEM/Skills/translation-qa/SKILL.md",
+    "4-SYSTEM/Skills/translation-qa",
     "3-TRANSFORMATIONS/Translations/About Translations.md",
     "0-INBOX/_deprecated-plan-streams/zh/termbase.md",
     "0-INBOX/_deprecated-plan-streams/zh/schedule.md",
@@ -225,13 +227,11 @@
     "0-INBOX/_deprecated-plan-streams/zh",
     "0-INBOX/_deprecated-plan-streams/ne",
     "0-INBOX/_deprecated-plan-streams/mn",
-    "0-INBOX/_deprecated-plan-streams/hi",
     "3-TRANSFORMATIONS/About Transformations.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/en/schedule.md",
     "0-INBOX/vault-audit-2026-06-24.md",
     "4-SYSTEM/Skills/_archived/property-creator/SKILL.md",
     "4-SYSTEM/Skills/_archived/source-property-extractor/SKILL.md",
-    "4-SYSTEM/Skills/_archived/reference-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/_archived/translation-frontmatter/SKILL.md"
+    "4-SYSTEM/Skills/_archived/reference-frontmatter/SKILL.md"
   ]
 }
