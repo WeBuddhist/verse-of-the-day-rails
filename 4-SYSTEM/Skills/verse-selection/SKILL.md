@@ -21,7 +21,7 @@ Pipeline position: **`verse-selection` → `verse-rail` → `translation-qa` →
 - **Occasions** — `occasions.md`: holiday calendar + the verse themes each calls for.
 - **Discovery-by-feeling** — `discovery-by-feeling.md`: the theme / felt-state set, for coverage.
 - **Corpus** — `1-SOURCES/Text/` (+ paired translations) to pick from.
-- **Already-used set** — the dedupe key: the log's `source_ref` column **plus** existing rail files in `2-RAILS/Verses/` and cards in `days/`.
+- **Already-used set** — the dedupe key: the log's `source_ref` column, **plus** `previously-used.md` (verses published *before/outside* this vault), **plus** existing rail files in `2-RAILS/Verses/` and cards in `days/`.
 - The **date** to fill (defaults to the next empty slot).
 
 ## Procedure
@@ -29,8 +29,8 @@ Pipeline position: **`verse-selection` → `verse-rail` → `translation-qa` →
 1. **Occasion check first.** If the date is a Buddhist holiday (`occasions.md`, resolved per tradition), the occasion **overrides** normal rotation: select a verse tagged for that occasion. Skip to step 5.
 2. **Read the running balance.** From the log: which canon is under-represented (target it) and which themes ran recently (avoid them).
 3. **Choose the target canon** = the most under-represented of Pali / Chinese Āgama / Tibetan Kangyur, to move the mix toward equal rotation.
-4. **Pick a candidate** from that canon's sources that (a) passes the **hard gates** (§1: buddhavacana, in-scope, traceable `source_ref`, license-cleared), (b) passes **quality** (§2: short, self-contained, accessible, relatable), and (c) fills a **theme / felt-state** not run recently — prefer gaps in `speaks_to` coverage (Door A and Door B).
-5. **Dedupe — mandatory.** Reject the candidate if its `source_ref` (or its rail filename) already appears in the log / `2-RAILS/Verses/` / `days/` within the no-repeat window. Also avoid near-identical paired verses (e.g. Dhp 1 & 2) close together. If rejected, return to step 4.
+4. **Pick a candidate** from that canon's sources that (a) passes the **hard gates** (§1), (b) passes **quality** (§2: short, self-contained, accessible, relatable), (c) fills a **theme / felt-state** not run recently (prefer gaps in `speaks_to` coverage), and (d) is **fresh** — *not* one of the over-exposed "greatest hits" (§2 Freshness). Reach into the breadth of the corpus for under-circulated verses; the famous handful are presumed-used.
+5. **Dedupe — mandatory.** Reject the candidate if its `source_ref` (or rail filename) appears in **`log.md`, `previously-used.md`, `2-RAILS/Verses/`, or `days/`** within the no-repeat window. Also avoid near-identical paired verses (e.g. Dhp 1 & 2) close together, and treat presumed-used greatest-hits as rejected unless confirmed fresh. If rejected, return to step 4.
 6. **Propose** (output below). On acceptance, the workflow continues: `verse-rail` builds/confirms the rail → render + `translation-qa` → add the log row and update the running balance.
 
 ## Output — selection proposal

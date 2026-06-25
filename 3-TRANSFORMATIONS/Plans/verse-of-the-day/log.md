@@ -14,12 +14,17 @@ off + all six renderings reviewed, ready/published.
 |------|-----|-----------|-------|-------|-----------|----------|--------|
 | 2026-06-24 | 1 | Dhp 328 | Pali | friendship | lonely, loving-kindness, hopeful | [[days/day-001-friendship-dhp328]] | draft |
 | 2026-06-25 | 2 | SĀ 1 | Chinese Āgama | impermanence | grieving, craving, equanimity | [[days/day-002-impermanence-sa1]] | draft |
+| 2026-06-26 | 3 | Dhp 5 | Pali | non-hatred | angry, resentful, loving-kindness | [[days/day-003-nonhatred-dhp5]] | draft |
+| 2026-06-27 | 4 | SĀ 379 | Chinese Āgama | four-noble-truths | doubtful, aspiration, hopeful | [[days/day-004-fournobletruths-sa379]] | draft |
+| 2026-06-28 | 5 | Dhp 1 | Pali | mind | overwhelmed, restless, hopeful | [[days/day-005-mind-dhp1]] | draft |
+| 2026-06-29 | 6 | SĀ 770 | Chinese Āgama | right-view | doubtful, hopeful, aspiration | [[days/day-006-rightview-sa770]] | draft |
+| 2026-06-30 | 7 | Dhp 223 | Pali | overcoming-anger | angry, irritated, patience | [[days/day-007-anger-dhp223]] | draft |
 
 ## Running balance (update as the log grows)
 
-- **Canon mix so far:** Pali 1 · Chinese Āgama 1 · Tibetan Kangyur 0 → **Tibetan next** for balance (needs a verse with a translation reference — Udānavarga still lacks one).
-- **Recent themes (avoid clustering):** friendship, impermanence. Day 3 should avoid both; lean uplifting after a sober verse.
-- **Last occasion verse:** — (none yet; Māgha Pūjā / Sangha Day is the next natural occasion to plan for).
+- **Canon mix so far (7 days):** Pali 4 · Chinese Āgama 3 · Tibetan Kangyur 0 → **Tibetan is the standing gap** (the Udānavarga still needs a translation reference — Rockhill PD or 84000 when published — before it can be railed well). Prioritise a Tibetan verse once that's resolved.
+- **Recent themes (avoid clustering):** friendship, impermanence, non-hatred, four-noble-truths, mind, right-view, overcoming-anger. Day 8 should avoid these; under-used Door-B themes (compassion, gratitude, generosity, equanimity) are open.
+- **Last occasion verse:** SĀ 379 (Day 4) is tagged Dhamma Day / Āsāḷha Pūjā — reuse on that occasion rather than in normal rotation if the dates align.
 
 ## Convention
 

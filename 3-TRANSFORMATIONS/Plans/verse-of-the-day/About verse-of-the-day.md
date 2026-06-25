@@ -12,6 +12,7 @@ verse-of-the-day/
 ├── discovery-by-feeling.md     ← emotion / cultivation themes
 ├── occasions.md                ← holiday calendar
 ├── termbase.md                 ← locked key-term renderings per language
+├── previously-used.md          ← verses published before/outside this vault (dedupe)
 ├── log.md                      ← the master calendar (date → verse), the index
 └── days/
     └── day-NNN-<slug>.md        ← ONE file per day, all six languages + metadata
