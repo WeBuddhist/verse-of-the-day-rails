@@ -1,37 +1,53 @@
 # About — verse-of-the-day
 
-Cross-language brief for the **verse-of-the-day** Plan. Written in English regardless of which languages the plan publishes (per `3-TRANSFORMATIONS/About Transformations.md` §3).
+The **verse-of-the-day** Plan. Deliberately **simple**: one verse per day,
+rendered in the six app languages, with a little metadata. We dropped the
+template's heavy per-language stream folders (`requirements.md` / `termbase.md` /
+`schedule.md` × 6) — overkill for a daily verse. The whole plan is just:
 
-## Purpose
+```
+verse-of-the-day/
+├── About verse-of-the-day.md   ← this file
+├── selection-criteria.md       ← which verses qualify
+├── discovery-by-feeling.md     ← emotion / cultivation themes
+├── occasions.md                ← holiday calendar
+├── log.md                      ← the master calendar (date → verse), the index
+└── days/
+    └── day-NNN-<slug>.md        ← ONE file per day, all six languages + metadata
+```
 
-Deliver one short verse (2–4 lines) per day, drawn from authentic buddhavacana in `1-SOURCES/` (Pali Canon, Chinese Āgamas, Tibetan Kangyur), rendered in **modern, plain language** for the WeBuddhist app. Each day's verse is grounded against its source rail and carries a citation; nothing publishes un-sourced.
+## The unit of work: one day = one file (or one row)
 
-## Audience
+Each day is a single `days/day-NNN-<slug>.md` card holding **all six renderings
+plus metadata** — see [`days/day-001-friendship-dhp328.md`](days/day-001-friendship-dhp328.md)
+for the shape. `log.md` is the running index (date → `source_ref`, theme, status).
 
-Regular (Tier 3) and casual (Tier 4) WeBuddhist practitioners. They are not scholars — a verse must be **immediately understandable** with no glossary. See the per-stream `requirements.md` for language-specific register.
+*(Alternative if you'd rather not have per-day files: the whole thing can live as
+one table — columns `date · source_ref · theme · en · zh · bo · hi · ne · mn ·
+status`. Per-day files win when you want the Pāli source, notes, and the rail
+link alongside; the table wins for pure compactness. We're using per-day files +
+the log index; say the word to switch to table-only.)*
 
-## Per-session shape (shared by all language streams)
+## What each day card holds
 
-Each `days/day-N.md` contains:
+1. **source_ref** — the citation shown with the verse (e.g. **Dhp 328**), per `vault-annex.md` §2. A verse with no resolvable citation does not ship.
+2. **source_link / context_packages** — the `2-RAILS/Verses/<slug>.md` rail it was generated from (and through it, the `1-SOURCES/` block).
+3. **source (original)** — the Pāli / Chinese / Tibetan, for display under the verse.
+4. **six renderings** — en, zh, bo, hi, ne, mn (see language notes below).
+5. **theme · speaks_to · occasions** — for calendar variety, the "where are you right now?" feature, and holiday overrides.
+6. **review_status** — per-language sign-off state.
 
-1. **source_ref** — the citation label shown with the verse, using the standard abbreviations in `vault-annex.md` §2 (e.g. **Dhp 16**, **SN 56.11**, **SĀ 262**). Displayed to the practitioner.
-2. **source_link** — the exact block link the label resolves to, e.g. `[[1-SOURCES/Text/pi-dhammapada.md#^16]]`. Guarantees the displayed "Dhp 16" is grounded in the real source.
-3. **verse** — the modern-language verse for this stream's language (2–4 lines).
-4. **source_original** — the original-language text (Pāli / Chinese / Tibetan), for display under the verse.
-5. **theme** — one-word tag (Mind, Anger, Contentment…) for calendar variety.
-6. **context_packages** — the `2-RAILS/` file(s) the rendering was generated from.
-7. **review_status** — per-stream sign-off state.
+## Language notes (folded in from the old per-stream contracts)
 
-Every published verse of the day **must** show its `source_ref` label — a verse with no resolvable citation does not ship (it would be indistinguishable from a "fake Buddha quote").
+- **Modern, plain language** throughout — no scholarly/classical register, no glossary needed (audience: Tier 3/4 practitioners; "feel like home").
+- **en** — anchored on Bhikkhu Sujato (CC0); already modern.
+- **zh** — **modern Traditional Chinese** for Taiwan / Hong Kong / Singapore (not Simplified/mainland register).
+- **bo / hi / ne / mn** — WeBuddhist's own modern renderings from the rail's meaning; **bo and mn carry the highest risk** and need native dharma-reviewer sign-off.
+- **No em dashes in the English.**
+- Keep faithful to the original's intent (grammar/structure), not just the gist — see the rail's flagged rendering choices.
 
-## Languages (one stream each)
+## Rules
 
-`en/`, `bo/`, `zh/`, `hi/`, `ne/`, `mn/`. Streams progress independently. English leads (CC0 sources are already modern English); bo / ne / mn carry the highest rendering risk and require native dharma-reviewer sign-off before publish.
-
-## Source-rail dependencies
-
-Each verse must trace to a `2-RAILS/Verses/<id>.md` package whose `status: complete`. The rail grounds the meaning; the stream prescribes the modern wording. Modernizing classical source text (Literary Chinese, classical Tibetan) is permitted only with reviewer sign-off, per `vault-annex.md` §4.
-
-## Status rules
-
-A day is `draft` when generated, `complete` only when a native-speaker dharma reviewer signs off. Only `complete` days are published. The LLM never sets `complete`.
+- Each verse must trace to a `2-RAILS/Verses/<slug>.md` rail (`status: complete`). The rail grounds the meaning; the day card prescribes the modern wording.
+- A day is `draft` when generated, `complete` only after the rail is signed off **and** a native-speaker dharma reviewer approves the renderings. Only `complete` days publish. The LLM never sets `complete`.
+- Curate per [`selection-criteria.md`](selection-criteria.md); log every day in [`log.md`](log.md); keep canon rotation and theme spacing balanced.

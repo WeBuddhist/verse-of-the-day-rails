@@ -20,18 +20,6 @@ Converts EPUB files (commentaries, reference texts) into formatted Obsidian mark
 Converts JSON exports of root texts (e.g. from tipitaka.org or SuttaCentral) into formatted source-text markdown files. Includes example converters for tipitaka.org and English paired translations; new source schemas get their own converter in `json-to-source-text/converters/`.
 → [`json-to-source-text/SKILL.md`](json-to-source-text/SKILL.md)
 
-### `root-text-frontmatter` **[exists]**
-Generates complete YAML frontmatter for a root-text file in `1-SOURCES/Text/` by extracting metadata from its title, colophon, and opening content.
-→ [`root-text-frontmatter/SKILL.md`](root-text-frontmatter/SKILL.md)
-
-### `translation-frontmatter` **[exists]**
-Generates complete YAML frontmatter for a translation file in `1-SOURCES/Translations/`, including translator, target language, and `translation_basis`.
-→ [`translation-frontmatter/SKILL.md`](translation-frontmatter/SKILL.md)
-
-### `reference-frontmatter` **[exists]**
-Generates complete YAML frontmatter for a secondary-literature or reference file in `1-SOURCES/References/`.
-→ [`reference-frontmatter/SKILL.md`](reference-frontmatter/SKILL.md)
-
 ---
 
 ## Rails-building skills (context preparation for translation)
@@ -43,12 +31,6 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Inputs:** Source block id(s) in `1-SOURCES/Text/`; aligned translation block(s) in `1-SOURCES/Translations/`; the `source_ref` label.
 **Outputs:** One file at `2-RAILS/Verses/<text-slug>-<verse>.md` containing: source transclusion, authoritative rendering(s), a precise English disambiguated meaning (every claim cited), and theme/selection notes. `grounding: translation` (or `hybrid` if a commentary is later added).
 → [`verse-rail/SKILL.md`](verse-rail/SKILL.md)
-
-### `local-wiki-article` **[exists]**
-**Purpose:** Create or update a Local-Wiki article for one key term.
-**Inputs:** Commentary passages that explain or define the term (via block citations from `1-SOURCES/`).
-**Outputs:** One file at `2-RAILS/Local-Wiki/<term>_(<disambiguator>).md` containing: cited commentary explanations in the original language, and a short contextual definition drafted from those citations (also in the original language).
-→ [`local-wiki-article/SKILL.md`](local-wiki-article/SKILL.md)
 
 ---
 
@@ -89,18 +71,6 @@ These skills populate `2-RAILS/` with the structured context that translation an
 
 ---
 
-## Utility skills
-
-### `source-property-extractor` **[exists]**
-Extracts structured metadata (author, date, edition, language, publisher) from a source file and writes it to the frontmatter.
-→ [`source-property-extractor/SKILL.md`](source-property-extractor/SKILL.md)
-
-### `property-creator` **[exists]**
-Creates or updates Obsidian frontmatter properties on a file.
-→ [`property-creator/SKILL.md`](property-creator/SKILL.md)
-
----
-
 ## System skills
 
 These skills operate on the vault's own structure — creating new skills, maintaining registrations, and auditing integrity. They are meta-level tools for contributors, not pipeline steps.
@@ -125,8 +95,11 @@ These skills check and report on vault integrity. They are read-only and safe to
 
 ---
 
+---
+
 ## Archived / removed (not used in this anthology vault)
 
-These template skills assume a single commentary-bearing text and don't apply to a translation-grounded anthology; moved to `Skills/_archived/` (see `0-INBOX/vault-audit-2026-06-24.md`):
+Template skills that assume a single commentary-bearing text, or manual-frontmatter helpers made redundant by the auto-frontmatter converters; moved to `Skills/_archived/` (see `0-INBOX/vault-audit-2026-06-24.md`):
 
-`add-toc`, `commentary-frontmatter`, `format-commentary`, `format-root-text`, `glossary-combine`, `glossary-extract-raw`, `glossary-select`, `interlinear-gloss`, `json-to-commentary`, `section-summary-combined`, `section-summary-raw`, `structural-outline-ingest`, `verse-context`.
+`add-toc`, `commentary-frontmatter`, `format-commentary`, `format-root-text`, `glossary-combine`, `glossary-extract-raw`, `glossary-select`, `interlinear-gloss`, `json-to-commentary`, `local-wiki-article`, `property-creator`, `reference-frontmatter`, `root-text-frontmatter`, `section-summary-combined`, `section-summary-raw`, `source-property-extractor`, `structural-outline-ingest`, `translation-frontmatter`, `verse-context`.
+
