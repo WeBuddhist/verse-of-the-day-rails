@@ -21,27 +21,28 @@ review_status: { en: pending, zh: pending, bo: pending, hi: pending, ne: pending
 > Rail: [[2-RAILS/Verses/iti-27]] · Source: [[1-SOURCES/Text/pi-itivuttaka.md#^iti27-0]] · License: **CC0**
 
 ## Source (Pāli, distilled)
-> Of the grounds for making merit, the heart's release by love (mettā cetovimutti) outshines them all —
-> as the moon outshines the stars.
+> Of all the grounds for making merit (puñña), none is worth a sixteenth part of the heart's release through loving-kindness (mettā cetovimutti);
+> it outshines them all, as the moon outshines the stars.
 
 ## Renderings
 
-**en** — Of all the good a person can do in the world, none shines like a heart set free by love. As the moon outshines every star, so a loving heart outshines them all.
+**en** — Of all the ways of making merit in the world, none is worth a sixteenth part of the heart's release through loving-kindness. As the moon outshines all the stars, so loving-kindness outshines them all.
 
-**zh** — 世間一切善行福德，皆不如以慈愛而得解脫的心。猶如明月勝過眾星，慈心之光超越一切。
+**zh** — 世間一切作福之事，皆不及慈心解脫的十六分之一。猶如明月勝過眾星，慈心解脫之光超越一切。
 
-**bo** — འཇིག་རྟེན་གྱི་དགེ་བ་དང་བསོད་ནམས་ཐམས་ཅད་ཀྱང་། བྱམས་པས་གྲོལ་བའི་སེམས་དང་མི་མཉམ། སྐར་མ་ཀུན་ལས་ཟླ་བ་མཆོག་ཡིན་པ་ལྟར། བྱམས་སེམས་ཀྱི་འོད་ཀུན་ལས་འཕགས་སོ། །
+**bo** — འཇིག་རྟེན་གྱི་བསོད་ནམས་བྱ་བ་ཐམས་ཅད་ཀྱང་། བྱམས་པའི་སེམས་ཀྱི་རྣམ་གྲོལ་གྱི་ཆ་བཅུ་དྲུག་གི་གཅིག་ལའང་མི་སྙེད། སྐར་མ་ཀུན་ལས་ཟླ་བ་ལྟར། བྱམས་པའི་རྣམ་གྲོལ་གྱི་འོད་ཀུན་ལས་འཕགས་སོ། །
 
-**hi** — संसार में किया जाने वाला कोई भी पुण्य उस हृदय के समान नहीं चमकता जो प्रेम से मुक्त हो। जैसे चंद्रमा सब तारों से अधिक चमकता है, वैसे ही प्रेममय हृदय सबसे अधिक देदीप्यमान होता है।
+**hi** — संसार के सभी पुण्य-कर्मों में से कोई भी मैत्री से प्राप्त चित्त-विमुक्ति के सोलहवें भाग के बराबर नहीं। जैसे चंद्रमा सब तारों से अधिक चमकता है, वैसे ही मैत्री-विमुक्ति का प्रकाश सबसे अधिक देदीप्यमान होता है।
 
-**ne** — संसारमा गरिने कुनै पनि पुण्य त्यो हृदयजस्तो चम्किँदैन जुन प्रेमले मुक्त भएको हुन्छ। जसरी चन्द्रमा सबै ताराभन्दा बढी चम्किन्छ, त्यसरी नै प्रेमपूर्ण हृदय सबैभन्दा बढी उज्यालो हुन्छ।
+**ne** — संसारका सबै पुण्य-कर्महरूमध्ये कुनै पनि मैत्रीबाट प्राप्त चित्त-विमुक्तिको सोह्रौँ भागसँग बराबर हुँदैन। जसरी चन्द्रमा सबै ताराभन्दा बढी चम्किन्छ, त्यसरी नै मैत्री-विमुक्तिको प्रकाश सबैभन्दा बढी उज्यालो हुन्छ।
 
-**mn** — Хүн дэлхийд үйлдэж болох бүх буянаас хайраар чөлөөлөгдсөн сэтгэл шиг гэрэлтэх нь үгүй. Сар бүх одыг гийгүүлдэг шиг, хайраар дүүрэн сэтгэл бүхнээс илүү гэрэлтэнэ.
+**mn** — Дэлхийд буян үйлдэх бүхэн ч энэрэл хайраар чөлөөлөгдсөн сэтгэлийн арван зургаан хувийн нэгтэй ч тэнцэхгүй. Бүх одыг сар гийгүүлдэг шиг, энэрэл хайрын чөлөөлөл бүхнээс илүү гэрэлтэнэ.
 
 ## Pre-review QA
-- **en** ✓ distils mettā cetovimutti + moon/stars simile faithfully; "set free by love" carries cetovimutti (heart's release) in plain language. No em dashes (the dash in source line is the rail gloss, not the en rendering).
-- **zh** ✓ modern Traditional; 慈愛而得解脫的心 for the heart's release by love; 慈心之光 for its radiance.
-- **bo** ⚑ review — བྱམས་པ (mettā) per termbase; confirm བྱམས་པས་གྲོལ་བའི་སེམས reads as "heart freed by love" not "love that is freed."
-- **hi / ne** ✓ moon/stars simile preserved; "प्रेम से मुक्त / प्रेमले मुक्त" for cetovimutti — confirm reviewer prefers प्रेम vs मैत्री for mettā here.
-- **mn** ⚑ review — хайр vs энэрэл for mettā; confirm choice with native reviewer.
-- Native sign-off needed for bo + mn before `complete`. Note bo/hi/ne/mn translate the distilled simile, not the full sixteenth-part arithmetic.
+- **Terminology** ✓ now uses the **locked dharma terms** (termbase), not paraphrase. *mettā* = loving-kindness / 慈心 / བྱམས་པ / मैत्री / मैत्री / энэрэл хайр; *puñña* = merit / 作福·福德 / བསོད་ནམས / पुण्य / पुण्य / буян; *cetovimutti* = heart's release / 心解脫 / རྣམ་གྲོལ / चित्त-विमुक्ति / сэтгэлийн чөлөөлөл. The earlier draft wrongly rendered mettā as "love / प्रेम / хайр" — corrected.
+- **en** ✓ keeps the standard Buddhist vocabulary (merit, loving-kindness, heart's release) and the sixteenth-part + moon/stars structure. No em dashes.
+- **zh** ✓ 作福 (making merit), 慈心解脫 (established term for mettā-cetovimutti), 十六分之一 preserved.
+- **bo** ⚑ review — བསོད་ནམས (puñña), བྱམས་པའི་སེམས་ཀྱི་རྣམ་གྲོལ (mettā-cetovimutti); confirm "sixteenth part" phrasing (ཆ་བཅུ་དྲུག་གི་གཅིག).
+- **hi / ne** ⚑ light review — मैत्री + चित्त-विमुक्ति are the standard terms; confirm the मैत्री-विमुक्ति compound reads naturally vs. spelling it out.
+- **mn** ⚑ review — энэрэл хайр (mettā, still ⚑ in termbase) + сэтгэлийн чөлөөлөл (cetovimutti, ⚑); native reviewer to ratify both.
+- Native sign-off needed for bo + mn before `complete`.

@@ -59,6 +59,8 @@ Two different words, two different renderings — don't conflate:
 | dukkha (suffering) | suffering, unsatisfactoriness | 苦 | སྡུག་བསྔལ | दुःख | दुःख | зовлон |
 | khandha (aggregates) | the aggregates | 蘊 (五蘊) | ཕུང་པོ | स्कन्ध | स्कन्ध | чогц ⚑ |
 | nibbāna (liberation) | nibbāna, liberation | 涅槃 | མྱ་ངན་ལས་འདས་པ | निर्वाण | निर्वाण | нирвана |
+| puñña (merit) | merit, making merit | 福德 / 作福 | བསོད་ནམས | पुण्य | पुण्य | буян |
+| cetovimutti (heart's release) | heart's release, liberation of mind | 心解脫 | སེམས་རྣམ་གྲོལ / རྣམ་གྲོལ | चित्त-विमुक्ति | चित्त-विमुक्ति | сэтгэлийн чөлөөлөл ⚑ |
 
 ## Brahmavihāras (the four; the "grow" themes)
 
