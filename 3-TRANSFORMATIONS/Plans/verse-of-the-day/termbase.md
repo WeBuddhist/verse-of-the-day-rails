@@ -42,7 +42,8 @@ Two different words, two different renderings — don't conflate:
 | Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
 |---|---|---|---|---|---|---|
 | citta / mano (mind) | mind, heart | 心 | སེམས | मन / चित्त | मन | сэтгэл |
-| sati (mindfulness) | mindfulness | 正念 | དྲན་པ | स्मृति / सजगता | सजगता | ⚑ (sati term to confirm — *ухамсар* = "consciousness," likely wrong) |
+| sati (mindfulness) | mindfulness | 正念 | དྲན་པ | स्मृति / सजगता | सजगता | ухаарал ⚑ (proposed; *ухамсар* = "consciousness," wrong — confirm vs дурсал / санах) |
+| ānāpānasati (mindfulness of breathing) | mindfulness of breathing | 出入息念 / 安那般那念 | དབུགས་འབྱུང་རྔུབ་ཀྱི་དྲན་པ | आनापान-स्मृति | आनापान-स्मृति | амьсгалын ухаарал ⚑ |
 | vera / avera (hatred / non-hatred) | hatred / non-hatred | 仇恨 / 無瞋 | ཞེ་སྡང / ཞེ་སྡང་མེད་པ | वैर / अवैर | घृणा / अवैर | үзэн ядалт / үзэн ядалтгүй |
 | kodha / akkodha (anger / non-anger) | anger / non-anger | 瞋 / 不瞋 | ཁྲོ་བ / མི་ཁྲོ་བ | क्रोध / अक्रोध | क्रोध / अक्रोध | уур / уургүй |
 

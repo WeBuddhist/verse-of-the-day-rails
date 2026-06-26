@@ -26,7 +26,7 @@ review_status: { en: pending, zh: pending, bo: pending, hi: pending, ne: pending
 
 ## Renderings
 
-**en** — Form is not your self; nor are feeling, perception, will, or awareness. Seeing the five aggregates as not-self, you grasp at nothing; grasping at nothing, the heart is freed.
+**en** — Form is not your self; nor are feeling, perception, volition, or consciousness. Seeing the five aggregates as not-self, you grasp at nothing; grasping at nothing, the heart is freed.
 
 **zh** — 色不是我，受、想、行、識也不是我。如是觀照五蘊皆非我，便無所執取；無所執取，心即解脫。
 
@@ -39,7 +39,7 @@ review_status: { en: pending, zh: pending, bo: pending, hi: pending, ne: pending
 **mn** — Дүрс бол чиний "би" биш; мэдрэмж, таних, сэдэл, ухамсар ч мөн биш. Таван чогцыг би бус хэмээн харвал юунд ч зууралдахгүй; юунд ч зууралдахгүй бол сэтгэл чөлөөлөгдөнө.
 
 ## Pre-review QA
-- **en** ✓ distils the core line (five aggregates not-self → grasp nothing → freed); drops the impermanent→painful Q&A per rail. "Will" for volition/saṅkhāra, "awareness" for consciousness — plain register. No em dashes.
+- **en** ✓ distils the core line (five aggregates not-self → grasp nothing → freed); drops the impermanent→painful Q&A per rail. Uses the **standard aggregate names** (form, feeling, perception, volition, consciousness) matching the Patton source — earlier draft's "will / awareness" corrected. No em dashes.
 - **zh** ✓ modern Traditional; 觀照 / 執取 / 解脫 carry the meaning; matches the source verbs.
 - **bo** ⚑ review — standard aggregate terms (ཕུང་པོ་ལྔ); confirm ཅི་ལའང་མི་ལེན (grasp nothing) reads naturally for upādāna.
 - **hi / ne** ⚑ light review — "मैं/म" in quotes renders the *self* sense well, but confirm reviewer is happy with अनात्म as the technical term on a daily card vs. a plainer phrasing.
