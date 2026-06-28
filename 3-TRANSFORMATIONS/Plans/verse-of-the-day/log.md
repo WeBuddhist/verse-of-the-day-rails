@@ -24,12 +24,18 @@ off + all six renderings reviewed, ready/published.
 | 2026-07-03 | 10 | Iti 27 | Pali | loving-kindness | lonely, grieving, loving-kindness | [[days/day-010-loving-kindness-iti27]] | draft |
 | 2026-07-04 | 11 | SĀ 33 | Chinese Āgama | not-self | grasping, afraid, equanimity | [[days/day-011-not-self-sa33]] | draft |
 | 2026-07-05 | 12 | Dhp 100 | Pali | speech | overwhelmed, restless, hopeful | [[days/day-012-speech-dhp100]] | draft |
+| 2026-07-06 | 13 | Iti 26 | Pali | generosity | grasping, hopeful, grateful | [[days/day-013-generosity-iti26]] | draft |
+| 2026-07-07 | 14 | Dhp 320 | Pali | patience | angry, irritated, patience | [[days/day-014-patience-dhp320]] | draft |
+| 2026-07-08 | 15 | Dhp 25 | Pali | effort | overwhelmed, discouraged, aspiration | [[days/day-015-effort-dhp25]] | draft |
+| 2026-07-09 | 16 | MĀ 16 | Chinese Āgama | peace-of-a-good-heart | anxious, afraid, doubtful | [[days/day-016-good-heart-ma16]] | draft |
+| 2026-07-10 | 17 | Toh 282 | Tibetan Kangyur | threefold-training | aspiration, overwhelmed, hopeful | [[days/day-017-threefold-training-toh282]] | draft |
 
 ## Running balance (update as the log grows)
 
-- **Canon mix so far (12 days):** Pali 7 · Chinese Āgama 5 · Tibetan Kangyur 0 → **Tibetan is still the standing gap** (Udānavarga needs a translation reference — Rockhill PD or 84000 when published — before it can be railed well). Days 8–12 leaned Chinese where possible; the next openings should go Tibetan as soon as a translation reference is resolved, then keep Chinese roughly level with Pali.
-- **Recent themes (avoid clustering):** self-reflection, mindfulness-of-breathing, loving-kindness, not-self, speech (Days 8–12) on top of friendship, impermanence, non-hatred, four-noble-truths, mind, right-view, overcoming-anger (Days 1–7). Day 13 should avoid all of these; still-open themes: compassion, gratitude, generosity, contentment, patience-as-its-own-card, joy/muditā.
-- **Freshness (Days 8–12):** all five are fresh, lesser-known picks — none from the presumed-used greatest-hits in [`previously-used.md`](previously-used.md). Days 1–7 still contain greatest-hits (Dhp 1/5/223/328) flagged for re-pick once the real used-list is imported.
+- **Canon mix so far (17 days):** Pali 10 · Chinese Āgama 6 · Tibetan Kangyur 1 → **Tibetan is finally on the board** (Day 17, Toh 282), now that the bo-toh Kangyur sources have paired 84000 reference translations (84000 used as reference only — CC BY-NC-ND — with our own translation from the Public Domain Degé source). Pali still leads; the next several openings should favour **Tibetan Kangyur and Chinese (Madhyama Āgama)** to close the gap. Note: the grounded Saṁyukta Āgama (Patton) set is mostly doctrinal/aggregate material — poor daily-card candidates — so warm-theme picks have leaned Pali; Madhyama Āgama (MĀ) and the Kangyur sūtras are the better non-Pali sources for accessible themes.
+- **Recent themes (avoid clustering):** generosity, patience, effort, peace-of-a-good-heart, threefold-training (Days 13–17) on top of Days 1–12 (friendship, impermanence, non-hatred, four-noble-truths, mind, right-view, overcoming-anger, self-reflection, mindfulness-of-breathing, loving-kindness, not-self, speech). Day 18 should avoid all of these; still-open themes: compassion (karuṇā), gratitude, contentment, sympathetic joy (muditā), equanimity (upekkhā), truthfulness, heedfulness-of-death (sober, space it).
+- **Freshness (Days 8–17):** all fresh, lesser-known picks — none from the presumed-used greatest-hits in [`previously-used.md`](previously-used.md). Days 1–7 still contain greatest-hits (Dhp 1/5/223/328) flagged for re-pick once the real used-list is imported.
+- **Termbase:** Days 13–17 added locked rows for *puñña, cetovimutti* (Day 10 fix) and *sīla, samādhi, paññā, khanti, appamāda, ānāpānasati* — bo/mn cells flagged ⚑ for native ratification.
 - **Last occasion verse:** SĀ 379 (Day 4) is tagged Dhamma Day / Āsāḷha Pūjā — reuse on that occasion rather than in normal rotation if the dates align.
 
 ## Convention
