@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-009-breath-sa803.md",
+                "file": "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-012-speech-dhp100.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-009-breath-sa803"
+              "title": "day-012-speech-dhp100"
             }
           }
         ]
@@ -198,6 +198,15 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-013-generosity-iti26.md",
+    "2-RAILS/Verses/toh-282.md",
+    "2-RAILS/Verses/ma-16.md",
+    "2-RAILS/Verses/dhp-25.md",
+    "2-RAILS/Verses/dhp-320.md",
+    "2-RAILS/Verses/iti-26.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-011-not-self-sa33.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-010-loving-kindness-iti27.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-009-breath-sa803.md",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Prompts/example-expert.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
@@ -207,11 +216,8 @@
     "gemini-scribe/Background-Tasks",
     "gemini-scribe/Agent-Sessions",
     "gemini-scribe",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-010-loving-kindness-iti27.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-012-speech-dhp100.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-011-not-self-sa33.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-008-self-reflection-dhp50.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-009-breath-sa803.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-007-anger-dhp223.md",
     "2-RAILS/Verses/sa-33.md",
     "2-RAILS/Verses/iti-27.md",
@@ -226,13 +232,7 @@
     "2-RAILS/Verses/sa-770.md",
     "2-RAILS/Verses/sa-379.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-001-friendship-dhp328.md",
-    "4-SYSTEM/Skills/verse-selection/SKILL.md",
     "4-SYSTEM/Skills/verse-selection",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md",
-    "3-TRANSFORMATIONS/About Transformations.md",
-    "4-SYSTEM/Guidelines/why-rails.md",
-    "4-SYSTEM/CLAUDE.md",
-    "4-SYSTEM/Skills/translation-qa",
-    "0-INBOX/_deprecated-plan-streams/zh/days"
+    "4-SYSTEM/Skills/translation-qa"
   ]
 }

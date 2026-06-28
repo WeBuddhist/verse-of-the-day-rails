@@ -62,6 +62,11 @@ Two different words, two different renderings — don't conflate:
 | nibbāna (liberation) | nibbāna, liberation | 涅槃 | མྱ་ངན་ལས་འདས་པ | निर्वाण | निर्वाण | нирвана |
 | puñña (merit) | merit, making merit | 福德 / 作福 | བསོད་ནམས | पुण्य | पुण्य | буян |
 | cetovimutti (heart's release) | heart's release, liberation of mind | 心解脫 | སེམས་རྣམ་གྲོལ / རྣམ་གྲོལ | चित्त-विमुक्ति | चित्त-विमुक्ति | сэтгэлийн чөлөөлөл ⚑ |
+| sīla (ethics) | ethics, moral conduct | 戒 / 戒律 | ཚུལ་ཁྲིམས | शील | शील | ёс журам / шагшаабад ⚑ |
+| samādhi (concentration) | concentration, meditative stillness | 定 / 三摩地 | ཏིང་ངེ་འཛིན | समाधि | समाधि | самади ⚑ |
+| paññā (wisdom) | wisdom | 慧 / 智慧 | ཤེས་རབ | प्रज्ञा | प्रज्ञा | билиг ухаан ⚑ |
+| khanti (patience) | patience, endurance | 忍 / 忍辱 | བཟོད་པ | क्षमा / सहनशीलता | धैर्य / सहनशीलता | тэвчээр ⚑ |
+| appamāda (diligence) | diligence, heedfulness | 不放逸 | བག་ཡོད | अप्रमाद | अप्रमाद | сэрэмж ⚑ |
 
 ## Brahmavihāras (the four; the "grow" themes)
 
