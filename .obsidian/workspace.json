@@ -198,6 +198,15 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
+    "gemini-scribe/Prompts/example-expert.md",
+    "gemini-scribe/Scheduled-Tasks/Runs",
+    "gemini-scribe/Scheduled-Tasks",
+    "gemini-scribe/Skills",
+    "gemini-scribe/Prompts",
+    "gemini-scribe/Background-Tasks",
+    "gemini-scribe/Agent-Sessions",
+    "gemini-scribe",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-010-loving-kindness-iti27.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-012-speech-dhp100.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-011-not-self-sa33.md",
@@ -223,16 +232,7 @@
     "3-TRANSFORMATIONS/About Transformations.md",
     "4-SYSTEM/Guidelines/why-rails.md",
     "4-SYSTEM/CLAUDE.md",
-    "4-SYSTEM/Skills/translation-qa/SKILL.md",
     "4-SYSTEM/Skills/translation-qa",
-    "3-TRANSFORMATIONS/Translations/About Translations.md",
-    "0-INBOX/_deprecated-plan-streams/zh/days",
-    "0-INBOX/_deprecated-plan-streams/ne/days",
-    "0-INBOX/_deprecated-plan-streams/mn/days",
-    "0-INBOX/_deprecated-plan-streams/hi/days",
-    "0-INBOX/_deprecated-plan-streams/en/days",
-    "0-INBOX/_deprecated-plan-streams/bo/days",
-    "0-INBOX/_deprecated-plan-streams/zh",
-    "0-INBOX/_deprecated-plan-streams/ne"
+    "0-INBOX/_deprecated-plan-streams/zh/days"
   ]
 }
