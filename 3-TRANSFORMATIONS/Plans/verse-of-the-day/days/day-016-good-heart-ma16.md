@@ -21,22 +21,22 @@ review_status: { en: pending, zh: pending, bo: pending, hi: pending, ne: pending
 > Rail: [[2-RAILS/Verses/ma-16]] · Source: [[1-SOURCES/Text/zh-madhyama-agama.md#^ma16-0]] · License: **CC BY-NC-SA** (CBETA source) · translation Patton CC0
 
 ## Source (Chinese, distilled)
-> 離貪、瞋、害心，以慈心遍滿一切方。如是現世即住於無怨之安樂，後世如何亦無所畏。
+> 心離貪、瞋、害意，當下即住於無怨之安樂，無所畏懼。
 > *(distilled from MĀ 16, the four "peaceful dwelling places"; the Chinese version differs from the Pali "free inquiry" framing)*
 
 ## Renderings
 
-**en** — Let go of greed, hatred, and ill-will, and dwell with a heart of goodwill toward all. Then here and now you live at peace, free of enmity, and whatever may come, you have nothing to fear.
+**en** — A heart free of greed, hatred, and ill-will rests at peace here and now, with nothing to fear.
 
-**zh** — 放下貪婪、瞋恨與害心，以慈善之心遍待一切。如此，當下你便安住於無怨的安樂之中；無論來世如何，亦無所畏懼。
+**zh** — 心離貪、瞋、害意，當下即安住於無怨的安樂，無所畏懼。
 
-**bo** — ཆགས་སྡང་དང་གནོད་སེམས་སྤངས་ནས། ཀུན་ལ་ཕན་སེམས་ཀྱིས་གནས་ན། ད་ལྟ་ཉིད་དུ་ཁྲོ་འཁོན་མེད་པའི་ཞི་བདེར་གནས་ཤིང་། ཕྱི་མ་ཅི་འབྱུང་ཡང་འཇིགས་པ་མེད་དོ། །
+**bo** — ཆགས་སྡང་གནོད་སེམས་དང་བྲལ་བའི་སེམས་ནི། ད་ལྟ་ཉིད་དུ་ཞི་བདེར་གནས་ཤིང་འཇིགས་པ་མེད་དོ། །
 
-**hi** — लोभ, द्वेष और दुर्भावना को छोड़कर सबके प्रति सद्भावपूर्ण हृदय से रहो। तब यहीं और अभी तुम वैररहित शांति में रहते हो, और चाहे जो हो, तुम्हें कोई भय नहीं।
+**hi** — लोभ, द्वेष और दुर्भावना से रहित हृदय यहीं और अभी शांति में रहता है, और उसे कोई भय नहीं।
 
-**ne** — लोभ, द्वेष र दुर्भावना त्यागेर सबैप्रति सद्भावपूर्ण हृदयले बस। तब यहीँ र अहिले तिमी वैररहित शान्तिमा बस्छौ, र जे भए पनि तिमीलाई कुनै भय हुँदैन।
+**ne** — लोभ, द्वेष र दुर्भावनारहित हृदय यहीँ र अहिले शान्तिमा रहन्छ, र त्यसलाई कुनै भय हुँदैन।
 
-**mn** — Шунал, үзэн ядалт, хорслыг орхиж, бүгдэд хандах энэрэнгүй сэтгэлээр амьдар. Тэгвэл яг одоо чи өшөө хорсолгүй амар амгалан амьдарч, юу ч тохиолдсон айх зүйлгүй болно.
+**mn** — Шунал, үзэн ядалт, хорслоос ангид сэтгэл яг одоо амар амгалан оршиж, айх зүйлгүй.
 
 ## Pre-review QA
 - **Grounding note** ✓ rendered from MĀ 16's actual content (the four solaces / peace of a heart free of ill-will), **not** the Pali "do not go by tradition" framing, which is absent from the Chinese version. Flagged in the rail.

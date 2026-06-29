@@ -21,21 +21,21 @@ review_status: { en: pending, zh: pending, bo: pending, hi: pending, ne: pending
 > Rail: [[2-RAILS/Verses/iti-26]] · Source: [[1-SOURCES/Text/pi-itivuttaka.md#^iti26-0]] · License: **CC0**
 
 ## Source (Pāli, distilled)
-> If beings knew, as the great sage knows, the fruit of giving and sharing, they would not eat without first sharing, and the stain of stinginess would not occupy their minds.
+> If beings knew the fruit of giving as the great sage does, they would not eat without first sharing.
 
 ## Renderings
 
-**en** — If people only knew, as the Buddha did, the fruit of giving and sharing, they would not eat a single meal without first sharing it, and no stain of stinginess would hold their hearts.
+**en** — If we truly knew the fruit of giving, we would never eat a single meal without first sharing it.
 
-**zh** — 倘若眾生能如佛陀所知，明白布施與分享的果報，便不會在未曾分享之前獨自進食，慳吝之垢也不會盤踞於心。
+**zh** — 若真知布施的果報，我們便不會在未曾分享之前獨自進食。
 
-**bo** — གལ་ཏེ་སེམས་ཅན་རྣམས་ཀྱིས་སངས་རྒྱས་ཀྱིས་མཁྱེན་པ་ལྟར། སྦྱིན་པ་དང་མཉམ་སྤྱོད་ཀྱི་འབྲས་བུ་ཤེས་ན། སྦྱིན་པ་མ་བྱས་པར་ཟས་གཅིག་ཀྱང་མི་ཟ་ཞིང་། སེར་སྣའི་དྲི་མས་སེམས་ཟིན་པར་མི་འགྱུར།
+**bo** — སྦྱིན་པའི་འབྲས་བུ་བདེན་པར་ཤེས་ན། མ་བགོས་པར་ཟས་གཅིག་ཀྱང་མི་ཟ།
 
-**hi** — यदि लोग, जैसा बुद्ध जानते थे, दान और बाँटने का फल जान लें, तो वे बिना बाँटे एक कौर भी न खाएँ, और कंजूसी का मैल उनके मन को न जकड़े।
+**hi** — यदि हम दान का फल सचमुच जान लें, तो बिना बाँटे एक कौर भी न खाएँ।
 
-**ne** — यदि मानिसहरूले, बुद्धले जानेझैँ, दान र बाँडचुँडको फल जान्थे भने, तिनीहरू नबाँडी एक गाँस पनि खाँदैनथे, र कन्जुस्याइँको मैलले मन समात्दैनथ्यो।
+**ne** — यदि हामीले दानको फल साँच्चै जान्यौं भने, नबाँडी एक गाँस पनि खाँदैनौं।
 
-**mn** — Хэрэв хүмүүс Буддагийн мэдсэн шиг өглөг, хуваалцахын үр шимийг мэдсэн бол хуваалцалгүйгээр нэг ч удаа хооллохгүй, харамчлалын бузар сэтгэлийг нь эзлэхгүй байх байсан.
+**mn** — Хэрэв бид өглөгийн үр шимийг үнэхээр мэдсэн бол хуваалцалгүйгээр нэг ч удаа хооллохгүй байх байсан.
 
 ## Pre-review QA
 - **Terminology** ✓ *dāna* rendered with the locked term (giving / 布施 / སྦྱིན་པ / दान / दान / өглөг); *macchariya* as stinginess (慳吝 / སེར་སྣ / कंजूसी / कन्जुस्याइँ / харамчлал).
