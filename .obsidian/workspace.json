@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md",
+                "file": "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-004-fournobletruths-sa379.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "termbase"
+              "title": "day-004-fournobletruths-sa379"
             }
           }
         ]
@@ -197,7 +197,12 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-005-mind-dhp1.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-001-friendship-dhp328.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-002-impermanence-sa1.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-003-nonhatred-dhp5.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-004-fournobletruths-sa379.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-022-wholesome-action-iti22.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-021-truthfulness-dhp224.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-020-contentment-dhp200.md",
@@ -218,12 +223,7 @@
     "2-RAILS/Verses/ma-16.md",
     "2-RAILS/Verses/dhp-25.md",
     "2-RAILS/Verses/dhp-320.md",
-    "2-RAILS/Verses/iti-26.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-011-not-self-sa33.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-010-loving-kindness-iti27.md",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-009-breath-sa803.md",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
-    "gemini-scribe/Prompts/example-expert.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Scheduled-Tasks",
     "gemini-scribe/Skills",
