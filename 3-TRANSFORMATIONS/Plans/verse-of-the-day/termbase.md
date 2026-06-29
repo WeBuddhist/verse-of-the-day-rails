@@ -67,6 +67,7 @@ Two different words, two different renderings — don't conflate:
 | paññā (wisdom) | wisdom | 慧 / 智慧 | ཤེས་རབ | प्रज्ञा | प्रज्ञा | билиг ухаан ⚑ |
 | khanti (patience) | patience, endurance | 忍 / 忍辱 | བཟོད་པ | क्षमा / सहनशीलता | धैर्य / सहनशीलता | тэвчээр ⚑ |
 | appamāda (diligence) | diligence, heedfulness | 不放逸 | བག་ཡོད | अप्रमाद | अप्रमाद | сэрэмж ⚑ |
+| santuṭṭhi (contentment) | contentment | 知足 | ཆོག་ཤེས | संतोष | सन्तोष | ханамж ⚑ |
 
 ## Brahmavihāras (the four; the "grow" themes)
 
