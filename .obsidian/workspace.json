@@ -11,10 +11,14 @@
             "id": "d066ca5c15f520a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "termbase"
             }
           }
         ]
@@ -191,8 +195,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-001-friendship-dhp328.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-022-wholesome-action-iti22.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-021-truthfulness-dhp224.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-020-contentment-dhp200.md",
@@ -226,7 +231,6 @@
     "gemini-scribe/Background-Tasks",
     "gemini-scribe/Agent-Sessions",
     "gemini-scribe",
-    "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-008-self-reflection-dhp50.md",
     "4-SYSTEM/Skills/verse-selection",
     "4-SYSTEM/Skills/translation-qa"
   ]
