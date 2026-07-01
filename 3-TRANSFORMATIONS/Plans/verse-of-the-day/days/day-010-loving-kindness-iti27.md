@@ -21,7 +21,8 @@ review_status:
 # Day 10 — Loving-Kindness (Iti 27)
 
 Rail: [[2-RAILS/Verses/iti-27]] · grounded in Sujato (CC0).
-Meaning targeted: *of all grounds for making worldly merit, none is worth a sixteenth part of the heart's release by love (mettā cetovimutti); surpassing them all, it shines and glows and radiates — as the moon outshines the stars.* The card keeps the moon/stars simile and drops the autumn-sun and morning-star similes (repetition).
+**Rendered from the sutta's concluding gāthā (^iti27-9-1–9-3), not the prose.** The verse is self-contained and keeps both the "sixteenth part" incomparability and the moon/starlight simile, so the card is a real quote in full rather than a heavy distillation of the repeated prose similes.
+Sujato's verse: *"These are not worth a sixteenth part / of the mind developed with love, / as starlight cannot rival the moon."*
 
 ## Source (Pāli / Itivuttaka)
 
@@ -29,45 +30,43 @@ Meaning targeted: *of all grounds for making worldly merit, none is worth a sixt
 
 ## Renderings (one short line each)
 
-- **en** — No worldly merit matches a heart freed by love. Like the moon among the stars, it shines and glows and radiates.
-- **zh** — 一切世間福德，皆不及慈心解脫之一分；如月勝眾星，光明遍照。
-- **bo** — ⚑ འཇིག་རྟེན་གྱི་བསོད་ནམས་ཀུན་གྱིས་བྱམས་པའི་སེམས་རྣམ་གྲོལ་གྱི་ཆ་ཙམ་ཡང་མི་ཕོད། སྐར་མ་ལས་ཟླ་བ་ལྟར་འོད་ཟེར་འཕྲོ།
-- **hi** — संसार के सारे पुण्य मिलकर भी प्रेम से मुक्त हुए हृदय (मैत्री) के एक अंश के बराबर नहीं; तारों के बीच चन्द्रमा की तरह वह चमकता और दमकता है।
-- **ne** — संसारका सबै पुण्य मिलेर पनि प्रेमले मुक्त भएको हृदय (मैत्री)को एक अंश बराबर हुँदैन; ताराहरूका बीच चन्द्रमाझैँ त्यो चम्किन्छ र उज्यालो दिन्छ।
-- **mn** — ⚑ Хорвоогийн бүх буян ч хайраар чөлөөлөгдсөн сэтгэлийн арван зургааны нэгд хүрэхгүй; одод дундах сар мэт гэрэлтэж туяарна.
+- **en** — No other merit is worth a sixteenth part of a heart developed with love, as starlight cannot rival the moon.
+- **zh** — 一切福德皆不及以慈修心之十六分之一，猶如星光不敵月明。
+- **bo** — ⚑ བསོད་ནམས་གཞན་ཀུན་གྱིས་བྱམས་པས་བསྒོམས་པའི་སེམས་ཀྱི་ཆ་བཅུ་དྲུག་ཆ་གཅིག་ཙམ་ཡང་མི་ཕོད། སྐར་མའི་འོད་ཀྱིས་ཟླ་བ་དང་འགྲན་མི་ནུས་པ་བཞིན།
+- **hi** — प्रेम से भावित हृदय के सोलहवें भाग के बराबर भी कोई अन्य पुण्य नहीं, जैसे तारों का प्रकाश चन्द्रमा की बराबरी नहीं कर सकता।
+- **ne** — प्रेमले भावित हृदयको सोह्रौँ भागको बराबर पनि अरू कुनै पुण्य हुँदैन, जसरी ताराको प्रकाशले चन्द्रमाको बराबरी गर्न सक्दैन।
+- **mn** — ⚑ Хайраар хөгжүүлсэн сэтгэлийн арван зургааны нэгд ч өөр ямар ч буян хүрэхгүй, оддын гэрэл сарыг гүйцэхгүйн адил.
 
 ## QA — pre-review (against 2-RAILS/Verses/iti-27.md)
 
 ### en
-- Back-translation: "No worldly merit equals a heart freed by love. Like the moon among the stars, it shines and glows and radiates."
-- Findings: none critical. "Sixteenth part" simplified to "matches/equals" for the card (the rail's emphasis is incomparability) — meaning preserved; reviewer may want "a sixteenth" kept. *mettā cetovimutti* → "a heart freed by love" (heart's release, termbase ✓). Moon/stars simile kept; "shines and glows and radiates" matches Sujato. No em dash ✓.
+- Back-translation: "No other merit is worth a sixteenth part of a heart developed with love, as starlight cannot rival the moon."
+- Findings: none critical. Now models the gāthā (^iti27-9) closely: keeps "a sixteenth part" and the starlight/moon simile — no material dropped (fixes the earlier over-condensed draft). *mettā* = "developed with love"; "merit" = puñña. No em dash ✓.
 - Net: clean for review.
 
 ### zh (Traditional)
-- Back-translation: "All worldly merit does not equal a fraction of the liberation-by-loving-kindness; like the moon surpassing the stars, its light shines everywhere."
-- Findings: 慈心解脫 = *mettā cetovimutti* (慈 + 心解脫, termbase ✓); 如月勝眾星 keeps the simile. Traditional ✓.
-- Confidence flags: 光明遍照 paraphrases "shines and glows and radiates" into one phrase — acceptable, reviewer may expand.
+- Back-translation: "All merit is not worth one sixteenth part of a mind cultivated with loving-kindness, just as starlight cannot match the bright moon."
+- Findings: 慈修心 (mettā-developed mind), 十六分之一 (sixteenth part), 星光不敵月明 (starlight/moon) all preserved ✓. Traditional ✓.
 - Net: clean for review.
 
 ### hi
-- Back-translation: "Even all the merit of the world together does not equal a fraction of a heart freed by love (mettā); like the moon among the stars it shines and glows."
-- Findings: मैत्री = *mettā* (termbase ✓); moon/stars simile kept; incomparability preserved.
-- Confidence flags: gloss "(मैत्री)" inline — may be dropped for the card.
+- Back-translation: "No other merit equals even a sixteenth part of a heart cultivated with love, just as the light of stars cannot equal the moon."
+- Findings: सोलहवें भाग (sixteenth), tārā/chandramā simile preserved; प्रेम for mettā, पुण्य for merit ✓.
 - Net: clean for review.
 
 ### ne
-- Back-translation: "Even all the world's merit together does not equal a fraction of a heart freed by love (mettā); like the moon among the stars it shines and gives light."
-- Confidence flags: मैत्री gloss; उज्यालो दिन्छ vs a verb closer to "radiates."
+- Back-translation: "No other merit equals even a sixteenth part of a heart cultivated with love, just as starlight cannot match the moon."
+- Confidence flags: सोह्रौँ भाग phrasing; भावित register.
 - Net: needs native review.
 
 ### bo ⚑
-- Back-translation (approx): "All the merit of the world does not reach even a fraction of the love-liberation of mind; like the moon beyond the stars, it radiates light."
-- Findings: བྱམས་པ = *mettā*, སེམས་རྣམ་གྲོལ = heart's release (termbase ⚑); བསོད་ནམས = merit; moon/stars simile kept.
-- Confidence flags: exact form of cetovimutti; "shines and glows and radiates" condensed to འོད་ཟེར་འཕྲོ.
+- Back-translation (approx): "No other merit reaches even a sixteenth part of a mind cultivated with love, just as starlight cannot compete with the moon."
+- Findings: བྱམས་པ = mettā, ཆ་བཅུ་དྲུག (sixteenth part), star/moon simile preserved; བསོད་ནམས = merit.
+- Confidence flags: ཆ་བཅུ་དྲུག་ཆ་གཅིག construction; འགྲན་མི་ནུས phrasing.
 - Net: escalate to native Tibetan dharma reviewer.
 
 ### mn ⚑
-- Back-translation (approx): "Even all the world's merit does not reach a sixteenth of a mind freed by love; like the moon among the stars it shines and radiates."
-- Findings: keeps incomparability + moon/stars simile; буян = merit; love-liberation rendered descriptively (termbase mettā row энэрэл хайр is ⚑).
-- Confidence flags: term for mettā and cetovimutti both unratified.
+- Back-translation (approx): "No other merit reaches even a sixteenth of a mind cultivated with love, just as starlight cannot catch the moon."
+- Findings: keeps sixteenth part + star/moon simile; буян = merit; mettā rendered as хайр (termbase энэрэл хайр ⚑).
+- Confidence flags: term for mettā; арван зургааны нэг phrasing.
 - Net: escalate to native Mongolian dharma reviewer.
