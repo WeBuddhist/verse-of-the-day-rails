@@ -15,7 +15,7 @@ off + all six renderings reviewed, ready/published.
 | 2026-06-24 | 1 | Dhp 328 | Pali | friendship | lonely, loving-kindness, hopeful | [[days/day-001-friendship-dhp328]] | draft |
 | 2026-06-25 | 2 | SĀ 1 | Chinese Āgama | impermanence | grieving, craving, equanimity | [[days/day-002-impermanence-sa1]] | draft |
 | 2026-06-26 | 3 | Dhp 5 | Pali | non-hatred | angry, resentful, loving-kindness | [[days/day-003-nonhatred-dhp5]] | draft |
-| 2026-06-27 | 4 | SĀ 379 | Chinese Āgama | four-noble-truths | doubtful, aspiration, hopeful | [[days/day-004-fournobletruths-sa379]] | draft |
+| 2026-06-27 | 4 | SĀ 379 | Chinese Āgama | four-noble-truths | doubtful, aspiration, hopeful | [[days/day-004-fournobletruths-sa379]] | ⛔ blocked — no single-sentence quote (needs T210) |
 | 2026-06-28 | 5 | Dhp 1 | Pali | mind | overwhelmed, restless, hopeful | [[days/day-005-mind-dhp1]] | draft |
 | 2026-06-29 | 6 | SĀ 770 | Chinese Āgama | right-view | doubtful, hopeful, aspiration | [[days/day-006-rightview-sa770]] | draft |
 | 2026-06-30 | 7 | Dhp 223 | Pali | overcoming-anger | angry, irritated, patience | [[days/day-007-anger-dhp223]] | draft |
@@ -30,7 +30,7 @@ off + all six renderings reviewed, ready/published.
 | 2026-07-09 | 16 | Dhp 39 | Pali | peace-of-a-good-heart | anxious, afraid, doubtful | [[days/day-016-good-heart-dhp39]] | draft |
 | 2026-07-10 | 17 | Toh 282 | Tibetan Kangyur | threefold-training | aspiration, overwhelmed, hopeful | [[days/day-017-threefold-training-toh282]] | draft |
 | 2026-07-11 | 18 | Dhp 81 | Pali | equanimity | overwhelmed, proud, equanimity | [[days/day-018-equanimity-dhp81]] | draft |
-| 2026-07-12 | 19 | Toh 323 | Tibetan Kangyur | homage-to-the-buddha | grateful, hopeful, aspiration | [[days/day-019-homage-toh323]] | draft |
+| 2026-07-12 | 19 | Toh 323 | Tibetan Kangyur | homage-to-the-buddha | grateful, hopeful, aspiration | [[days/day-019-homage-toh323]] | ⛔ blocked — praise of Buddha, not his words (needs Udānavarga/Toh 326) |
 | 2026-07-13 | 20 | Dhp 200 | Pali | contentment | overwhelmed, discontent, grateful | [[days/day-020-contentment-dhp200]] | draft |
 | 2026-07-14 | 21 | Dhp 224 | Pali | truthfulness | angry, hopeful, aspiration | [[days/day-021-truthfulness-dhp224]] | draft |
 | 2026-07-15 | 22 | Iti 22 | Pali | wholesome-action | hopeful, aspiration, discouraged | [[days/day-022-wholesome-action-iti22]] | draft |

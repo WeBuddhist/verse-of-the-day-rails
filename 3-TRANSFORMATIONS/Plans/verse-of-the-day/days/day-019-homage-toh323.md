@@ -8,20 +8,22 @@ speaks_to: [grateful, hopeful, aspiration]
 occasions: []
 source_rail: 2-RAILS/Verses/toh-323.md
 context_packages: [2-RAILS/Verses/toh-323.md]
-status: draft
+status: blocked-noncompliant
+blocked_reason: "Violates the 'spoken by the Buddha' rule — Toh 323 is a stanza in PRAISE of the Buddha, containing no words of the Buddha himself. Cannot be salvaged from this source. Awaiting a short Buddha-spoken Tibetan verse (Udānavarga / Toh 326 import). DO NOT SHIP."
 review_status:
-  en: clean-for-review
-  zh: clean-for-review
-  hi: clean-for-review
-  ne: needs-native-review
-  bo: escalate-native-review
-  mn: escalate-native-review
+  en: blocked
+  zh: blocked
+  hi: blocked
+  ne: blocked
+  bo: blocked
+  mn: blocked
 ---
 
-# Day 19 — Homage to the Buddha (Toh 323)
+# Day 19 — Homage to the Buddha (Toh 323) — ⛔ BLOCKED
+
+> **⛔ BLOCKED — does not meet the rules; do not ship.** Toh 323 ("The Single Stanza") is **praise *of* the Buddha**, spoken about him — it contains no words *of* the Buddha. That fails the "quotes from the Buddha, not about him" gate (`selection-criteria.md` §1 gate 1). It cannot be fixed by re-quoting this source. **Left open per Evan (2026-07):** await the Tibetan Udānavarga (*Ched du brjod pa'i tshoms*, Toh 326) import to supply a short, Buddha-spoken Tibetan verse for this slot (theme may change from homage). The full-stanza rendering below is retained only as a record — **not for publication.**
 
 Rail: [[2-RAILS/Verses/toh-323]] · **own translation from the Degé Kangyur (Public Domain)**; 84000 English cited as reference only (CC BY-NC-ND, not excerpted).
-"The Single Stanza" (*Ekagāthā*) — a whole one-stanza sūtra, now **rendered in full with its complete enumeration** (the earlier draft condensed the list of places; under the no-distillation rule the full stanza is kept intact).
 
 ## Source (Tibetan / Degé Kangyur — Public Domain)
 

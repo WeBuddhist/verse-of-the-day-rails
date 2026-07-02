@@ -8,20 +8,22 @@ speaks_to: [doubtful, aspiration, hopeful]
 occasions: [asalha-puja, dhamma-day]
 source_rail: 2-RAILS/Verses/sa-379.md
 context_packages: [2-RAILS/Verses/sa-379.md]
-status: draft
+status: blocked-noncompliant
+blocked_reason: "Violates the no-distillation rule — the four truths only exist across four separate sentences in SĀ 379; rendering them as one is stitching. No compliant single-sentence Buddha quote in this source. Awaiting a short Buddha-spoken verse (e.g. from T210 Chinese Dharmapada) or a decision to swap. DO NOT SHIP."
 review_status:
-  en: clean-for-review
-  zh: clean-for-review
-  hi: clean-for-review
-  ne: needs-native-review
-  bo: escalate-native-review
-  mn: escalate-native-review
+  en: blocked
+  zh: blocked
+  hi: blocked
+  ne: blocked
+  bo: blocked
+  mn: blocked
 ---
 
-# Day 4 — The Four Noble Truths (SĀ 379)
+# Day 4 — The Four Noble Truths (SĀ 379) — ⛔ BLOCKED
+
+> **⛔ BLOCKED — does not meet the rules; do not ship.** SĀ 379 is the "Turning the Dharma Wheel" discourse. The four noble truths are stated across four separate sentences, so any single-card rendering would either **summarise** the discourse or **stitch** the four truths together — both forbidden by the no-distillation rule (`selection-criteria.md` §1 gate 6, §2). There is no compliant self-contained single sentence in this source. **Left open per Evan (2026-07):** await the T210 Chinese Dharmapada import (which has short four-truths / path verses) or a later decision to swap. The distilled renderings below are retained only as a record of the earlier draft — **not for publication.**
 
 Rail: [[2-RAILS/Verses/sa-379]] · grounded in Patton (CC0).
-SĀ 379 is the Chinese "Turning the Dharma Wheel" (first sermon). It is a long discourse — per the rail and `selection-criteria.md` §2, the card distils the practical fourfold core (the four action verbs), labelled honestly as the essence, not a verbatim line. Natural verse for **Dhamma Day / Āsāḷha Pūjā**.
 
 ## Source (Literary Chinese)
 
