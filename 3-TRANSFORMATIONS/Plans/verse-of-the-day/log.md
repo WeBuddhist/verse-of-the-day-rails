@@ -22,7 +22,7 @@ off + all six renderings reviewed, ready/published.
 | 2026-07-01 | 8 | Dhp 50 | Pali | self-reflection | resentful, overwhelmed, equanimity | [[days/day-008-self-reflection-dhp50]] | draft |
 | 2026-07-02 | 9 | SĀ 803 | Chinese Āgama | mindfulness-of-breathing | anxious, restless, overwhelmed | [[days/day-009-breath-sa803]] | draft |
 | 2026-07-03 | 10 | Iti 27 | Pali | loving-kindness | lonely, grieving, loving-kindness | [[days/day-010-loving-kindness-iti27]] | draft |
-| 2026-07-04 | 11 | SĀ 33 | Chinese Āgama | not-self | grasping, afraid, equanimity | [[days/day-011-not-self-sa33]] | draft |
+| 2026-07-04 | 11 | Dhp 62 | Pali | not-self | grasping, overwhelmed, equanimity | [[days/day-011-not-self-dhp62]] | draft |
 | 2026-07-05 | 12 | Dhp 100 | Pali | speech | overwhelmed, restless, hopeful | [[days/day-012-speech-dhp100]] | draft |
 | 2026-07-06 | 13 | Iti 26 | Pali | generosity | grasping, hopeful, grateful | [[days/day-013-generosity-iti26]] | draft |
 | 2026-07-07 | 14 | Dhp 320 | Pali | patience | angry, irritated, patience | [[days/day-014-patience-dhp320]] | draft |
@@ -41,6 +41,7 @@ off + all six renderings reviewed, ready/published.
 - **Themes — no back-to-back repeats only.** Day 22's theme was **wholesome-action**, so Day 23 just needs a *different* theme from that one; everything earlier is open to reuse (themes may recur after a gap — see `selection-criteria.md` §3). Recent run for reference (Days 18–22): equanimity, homage-to-the-buddha, contentment, truthfulness, wholesome-action. Still-uncovered themes worth surfacing: compassion (karuṇā), gratitude, sympathetic joy (muditā), kindness / harmlessness, restraint of the senses.
 - **Material dedupe (always):** themes may repeat, but never the same *verse / source*. Checked Days 18–22 against `log.md`, `previously-used.md`, rails, and day cards — all five are new material (Dhp 81, Toh 323, Dhp 200, Dhp 224, Iti 22), none greatest-hits.
 - **Freshness (Days 8–17):** all fresh, lesser-known picks — none from the presumed-used greatest-hits in [`previously-used.md`](previously-used.md). Days 1–7 still contain greatest-hits (Dhp 1/5/223/328) flagged for re-pick once the real used-list is imported.
+- **Day 11 swap (2026-07):** SĀ 33 (Chinese Āgama, not-self) was **replaced by Dhp 62** (Pali, not-self) — SĀ 33 is a prose discourse that forced heavy distillation, and per the "prefer short verses over heavy editing" rule we chose a short single verse rendered in full. **Canon cost:** this drops Chinese by one and adds Pali (mix is now Pali-heavier than the count above states — recount when reconciling). A Chinese slot is now *owed*; prioritise the **T210 Chinese Dharmapada import** so a short Chinese verse can take a near-term opening. Theme (not-self) and freshness preserved (Dhp 62 is not a greatest-hit).
 - **Termbase:** Days 13–17 added locked rows for *puñña, cetovimutti* (Day 10 fix) and *sīla, samādhi, paññā, khanti, appamāda, ānāpānasati* — bo/mn cells flagged ⚑ for native ratification.
 - **Last occasion verse:** SĀ 379 (Day 4) is tagged Dhamma Day / Āsāḷha Pūjā — reuse on that occasion rather than in normal rotation if the dates align.
 
