@@ -38,7 +38,7 @@ Grounded in the Chinese source and Patton's translation (1-SOURCES/Translations/
 
 The Buddha, at Sāvatthī, tells the monks: contemplate form (*rūpa* / 色) as impermanent (無常). To see it so is right contemplation; right contemplation gives rise to disenchantment (厭離); with disenchantment, delight-and-greed (喜貪) is exhausted; the exhaustion of delight-and-greed is called liberation of the mind (心解脫). The same is to be contemplated for feeling, perception, formations, and consciousness — and likewise as suffering, empty, and not-self.
 
-- This is a short prose discourse, not a verse. For verse of the day, the usable pith is the chain: *impermanent → disenchantment → fading of greed → liberation of mind.* A rendering should keep that causal sequence intact.
+- This is a short prose discourse, not a verse. **Under the no-distillation rule the card does NOT summarise the chain** — it quotes one self-contained sentence verbatim: 「喜貪盡者，說心解脫。」 (Patton: *"When delight and greed have ended, that's said to be the mind's liberation."*). The full impermanence→liberation chain is kept here as the meaning anchor only.
 - 色/受/想/行/識 = the five aggregates; render in each language's standard Buddhist vocabulary (flag for termbase).
 
 ## Theme & Selection Notes
