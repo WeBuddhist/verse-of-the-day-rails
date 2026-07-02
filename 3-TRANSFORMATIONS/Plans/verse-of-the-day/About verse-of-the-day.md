@@ -46,7 +46,7 @@ the log index; say the word to switch to table-only.)*
 - **zh** — **modern Traditional Chinese** for Taiwan / Hong Kong / Singapore (not Simplified/mainland register).
 - **bo / hi / ne / mn** — WeBuddhist's own modern renderings from the rail's meaning; **bo and mn carry the highest risk** and need native dharma-reviewer sign-off.
 - **No em dashes in the English.**
-- **Keep it short — one line per rendering.** The app card has limited space, so each language should be one short sentence (≈ ≤ 20 words / ≤ 120 chars in English, comparably brief elsewhere). Distil prose and multi-part progressions to the single essential line. See the length cap in [`selection-criteria.md`](selection-criteria.md) §2.
+- **Real quote, kept whole — no distillation.** Each rendering is a *full* real quote: a complete verse, or a single self-contained sentence, translated in full. **Never** summarise a passage, stitch partial lines, or reduce a teaching to its "gist" to save space. Keep renderings short by *choosing a short source*, not by cutting — if a source only fits by distilling, don't use it (pick a genuinely short verse instead). Target ≈ ≤ 20 words / ≤ 120 chars in English where the quote allows, but faithfulness wins over the target. See the hard rule in [`selection-criteria.md`](selection-criteria.md) §2.
 - Keep faithful to the original's intent (grammar/structure), not just the gist — see the rail's flagged rendering choices.
 
 ## Rules

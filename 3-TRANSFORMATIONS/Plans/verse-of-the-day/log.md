@@ -27,7 +27,7 @@ off + all six renderings reviewed, ready/published.
 | 2026-07-06 | 13 | Iti 26 | Pali | generosity | grasping, hopeful, grateful | [[days/day-013-generosity-iti26]] | draft |
 | 2026-07-07 | 14 | Dhp 320 | Pali | patience | angry, irritated, patience | [[days/day-014-patience-dhp320]] | draft |
 | 2026-07-08 | 15 | Dhp 25 | Pali | effort | overwhelmed, discouraged, aspiration | [[days/day-015-effort-dhp25]] | draft |
-| 2026-07-09 | 16 | MĀ 16 | Chinese Āgama | peace-of-a-good-heart | anxious, afraid, doubtful | [[days/day-016-good-heart-ma16]] | draft |
+| 2026-07-09 | 16 | Dhp 39 | Pali | peace-of-a-good-heart | anxious, afraid, doubtful | [[days/day-016-good-heart-dhp39]] | draft |
 | 2026-07-10 | 17 | Toh 282 | Tibetan Kangyur | threefold-training | aspiration, overwhelmed, hopeful | [[days/day-017-threefold-training-toh282]] | draft |
 | 2026-07-11 | 18 | Dhp 81 | Pali | equanimity | overwhelmed, proud, equanimity | [[days/day-018-equanimity-dhp81]] | draft |
 | 2026-07-12 | 19 | Toh 323 | Tibetan Kangyur | homage-to-the-buddha | grateful, hopeful, aspiration | [[days/day-019-homage-toh323]] | draft |
@@ -42,6 +42,13 @@ off + all six renderings reviewed, ready/published.
 - **Material dedupe (always):** themes may repeat, but never the same *verse / source*. Checked Days 18–22 against `log.md`, `previously-used.md`, rails, and day cards — all five are new material (Dhp 81, Toh 323, Dhp 200, Dhp 224, Iti 22), none greatest-hits.
 - **Freshness (Days 8–17):** all fresh, lesser-known picks — none from the presumed-used greatest-hits in [`previously-used.md`](previously-used.md). Days 1–7 still contain greatest-hits (Dhp 1/5/223/328) flagged for re-pick once the real used-list is imported.
 - **Day 11 swap (2026-07):** SĀ 33 (Chinese Āgama, not-self) was **replaced by Dhp 62** (Pali, not-self) — SĀ 33 is a prose discourse that forced heavy distillation, and per the "prefer short verses over heavy editing" rule we chose a short single verse rendered in full. **Canon cost:** this drops Chinese by one and adds Pali (mix is now Pali-heavier than the count above states — recount when reconciling). A Chinese slot is now *owed*; prioritise the **T210 Chinese Dharmapada import** so a short Chinese verse can take a near-term opening. Theme (not-self) and freshness preserved (Dhp 62 is not a greatest-hit).
+- **NEW HARD RULES (2026-07):** (a) **real quotes only, no distillation** — a card is a *complete verse* or a *single self-contained sentence* quoted in full, never a summary/stitch/gist (§1 gate 6, §2); (b) **must fit the app card** as a full undistilled quote in all six languages — if it doesn't fit whole, pick a shorter source (§2 length gate); (c) **spoken *by* the Buddha, not *about* him** — no praise/homage-of-the-Buddha stanzas, no words of disciples/gods/kings (§1 gate 1).
+- **Day 16 swap done:** MĀ 16 (Chinese prose distillation) → **Dhp 39** (Pali, full verse), same theme.
+- **CLEANUP OWED — all six non-Pali cards now fail a hard rule and need swapping:**
+  - *Distillation:* Day 2 (SĀ 1), Day 4 (SĀ 379), Day 6 (SĀ 770), Day 9 (SĀ 803) — Chinese Āgama prose summaries.
+  - *Too long:* Day 17 (Toh 282) — full threefold-training passage exceeds the card budget.
+  - *Praise of the Buddha:* Day 19 (Toh 323, "The Single Stanza") — homage *to* the Buddha, not his words.
+- **Root fix — source imports:** the grounded Chinese Āgamas (Patton, prose) and the current Tibetan Kangyur picks yield almost no short Buddha-spoken verses. To keep non-Pali representation under the new rules, import **T210 Chinese Dharmapada** (Chinese short verses) and the **Tibetan Udānavarga / *Ched du brjod pa'i tshoms* (Toh 326)** (Tibetan Dharmapada-equivalent, short Buddha verses). Until then, compliant picks are almost all Pali (Dhammapada / Itivuttaka gāthās).
 - **Termbase:** Days 13–17 added locked rows for *puñña, cetovimutti* (Day 10 fix) and *sīla, samādhi, paññā, khanti, appamāda, ānāpānasati* — bo/mn cells flagged ⚑ for native ratification.
 - **Last occasion verse:** SĀ 379 (Day 4) is tagged Dhamma Day / Āsāḷha Pūjā — reuse on that occasion rather than in normal rotation if the dates align.
 
