@@ -20,7 +20,10 @@ Pipeline position: **`verse-selection` → `verse-rail` → `translation-qa` →
 - **Selection criteria** — `selection-criteria.md`: the hard gates (§1) and the quality + balance rules (§2–3).
 - **Occasions** — `occasions.md`: holiday calendar + the verse themes each calls for.
 - **Discovery-by-feeling** — `discovery-by-feeling.md`: the theme / felt-state set, for coverage.
-- **Corpus** — `1-SOURCES/Text/` (+ paired translations) to pick from.
+- **Corpus** — `1-SOURCES/Text/` (+ paired translations) to pick from. **Draw from the whole corpus, not just the verse collections.** Source pools:
+  - *Verse collections (easiest — whole verse quoted in full):* Dhammapada, Sutta Nipāta, Udāna, Itivuttaka gāthās (Pali, CC0); Chinese Dharmapada 法句經 T210; Tibetan Udānavarga (Toh 326).
+  - *Prose Nikāyas (rich, under-used):* **Dīgha, Majjhima, Saṁyutta, Aṅguttara** (all imported, CC0, paired with Sujato English). Long suttas, but full of **short, self-contained quotable sentences** — e.g. the Kālāma Sutta (AN 3.65), the mind-inclination line (MN 19), the "two people hard to find" (AN 2.31–32), the mettā-benefits (AN 11.15), the simile of the lute, etc. Quote **one self-contained sentence in full** (Sujato), within the card limit; if the natural sentence is too long, pick a shorter one rather than cutting mid-thought. This is the main way to get variety beyond Dhammapada-style verses.
+  - *Chinese Āgamas / Kangyur sūtras (prose):* usable only where a short self-contained sentence exists (most are prose discourses; see the Āgama note in `vault-annex.md`).
 - **Already-used set** — the dedupe key: the log's `source_ref` column, **plus** `previously-used.md` (verses published *before/outside* this vault), **plus** existing rail files in `2-RAILS/Verses/` and cards in `days/`.
 - The **date** to fill (defaults to the next empty slot).
 
