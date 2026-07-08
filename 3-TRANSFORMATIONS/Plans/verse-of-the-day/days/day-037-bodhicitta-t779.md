@@ -21,7 +21,7 @@ review_status:
 # Day 37 — Bodhicitta (佛說八大人覺經 T779)
 
 Rail: [[2-RAILS/Verses/t779-bodhicitta]] · **own translation from the CBETA Chinese source** (CC BY-NC-SA); Mahāyāna.
-Short clause, **quoted in full**. Meaning: rouse the Great-Vehicle mind and vow to help all beings.
+Short clause, **quoted in full**. Meaning: give rise to the awakening mind (bodhicitta) and vow to help all beings. (大乘心 rendered ecumenically as "the awakening mind," not the sectarian "Great Vehicle.")
 
 ## Source (Chinese, T779 — verbatim)
 
@@ -29,18 +29,18 @@ Short clause, **quoted in full**. Meaning: rouse the Great-Vehicle mind and vow 
 
 ## Renderings (one short line each)
 
-- **en** — Give rise to the Great Vehicle mind, and vow to bring relief to all beings.
+- **en** — Give rise to the awakening mind, and vow to bring relief to all beings.
 - **zh** — 發大乘心，普濟一切。
-- **bo** — ⚑ ཐེག་ཆེན་གྱི་སེམས་བསྐྱེད་དེ། སེམས་ཅན་ཐམས་ཅད་ཡོངས་སུ་སྐྱོབ་པར་བྱ།
-- **hi** — महायान-चित्त उत्पन्न करो, और सभी प्राणियों के उद्धार का संकल्प लो।
-- **ne** — महायान-चित्त उत्पन्न गर, र सबै प्राणीको उद्धारको संकल्प लेऊ।
-- **mn** — ⚑ Их хөлгөний сэтгэлийг үүсгэж, бүх амьтныг гэтэлгэхээр зорь.
+- **bo** — ⚑ བྱང་ཆུབ་ཀྱི་སེམས་བསྐྱེད་དེ། སེམས་ཅན་ཐམས་ཅད་ཡོངས་སུ་སྐྱོབ་པར་བྱ།
+- **hi** — बोधिचित्त (जागृति का मन) उत्पन्न करो, और सभी प्राणियों के उद्धार का संकल्प लो।
+- **ne** — बोधिचित्त (जागृतिको मन) उत्पन्न गर, र सबै प्राणीको उद्धारको संकल्प लेऊ।
+- **mn** — ⚑ Бодь сэтгэл (сэрэх сэтгэл)-ийг үүсгэж, бүх амьтныг гэтэлгэхээр зорь.
 
 ## QA — pre-review (against 2-RAILS/Verses/t779-bodhicitta.md)
 
 ### en
-- Back-translation: "Give rise to the Great Vehicle mind, and vow to bring relief to all beings."
-- Findings: faithful to 發大乘心，普濟一切; 大乘心 = the Mahāyāna / bodhicitta resolve. No em dash ✓.
+- Back-translation: "Give rise to the awakening mind, and vow to bring relief to all beings."
+- Findings: faithful to 發大乘心，普濟一切; 大乘心 rendered ecumenically as "the awakening mind" (bodhicitta), avoiding the sectarian "Great Vehicle." No em dash ✓.
 - Net: clean for review.
 
 ### zh (Traditional)
