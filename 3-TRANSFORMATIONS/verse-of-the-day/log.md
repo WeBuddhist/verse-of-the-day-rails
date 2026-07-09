@@ -57,11 +57,16 @@ off + all six renderings reviewed, ready/published.
 | 2026-08-05 | 43 | Dhp 354 | Pali | gift-of-teaching | grateful, aspiration, hopeful | [[days/day-043-gift-of-teaching-dhp354]] | draft |
 | 2026-08-06 | 44 | The Inquiry of Jayamati (Toh 194) | Tibetan Kangyur (Mahāyāna) | patience | angry, irritated, patience | [[days/day-044-patience-toh194]] | draft |
 | 2026-08-07 | 45 | 金剛般若波羅蜜經 T235 · Diamond | Chinese (Mahāyāna) | non-attached-giving | grasping, aspiration, hopeful | [[days/day-045-non-attached-giving-t235]] | draft |
+| 2026-08-08 | 46 | Udānavarga (Toh 326) · Dhp 54 parallel | Tibetan Kangyur | virtue-fragrance | discouraged, aspiration, hopeful | [[days/day-046-virtue-fragrance-udv]] | draft |
+| 2026-08-09 | 47 | 法句經 T210 (梵志品) · Dhp 264–265 parallel | Chinese | true-renunciation | doubtful, proud, aspiration | [[days/day-047-true-renunciation-t210]] | draft |
+| 2026-08-10 | 48 | SN 1.1 (Oghataraṇasutta) | Pali | middle-way | overwhelmed, doubtful, equanimity | [[days/day-048-crossing-the-flood-sn1-1]] | draft |
+| 2026-08-11 | 49 | Udānavarga (Toh 326) · Dhp 160 parallel | Tibetan Kangyur | self-reliance | discouraged, doubtful, aspiration | [[days/day-049-self-refuge-udv]] | draft |
+| 2026-08-12 | 50 | 佛說阿彌陀經 T366 · Amitābha | Chinese (Mahāyāna) | genuine-cultivation | doubtful, discouraged, aspiration | [[days/day-050-roots-of-merit-t366]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 
-- **Canon mix (45 days):** Pali 24 · Chinese 14 · Tibetan 7 (counted directly from the table above). Still Pali-heavy — favour Tibetan Kangyur and Chinese Āgama picks in upcoming batches.
-- **Recent themes (Days 41–45):** gratitude, buddhas-purpose, gift-of-teaching, patience, non-attached-giving. Day 46 needs a different theme (no back-to-back repeats); everything earlier is open to reuse (`selection-criteria.md` §3). Still-uncovered themes worth surfacing: sympathetic joy (muditā), restraint of the senses, emptiness, skilful means, forgiveness.
+- **Canon mix (50 days):** Pali 25 · Chinese 16 · Tibetan 9 (counted directly from the table above). Tibetan and Chinese moved up this batch (Days 46–50 ran Tibetan/Chinese/Pali/Tibetan/Chinese); still Pali-heavy overall — keep favouring Tibetan Kangyur and Chinese Āgama picks in upcoming batches.
+- **Recent themes (Days 46–50):** virtue-fragrance, true-renunciation, middle-way, self-reliance, genuine-cultivation. Day 51 needs a different theme (no back-to-back repeats); everything earlier is open to reuse (`selection-criteria.md` §3). Still-uncovered themes worth surfacing: sympathetic joy (muditā), restraint of the senses, emptiness, skilful means, forgiveness.
 - **Last occasion override used:** none yet — every `occasions:` tag in the log so far is empty.
 - **Standing sourcing guidance:** don't over-rely on T210 (Chinese) or the Udānavarga (Tibetan) alone — both are Dharmapada-equivalents. Keep drawing on the Chinese Āgamas, the Kangyur Mahāyāna sūtras, and the Pali prose Nikāyas (DN/MN/SN/AN) for variety, per `selection-criteria.md` §3.
 - **Freshness:** Days 1–7 still contain greatest-hits (Dhp 1/5/223/328) flagged for re-pick once `previously-used.md`'s real used-list is populated; everything from Day 8 on is fresh, lesser-known material.
