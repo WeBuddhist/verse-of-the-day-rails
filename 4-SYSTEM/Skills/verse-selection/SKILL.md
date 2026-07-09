@@ -16,16 +16,16 @@ Pipeline position: **`verse-selection` → `verse-rail` → `translation-qa` →
 
 ## Inputs
 
-- **Log** — `3-TRANSFORMATIONS/verse-of-the-day/log.md`: the rows already run (the dedupe list) and the **running-balance** section (canon mix, recent themes, last occasion).
-- **Selection criteria** — `selection-criteria.md`: the hard gates (§1) and the quality + balance rules (§2–3).
-- **Occasions** — `occasions.md`: holiday calendar + the verse themes each calls for.
-- **Discovery-by-feeling** — `discovery-by-feeling.md`: the theme / felt-state set, for coverage.
-- **Corpus** — `1-SOURCES/Text/` (+ paired translations) to pick from. **Draw from the whole corpus, not just the verse collections.** Source pools:
-  - *Verse collections (easiest — whole verse quoted in full):* Dhammapada, Sutta Nipāta, Udāna, Itivuttaka gāthās (Pali, CC0); Chinese Dharmapada 法句經 T210; Tibetan Udānavarga (Toh 326).
-  - *Prose Nikāyas (rich, under-used):* **Dīgha, Majjhima, Saṁyutta, Aṅguttara** (all imported, CC0, paired with Sujato English). Long suttas, but full of **short, self-contained quotable sentences** — e.g. the Kālāma Sutta (AN 3.65), the mind-inclination line (MN 19), the "two people hard to find" (AN 2.31–32), the mettā-benefits (AN 11.15), the simile of the lute, etc. Quote **one self-contained sentence in full** (Sujato), within the card limit; if the natural sentence is too long, pick a shorter one rather than cutting mid-thought. This is the main way to get variety beyond Dhammapada-style verses.
-  - *Tibetan Kangyur **Mahāyāna sūtras** (229 texts, rich, under-used — the vault's Mahāyāna voice):* `bo-toh<N>.md` + `en-toh<N>-84000.md` — Prajñāpāramitā, Ratnakūṭa, and General Sūtra, incl. famous sūtras like **Vimalakīrti (Toh 176)**, the **Lotus Sūtra (Toh 113)**, **Samādhirāja (Toh 127)**, **Sukhāvatī (Toh 115)**, **Wisdom at the Hour of Death (Toh 122)**. Prose, but full of short quotable Mahāyāna sentences (bodhicitta, compassion, emptiness, the six perfections, aspiration). Quote **one self-contained sentence in full**, rendered from the Degé PD Tibetan, grounded on the 84000 English **reference only** (CC BY-NC-ND — never excerpt/adapt its wording). **Do NOT keep pulling only the Udānavarga** — that is the Tibetan Dharmapada and gives no Mahāyāna. Rotate Tibetan picks between Udānavarga verses and Mahāyāna-sūtra sentences.
-  - *Chinese — beyond T210:* the four **Āgamas** (DĀ/MĀ/SĀ/EĀ) for more Chinese prose sentences, **plus Chinese Mahāyāna sūtras** (imported 2026-07): Diamond (T235), Lotus (T262), Amitābha/Pure Land (T366), Bequeathed Teachings (T389), Vimalakīrti (T475), Eight Realizations (T779) — `zh-<slug>.md`, CBETA CC BY-NC-SA, quotable per-paragraph. **Do NOT keep pulling only T210.** Quote one self-contained sentence in full, rendered from the Chinese source, meaning cross-checked against the Tibetan/Sanskrit parallel or a standard reference. Mahāyāna is now available in **both** Chinese (these) and Tibetan (the Kangyur pool).
-- **Already-used set** — the dedupe key: the log's `source_ref` column, **plus** `previously-used.md` (verses published *before/outside* this vault), **plus** existing rail files in `2-RAILS/Verses/` and cards in `days/`.
+- **Log** — [`3-TRANSFORMATIONS/verse-of-the-day/log.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/log.md): the rows already run (the dedupe list) and the **running-balance** section (canon mix, recent themes, last occasion).
+- **Selection criteria** — [`selection-criteria.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/selection-criteria.md): the hard gates (§1) and the quality + balance rules (§2–3).
+- **Occasions** — [`occasions.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/occasions.md): holiday calendar + the verse themes each calls for.
+- **Discovery-by-feeling** — [`discovery-by-feeling.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/discovery-by-feeling.md): the theme / felt-state set, for coverage.
+- **Corpus** — `1-SOURCES/Text/` (+ paired translations) to pick from. **Draw from the whole corpus, not just the verse collections** — see [`selection-criteria.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/selection-criteria.md) §3 for the source-diversity and vehicle-representation rules, worked sutta examples, and the "don't over-rely on X" guidance. Source pools and where to find them in `1-SOURCES/Text/`:
+  - *Verse collections:* Dhammapada, Sutta Nipāta, Udāna, Itivuttaka gāthās (Pali, CC0); Chinese Dharmapada 法句經 T210; Tibetan Udānavarga (Toh 326).
+  - *Prose Nikāyas:* Dīgha, Majjhima, Saṁyutta, Aṅguttara (Pali, CC0, Sujato-paired) — short, self-contained quotable sentences within longer discourses.
+  - *Tibetan Kangyur Mahāyāna sūtras:* `bo-toh<N>.md` + `en-toh<N>-84000.md` (229 texts; 84000 English is reference-only, never shipped).
+  - *Chinese beyond T210:* the four Āgamas (DĀ/MĀ/SĀ/EĀ) + Chinese Mahāyāna sūtras (`zh-<slug>.md`, CBETA CC BY-NC-SA).
+- **Already-used set** — the dedupe key: the log's `source_ref` column, **plus** [`previously-used.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/previously-used.md) (verses published *before/outside* this vault), **plus** existing rail files in `2-RAILS/Verses/` and cards in `days/`.
 - The **date** to fill (defaults to the next empty slot).
 
 ## Procedure

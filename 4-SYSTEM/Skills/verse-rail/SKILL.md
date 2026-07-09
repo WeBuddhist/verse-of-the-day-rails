@@ -39,7 +39,7 @@ Key conventions, documented in `vault-annex.md`:
 
 - **zh is the verbatim CBETA source** on Chinese-source cards; **bo is the verbatim Degé source** on Tibetan-source cards — they *are* the quote.
 - **84000 English is reference-only** — cite it, never ship its wording.
-- **Grounding-by-parallel:** name the exact Pali parallel (e.g. Dhp 239) and transclude Sujato as the meaning anchor. The T210 Dharmapada and the Udānavarga are the Chinese/Tibetan Dharmapada — parallel to the Pali; **don't rely on them alone for non-Pali variety, and don't pull Chinese only from T210 or Tibetan only from the Udānavarga** (use the Āgamas and the Kangyur Mahāyāna sūtras too, per `selection-criteria.md` §3).
+- **Grounding-by-parallel:** name the exact Pali parallel (e.g. Dhp 239) and transclude Sujato as the meaning anchor. The T210 Dharmapada and the Udānavarga are the Chinese/Tibetan Dharmapada — parallel to the Pali; **don't rely on them alone for non-Pali variety, and don't pull Chinese only from T210 or Tibetan only from the Udānavarga** (use the Āgamas and the Kangyur Mahāyāna sūtras too, per [`selection-criteria.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/selection-criteria.md) §3).
 
 ## Inputs
 
