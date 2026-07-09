@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-SYSTEM/Guidelines/why-rails.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "why-rails"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -197,11 +197,12 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "README.md",
+    "4-SYSTEM/Guidelines/why-rails.md",
     "4-SYSTEM/Guidelines/source-formatting.md",
     "4-SYSTEM/Guidelines/skills-system.md",
     "4-SYSTEM/CLAUDE.md",
     "CLAUDE.md",
-    "README.md",
     "3-TRANSFORMATIONS/verse-of-the-day/termbase.md",
     "3-TRANSFORMATIONS/verse-of-the-day/selection-criteria.md",
     "3-TRANSFORMATIONS/verse-of-the-day/previously-used.md",
@@ -222,7 +223,6 @@
     "3-TRANSFORMATIONS/verse-of-the-day/days/day-038-thought-shapes-mind-mn19.md",
     "3-TRANSFORMATIONS/verse-of-the-day/days/day-037-bodhicitta-t779.md",
     "3-TRANSFORMATIONS/verse-of-the-day/days/day-036-purity-of-mind-t475.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/days/day-035-true-nobility-t210.md",
     "3-TRANSFORMATIONS/verse-of-the-day/days/_superseded",
     "3-TRANSFORMATIONS/verse-of-the-day/days",
     "3-TRANSFORMATIONS/verse-of-the-day",
