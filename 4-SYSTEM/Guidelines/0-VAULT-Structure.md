@@ -36,32 +36,29 @@ Each vault is named for the text it serves — typically `[text-slug]-rails` (e.
 ## 2. Top-Level Folder Structure
 
 ```
-[text-slug]-rails/
-├── 0-INBOX/              # drafts, scratch, raw downloads — not authoritative
-├── 1-SOURCES/            # human-produced material — read-only ground truth
-│   ├── Text/             # root text(s) and editions
-│   ├── Commentaries/     # authored commentaries
-│   ├── Translations/     # translations into other languages
-│   ├── References/       # secondary literature, dictionaries with entries on this text
-│   └── Audio/            # recitation and teaching recordings
-├── 2-RAILS/              # compiled interpretive context (the rails)
-│   ├── Verses/           # one package per verse or analytical unit
-│   ├── Sections/         # per-chapter summaries and structural outlines
-│   ├── Local-Wiki/       # one page per attested sense ID
-│   └── Bilingual-Glossaries/       # bilingual term mappings, per language pair
-├── 3-TRANSFORMATIONS/    # outputs generated from the rails, in three categories
-│   ├── Translations/     # language-by-language translation tracks
-│   ├── Adaptations/      # audience-targeted retellings
-│   └── Plans/            # calendar-driven study/practice arcs
-└── 4-SYSTEM/             # guidelines, skills, templates, agent instructions
-    ├── Guidelines/       # cross-cutting methodology docs (this folder)
-    ├── Skills/           # repeatable workflows (ingest, format, extract, translate, QA)
-    ├── Templates/        # blank file templates for each frontmatter type
-    ├── How-to guides/    # human-facing instructions for non-AI tasks
-    └── gemini-scribe/    # Gemini Scribe plugin workspace (legacy; optional)
+verse-of-the-day-rails/
+├── CLAUDE.md            # canonical LLM operational guide (auto-loaded at repo root)
+├── README.md            # human-facing overview
+├── 0-INBOX/             # drafts, scratch, raw downloads — not authoritative
+├── 1-SOURCES/           # human-produced material — read-only ground truth
+│   ├── Text/            # root texts: Pali, Chinese (Taishō), Tibetan (Degé Kangyur)
+│   └── Translations/    # authoritative translations (Sujato CC0, Patton CC0, 84000 reference)
+├── 2-RAILS/
+│   └── Verses/          # one translation-grounded rail per verse (the only active rail type)
+├── 3-TRANSFORMATIONS/
+│   └── verse-of-the-day/    # the one output track
+│       ├── About verse-of-the-day.md   # day-card template + language notes
+│       ├── selection-criteria.md · termbase.md · discovery-by-feeling.md · occasions.md
+│       ├── previously-used.md · log.md  # dedupe register + master calendar
+│       └── days/        # one card per day (six languages); + days/_superseded/
+└── 4-SYSTEM/            # skills, guidelines, converters — read-only for the LLM
+    ├── Guidelines/      # cross-cutting methodology (this file, why-rails, vault-annex, skills-system)
+    ├── Skills/          # verse-selection, verse-rail, translation-qa, json-to-source-text, epub-to-markdown, vault-audit, create-skill
+    ├── How-to guides/   # human-facing setup / sync instructions
+    └── gemini-scribe/   # Gemini Scribe plugin workspace (legacy; optional)
 ```
 
-`CLAUDE.md` — the canonical LLM-facing operational guide — lives at the **repo root** (auto-loaded), not under `4-SYSTEM/`.
+`CLAUDE.md` — the canonical LLM-facing operational guide — lives at the **repo root** (auto-loaded). There is no `4-SYSTEM/CLAUDE.md`. This is an **anthology** vault: no commentaries, one rail type (`Verses/`), and one transformation (`verse-of-the-day/`) — the generic template's Commentaries/References/Audio, the Sections/Local-Wiki/Bilingual-Glossaries rail types, and the Translations/Adaptations/Plans categories are **not used here**.
 
 The vault root also contains:
 
@@ -89,13 +86,12 @@ Scratch space. Anything not yet ready to be placed in its proper folder lives he
 
 Human-produced material exactly as received. This is the ground truth — every claim in the rails ultimately cites a passage here. The folder is **append-only and read-only for the LLM**: it adds block IDs, frontmatter, and navigation links, but never interpretive content.
 
-Subfolders:
+Subfolders (this anthology uses two):
 
-- `Text/` — the root text in its primary language, plus alternative-script editions (e.g. IAST or Wylie versions of a Devanāgarī or Unicode-Tibetan root). One file per edition.
-- `Commentaries/` — authored commentaries on the text. One file per commentary, regardless of length. Block IDs follow the commentary author's own structural system (chapter-verse, folio-line, section-paragraph, etc.) as declared in frontmatter.
-- `Translations/` — translations of the root text into other languages. One file per translation. Block IDs correspond to the source verse, not the translator's numbering.
-- `References/` — secondary literature with substantive content on this text: monographs, articles, dictionaries with entries specific to the text.
-- `Audio/` — recitation and teaching recordings, aligned to source-text block IDs where possible.
+- `Text/` — root texts in their source languages: Pali (SuttaCentral/Mahāsaṅgīti), Chinese (CBETA/Taishō — Dharmapada, Āgamas, Mahāyāna sūtras), Tibetan (Degé Kangyur — Udānavarga + Kangyur sūtras). One file per work.
+- `Translations/` — authoritative translations block-aligned to the source: Sujato (Pali, CC0), Patton (Āgama, CC0), and the 84000 English **reference** layer for Kangyur texts (CC BY-NC-ND — reference only, never shipped).
+
+*(The template's `Commentaries/`, `References/`, and `Audio/` subfolders are not used — this vault imports no commentaries and grounds rails on translations/parallels.)*
 
 Naming conventions, frontmatter requirements, block ID rules, and editorial note conventions are specified in [`../../1-SOURCES/About Sources.md`](../../1-SOURCES/About Sources.md).
 
@@ -103,44 +99,31 @@ Naming conventions, frontmatter requirements, block ID rules, and editorial note
 
 The rails — compiled interpretive packages that resolve every significant ambiguity in the text, citing the human sources that determine each decision. This is where the LLM does its primary work, under domain-specialist review.
 
-Subfolders:
+Subfolder (this anthology uses one):
 
-- `Verses/` — one package per verse or analytical unit. Files named by block ID without the caret (`1-1.md`, `6-33.md`, `0-4.md` for pre-chapter content).
-- `Sections/` — per-chapter or per-section summaries synthesised from the verse packages and from structural outlines extracted from each commentary.
-- `Local-Wiki/` — one page per attested sense ID within this text. Sense IDs are Wikipedia-style: `term (disambiguating phrase)`, e.g. `bodhicitta (awakening mind)`.
-- `Bilingual-Glossaries/` — bilingual lexicons, one file per language pair (`pi-en.md`, `pi-bn.md`, etc.). Derived descriptively from the translations in `1-SOURCES/Translations/`.
+- `Verses/` — one **translation-grounded** rail per verse, named by source slug (`dhp-5.md`, `sa-803.md`, `toh-282.md`, `iti-27.md`). Each transcludes the source block, cites the authoritative translation (or names the Pali parallel), and states a disambiguated meaning. Built with the `verse-rail` skill.
 
-Frontmatter, package layout, the disambiguation stack, citation rules, and divergence-flagging conventions are specified in [`../../2-RAILS/About Rails.md`](../../2-RAILS/About Rails.md).
+*(The template's `Sections/`, `Local-Wiki/`, and `Bilingual-Glossaries/` rail types are commentary/multi-track machinery and are not used. The single shared `termbase.md` in `3-TRANSFORMATIONS/verse-of-the-day/` replaces per-pair bilingual glossaries.)*
+
+Frontmatter, package layout, citation rules, and divergence-flagging conventions are specified in [`../../2-RAILS/About Rails.md`](../../2-RAILS/About Rails.md).
 
 ### `3-TRANSFORMATIONS/`
 
-Generated outputs — translations, adaptations, lesson plans, study guides, daily reading content. The folder is organised into **three categories**, each a top-level subfolder; each second-level folder is one **track** governed by `requirements.md` (style contract) + `termbase.md` (vocabulary contract):
+Generated output. This anthology has **one** transformation — the **verse-of-the-day** track. (The template's Translations / Adaptations / Plans categories and their per-track `requirements.md` / `termbase.md` / `audience.md` contracts are not used; a single day card holds all six renderings.)
 
 ```
 3-TRANSFORMATIONS/
-├── Translations/             # language-by-language translations
-│   └── [track-id]/
-│       ├── requirements.md   # the style contract
-│       ├── termbase.md       # the vocabulary contract
-│       ├── audience.md       # the audience profile
-│       ├── <output>.md       # the generated translation files
-│       └── qa-report.md      # MQM-taxonomy critique driving the next revision
-├── Adaptations/              # audience-targeted retellings
-│   └── [track-id]/
-│       ├── requirements.md
-│       ├── audience.md
-│       ├── termbase.md
-│       └── <output>.md
-└── Plans/                    # calendar-driven study/practice arcs
-    └── [plan-id]/
-        ├── About <plan-name>.md   # cross-language overview
-        └── [lang]/                # one subfolder per published language
-            ├── requirements.md
-            ├── termbase.md
-            ├── schedule.md
-            ├── days/
-            ├── communications/
-            └── assets/
+└── verse-of-the-day/
+    ├── About verse-of-the-day.md   # day-card template + language notes
+    ├── selection-criteria.md       # gates, freshness, source diversity, vehicle representation, themes
+    ├── termbase.md                 # locked key-term renderings (six languages)
+    ├── discovery-by-feeling.md     # felt-state / theme tags (speaks_to)
+    ├── occasions.md                # holiday calendar (occasion overrides)
+    ├── previously-used.md          # historical dedupe register
+    ├── log.md                      # master calendar (date → verse) + running balance
+    └── days/
+        ├── day-NNN-<slug>.md        # one card: six renderings + metadata + QA
+        └── _superseded/            # replaced/blocked cards, kept for the record
 ```
 
 Each output file's frontmatter records which `2-RAILS/` packages it was generated from, enforcing the citation chain through to the final artefact. Transformations are generated only from packages whose `status` is `complete`. Draft or partial packages are not used.
@@ -154,8 +137,7 @@ Operational infrastructure for both human contributors and the LLM. This folder 
 Subfolders:
 
 - `Guidelines/` — cross-cutting methodology docs that don't belong to any single layer: this file, [`why-rails.md`](why-rails.md), and the per-text [`vault-annex.md`](vault-annex.md). Layer-specific rules (1-SOURCES, 2-RAILS, 3-TRANSFORMATIONS) live in each folder's own `About <FolderName>.md`.
-- `Skills/` — packaged workflows the LLM invokes for repeatable tasks (e.g. `epub-to-markdown`, `verse-context`, `glossary-combine`, `glossary-select`). See `Skills/SKILLS-CATALOG.md` for the full list.
-- `Templates/` — blank-file templates for each frontmatter type, organised by target folder.
+- `Skills/` — packaged workflows the LLM invokes for repeatable tasks: `verse-selection`, `verse-rail`, `translation-qa`, `json-to-source-text` (+ CBETA/SuttaCentral/OpenPecha converters), `epub-to-markdown`, `vault-audit`, `create-skill`. See `Skills/SKILLS-CATALOG.md` for the full list.
 - `How-to guides/` — human-facing instructions for non-AI tasks (vault setup, sync troubleshooting, transcription workflows).
 - `gemini-scribe/` — Gemini Scribe plugin workspace (`AGENTS.md`, Prompts/, Scheduled-Tasks/, Background-Tasks/, Agent-Sessions/, Skills/).
 - (`CLAUDE.md` is at the **repo root**, not here — the canonical LLM-facing operational guide, covering the most important rules from the folder READMEs plus the verse-of-the-day pipeline.)
