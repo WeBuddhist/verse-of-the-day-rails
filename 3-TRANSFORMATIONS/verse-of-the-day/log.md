@@ -62,11 +62,12 @@ off + all six renderings reviewed, ready/published.
 | 2026-08-10 | 48 | SN 1.1 (Oghataraṇasutta) | Pali | middle-way | overwhelmed, doubtful, equanimity | [[days/day-048-crossing-the-flood-sn1-1]] | draft |
 | 2026-08-11 | 49 | Udānavarga (Toh 326) · Dhp 160 parallel | Tibetan Kangyur | self-reliance | discouraged, doubtful, aspiration | [[days/day-049-self-refuge-udv]] | draft |
 | 2026-08-12 | 50 | 佛說阿彌陀經 T366 · Amitābha | Chinese (Mahāyāna) | genuine-cultivation | doubtful, discouraged, aspiration | [[days/day-050-roots-of-merit-t366]] | draft |
+| 2026-08-13 | 51 | The King of Samādhis (Toh 127) · Samādhirāja | Tibetan Kangyur (Mahāyāna) | seeing-the-good | resentful, irritated, loving-kindness | [[days/day-051-seeing-the-good-toh127]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 
-- **Canon mix (50 days):** Pali 25 · Chinese 16 · Tibetan 9 (counted directly from the table above). Tibetan and Chinese moved up this batch (Days 46–50 ran Tibetan/Chinese/Pali/Tibetan/Chinese); still Pali-heavy overall — keep favouring Tibetan Kangyur and Chinese Āgama picks in upcoming batches.
-- **Recent themes (Days 46–50):** virtue-fragrance, true-renunciation, middle-way, self-reliance, genuine-cultivation. Day 51 needs a different theme (no back-to-back repeats); everything earlier is open to reuse (`selection-criteria.md` §3). Still-uncovered themes worth surfacing: sympathetic joy (muditā), restraint of the senses, emptiness, skilful means, forgiveness.
+- **Canon mix (51 days):** Pali 25 · Chinese 16 · Tibetan 10 (counted directly from the table above). Day 51 added Tibetan Mahāyāna (Samādhirāja); still Pali-heavy overall — keep favouring Tibetan Kangyur and Chinese Āgama picks in upcoming batches.
+- **Recent themes (Days 47–51):** true-renunciation, middle-way, self-reliance, genuine-cultivation, seeing-the-good. Day 52 needs a different theme from seeing-the-good (no back-to-back repeats); everything earlier is open to reuse (`selection-criteria.md` §3). Still-uncovered themes worth surfacing: sympathetic joy (muditā), restraint of the senses, emptiness, skilful means, forgiveness.
 - **Last occasion override used:** none yet — every `occasions:` tag in the log so far is empty.
 - **Standing sourcing guidance:** don't over-rely on T210 (Chinese) or the Udānavarga (Tibetan) alone — both are Dharmapada-equivalents. Keep drawing on the Chinese Āgamas, the Kangyur Mahāyāna sūtras, and the Pali prose Nikāyas (DN/MN/SN/AN) for variety, per `selection-criteria.md` §3.
 - **Freshness:** Days 1–7 still contain greatest-hits (Dhp 1/5/223/328) flagged for re-pick once `previously-used.md`'s real used-list is populated; everything from Day 8 on is fresh, lesser-known material.
