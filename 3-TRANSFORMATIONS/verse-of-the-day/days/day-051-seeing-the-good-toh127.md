@@ -29,7 +29,7 @@ Short verse, **quoted in full**. Meaning: look for the capacity to awaken in oth
 
 ## Renderings (one short line each)
 
-- **en** — Do not look at others' faults, but see the essence of awakening in them; feel no anger toward them, but always keep a loving mind.
+- **en** — Do not look at others' faults, but see the essence of awakening in them; feel no anger, but always keep a loving mind.
 - **zh** — 莫看他人的過失，當見其中覺悟的本質；不對他們起瞋，恆懷慈心。
 - **bo** — ⚑ བྱང་ཆུབ་སྙིང་པོ་རྣམས་མཐོང་ན། །དེ་དག་འཁྲུལ་པ་མི་བལྟའོ། །དེ་ལ་ཁོང་ཁྲོ་མི་བསྐྱེད་ཅིང་། །རྟག་ཏུ་བྱམས་པའི་སེམས་སུ་བྱ།
 - **hi** — दूसरों के दोष मत देखो, बल्कि उनमें बोधि का सार देखो; उन पर क्रोध मत करो, सदा मैत्रीपूर्ण मन रखो।
@@ -39,7 +39,7 @@ Short verse, **quoted in full**. Meaning: look for the capacity to awaken in oth
 ## QA — pre-review (against 2-RAILS/Verses/toh127-seeing-the-good.md)
 
 ### en
-- Back-translation: "Do not look at others' faults, but see the essence of awakening in them; feel no anger toward them, but always keep a loving mind."
+- Back-translation: "Do not look at others' faults, but see the essence of awakening in them; feel no anger, but always keep a loving mind."
 - Findings: faithful to the Tibetan source and the 84000 reference (meaning only). *byang chub snying po* rendered "essence of awakening" (ecumenical); *byams pa* = "loving mind / loving-kindness" per termbase, not "love." Leads with "do not look at their faults" for flow while keeping both clauses. No em dash ✓.
 - Net: clean for review.
 
