@@ -1,6 +1,6 @@
 ---
 name: vault-audit
-description: Read-only weekly audit of vault integrity. Checks skills sync, frontmatter completeness, citation chain, status consistency, stale inbox files, and dead wiki links. Writes a dated report to 0-INBOX/. Never modifies vault files.
+description: Read-only weekly audit of vault integrity. Checks skills sync (incl. orphaned command files), frontmatter completeness, citation chain, status consistency, stale inbox files, dead wiki links, and file placement/naming. Writes a dated report to 0-INBOX/. Never modifies vault files.
 ---
 
 # vault-audit
@@ -70,6 +70,11 @@ total_issues: <N>
 
 <✓ No issues found.>
 <OR list of issues>
+
+## 7. File placement
+
+<✓ No issues found.>
+<OR list of issues>
 ```
 
 ---
@@ -97,19 +102,20 @@ total_issues: <N>
    - `- [ ] \`<skill-name>\`: missing from SKILLS-CATALOG.md`
    - `- [ ] \`<skill-name>\`: missing .claude/commands/<skill-name>.md`
 4. Also check the reverse: for every entry in SKILLS-CATALOG.md marked `[exists]`, verify a corresponding `4-SYSTEM/Skills/<skill-name>/SKILL.md` actually exists. Flag any catalog entry pointing to a nonexistent skill folder.
+5. **Orphaned command files.** For every file `.claude/commands/<name>.md`, check whether `4-SYSTEM/Skills/<name>/SKILL.md` exists. Flag any command file whose skill folder doesn't exist — most often left behind when a skill is removed but its command file isn't deleted:
+   - `- [ ] \`.claude/commands/<name>.md\`: orphaned — no matching \`4-SYSTEM/Skills/<name>/SKILL.md\` (skill removed without cleaning up its command file)`
 
 ### Check 2 — Frontmatter completeness
 
 Scan every `.md` file in `2-RAILS/` and `3-TRANSFORMATIONS/` (excluding `About *.md` files).
 
-For files in `2-RAILS/Verses/`, the minimum required frontmatter fields are:
-`verse_id`, `root_text`, `root_block`, `language`, `commentaries`, `status`
+For files in `2-RAILS/Verses/`, the minimum required frontmatter fields (per `verse-rail`'s own Completion check and its output template) are:
+`ref`, `source_ref`, `canon`, `source_text`, `source_block`, `grounding`, `theme`, `status`
 
-For files in `2-RAILS/Bilingual-Glossaries/` (non-Raw), required fields are:
-`language_pair`, `source_language`, `target_language`, `raw_sources`, `status`
+This vault has no `2-RAILS/Bilingual-Glossaries/` folder (only `2-RAILS/Verses/` is an active rail type — see CLAUDE.md's Structure section) — do not check for one.
 
-For files in `3-TRANSFORMATIONS/` that are not `About`, `requirements`, `termbase`, `audience`, `schedule`, or `qa-report` files, the required field is:
-`context_packages`
+For files in `3-TRANSFORMATIONS/` that are not `About`, `requirements`, `termbase`, `audience`, `schedule`, `occasions`, `discovery-by-feeling`, `previously-used`, `selection-criteria`, `log`, or `qa-report` files, the required fields are:
+`source_ref`, `canon`, `theme`, `source_rail`, `context_packages`, `status`
 
 Flag each file with a missing required field:
 - `- [ ] \`<path>\`: missing frontmatter field(s): <field1>, <field2>`
@@ -125,7 +131,7 @@ Exclude `About *.md` documentation files. Flag each violation:
 
 ### Check 4 — Status consistency
 
-For every file in `3-TRANSFORMATIONS/` (excluding About, requirements, termbase, audience, schedule, qa-report) that has `status: complete` in its frontmatter:
+For every file in `3-TRANSFORMATIONS/` (excluding About, requirements, termbase, audience, schedule, occasions, discovery-by-feeling, previously-used, selection-criteria, log, qa-report) that has `status: complete` in its frontmatter:
 1. Read its `context_packages:` list.
 2. For each listed rail file, read its frontmatter `status` field.
 3. If any rail has `status: draft`, flag the transformation:
@@ -151,19 +157,19 @@ Skip links to external URLs (`http://`, `https://`). Skip links into `4-SYSTEM/`
 
 ### Check 7 — File placement
 
-This check catches two classes of structural error: files placed in the wrong rail folder, and transformation verse files whose corresponding rail does not yet exist.
+This check catches two classes of structural error: badly-named rail files, and day cards whose linked rail does not exist.
 
-**7a — Misplaced files in `2-RAILS/Verses/`**
+**7a — Misnamed files in `2-RAILS/Verses/`**
 
-Per CLAUDE.md §4, every file in `2-RAILS/Verses/` must be named with the verse-ID pattern: `<chapter>-<verse>.md` (e.g. `1-1.md`, `6-33.md`). Ignore `.gitkeep`.
+Per CLAUDE.md's Conventions section, every file in `2-RAILS/Verses/` is named by **source text-slug**, lowercase and hyphenated, with no diacritics — e.g. `dhp-5.md`, `sa-803.md`, `toh-282.md`, `an2-32-gratitude.md` (not a bare `<chapter>-<verse>.md`). Ignore `.gitkeep`.
 
-For every file in `2-RAILS/Verses/` whose name does not match `^\d+-\d+\.md`:
-- `- [ ] \`2-RAILS/Verses/<filename>\`: misplaced file — does not follow verse-ID naming convention (\`<chapter>-<verse>.md\`). Review: move to \`2-RAILS/Sections/\` or correct the filename.`
+For every file in `2-RAILS/Verses/` whose name does not match `^[a-z0-9]+(-[a-z0-9]+)*\.md$` (lowercase alphanumerics and hyphens only — catches uppercase, spaces, and diacritics):
+- `- [ ] \`2-RAILS/Verses/<filename>\`: misnamed file — must be lowercase, hyphenated, no diacritics (see CLAUDE.md Conventions).`
 
-**7b — Missing verse rails for existing transformations**
+**7b — Missing verse rails for existing day cards**
 
-Collect the set of unique filenames under any `3-TRANSFORMATIONS/*/Verses/` directory (e.g. `1-1.md`, `6-33.md`). For each filename that does not have a corresponding file at `2-RAILS/Verses/<filename>`:
-- `- [ ] \`2-RAILS/Verses/<filename>\`: verse rail missing — transformation(s) exist but no rail has been authored. Do not generate further transformations from this verse until the rail is complete.`
+For every day card in `3-TRANSFORMATIONS/verse-of-the-day/days/` (excluding `_superseded/`), read its `source_rail:` frontmatter field and check that the referenced file exists:
+- `- [ ] \`<day-card-path>\`: source_rail \`<path>\` does not exist. Do not treat this card as reviewable until the rail is restored or re-pointed.`
 
 ### Write the report
 

@@ -261,3 +261,14 @@ grep -E "^\^|\^[0-9]+-[0-9]+( |$)" 0-INBOX/temp/<file>.md | head -20
 - **Mixed-language content.** A single segment may contain both Pāli and Sanskrit, or Tibetan and Wylie. The converter emits the content verbatim; manual editing may be needed.
 - **Verse vs. prose detection.** The JSON's category field rarely distinguishes verse from prose. The output treats every body segment as a "verse" for block-ID purposes — this is fine for the block-ID system but doesn't preserve metrical structure.
 - **Unicode normalisation.** No NFC/NFD normalisation is applied. If downstream tools require a specific form, run a separate pass.
+
+---
+
+## Completion check
+
+- [ ] Inspector run; source shape matched to an existing converter or a new one written to `converters/<source_slug>.py` exposing `convert_json_to_source_text(json_path, output_path)`.
+- [ ] Output written to `0-INBOX/temp/` first, not directly to `1-SOURCES/Text/`.
+- [ ] Frontmatter complete: `title`, `language`, `script`, `file_type`, `lang_tag`, `verse_id_format`, `source_description` set; `source_url` / external IDs preserved where known.
+- [ ] Block IDs verified: `##`/`###` headings carry `^chapter-0` / `^chapter-section-0`; verses restart at 1 per chapter; first verse is `^1-1`.
+- [ ] Sample segments spot-checked against the inspector profile; `total_segments` roughly matches the number of block-ID lines in the output.
+- [ ] File moved to `1-SOURCES/Text/<lang>-<text-slug>.md` only after review passes.

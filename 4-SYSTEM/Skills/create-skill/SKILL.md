@@ -22,8 +22,8 @@ Gather the following before starting. If any item is unknown, ask the human cont
 | `catalog-section` | Which section of SKILLS-CATALOG.md it belongs to | `Translation skills` |
 | `inputs-description` | What the skill needs to run | Files, IDs, prior outputs |
 | `outputs-description` | What it produces and where | File path(s) |
-| `commonly-used` | Whether it belongs in the CLAUDE.md §12 quick-reference table | yes / no |
-| `claude-md-task-description` | If commonly-used: the left-column task phrase for the §12 table | `Translate a TOC node batch` |
+| `commonly-used` | Whether it belongs in the CLAUDE.md "Skills quick-reference" table | yes / no |
+| `claude-md-task-description` | If commonly-used: the left-column task phrase for that table | `Translate a TOC node batch` |
 
 ---
 
@@ -36,7 +36,7 @@ Four files written or modified:
 | `4-SYSTEM/Skills/<skill-name>/SKILL.md` | Created |
 | `4-SYSTEM/Skills/SKILLS-CATALOG.md` | Entry appended to the correct section |
 | `.claude/commands/<skill-name>.md` | Created |
-| `4-SYSTEM/CLAUDE.md` | Row added to §12 table (only if `commonly-used: yes`) |
+| `CLAUDE.md` (vault root) | Row added to "Skills quick-reference" table (only if `commonly-used: yes`) |
 
 ---
 
@@ -122,6 +122,11 @@ The following sections are **required** in every SKILL.md. A skill missing any o
 - Procedure
 - Completion check
 
+**Frontmatter must also satisfy the Agent Skills spec**, which some clients validate mechanically:
+- `name` — lowercase letters, numbers, and hyphens only; max 64 characters; must not start/end with a hyphen or contain `--`; **must exactly match the skill's directory name**.
+- `description` — max 1024 characters, non-empty; state both *what the skill does* and *when to use it*, with concrete keywords a discovery pass can match on (not "Helps with X").
+- Optional fields (`license`, `compatibility`, `metadata`, `allowed-tools`) may be added if relevant — e.g. `compatibility:` when a skill needs a specific interpreter or package (see `epub-to-markdown`'s `compatibility: Requires Python 3 with beautifulsoup4`). Don't add them speculatively; most skills don't need them.
+
 ### Step 3 — Add the catalog entry
 
 Open `4-SYSTEM/Skills/SKILLS-CATALOG.md`. Locate the section matching `catalog-section`. Append the following entry at the end of that section, after the last existing skill entry and before the next `---` divider:
@@ -160,11 +165,11 @@ Read `4-SYSTEM/Skills/<skill-name>/SKILL.md` in full, then execute it on the fil
 Skill purpose: <purpose sentence>
 ```
 
-### Step 5 — Update CLAUDE.md §12 (conditional)
+### Step 5 — Update CLAUDE.md's quick-reference table (conditional)
 
 If `commonly-used` is **yes**:
 
-Open `4-SYSTEM/CLAUDE.md` and find the quick-reference table in §12. Append a new row at the end of the table:
+Open `CLAUDE.md` (vault root) and find the "Skills quick-reference" table. Append a new row at the end of the table:
 
 ```markdown
 | <claude-md-task-description> | `<skill-name>` |
@@ -179,7 +184,7 @@ After all writes are complete, verify each of the four registration locations:
 1. `4-SYSTEM/Skills/<skill-name>/SKILL.md` — exists and contains all eight required sections.
 2. `4-SYSTEM/Skills/SKILLS-CATALOG.md` — contains `### \`<skill-name>\`` with `[exists]` marker.
 3. `.claude/commands/<skill-name>.md` — exists and references the correct SKILL.md path.
-4. `4-SYSTEM/CLAUDE.md` §12 — contains a row for `<skill-name>` (only if `commonly-used: yes`).
+4. `CLAUDE.md` (vault root), "Skills quick-reference" table — contains a row for `<skill-name>` (only if `commonly-used: yes`).
 
 If any verification fails, fix the gap before reporting completion.
 
@@ -191,5 +196,5 @@ If any verification fails, fix the gap before reporting completion.
 - [ ] `4-SYSTEM/Skills/<skill-name>/SKILL.md` created with all eight required sections populated (no placeholder text remaining)
 - [ ] Catalog entry added to the correct section with `[exists]` marker
 - [ ] `.claude/commands/<skill-name>.md` created with the correct two-line content
-- [ ] CLAUDE.md §12 updated if `commonly-used: yes`; untouched if `commonly-used: no`
+- [ ] CLAUDE.md "Skills quick-reference" table updated if `commonly-used: yes`; untouched if `commonly-used: no`
 - [ ] All four locations verified after writing

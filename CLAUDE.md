@@ -78,7 +78,7 @@ A "Railroads" **anthology** producing WeBuddhist's **Verse of the Day**: one sho
 | Create a new skill (full registration) | `create-skill` |
 | Audit vault integrity | `vault-audit` |
 
-Commentary/section/glossary skills from the template (`verse-context`, `section-summary-*`, `local-wiki-article`, `glossary-*`, …) are **not used** here and are archived.
+Commentary/section/glossary skills from the template (`verse-context`, `section-summary-*`, `local-wiki-article`, `glossary-*`, …) are **not used** here and have been removed (see SKILLS-CATALOG.md's "Removed" section).
 
 ---
 

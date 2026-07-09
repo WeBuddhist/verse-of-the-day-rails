@@ -73,7 +73,3 @@ This vault serves **WeBuddhist Verse of the Day** — a buddhavacana anthology a
 10. [`4-SYSTEM/Skills/SKILLS-CATALOG.md`](4-SYSTEM/Skills/SKILLS-CATALOG.md) — every workflow skill, grouped by pipeline stage.
 
 For day-to-day workflows not in the Skills catalog, see the rest of [`4-SYSTEM/How-to guides/`](4-SYSTEM/How-to%20guides/).
-
-## For AI agents
-
-Read **[`CLAUDE.md`](CLAUDE.md)** at the repo root — the canonical operational guide (the verse-of-the-day pipeline, hard rules, citation chain, and skills). Everything an agent needs routes from there. If an `AGENTS.md` is ever added for other tooling, keep it a thin pointer to `CLAUDE.md`.

@@ -1,3 +1,9 @@
+---
+name: epub-to-markdown
+description: Converts EPUB files (commentaries, reference texts) into formatted Obsidian Markdown with block IDs, headings, and frontmatter. Adaptive — inspects each epub's internal CSS/structure first, then reuses an existing publisher-specific converter in converters/ or generates a new one tailored to that epub's conventions. Use when ingesting an EPUB into 1-SOURCES/.
+compatibility: Requires Python 3 with beautifulsoup4 (bs4) installed for the inspector and the mandatory inline-span check.
+---
+
 # EPUB to Markdown Extraction Skill
 
 This skill converts EPUB files to structured Markdown. It is **adaptive**: for each new epub it first inspects the epub's internal structure, then either reuses an existing publisher-specific converter or generates a new one tailored to that epub's conventions.
@@ -237,3 +243,15 @@ python 4-SYSTEM/Skills/epub-to-markdown/root_marker_to_bold.py \
 - **Complex tables**: May be flattened or stripped; manual reconstruction may be needed.
 - **CSS layouts**: Multi-column or sidebar layouts are linearised.
 - **Inline colour spans**: Fully supported via run-based processing when the mandatory span co-occurrence check (Step 1) detects mixed patterns. Converters that pre-date this check (using paragraph-level `get_text()` only) will miss inline spans and must be regenerated.
+
+---
+
+## Completion check
+
+- [ ] Inspector run; profile read; mandatory inline-span check run regardless of `mixed_class_patterns`.
+- [ ] Matching converter reused, or a new one written to `converters/<publisher_slug>.py` following `epub_to_markdown.py`'s interface.
+- [ ] Output written to `0-INBOX/temp/` first, not directly to a permanent location.
+- [ ] Metadata (title, author, publisher, language) verified against the epub.
+- [ ] Sampled `[[root|…]]` / `[[quote|…]]` etc. blocks confirmed to match expected content type.
+- [ ] Chapter headings, TOC links, and non-Latin script encoding spot-checked.
+- [ ] `༷` root markers converted to `**bold**` (no stray `༷` remaining) before the file is moved to `0-INBOX/md-texts/`.

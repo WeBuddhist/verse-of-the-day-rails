@@ -107,9 +107,11 @@ These skills check and report on vault integrity. They are read-only and safe to
 
 ---
 
-## Archived / removed (not used in this anthology vault)
+## Removed (not used in this anthology vault)
 
-Template skills that assume a single commentary-bearing text, or manual-frontmatter helpers made redundant by the auto-frontmatter converters; moved to `Skills/_archived/` (see `0-INBOX/vault-audit-2026-06-24.md`):
+Template skills that assume a single commentary-bearing text, or manual-frontmatter helpers made redundant by the auto-frontmatter converters; their `4-SYSTEM/Skills/<name>/` folders have been **deleted outright** (there is no `Skills/_archived/` folder — an earlier version of this note said they were moved there, but they were removed instead; see `0-INBOX/vault-audit-2026-06-24.md`). Their `.claude/commands/<name>.md` files have been deleted as of the 2026-07-09 audit, since a command pointing at a deleted `SKILL.md` is dead:
 
 `add-toc`, `commentary-frontmatter`, `format-commentary`, `format-root-text`, `glossary-combine`, `glossary-extract-raw`, `glossary-select`, `interlinear-gloss`, `json-to-commentary`, `local-wiki-article`, `property-creator`, `reference-frontmatter`, `root-text-frontmatter`, `section-summary-combined`, `section-summary-raw`, `source-property-extractor`, `structural-outline-ingest`, `translation-frontmatter`, `verse-context`.
+
+If any of these are reinstated later, use `create-skill` to rebuild them correctly rather than restoring the old folders — the SKILL.md template and registration steps have moved on since these were written.
 
