@@ -57,9 +57,9 @@ material         descriptive     AI-generated output
 
 This vault serves **WeBuddhist Verse of the Day** — a buddhavacana anthology across three canons. Vault-specific conventions (the anthology model, per-source addressing schemes, language tracks, the source-licensing register) live in [`4-SYSTEM/Guidelines/vault-annex.md`](4-SYSTEM/Guidelines/vault-annex.md).
 
-## Getting started — pick your path
+## Getting started
 
-### If you are a human contributor
+**Human contributors** — start here:
 
 1. **This README** — Why · How · What (you are here).
 2. [Set up the vault on your computer](4-SYSTEM/How-to%20guides/Set%20up%20the%20vault.md) — install Obsidian, install Git, clone the repo, open it as a vault.
@@ -74,12 +74,6 @@ This vault serves **WeBuddhist Verse of the Day** — a buddhavacana anthology a
 
 For day-to-day workflows not in the Skills catalog, see the rest of [`4-SYSTEM/How-to guides/`](4-SYSTEM/How-to%20guides/).
 
-### If you are an AI agent
+## For AI agents
 
-1. [`4-SYSTEM/CLAUDE.md`](4-SYSTEM/CLAUDE.md) — operational instructions: citation chain, write permissions, do-nots, standard operations. Read in full before touching any file.
-2. The `About <Folder>.md` for the folder you're working in — [`1-SOURCES/About Sources.md`](1-SOURCES/About%20Sources.md), [`2-RAILS/About Rails.md`](2-RAILS/About%20Rails.md), or [`3-TRANSFORMATIONS/About Transformations.md`](3-TRANSFORMATIONS/About%20Transformations.md). Each is the canonical authority for that folder's rules.
-3. [`4-SYSTEM/Guidelines/vault-annex.md`](4-SYSTEM/Guidelines/vault-annex.md) — vault-specific conventions.
-4. The relevant `4-SYSTEM/Skills/<skill>/SKILL.md` for the specific task — for building verses, [`verse-rail`](4-SYSTEM/Skills/verse-rail/SKILL.md).
-5. For verse-of-the-day work, the Plan's curation docs in [`3-TRANSFORMATIONS/Plans/verse-of-the-day/`](3-TRANSFORMATIONS/Plans/verse-of-the-day/): [selection-criteria](3-TRANSFORMATIONS/Plans/verse-of-the-day/selection-criteria.md), [discovery-by-feeling](3-TRANSFORMATIONS/Plans/verse-of-the-day/discovery-by-feeling.md), [occasions](3-TRANSFORMATIONS/Plans/verse-of-the-day/occasions.md), and the [log](3-TRANSFORMATIONS/Plans/verse-of-the-day/log.md).
-
-If an `AGENTS.md` is added for tooling that expects one, keep it a thin pointer to `CLAUDE.md` and the folder docs (none exists in this vault yet).
+Read **[`CLAUDE.md`](CLAUDE.md)** at the repo root — the canonical operational guide (the verse-of-the-day pipeline, hard rules, citation chain, and skills). Everything an agent needs routes from there. If an `AGENTS.md` is ever added for other tooling, keep it a thin pointer to `CLAUDE.md`.

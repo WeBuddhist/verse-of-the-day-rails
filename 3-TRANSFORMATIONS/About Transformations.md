@@ -27,7 +27,7 @@ verse-of-the-day/
 **Pipeline (each step is a skill in `4-SYSTEM/Skills/`):**
 `verse-selection` → `verse-rail` (in `2-RAILS/Verses/`) → build the day card → `translation-qa` → add the `log.md` row.
 
-The **hard rules, source pools, grounding-by-canon, ecumenical wording, and day-card template** live in `verse-of-the-day/About verse-of-the-day.md`, `selection-criteria.md`, and the three pipeline skills — and are summarised in [`../4-SYSTEM/CLAUDE.md`](../4-SYSTEM/CLAUDE.md) §1b. Read those before adding verses.
+The **hard rules, source pools, grounding-by-canon, ecumenical wording, and day-card template** live in `verse-of-the-day/About verse-of-the-day.md`, `selection-criteria.md`, and the three pipeline skills — and are summarised in the root [`CLAUDE.md`](../CLAUDE.md). Read those before adding verses.
 
 ---
 
@@ -60,5 +60,5 @@ Per-language `review_status` (`clean-for-review` / `needs-native-review` / `esca
 
 - [`verse-of-the-day/About verse-of-the-day.md`](verse-of-the-day/About%20verse-of-the-day.md) — the track README + day-card template.
 - [`verse-of-the-day/selection-criteria.md`](verse-of-the-day/selection-criteria.md) — gates, freshness, source diversity, vehicle representation, theme rule.
-- [`../4-SYSTEM/CLAUDE.md`](../4-SYSTEM/CLAUDE.md) §1b — the verse-of-the-day quickstart (pipeline + hard rules + source breadth).
+- [`../CLAUDE.md`](../CLAUDE.md) — the canonical agent guide (pipeline + hard rules + source breadth).
 - [`../2-RAILS/About Rails.md`](../2-RAILS/About%20Rails.md) — the descriptive context this folder consumes.

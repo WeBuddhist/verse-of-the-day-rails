@@ -58,9 +58,10 @@ Each vault is named for the text it serves — typically `[text-slug]-rails` (e.
     ├── Skills/           # repeatable workflows (ingest, format, extract, translate, QA)
     ├── Templates/        # blank file templates for each frontmatter type
     ├── How-to guides/    # human-facing instructions for non-AI tasks
-    ├── gemini-scribe/    # Gemini Scribe plugin workspace
-    └── CLAUDE.md         # LLM-facing operational instructions
+    └── gemini-scribe/    # Gemini Scribe plugin workspace (legacy; optional)
 ```
+
+`CLAUDE.md` — the canonical LLM-facing operational guide — lives at the **repo root** (auto-loaded), not under `4-SYSTEM/`.
 
 The vault root also contains:
 
@@ -157,7 +158,7 @@ Subfolders:
 - `Templates/` — blank-file templates for each frontmatter type, organised by target folder.
 - `How-to guides/` — human-facing instructions for non-AI tasks (vault setup, sync troubleshooting, transcription workflows).
 - `gemini-scribe/` — Gemini Scribe plugin workspace (`AGENTS.md`, Prompts/, Scheduled-Tasks/, Background-Tasks/, Agent-Sessions/, Skills/).
-- `CLAUDE.md` — condensed, LLM-facing operational instructions covering the most important rules from the folder READMEs, plus standard procedures.
+- (`CLAUDE.md` is at the **repo root**, not here — the canonical LLM-facing operational guide, covering the most important rules from the folder READMEs plus the verse-of-the-day pipeline.)
 
 ---
 

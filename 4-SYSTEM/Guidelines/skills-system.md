@@ -38,15 +38,9 @@ If a matching skill exists:
 
 There are three mechanisms, one per agent type:
 
-### Claude Code — `CLAUDE.md` import chain
+### Claude Code / Cowork — root `CLAUDE.md`
 
-The vault root contains a `CLAUDE.md` with a single line:
-
-```
-@4-SYSTEM/CLAUDE.md
-```
-
-Claude Code auto-loads `CLAUDE.md` from the git root at the start of every session. That import pulls in the full operational instructions, including the skills-first rule in §1 and the skills reference table in §12. No path needs to be specified — the rule is active by default.
+The vault root contains the **canonical `CLAUDE.md`** (the full operational guide itself — not an `@import` pointer; the old `@4-SYSTEM/CLAUDE.md` import chain was removed so it works in Cowork too, which doesn't honour `@import`). Claude auto-loads `CLAUDE.md` from the git root at the start of every session, so the skills-first rule and the skills quick-reference table are active by default. There is no second copy under `4-SYSTEM/`.
 
 ### Claude Code — slash commands
 

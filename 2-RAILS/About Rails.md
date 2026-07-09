@@ -12,7 +12,7 @@
 
 This folder distills the human-authored material in `1-SOURCES/` into **original-language descriptive context** at every level any AI-powered transformation might need — section summaries, verse-by-verse packages, per-term local-wiki articles, bilingual glossaries. Every claim cites a specific human source (a commentary block ID, a translation passage). The authority of a rail comes from the tradition it compiles, not from the LLM that compiled it.
 
-This README is the **authoritative document** for everything in `2-RAILS/`: the disambiguation stack, the per-folder file format, the bilingual glossary chain, the divergence-flagging convention, and the checklist for a new verse package. The LLM-facing operational summary lives in [`../4-SYSTEM/CLAUDE.md`](../4-SYSTEM/CLAUDE.md) §7–8.
+This README is the **authoritative document** for everything in `2-RAILS/`: the disambiguation stack, the per-folder file format, the bilingual glossary chain, the divergence-flagging convention, and the checklist for a new verse package. The LLM-facing operational summary lives in the root [`CLAUDE.md`](../CLAUDE.md).
 
 Rails *describe* what the sources say. They do not *prescribe* how a new transformation should be done — that's what `3-TRANSFORMATIONS/` is for. When a transformation track introduces a new keyword rendering, it is recorded back here as one more attested choice in the corpus, alongside the renderings every other translator made.
 
