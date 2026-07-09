@@ -25,7 +25,7 @@ Pipeline position: **`verse-selection` → `verse-rail` → `translation-qa` →
   - *Prose Nikāyas:* Dīgha, Majjhima, Saṁyutta, Aṅguttara (Pali, CC0, Sujato-paired) — short, self-contained quotable sentences within longer discourses.
   - *Tibetan Kangyur Mahāyāna sūtras:* `bo-toh<N>.md` + `en-toh<N>-84000.md` (229 texts; 84000 English is reference-only, never shipped).
   - *Chinese beyond T210:* the four Āgamas (DĀ/MĀ/SĀ/EĀ) + Chinese Mahāyāna sūtras (`zh-<slug>.md`, CBETA CC BY-NC-SA).
-- **Already-used set** — the dedupe key: the log's `source_ref` column, **plus** [`previously-used.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/previously-used.md) (verses published *before/outside* this vault), **plus** existing rail files in `2-RAILS/Verses/` and cards in `days/`.
+- **Already-used set** — the dedupe key: the log's `source_ref` column, **plus** [`previously-used.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/previously-used.md) (verses published *before/outside* this vault), **plus** existing rail files in `2-RAILS/Verses/` and cards in `verse-of-the-day/`.
 - The **date** to fill (defaults to the next empty slot).
 
 ## Procedure
@@ -34,7 +34,7 @@ Pipeline position: **`verse-selection` → `verse-rail` → `translation-qa` →
 2. **Read the running balance.** From the log: which canon is under-represented (target it) and **what theme ran on the immediately preceding day** (don't repeat it back-to-back — but themes from two or more days ago are open to reuse).
 3. **Choose the target canon** = the most under-represented of Pali / Chinese Āgama / Tibetan Kangyur, to move the mix toward equal rotation.
 4. **Pick a candidate** from that canon's sources that (a) passes the **hard gates** (§1), (b) passes **quality** (§2: a source **already short enough to translate in full** — a verse or a short prose line, *not* a summary of a long passage; prose is fine if it is short — plus self-contained, accessible, relatable), (c) has a **theme** that isn't the previous day's (no back-to-back repeats; otherwise themes may recur freely, and filling gaps in `speaks_to` coverage is a plus), and (d) is **fresh** — *not* one of the over-exposed "greatest hits" (§2 Freshness). Reach into the breadth of the corpus for under-circulated verses; the famous handful are presumed-used.
-5. **Dedupe — mandatory.** Reject the candidate if its `source_ref` (or rail filename) appears in **`log.md`, `previously-used.md`, `2-RAILS/Verses/`, or `days/`** within the no-repeat window. Also avoid near-identical paired verses (e.g. Dhp 1 & 2) close together, and treat presumed-used greatest-hits as rejected unless confirmed fresh. If rejected, return to step 4.
+5. **Dedupe — mandatory.** Reject the candidate if its `source_ref` (or rail filename) appears in **`log.md`, `previously-used.md`, `2-RAILS/Verses/`, or `verse-of-the-day/`** within the no-repeat window. Also avoid near-identical paired verses (e.g. Dhp 1 & 2) close together, and treat presumed-used greatest-hits as rejected unless confirmed fresh. If rejected, return to step 4.
 6. **Propose** (output below). On acceptance, the workflow continues: `verse-rail` builds/confirms the rail → render + `translation-qa` → add the log row and update the running balance.
 
 ## Multi-day requests ("make the next N days")
@@ -60,7 +60,7 @@ a canon or theme that doesn't actually rotate within the batch.
 - **Source:** [[1-SOURCES/Text/<file>.md#^<id>]]
 - **Dedupe:** ✓ not in log / rails / days (checked <N> prior entries).
 - **Rail:** exists at `2-RAILS/Verses/<slug>.md` · OR needs building (→ verse-rail).
-- **Log row to add:** `| <date> | <day#> | <source_ref> | <canon> | <theme> | <speaks_to> | [[days/<card>]] | draft |`
+- **Log row to add:** `| <date> | <day#> | <source_ref> | <canon> | <theme> | <speaks_to> | [[<card>]] | draft |`
 ```
 
 ## Rules
@@ -77,6 +77,17 @@ a canon or theme that doesn't actually rotate within the batch.
 - [ ] Occasion checked for the date.
 - [ ] Target canon chosen from the running balance (toward equal rotation).
 - [ ] Candidate passes §1 gates + §2 quality + fills a non-recent theme.
-- [ ] Dedupe run against log + `2-RAILS/Verses/` + `days/`.
+- [ ] Dedupe run against log + `2-RAILS/Verses/` + `verse-of-the-day/`.
 - [ ] Proposal includes rationale, source link, and the ready-to-paste log row.
 - [ ] For multi-day requests: each day's log row was committed before the next day's running balance was read (no batch-selecting against a stale snapshot).
+
+---
+
+## Improve this skill (friction log)
+
+**Always run this as the final step, after the task is done.** The goal is that the next agent to use this skill struggles less than you did.
+
+1. **Recall the friction.** Walk back through the run and list every point where you were confused, guessed, backtracked, hit an error, re-read a file to figure something out, or wished this SKILL.md had told you something up front. That list is your friction log for this run.
+2. **Diagnose each item.** For each friction point, decide: was it caused by *this skill* being unclear, incomplete, missing a worked example, or missing a gotcha or edge case? Or was it a one-off specific to this task? Only skill-level gaps get fixed here — ignore the one-offs.
+3. **Fix the skill.** Edit *this* `SKILL.md` so the next agent avoids the same wall: add the missing instruction, a short worked example, a "gotcha" note, or a Completion-check item; tighten wording that misled you. Keep every existing hard rule and gate intact — **never weaken a gate or dedupe/verbatim/buddhavacana rule to reduce friction.** If a rule itself was the source of friction, add a clarifying note or example rather than removing it, and call it out for a human in your summary.
+4. **Record the change.** In your final summary to the user, note in one line per change what friction you hit and what you changed (e.g. "kept mistyping the bo block id -> added a 'verify the exact ^block anchor first' gotcha"). If you hit no real friction, say so explicitly and change nothing.

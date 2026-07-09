@@ -50,7 +50,7 @@ verse-of-the-day-rails/
 │       ├── About verse-of-the-day.md   # day-card template + language notes
 │       ├── selection-criteria.md · termbase.md · discovery-by-feeling.md · occasions.md
 │       ├── previously-used.md · log.md  # dedupe register + master calendar
-│       └── days/        # one card per day (six languages); + days/_superseded/
+│       └── day-NNN-<slug>.md   # one card per day (six languages)
 └── 4-SYSTEM/            # skills, guidelines, converters — read-only for the LLM
     ├── Guidelines/      # cross-cutting methodology (this file, why-rails, vault-annex, skills-system)
     ├── Skills/          # verse-selection, verse-rail, translation-qa, json-to-source-text, epub-to-markdown, vault-audit, create-skill
@@ -121,9 +121,7 @@ Generated output. This anthology has **one** transformation — the **verse-of-t
     ├── occasions.md                # holiday calendar (occasion overrides)
     ├── previously-used.md          # historical dedupe register
     ├── log.md                      # master calendar (date → verse) + running balance
-    └── days/
-        ├── day-NNN-<slug>.md        # one card: six renderings + metadata + QA
-        └── _superseded/            # replaced/blocked cards, kept for the record
+    └── day-NNN-<slug>.md            # one card per day: six renderings + metadata + QA
 ```
 
 Each output file's frontmatter records which `2-RAILS/` packages it was generated from, enforcing the citation chain through to the final artefact. Transformations are generated only from packages whose `status` is `complete`. Draft or partial packages are not used.

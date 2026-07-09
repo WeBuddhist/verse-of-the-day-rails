@@ -19,9 +19,7 @@ verse-of-the-day/
 ├── occasions.md                ← holiday calendar (occasion overrides)
 ├── previously-used.md          ← verses published before/outside the vault (dedupe)
 ├── log.md                      ← the master calendar (date → verse) + running balance
-└── days/
-    ├── day-NNN-<slug>.md        ← ONE card per day: 6 renderings + metadata + QA
-    └── _superseded/             ← replaced/blocked cards, kept for the record
+└── day-NNN-<slug>.md            ← ONE card per day: 6 renderings + metadata + QA
 ```
 
 **Pipeline (each step is a skill in `4-SYSTEM/Skills/`):**

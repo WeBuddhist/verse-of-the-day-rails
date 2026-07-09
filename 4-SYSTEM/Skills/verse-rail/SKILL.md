@@ -112,7 +112,7 @@ stream's termbase). Every claim cites a 1-SOURCES translation/source block.>
 9. **Buddhavacana gate — spoken *by* the Buddha, not *about* him.** No praise-of-the-Buddha stanzas (e.g. Toh 323 was blocked for this), no words of disciples/gods/kings. If the passage is *about* the Buddha, reject it. (Udānavarga/Dharmapada/sūtra utterances of the Buddha are fine.)
 10. **Real quote, kept whole, that fits the card (~125 chars).** A complete verse or one self-contained sentence, quoted in full — never a summary, stitch, or gist. If it will not fit whole in all six languages, pick a shorter source (see `selection-criteria.md` §2). Prose Nikāya/sūtra sentences are welcome if short.
 11. **Ecumenical wording.** WeBuddhist is for all Buddhists: render *bodhicitta* as "the awakening mind," never "Great Vehicle mind"; keep Mahāyāna content in inclusive language; use the standard `termbase.md` rendering of each key term, not paraphrase (e.g. *mettā* = loving-kindness, not "love").
-12. **Then build the day card + QA.** After the rail, build `days/day-NNN-<slug>.md` using the template in [`../../../3-TRANSFORMATIONS/verse-of-the-day/About verse-of-the-day.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/About%20verse-of-the-day.md), run [`translation-qa`](../translation-qa/SKILL.md), then add the `log.md` row.
+12. **Then build the day card + QA.** After the rail, build `day-NNN-<slug>.md` using the template in [`../../../3-TRANSFORMATIONS/verse-of-the-day/About verse-of-the-day.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/About%20verse-of-the-day.md), run [`translation-qa`](../translation-qa/SKILL.md), then add the `log.md` row.
 
 ## Procedure
 
@@ -129,3 +129,14 @@ stream's termbase). Every claim cites a 1-SOURCES translation/source block.>
 - [ ] Disambiguated meaning grounded, every claim cited; rendering choices flagged.
 - [ ] `source_ref`, `canon`, `grounding`, `theme` set; `status: draft`.
 - [ ] 84000 text referenced, not bulk-reproduced.
+
+---
+
+## Improve this skill (friction log)
+
+**Always run this as the final step, after the task is done.** The goal is that the next agent to use this skill struggles less than you did.
+
+1. **Recall the friction.** Walk back through the run and list every point where you were confused, guessed, backtracked, hit an error, re-read a file to figure something out, or wished this SKILL.md had told you something up front. That list is your friction log for this run.
+2. **Diagnose each item.** For each friction point, decide: was it caused by *this skill* being unclear, incomplete, missing a worked example, or missing a gotcha or edge case? Or was it a one-off specific to this task? Only skill-level gaps get fixed here — ignore the one-offs.
+3. **Fix the skill.** Edit *this* `SKILL.md` so the next agent avoids the same wall: add the missing instruction, a short worked example, a "gotcha" note, or a Completion-check item; tighten wording that misled you. Keep every existing hard rule and gate intact — **never weaken a gate or dedupe/verbatim/buddhavacana rule to reduce friction.** If a rule itself was the source of friction, add a clarifying note or example rather than removing it, and call it out for a human in your summary.
+4. **Record the change.** In your final summary to the user, note in one line per change what friction you hit and what you changed (e.g. "kept mistyping the bo block id -> added a 'verify the exact ^block anchor first' gotcha"). If you hit no real friction, say so explicitly and change nothing.

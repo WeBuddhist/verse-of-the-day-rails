@@ -255,3 +255,14 @@ python 4-SYSTEM/Skills/epub-to-markdown/root_marker_to_bold.py \
 - [ ] Sampled `[[root|…]]` / `[[quote|…]]` etc. blocks confirmed to match expected content type.
 - [ ] Chapter headings, TOC links, and non-Latin script encoding spot-checked.
 - [ ] `༷` root markers converted to `**bold**` (no stray `༷` remaining) before the file is moved to `0-INBOX/md-texts/`.
+
+---
+
+## Improve this skill (friction log)
+
+**Always run this as the final step, after the task is done.** The goal is that the next agent to use this skill struggles less than you did.
+
+1. **Recall the friction.** Walk back through the run and list every point where you were confused, guessed, backtracked, hit an error, re-read a file to figure something out, or wished this SKILL.md had told you something up front. That list is your friction log for this run.
+2. **Diagnose each item.** For each friction point, decide: was it caused by *this skill* being unclear, incomplete, missing a worked example, or missing a gotcha or edge case? Or was it a one-off specific to this task? Only skill-level gaps get fixed here — ignore the one-offs.
+3. **Fix the skill.** Edit *this* `SKILL.md` so the next agent avoids the same wall: add the missing instruction, a short worked example, a "gotcha" note, or a Completion-check item; tighten wording that misled you. Keep every existing hard rule and gate intact — **never weaken a gate or dedupe/verbatim/buddhavacana rule to reduce friction.** If a rule itself was the source of friction, add a clarifying note or example rather than removing it, and call it out for a human in your summary.
+4. **Record the change.** In your final summary to the user, note in one line per change what friction you hit and what you changed (e.g. "kept mistyping the bo block id -> added a 'verify the exact ^block anchor first' gotcha"). If you hit no real friction, say so explicitly and change nothing.

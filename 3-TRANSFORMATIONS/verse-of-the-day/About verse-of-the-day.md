@@ -15,14 +15,13 @@ verse-of-the-day/
 ├── previously-used.md          ← verses published before/outside this vault (dedupe)
 ├── log.md                      ← the master calendar (date → verse), the index
 ├── log-history.md              ← archived batch-by-batch reasoning (not loaded day-to-day)
-└── days/
-    └── day-NNN-<slug>.md        ← ONE file per day, all six languages + metadata
+└── day-NNN-<slug>.md           ← ONE file per day, all six languages + metadata
 ```
 
 ## The unit of work: one day = one file (or one row)
 
-Each day is a single `days/day-NNN-<slug>.md` card holding **all six renderings
-plus metadata** — see [`days/day-001-friendship-dhp328.md`](days/day-001-friendship-dhp328.md)
+Each day is a single `day-NNN-<slug>.md` card holding **all six renderings
+plus metadata** — see [`day-001-friendship-dhp328.md`](day-001-friendship-dhp328.md)
 for the shape. `log.md` is the running index (date → `source_ref`, theme, status).
 
 *(Alternative if you'd rather not have per-day files: the whole thing can live as
@@ -33,7 +32,7 @@ the log index; say the word to switch to table-only.)*
 
 ## Day-card format (copy this template)
 
-This is the exact shape every `days/day-NNN-<slug>.md` uses. Match it.
+This is the exact shape every `day-NNN-<slug>.md` uses. Match it.
 
 ```markdown
 ---
