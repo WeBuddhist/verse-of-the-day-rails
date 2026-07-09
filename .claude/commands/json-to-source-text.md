@@ -1,3 +1,3 @@
 Read `4-SYSTEM/Skills/json-to-source-text/SKILL.md` in full, then execute it on the file(s) or input the user specifies.
 
-Skill purpose: Converts tipitaka.org JSON exports of root texts into formatted source-text markdown files.
+Skill purpose: Use this skill whenever the user wants to bring a JSON export of a classical text — from tipitaka.org, SuttaCentral, GRETIL, BDRC, OpenPecha, CBETA, or any custom scrape — into the vault as a source-text file, even if they just say "here's a JSON dump" or name the source site directly without mentioning "source text" or "import." Converts the JSON into properly formatted Markdown for `1-SOURCES/Text/`, per `4-SYSTEM/Guidelines/source-formatting.md`. Adaptive: inspects the JSON's schema, reuses a matching converter if the source shape is known, or generates a new one and declares which output convention it targets.

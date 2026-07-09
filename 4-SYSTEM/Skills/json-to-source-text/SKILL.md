@@ -1,6 +1,6 @@
 ---
 name: json-to-source-text
-description: Convert JSON dumps of classical texts (tipitaka.org, SuttaCentral, GRETIL exports, BDRC, custom scraped JSON) into properly formatted Markdown source-text files for `1-SOURCES/Text/`. Adaptive — inspects each JSON's schema, reuses an existing converter if the source shape is known, otherwise generates a new converter. The current converter (`tipitaka_org_book.py`) produces Pāli Tipiṭaka root texts in the Bible-style book-verse numbering scheme — see `4-SYSTEM/Guidelines/source-formatting.md` §5 "Pāli — Tipiṭaka root texts (Bible-style addressing)" for the full convention. New converters for other source types must declare which output convention they target.
+description: Use this skill whenever the user wants to bring a JSON export of a classical text — from tipitaka.org, SuttaCentral, GRETIL, BDRC, OpenPecha, CBETA, or any custom scrape — into the vault as a source-text file, even if they just say "here's a JSON dump" or name the source site directly without mentioning "source text" or "import." Converts the JSON into properly formatted Markdown for `1-SOURCES/Text/`, per `4-SYSTEM/Guidelines/source-formatting.md`. Adaptive: inspects the JSON's schema, reuses a matching converter if the source shape is known, or generates a new one and declares which output convention it targets.
 ---
 
 # JSON to Source Text Skill
@@ -251,7 +251,6 @@ grep -E "^\^|\^[0-9]+-[0-9]+( |$)" 0-INBOX/temp/<file>.md | head -20
 
 - `4-SYSTEM/Guidelines/source-formatting.md` — the authoritative formatting rules. The converter output must conform to these.
 - `4-SYSTEM/Guidelines/1-SOURCES-Guideline.md` — broader rules for `1-SOURCES/`.
-- `4-SYSTEM/Skills/format-root-text/SKILL.md` — for post-hoc cleanup of source files (this skill's output may benefit from a pass through that one).
 
 ---
 

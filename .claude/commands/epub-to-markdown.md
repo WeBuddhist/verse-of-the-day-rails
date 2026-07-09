@@ -1,3 +1,3 @@
 Read `4-SYSTEM/Skills/epub-to-markdown/SKILL.md` in full, then execute it on the file(s) or input the user specifies.
 
-Skill purpose: Converts EPUB files into formatted Obsidian markdown with block IDs, headings, and frontmatter.
+Skill purpose: Use this skill whenever the user wants to bring an .epub file into the vault — a commentary, reference text, or any book-length source — even if they just say "here's an epub" or "add this book" without mentioning EPUB or Markdown by name. Converts EPUB files into formatted Obsidian Markdown with block IDs, headings, and frontmatter, ready for 1-SOURCES/. Adaptive: inspects the epub's internal CSS/structure first, then reuses an existing publisher-specific converter or generates a new one tailored to that epub's conventions.

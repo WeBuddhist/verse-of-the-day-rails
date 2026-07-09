@@ -1,6 +1,6 @@
 ---
 name: create-skill
-description: Scaffold a new skill completely and correctly — creates the SKILL.md with the required structure, registers it in SKILLS-CATALOG.md, creates the slash command file, and optionally adds it to the CLAUDE.md quick-reference table. Use this skill every time a new skill is created to guarantee all four registration locations are populated in one pass.
+description: Use this skill whenever a new skill is being created, scaffolded, or added to this vault — even if the user just says "let's add a skill for X" or "we need a way to do Y" without naming create-skill directly. Scaffolds the skill completely and correctly in one pass: writes the SKILL.md with the required structure, registers it in SKILLS-CATALOG.md, creates its slash command file, and optionally adds it to CLAUDE.md's quick-reference table. Prevents the common failure of a skill folder existing but not being registered everywhere it needs to be.
 ---
 
 # create-skill

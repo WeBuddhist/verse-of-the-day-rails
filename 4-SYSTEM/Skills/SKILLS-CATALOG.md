@@ -87,8 +87,8 @@ These skills operate on the vault's own structure — creating new skills, maint
 
 ### `create-skill` **[exists]**
 **Purpose:** Scaffold a new skill completely and correctly in a single pass — creates the SKILL.md, registers it in SKILLS-CATALOG.md, creates the slash command file, and optionally adds it to the CLAUDE.md quick-reference table.
-**Inputs:** Skill name, purpose sentence, catalog section, inputs/outputs description, and whether it belongs in the CLAUDE.md §12 table.
-**Outputs:** `4-SYSTEM/Skills/<skill-name>/SKILL.md`, a new catalog entry, `.claude/commands/<skill-name>.md`, and optionally a new §12 table row in `4-SYSTEM/CLAUDE.md`.
+**Inputs:** Skill name, purpose sentence, catalog section, inputs/outputs description, and whether it belongs in the CLAUDE.md "Skills quick-reference" table.
+**Outputs:** `4-SYSTEM/Skills/<skill-name>/SKILL.md`, a new catalog entry, `.claude/commands/<skill-name>.md`, and optionally a new row in `CLAUDE.md`'s "Skills quick-reference" table.
 → [`create-skill/SKILL.md`](create-skill/SKILL.md)
 
 ---
@@ -98,7 +98,7 @@ These skills operate on the vault's own structure — creating new skills, maint
 These skills check and report on vault integrity. They are read-only and safe to run on a schedule. They never modify vault content — they produce reports for human action.
 
 ### `vault-audit` **[exists]**
-**Purpose:** Read-only weekly audit of the vault. Checks that every skill folder is registered in the catalog and has a command file; that 2-RAILS and 3-TRANSFORMATIONS files have required frontmatter; that no 3-TRANSFORMATIONS file references 1-SOURCES directly; that no complete output depends on a draft rail; that 0-INBOX/temp/ has no stale files; and that no internal wiki links are dead.
+**Purpose:** Read-only weekly audit of the vault. Checks that every skill folder is registered in the catalog and has a command file (and the reverse — no orphaned command files pointing at a deleted skill); that 2-RAILS and 3-TRANSFORMATIONS files have required frontmatter; that no 3-TRANSFORMATIONS file references 1-SOURCES directly; that no complete output depends on a draft rail; that 0-INBOX/temp/ has no stale files; that no internal wiki links are dead; and that 2-RAILS/Verses/ filenames follow convention with a rail on file for every day card.
 **Inputs:** None — operates on the vault as a whole.
 **Outputs:** One dated report at `0-INBOX/vault-audit-<YYYY-MM-DD>.md` with checkboxed issues per category.
 → [`vault-audit/SKILL.md`](vault-audit/SKILL.md)

@@ -1,6 +1,6 @@
 ---
 name: verse-selection
-description: Select the next verse(s) of the day for the WeBuddhist anthology. Reads the log (what's already run + the running balance) and the curation docs, then proposes the next verse — deduping against everything already used, rotating the canon toward balance, spacing themes, and honoring holiday occasions. The selection step that precedes verse-rail. It picks and proposes; it does not build the rail or invent un-sourced verses.
+description: Use this skill whenever it's time to pick the next verse-of-the-day — even if the user just says "what's next," "fill in the next slot," or gives a date, without naming verse-selection. Reads the log (what's already run + the running balance) and the curation docs, then proposes the next verse: deduping against everything already used, rotating the canon toward balance, spacing themes, and honoring holiday occasions. Picks and proposes only — it does not build the rail (that's verse-rail) or invent un-sourced verses.
 ---
 
 # verse-selection

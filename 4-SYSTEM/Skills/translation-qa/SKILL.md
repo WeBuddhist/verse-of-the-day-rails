@@ -1,6 +1,6 @@
 ---
 name: translation-qa
-description: Automated pre-review QA pass on verse-of-the-day renderings, run BEFORE a human reviewer sees them. For one verse's six language renderings (or any subset), critiques each against its rail's disambiguated meaning and flagged rendering choices, back-translates to catch drift, checks terminology and register, produces a revised draft, and flags low-confidence spots for the reviewer. Raises draft quality and cuts reviewer load — it does NOT replace native dharma-reviewer sign-off (especially bo/mn).
+description: Use this skill whenever a verse-of-the-day's draft renderings are ready and need pre-review QA before a human reviewer sees them — even if the user just says "check the drafts," "QA day 20," or "is this ready for review" without naming translation-qa. For one verse's six language renderings (or any subset), critiques each against its rail's disambiguated meaning and flagged rendering choices, back-translates to catch drift, checks terminology and register, revises the draft, and flags low-confidence spots for the reviewer. Raises draft quality and cuts reviewer load — it does NOT replace native dharma-reviewer sign-off (especially bo/mn).
 ---
 
 # translation-qa (pre-review pass)

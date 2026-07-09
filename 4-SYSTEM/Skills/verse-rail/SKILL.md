@@ -1,6 +1,6 @@
 ---
 name: verse-rail
-description: Build a translation-grounded verse-of-the-day rail at 2-RAILS/Verses/<slug>.md for one verse from any canon (Pali, Chinese Āgama, Tibetan Kangyur). Transcludes the source block, cites the authoritative translation(s) the vault holds, writes a precise disambiguated meaning, and tags theme + source_ref. Use this INSTEAD of `verse-context` for the WeBuddhist buddhavacana anthology, which has no commentaries imported — `verse-context` requires a commentary tradition; this skill grounds rails in translations, which About Rails explicitly permits ("a claim may cite a commentary block ID, or a translation passage").
+description: Use this skill whenever a verse has been selected (by verse-selection or named directly by the user) and needs a rail built before rendering — even if the user just says "build the rail for Dhp 5" or names a sutta/verse directly without saying "rail." Builds a translation-grounded verse-of-the-day rail at 2-RAILS/Verses/<slug>.md for one verse from any canon (Pali, Chinese Āgama, Tibetan Kangyur): transcludes the source block, cites the authoritative translation(s) the vault holds, writes a precise disambiguated meaning, and tags theme + source_ref. This anthology holds no commentaries, so grounding is always translation-based — About Rails explicitly permits this ("a claim may cite a commentary block ID, or a translation passage").
 ---
 
 # verse-rail (translation-grounded)
@@ -11,8 +11,7 @@ source text, the authoritative translation(s) we hold, and a precise
 disambiguated meaning grounded in them. From a `complete` rail, each stream
 writes its own modern rendering.
 
-This is the anthology's adaptation of `verse-context`. Differences, both
-deliberate and documented in `vault-annex.md`:
+Key conventions, documented in `vault-annex.md`:
 
 - **Grounding is translation, not commentary.** The anthology imported no
   commentaries. The grounding source is the authoritative translation(s):

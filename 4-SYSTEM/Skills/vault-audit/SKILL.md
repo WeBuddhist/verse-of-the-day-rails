@@ -1,6 +1,6 @@
 ---
 name: vault-audit
-description: Read-only weekly audit of vault integrity. Checks skills sync (incl. orphaned command files), frontmatter completeness, citation chain, status consistency, stale inbox files, dead wiki links, and file placement/naming. Writes a dated report to 0-INBOX/. Never modifies vault files.
+description: Use this skill on a weekly schedule, after a batch of collaborative changes, or whenever the user asks to "check the vault," "audit the vault," "is anything broken," or "clean up stale files" — even without naming vault-audit directly. Read-only integrity audit: checks skills sync (incl. orphaned command files), frontmatter completeness, citation chain, status consistency, stale inbox files, dead wiki links, and file placement/naming. Writes a dated report to 0-INBOX/; never modifies vault files.
 ---
 
 # vault-audit
