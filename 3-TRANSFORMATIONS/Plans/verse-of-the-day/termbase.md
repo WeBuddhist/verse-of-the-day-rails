@@ -86,3 +86,5 @@ Two different words, two different renderings — don't conflate:
 - **QA** (`translation-qa`): the terminology check compares each rendering's key terms against this table; mismatches are flagged.
 - **Adding/ratifying:** a native reviewer confirms ⚑ rows for their language; once confirmed, drop the ⚑ — that rendering is then locked for consistency. Keep one sense per row; if a term has two senses (e.g. *sahāya* vs *kalyāṇa-mitta*), give each its own row.
 - **Sourcing:** prefer renderings attested in the authoritative translations we hold (Sujato, 84000, Patton) and standard Buddhist dictionaries over fresh coinage.
+- **Standard term, not paraphrase:** always use the established dharma-term rendering, never an everyday word — *mettā* = loving-kindness / मैत्री, **not** "love"; *puñña* = merit; aggregates = form/feeling/perception/**volition/consciousness**. Paraphrase is the most common QA miss.
+- **Ecumenical (WeBuddhist is for all Buddhists):** render Mahāyāna terms inclusively — **bodhicitta = "the awakening mind," never "Great Vehicle mind"** (大乘 / *theg chen* reads sectarian). *Bodhisattva* is fine. Keep Mahāyāna content; drop sectarian framing.

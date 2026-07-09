@@ -44,13 +44,31 @@ For each rendering, evaluate against the rail and record findings:
 3. **Back-translation.** Back-translate the rendering into English and compare
    to the rail's Disambiguated Meaning. Record the back-translation and any
    divergence — divergence is a flag, not an auto-fail.
-4. **Terminology.** Key Buddhist terms match the glossary / standard vocabulary
-   for that language and are consistent. Flag invented or inconsistent renderings
-   (e.g. nibbāna → 涅槃 / myang-'das / निर्वाण should be the agreed form).
-5. **Register & locale.** Modern, plain, audience-appropriate ("feel like home",
+4. **Terminology — standard dharma term, not paraphrase.** Each key Buddhist term
+   must use the **established, standard rendering** in that language (per
+   `termbase.md`), not an everyday paraphrase. Real misses caught this way:
+   *mettā* must be "loving-kindness / 慈 / मैत्री," **not** "love / प्रेम";
+   *puñña* = "merit," not "good deed"; the five aggregates take their standard
+   names (form, feeling, perception, **volition, consciousness** — not "will,
+   awareness"). Flag invented/inconsistent renderings; add a termbase row rather
+   than coining per-verse.
+5. **Ecumenical wording (WeBuddhist is for all Buddhists).** Render *bodhicitta*
+   as **"the awakening mind," never "Great Vehicle mind"** (大乘 reads sectarian).
+   *Bodhisattva* is acceptable (pan-Buddhist); frame such lines as universal.
+   Flag any sectarian phrasing.
+6. **Register & locale.** Modern, plain, audience-appropriate ("feel like home",
    not scholarly). **zh = modern Traditional Chinese, Taiwan/HK/SG.** **No em
    dashes in the English.** Not classical/Literary register.
-6. **Fluency.** Natural in the target language; reads as something a person would
+7. **Real quote, whole, within the card (~125 chars).** The rendering is a
+   *complete* quote (a verse or one self-contained sentence), never a summary,
+   stitch, or gist. If it reads like a paraphrase-to-fit, that is a **critical**
+   finding — the fix is a shorter source, not tighter wording. Check it fits the
+   ~125-char card in every language.
+8. **Verbatim source on source-language cards.** For a Chinese-source verse the
+   **zh must be the verbatim CBETA source**; for a Tibetan-source verse the **bo
+   must be the verbatim Degé source** (it is the quote itself — do not "improve"
+   it). 84000 English is reference-only and must never appear as the shipped text.
+9. **Fluency.** Natural in the target language; reads as something a person would
    actually say.
 
 ## Severity
@@ -62,16 +80,37 @@ For each rendering, evaluate against the rail and record findings:
 ## Outputs
 
 1. **Revised renderings** written back into the day card (status stays `draft`).
-2. **A QA note** appended to the day card, per language:
+2. **A QA note** appended to the day card. Use the house format (one `##`
+   section, one `###` per language):
 
 ```markdown
-### QA — <language> (pre-review, against 2-RAILS/Verses/<slug>.md)
+## QA — pre-review (against 2-RAILS/Verses/<slug>.md)
+
+### en
 - Back-translation: "<EN back-translation of the revised rendering>"
-- Findings:
-  - [critical|major|minor] <category>: <issue> → <fix applied / or flag>
-- Confidence flags (for reviewer): <span(s) the model is unsure of, and why>
-- Net: <clean / needs native review on flagged spans / escalate>
+- Findings: <faithfulness vs rail; term/ecumenical/length checks; "No em dash ✓">
+- Net: clean for review.
+
+### zh (Traditional)
+- <if the source IS Chinese: "the verbatim CBETA source; the quote itself."; else back-translation + findings>
+- Net: clean for review.
+
+### hi
+- Back-translation / findings. Net: clean for review.
+
+### ne
+- Back-translation / confidence flags. Net: needs native review.
+
+### bo ⚑
+- <if source IS Tibetan: "the verbatim Degé source."; else back-translation (approx)> / confidence flags. Net: escalate to native Tibetan dharma reviewer.
+
+### mn ⚑
+- Back-translation (approx) / confidence flags. Net: escalate to native Mongolian dharma reviewer.
 ```
+
+`review_status` in the card frontmatter mirrors the Nets: en/zh/hi default
+`clean-for-review` when faithful, ne `needs-native-review`, bo/mn
+`escalate-native-review` (use `blocked` if a gate fails, e.g. non-buddhavacana).
 
 ## Rules
 

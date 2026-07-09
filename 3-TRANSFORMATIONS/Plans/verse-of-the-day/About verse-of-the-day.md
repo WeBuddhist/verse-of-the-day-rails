@@ -30,14 +30,76 @@ status`. Per-day files win when you want the Pāli source, notes, and the rail
 link alongside; the table wins for pure compactness. We're using per-day files +
 the log index; say the word to switch to table-only.)*
 
-## What each day card holds
+## Day-card format (copy this template)
 
-1. **source_ref** — the citation shown with the verse (e.g. **Dhp 328**), per `vault-annex.md` §2. A verse with no resolvable citation does not ship.
-2. **source_link / context_packages** — the `2-RAILS/Verses/<slug>.md` rail it was generated from (and through it, the `1-SOURCES/` block).
-3. **source (original)** — the Pāli / Chinese / Tibetan, for display under the verse.
-4. **six renderings** — en, zh, bo, hi, ne, mn (see language notes below).
-5. **theme · speaks_to · occasions** — for calendar variety, the "where are you right now?" feature, and holiday overrides.
-6. **review_status** — per-language sign-off state.
+This is the exact shape every `days/day-NNN-<slug>.md` uses. Match it.
+
+```markdown
+---
+day: <N>
+date: <YYYY-MM-DD>
+source_ref: "<citation, e.g. Dhp 328 · or 法句經 T210 (述千品) · Dhp 103 parallel>"
+canon: <Pali | Chinese | Chinese (Mahāyāna) | Tibetan Kangyur | Tibetan Kangyur (Mahāyāna)>
+theme: <emergent-tag>
+speaks_to: [<felt-states>]
+occasions: []
+source_rail: 2-RAILS/Verses/<slug>.md
+context_packages: [2-RAILS/Verses/<slug>.md]
+status: draft
+review_status:
+  en: clean-for-review        # en/zh/hi default clean-for-review when faithful
+  zh: clean-for-review
+  hi: clean-for-review
+  ne: needs-native-review     # ne always needs native review
+  bo: escalate-native-review  # bo + mn always escalate (highest risk)
+  mn: escalate-native-review
+---
+
+# Day <N> — <Theme> (<Source>)
+
+Rail: [[2-RAILS/Verses/<slug>]] · <one-line grounding: e.g. "grounded in Sujato (CC0)" / "own translation from CBETA Chinese source (CC BY-NC-SA); Mahāyāna" / "own translation from the Degé Kangyur (Public Domain); 84000 English as reference only">.
+Short <verse|sentence>, **quoted in full**. Meaning: <one plain line>.
+
+## Source (<language>)
+
+<For Pali: transclude — ![[1-SOURCES/Text/pi-....md#^id]] (or the en-sujato block).
+ For Chinese/Tibetan: quote the VERBATIM source line + its anchor:>
+> <verbatim source> (`<file>#^<id>`)
+
+## Renderings (one short line each)
+
+- **en** — <one short line>
+- **zh** — <verbatim source if the source IS Chinese; else our modern Traditional rendering>
+- **bo** — ⚑ <verbatim source if the source IS Tibetan; else our rendering>
+- **hi** — <our rendering>
+- **ne** — <our rendering>
+- **mn** — ⚑ <our rendering>
+
+## QA — pre-review (against 2-RAILS/Verses/<slug>.md)
+
+### en
+- Back-translation: "<literal back-translation>"
+- Findings: <faithfulness vs source/parallel; term checks; "No em dash ✓">
+- Net: clean for review.
+
+### zh (Traditional)
+- <if verbatim source: "the verbatim CBETA source; the quote itself."; else back-translation + findings>
+- Net: clean for review.
+
+### hi
+- Back-translation / findings. Net: clean for review.
+
+### ne
+- Back-translation / confidence flags. Net: needs native review.
+
+### bo ⚑
+- Back-translation (approx) / confidence flags. Net: escalate to native Tibetan dharma reviewer.
+
+### mn ⚑
+- Back-translation (approx) / confidence flags. Net: escalate to native Mongolian dharma reviewer.
+```
+
+Notes on the fields: **source_ref** is the citation shown with the verse (a card with no resolvable citation does not ship); for grounding-by-parallel picks, append `· Dhp N parallel`. **source_rail / context_packages** point to the rail (and through it to `1-SOURCES/`). The **⚑** on bo/mn flags them for native ratification. `review_status` values used: `clean-for-review`, `needs-native-review`, `escalate-native-review`, `blocked`.
 
 ## Language notes (folded in from the old per-stream contracts)
 
@@ -46,6 +108,7 @@ the log index; say the word to switch to table-only.)*
 - **zh** — **modern Traditional Chinese** for Taiwan / Hong Kong / Singapore (not Simplified/mainland register).
 - **bo / hi / ne / mn** — WeBuddhist's own modern renderings from the rail's meaning; **bo and mn carry the highest risk** and need native dharma-reviewer sign-off.
 - **No em dashes in the English.**
+- **Ecumenical wording — WeBuddhist is for all Buddhists.** Keep Mahāyāna *content* but render it in inclusive language: **bodhicitta → "the awakening mind," never "Great Vehicle mind"** (大乘 / *theg chen* reads sectarian). *Bodhisattva* is fine (pan-Buddhist); frame such lines as universal instructions. Use the standard, established dharma-term rendering in each language (see `termbase.md`) rather than paraphrase — e.g. *mettā* = "loving-kindness / मैत्री," not "love"; render the five aggregates with their standard names (form, feeling, perception, volition, consciousness).
 - **Real quote, kept whole — no distillation.** Each rendering is a *full* real quote: a complete verse, or a single self-contained sentence, translated in full. **Never** summarise a passage, stitch partial lines, or reduce a teaching to its "gist" to save space. Keep renderings short by *choosing a short source*, not by cutting — if a source only fits by distilling, don't use it (pick a genuinely short verse instead). Target ≈ ≤ 20 words / ≤ 120 chars in English where the quote allows, but faithfulness wins over the target. See the hard rule in [`selection-criteria.md`](selection-criteria.md) §2.
 - Keep faithful to the original's intent (grammar/structure), not just the gist — see the rail's flagged rendering choices.
 

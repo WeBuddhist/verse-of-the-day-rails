@@ -36,8 +36,27 @@ Authority comes from the human source — for this vault, the canonical text and
 
 - **No commentaries → translation-grounded rails.** Build rails with [`verse-rail`](Skills/verse-rail/SKILL.md) (citing the authoritative *translation*), **not** `verse-context` or the section/glossary/commentary skills — those are **archived**. §7's commentary-centric `2-RAILS/` description (Sections, Local-Wiki, Bilingual-Glossaries) is template background; here `2-RAILS/Verses/` is the only active rail type.
 - **Simplified Plan.** Verse-of-the-day is **one file per day** (all six languages) in `3-TRANSFORMATIONS/Plans/verse-of-the-day/days/`, indexed by `log.md` — **not** the per-language `requirements/termbase/schedule` streams described in §9. Curation rules: `selection-criteria.md`, `discovery-by-feeling.md`, `occasions.md` in that Plan folder.
-- **Active skills only:** `verse-rail`, `json-to-source-text` (+ our SuttaCentral/CBETA/OpenPecha converters), `epub-to-markdown`, `vault-audit`, `create-skill` (see §12). Anything else is in `Skills/_archived/`.
+- **Active skills only:** the verse-of-the-day pipeline — `verse-selection`, `verse-rail`, `translation-qa` — plus `json-to-source-text` (+ our SuttaCentral/CBETA/OpenPecha converters), `epub-to-markdown`, `vault-audit`, `create-skill` (see §12). Anything else is in `Skills/_archived/`.
 - **Multi-source addressing & a source-licensing register:** annex §2 and §7.
+
+---
+
+## 1b. Verse-of-the-Day — quickstart (read this before adding daily verses)
+
+**Pipeline:** `verse-selection` → `verse-rail` → build the day card → `translation-qa` → add the `log.md` row. Read, in the Plan folder `3-TRANSFORMATIONS/Plans/verse-of-the-day/`: **`About verse-of-the-day.md`** (day-card template), **`selection-criteria.md`** (gates + balance), **`termbase.md`** (locked terms), **`log.md`** (what's used + running balance), **`previously-used.md`** (dedupe). Skills: `Skills/verse-selection`, `Skills/verse-rail`, `Skills/translation-qa`.
+
+**Hard rules — a card that breaks any of these must be redone:**
+1. **Buddhavacana spoken *by* the Buddha, not *about* him** — no praise-of-the-Buddha stanzas, no words of disciples/gods/kings.
+2. **Real quote, kept whole** — a complete verse or ONE self-contained sentence, quoted in full; never summarise / stitch / gist. **Verify the source verbatim from `1-SOURCES/` first — never render Pāli/Chinese/Tibetan from memory.**
+3. **Fits the app card (~125 chars)** in all six languages; if it won't fit whole, pick a shorter source.
+4. **Ecumenical wording** — *bodhicitta* = "the awakening mind," never "Great Vehicle"; use standard `termbase.md` terms, not paraphrase (*mettā* = loving-kindness, not "love").
+5. **No em dashes in English**; **zh = modern Traditional**; on Chinese/Tibetan-source cards the **zh/bo rendering IS the verbatim source**; **84000 English is reference-only, never shipped.**
+6. **Dedupe the material** against log + previously-used + rails + days; **themes may repeat but never two days running**; keep the three canons roughly balanced.
+7. All cards stay **`status: draft`**; only a native dharma reviewer (esp. bo + mn) sets `complete`.
+
+**Source breadth — do NOT default to the Dhammapada.** Rotate across: Pali verse collections (Dhp, Snp, Ud, Iti gāthās) **and prose Nikāyas** (DN/MN/SN/AN, Sujato CC0) · Chinese Dharmapada (T210), the four Āgamas, **and Chinese Mahāyāna sūtras** (`zh-diamond-sutra`, `zh-lotus-sutra`, `zh-amitabha-sutra`, `zh-bequeathed-teachings`, `zh-vimalakirti`, `zh-eight-realizations`) · Tibetan **Udānavarga** (Toh 326) **and Kangyur Mahāyāna sūtras** (`bo-toh<N>` + `en-toh<N>-84000`). **Mahāyāna must appear regularly** (a for-all-Buddhists calendar), worded ecumenically. Grounding & licensing per canon: the table in the `verse-rail` skill.
+
+**Importing more source text:** CBETA → `Skills/json-to-source-text/converters/cbeta_sutra.py` (verse/sūtra) or `cbeta_agama.py` (Āgama prose); sparse-clone only the Taishō volume you need (see the converter docstring). Register in `Guidelines/vault-annex.md` (corpus table + §7 licensing). **Open item:** populate `previously-used.md` with WeBuddhist's real prior-published verses when available.
 
 ---
 
