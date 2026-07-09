@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/Adaptations/About Adaptations.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About Adaptations"
+              "title": "README"
             }
           }
         ]
@@ -197,7 +197,10 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/log.md",
+    "3-TRANSFORMATIONS/Plans/verse-of-the-day/discovery-by-feeling.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-037-bodhicitta-t779.md",
+    "3-TRANSFORMATIONS/Adaptations/About Adaptations.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-044-patience-toh194.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-045-non-attached-giving-t235.md",
     "3-TRANSFORMATIONS/Plans/verse-of-the-day/days/day-043-gift-of-teaching-dhp354.md",
@@ -220,9 +223,6 @@
     "2-RAILS/Verses/t389-concentration.md",
     "2-RAILS/Verses/toh122-great-compassion.md",
     "2-RAILS/Verses/mn19-thought.md",
-    "2-RAILS/Verses/t779-bodhicitta.md",
-    "2-RAILS/Verses/t475-purity-of-mind.md",
-    "1-SOURCES/Text/zh-eight-realizations.md",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Scheduled-Tasks",
