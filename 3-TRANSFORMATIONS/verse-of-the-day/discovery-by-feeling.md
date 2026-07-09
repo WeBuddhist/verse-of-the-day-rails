@@ -50,37 +50,15 @@ loving-kindness / friendship / gratitude today"* — is the Buddhist addition, a
 fits practice better: these are states one deliberately cultivates, not just
 moods that arrive. Both grow as needed.
 
-### Grounded in WeBuddhist's mission & pillars (confirmed against the knowledge base)
+### Product grounding
 
-Reconciled with `10_ORG/11_Strategy/🌟North_Star.md` (updated 2026-06-22).
-
-**The mission *is* a verse.** WeBuddhist's stated mission — *"help Buddhists do a
-little less harm, a little more good, and know their own minds — day after day"*
-— is the Buddha's own summary, **Dhp 183** (avoid evil, do good, purify the
-mind). So the whole feature points back to one north-star teaching; treat
-Dhp 183 as the anchor verse of the corpus.
-
-**Four pillars: Learn · Practice · Connect · Sustain.** The cultivation themes
-map onto the three practitioner-facing pillars (Sustain is the funding pillar):
-
-- **Learn** — *Dhamma in their own words*: wisdom, the path, mindfulness, aspiration (Dhp 1, Dhp 183).
-- **Practice** — *transformed through daily habits*: the brahmavihāras (mettā, karuṇā, muditā, upekkhā), patience, generosity (*dāna*), contentment, calm.
-- **Connect** — *share transformation through communities*: **sangha, spiritual friendship (*kalyāṇa-mittatā*), belonging.** A first-class theme — the Buddha put it at the centre: *"Admirable friendship is the entire holy life"* (SN 45.2).
-
-**This feature serves both halves of the platform.** The North Star frames the
-product as **Reliability + Relatability**: *"Without trusted content we are just a
-scripture database; without engaging content we are just another wellness app."*
-The rails are Reliability (every verse a verified canonical source); discovery-
-by-feeling is **Relatability**. And it's built for **Persona F** — "going through
-a difficult period, trusts the teachings can help, if she could only find the
-right ones."
-
-**Tone — "Sacred, Not Precious."** The audience is *already-Buddhist
-practitioners* (it should "feel like home," not like Headspace/Calm). So the
-"meets you / points through" framing is right: speak to a practitioner who knows
-the Dharma, not a wellness consumer. Keywords: depth, stillness, clarity,
-groundedness, contemporary. (YouVersion is an approved reference for *clean
-readability at scale* — we adapt its mechanic, in this register.)
+This feature is grounded in WeBuddhist's mission and audience strategy — full
+rationale in `10_ORG/11_Strategy/🌟North_Star.md` (mission = Dhp 183, the
+corpus anchor; four pillars Learn/Practice/Connect/Sustain; Persona F;
+"Reliability + Relatability"; "Sacred, Not Precious" tone — feel like home for
+already-Buddhist practitioners, not a wellness app). Not reproduced here:
+tagging a verse's `speaks_to:` doesn't need this loaded, only the tables below.
+Read the source doc for the full strategic reasoning.
 
 ## The Buddhist lens (what's underneath)
 

@@ -103,7 +103,7 @@ stream's termbase). Every claim cites a 1-SOURCES translation/source block.>
 
 1. **Transclude source and translation — never copy.** `![[…#^id]]`.
 2. **Ground every claim in the disambiguated meaning** to a `1-SOURCES/` block (translation or source). No parametric claims. If it can't be cited, leave it out and keep `status: draft`.
-3. **Flag, don't fix, rendering choices.** Where translators differ (e.g. *averena* = "by love" vs "by non-hatred"), note the options. For recurring **key terms**, use the shared [`termbase.md`](../../../3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md) (e.g. *sahāya* ≠ *kalyāṇa-mitta*); add a row there if a term is missing rather than deciding per-verse.
+3. **Flag, don't fix, rendering choices.** Where translators differ (e.g. *averena* = "by love" vs "by non-hatred"), note the options. For recurring **key terms**, use the shared [`termbase.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/termbase.md) (e.g. *sahāya* ≠ *kalyāṇa-mitta*); add a row there if a term is missing rather than deciding per-verse.
 4. **84000 English is reference-only** (CC BY-NC-ND): cite/point to it, do not reproduce large excerpts in the rail; the shipped verse is the vault's own rendering.
 5. **`status: draft` always** — a domain specialist sets `complete`.
 6. **One canon's translation per `### Authoritative Renderings` subsection**, each labelled with its license.
@@ -112,7 +112,7 @@ stream's termbase). Every claim cites a 1-SOURCES translation/source block.>
 9. **Buddhavacana gate — spoken *by* the Buddha, not *about* him.** No praise-of-the-Buddha stanzas (e.g. Toh 323 was blocked for this), no words of disciples/gods/kings. If the passage is *about* the Buddha, reject it. (Udānavarga/Dharmapada/sūtra utterances of the Buddha are fine.)
 10. **Real quote, kept whole, that fits the card (~125 chars).** A complete verse or one self-contained sentence, quoted in full — never a summary, stitch, or gist. If it will not fit whole in all six languages, pick a shorter source (see `selection-criteria.md` §2). Prose Nikāya/sūtra sentences are welcome if short.
 11. **Ecumenical wording.** WeBuddhist is for all Buddhists: render *bodhicitta* as "the awakening mind," never "Great Vehicle mind"; keep Mahāyāna content in inclusive language; use the standard `termbase.md` rendering of each key term, not paraphrase (e.g. *mettā* = loving-kindness, not "love").
-12. **Then build the day card + QA.** After the rail, build `days/day-NNN-<slug>.md` using the template in [`../../../3-TRANSFORMATIONS/Plans/verse-of-the-day/About verse-of-the-day.md`](../../../3-TRANSFORMATIONS/Plans/verse-of-the-day/About%20verse-of-the-day.md), run [`translation-qa`](../translation-qa/SKILL.md), then add the `log.md` row.
+12. **Then build the day card + QA.** After the rail, build `days/day-NNN-<slug>.md` using the template in [`../../../3-TRANSFORMATIONS/verse-of-the-day/About verse-of-the-day.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/About%20verse-of-the-day.md), run [`translation-qa`](../translation-qa/SKILL.md), then add the `log.md` row.
 
 ## Procedure
 

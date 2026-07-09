@@ -16,7 +16,7 @@ Pipeline position: **`verse-selection` → `verse-rail` → `translation-qa` →
 
 ## Inputs
 
-- **Log** — `3-TRANSFORMATIONS/Plans/verse-of-the-day/log.md`: the rows already run (the dedupe list) and the **running-balance** section (canon mix, recent themes, last occasion).
+- **Log** — `3-TRANSFORMATIONS/verse-of-the-day/log.md`: the rows already run (the dedupe list) and the **running-balance** section (canon mix, recent themes, last occasion).
 - **Selection criteria** — `selection-criteria.md`: the hard gates (§1) and the quality + balance rules (§2–3).
 - **Occasions** — `occasions.md`: holiday calendar + the verse themes each calls for.
 - **Discovery-by-feeling** — `discovery-by-feeling.md`: the theme / felt-state set, for coverage.
