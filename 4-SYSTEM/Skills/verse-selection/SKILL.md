@@ -37,6 +37,19 @@ Pipeline position: **`verse-selection` → `verse-rail` → `translation-qa` →
 5. **Dedupe — mandatory.** Reject the candidate if its `source_ref` (or rail filename) appears in **`log.md`, `previously-used.md`, `2-RAILS/Verses/`, or `days/`** within the no-repeat window. Also avoid near-identical paired verses (e.g. Dhp 1 & 2) close together, and treat presumed-used greatest-hits as rejected unless confirmed fresh. If rejected, return to step 4.
 6. **Propose** (output below). On acceptance, the workflow continues: `verse-rail` builds/confirms the rail → render + `translation-qa` → add the log row and update the running balance.
 
+## Multi-day requests ("make the next N days")
+
+Run the full pipeline **once per day, sequentially** — never batch-select N verses
+against a single read of the running balance. After each day's `log.md` row and
+running-balance update are committed, re-run step 2 (read the running balance
+again) before selecting the next day: the canon target and "previous day's
+theme" must reflect the day you just added, not the state before the batch
+started. Concretely, for each of the N days in order: steps 1–6 above → hand
+off to `verse-rail` → build the day card → `translation-qa` → add the `log.md`
+row and update the running balance → only then start the next day. Skipping
+the re-read between days is the most common way a multi-day batch ends up with
+a canon or theme that doesn't actually rotate within the batch.
+
 ## Output — selection proposal
 
 ```markdown
@@ -66,3 +79,4 @@ Pipeline position: **`verse-selection` → `verse-rail` → `translation-qa` →
 - [ ] Candidate passes §1 gates + §2 quality + fills a non-recent theme.
 - [ ] Dedupe run against log + `2-RAILS/Verses/` + `days/`.
 - [ ] Proposal includes rationale, source link, and the ready-to-paste log row.
+- [ ] For multi-day requests: each day's log row was committed before the next day's running balance was read (no batch-selecting against a stale snapshot).
