@@ -63,14 +63,20 @@ off + all six renderings reviewed, ready/published.
 | 2026-08-11 | 49 | Udānavarga (Toh 326) · Dhp 160 parallel | Tibetan Kangyur | self-reliance | discouraged, doubtful, aspiration | [[day-049-self-refuge-udv]] | draft |
 | 2026-08-12 | 50 | 佛說阿彌陀經 T366 · Amitābha | Chinese (Mahāyāna) | genuine-cultivation | doubtful, discouraged, aspiration | [[day-050-roots-of-merit-t366]] | draft |
 | 2026-08-13 | 51 | The King of Samādhis (Toh 127) · Samādhirāja | Tibetan Kangyur (Mahāyāna) | seeing-the-good | resentful, irritated, loving-kindness | [[day-051-seeing-the-good-toh127]] | draft |
+| 2026-08-14 | 52 | Toh 26 (Sūryagarbha Perfection of Wisdom) | Tibetan Kangyur (Mahāyāna) | innate-purity | overwhelmed, doubtful, equanimity | [[day-052-innate-purity-toh26]] | draft |
+| 2026-08-15 | 53 | SĀ 379 | Chinese Āgama | four-noble-truths | doubtful, aspiration, hopeful | [[day-053-four-noble-truths-sa379]] | draft |
+| 2026-08-16 | 54 | The Shorter Devatā Sūtra (Toh 330) | Tibetan Kangyur | generosity | grasping, hopeful, grateful | [[day-054-generosity-toh330]] | draft |
+| 2026-08-17 | 55 | SĀ 33 | Chinese Āgama | not-self | grasping, afraid, equanimity | [[day-055-not-self-sa33]] | draft |
+| 2026-08-18 | 56 | The Gold Sūtra (Toh 125) | Tibetan Kangyur (Mahāyāna) | bodhicitta-is-pure | aspiration, doubtful, hopeful | [[day-056-bodhicitta-toh125]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 
-- **Canon mix (51 days):** Pali 25 · Chinese 16 · Tibetan 10 (counted directly from the table above). Day 51 added Tibetan Mahāyāna (Samādhirāja); still Pali-heavy overall — keep favouring Tibetan Kangyur and Chinese Āgama picks in upcoming batches.
-- **Recent themes (Days 47–51):** true-renunciation, middle-way, self-reliance, genuine-cultivation, seeing-the-good. Day 52 needs a different theme from seeing-the-good (no back-to-back repeats); everything earlier is open to reuse (`selection-criteria.md` §3). Still-uncovered themes worth surfacing: sympathetic joy (muditā), restraint of the senses, emptiness, skilful means, forgiveness.
+- **Canon mix (56 days):** Pali 25 · Chinese 18 · Tibetan 13 (counted directly from the table above). Days 52–56 deliberately ran all-Tibetan/Chinese (no Pali) to correct the mix — still Pali-heavy overall, so **keep favouring Tibetan Kangyur and Chinese Āgama picks** in the next batch too, and start reaching for a fresh Pali prose-Nikāya pick (DN/MN/SN/AN) rather than more Dhammapada when Pali does come up.
+- **Recent themes (Days 52–56):** innate-purity, four-noble-truths, generosity, not-self, bodhicitta-is-pure. Day 57 needs a different theme from bodhicitta-is-pure (no back-to-back repeats); everything earlier is open to reuse (`selection-criteria.md` §3). Still-uncovered themes worth surfacing: sympathetic joy (muditā), restraint of the senses, skilful means, forgiveness.
 - **Last occasion override used:** none yet — every `occasions:` tag in the log so far is empty.
-- **Standing sourcing guidance:** don't over-rely on T210 (Chinese) or the Udānavarga (Tibetan) alone — both are Dharmapada-equivalents. Keep drawing on the Chinese Āgamas, the Kangyur Mahāyāna sūtras, and the Pali prose Nikāyas (DN/MN/SN/AN) for variety, per `selection-criteria.md` §3.
-- **Freshness:** Days 1–7 still contain greatest-hits (Dhp 1/5/223/328) flagged for re-pick once `previously-used.md`'s real used-list is populated; everything from Day 8 on is fresh, lesser-known material.
+- **Standing sourcing guidance:** don't over-rely on T210 (Chinese) or the Udānavarga (Tibetan) alone — both are Dharmapada-equivalents. Days 52–56 drew on two fresh, non-Udānavarga Kangyur Mahāyāna sūtras (Toh 26, Toh 330, Toh 125) and the Saṁyuktāgama (SĀ 33, SĀ 379) rather than repeating T210/Udānavarga — keep this pattern up.
+- **Freshness:** Days 1–7 still contain greatest-hits (Dhp 1/5/223/328) flagged for re-pick once `previously-used.md`'s real used-list is populated; everything from Day 8 on, including 52–56, is fresh, lesser-known material.
+- **Known data-quality note:** the Patton translation aligned to `SĀ 379`'s block anchor (`en-samyukta-agama-patton.md#^sa379`) is a mismatched, much longer parallel text — flagged in `2-RAILS/Verses/sa-379.md` and not used for grounding. Worth checking whether other Patton/SĀ anchor pairs in this corpus have the same misalignment before building further SĀ rails.
 
 Update this section as the log grows; move anything that becomes historical narrative rather than current state into `log-history.md`.
 

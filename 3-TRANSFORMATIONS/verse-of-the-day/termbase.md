@@ -69,6 +69,27 @@ Two different words, two different renderings — don't conflate:
 | appamāda (diligence) | diligence, heedfulness | 不放逸 | བག་ཡོད | अप्रमाद | अप्रमाद | сэрэмж ⚑ |
 | santuṭṭhi (contentment) | contentment | 知足 | ཆོག་ཤེས | संतोष | सन्तोष | ханамж ⚑ |
 
+## Mahāyāna & wisdom terms
+
+| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
+|---|---|---|---|---|---|---|
+| bodhicitta (byang chub sems) | the awakening mind (never "Great Vehicle mind") | 菩提心 | བྱང་ཆུབ་སེམས | बोधिचित्त | बोधिचित्त | бодь сэтгэл ⚑ |
+| śūnyatā (stong pa nyid) | emptiness, empty nature | 空性 | སྟོང་པ་ཉིད | शून्यता | शून्यता | хоосон чанар ⚑ |
+
+## The four noble truths (catu-sacca)
+
+| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
+|---|---|---|---|---|---|---|
+| samudaya (origin) | origin (of suffering) | 集 | ཀུན་འབྱུང་ | समुदय | समुदय | үүсэл ⚑ |
+| nirodha (cessation) | cessation | 滅 | འགོག་པ | निरोध | निरोध | зогсолт ⚑ |
+| magga (path) | path | 道 | ལམ | मार्ग | मार्ग | зам |
+
+## Ethics — generosity terms
+
+| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
+|---|---|---|---|---|---|---|
+| adinnādāna / a-adinnādāna (taking what is not given / abstaining) | taking what isn't given / giving it up | 不與取 | མ་བྱིན་ལེན | अदत्तादान | अदत्तादान | өгөөгүйг авах ⚑ |
+
 ## Brahmavihāras (the four; the "grow" themes)
 
 | Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
