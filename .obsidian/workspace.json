@@ -197,6 +197,15 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
+    "gemini-scribe/Prompts/example-expert.md",
+    "gemini-scribe/Scheduled-Tasks/Runs",
+    "gemini-scribe/Scheduled-Tasks",
+    "gemini-scribe/Skills",
+    "gemini-scribe/Prompts",
+    "gemini-scribe/Background-Tasks",
+    "gemini-scribe/Agent-Sessions",
+    "gemini-scribe",
     "3-TRANSFORMATIONS/verse-of-the-day/day-042-buddhas-purpose-t262.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-041-gratitude-an2-32.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-040-concentration-t389.md",
@@ -221,17 +230,8 @@
     "3-TRANSFORMATIONS/verse-of-the-day/day-031-gradual-purification-udv.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-030-self-responsibility-t210.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-029-freedom-from-craving-udv.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-028-small-good-t210.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-027-taming-the-mind-dhp35.md",
     "3-TRANSFORMATIONS/verse-of-the-day/days/_superseded",
     "3-TRANSFORMATIONS/verse-of-the-day/days",
-    "3-TRANSFORMATIONS/verse-of-the-day",
-    "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
-    "gemini-scribe/Scheduled-Tasks/Runs",
-    "gemini-scribe/Scheduled-Tasks",
-    "gemini-scribe/Skills",
-    "gemini-scribe/Prompts",
-    "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions"
+    "3-TRANSFORMATIONS/verse-of-the-day"
   ]
 }
