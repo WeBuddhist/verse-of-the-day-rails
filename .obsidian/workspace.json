@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/verse-of-the-day/day-001-friendship-dhp328.md",
+                "file": "3-TRANSFORMATIONS/verse-of-the-day/day-047-true-renunciation-t210.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-001-friendship-dhp328"
+              "title": "day-047-true-renunciation-t210"
             }
           }
         ]
@@ -195,8 +195,13 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/verse-of-the-day/day-048-crossing-the-flood-sn1-1.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-049-self-refuge-udv.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-050-roots-of-merit-t366.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-051-seeing-the-good-toh127.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-001-friendship-dhp328.md",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Prompts/example-expert.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
@@ -214,10 +219,6 @@
     "3-TRANSFORMATIONS/verse-of-the-day/day-044-patience-toh194.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-045-non-attached-giving-t235.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-046-virtue-fragrance-udv.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-048-crossing-the-flood-sn1-1.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-049-self-refuge-udv.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-050-roots-of-merit-t366.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-051-seeing-the-good-toh127.md",
     "3-TRANSFORMATIONS/verse-of-the-day/days/day-051-seeing-the-good-toh127.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-047-true-renunciation-t210.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-038-thought-shapes-mind-mn19.md",
@@ -231,7 +232,6 @@
     "3-TRANSFORMATIONS/verse-of-the-day/day-030-self-responsibility-t210.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-029-freedom-from-craving-udv.md",
     "3-TRANSFORMATIONS/verse-of-the-day/days/_superseded",
-    "3-TRANSFORMATIONS/verse-of-the-day/days",
-    "3-TRANSFORMATIONS/verse-of-the-day"
+    "3-TRANSFORMATIONS/verse-of-the-day/days"
   ]
 }
