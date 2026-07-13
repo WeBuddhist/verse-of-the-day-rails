@@ -177,8 +177,21 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 
 ---
 
-**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). No new clean accepts beyond what's backfilled above; see `rejected.md` for near-misses and a significant finding about Patton/Chinese misalignment. `en-madhyama-agama-patton.md` scan started but stopped after 1 of 15 entries — see report to Evan for why. `zh-digha-agama.md` and `zh-ekottarika-agama.md` not yet touched (no Patton pairing exists for either).**
+**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` and `zh-ekottarika-agama.md` not yet touched (no Patton pairing exists for either).**
 
 ### `en-samyukta-agama-patton.md` — scanned, no new candidates found beyond what's above
 
 The other 32 of the 39 Patton-paired sūtras not listed above (SĀ 2-11, 34-36, 139, 154-163, 723-724, 733, 736-737, 740, 785, 810) were read and passed over silently: mostly repetitive impermanence/not-self restatements of SĀ 1/33 already in the pool, formulaic "seven factors of awakening" list-passages, or catalogues of wrong-view positions (SĀ 154-163) unsuitable as a positive daily teaching. None looked like near-misses worth a rejected.md entry except SĀ 259 (see rejected.md).
+
+### MĀ 7 (Worldly Merit) — ma-7 — **UNCLAIMED, needs compression**
+- link: [[1-SOURCES/Text/zh-madhyama-agama.md#^ma7-0]]
+- quote: not yet fixed to a single sentence — the Buddha's closing verse to Mahācunda (Gaṅgā/ocean simile: generosity's rewards "flow into the ocean" like rivers) is the extractable unit, but the full verse runs four stanzas; needs a compress-without-cutting pass (same treatment as `toh330-generosity`) before it's card-ready
+- buddhavacana: confirmed — Buddha addressing Mahācunda, spoken in verse ("At that point, the Bhagavān spoke in verse")
+- length_est: unresolved — flagged for compression at claim time
+- speaks_to: [generosity, aspiration]
+- theme: non-attached-giving (note: recurring theme, already used by `t235-nonattached-giving` day 45 — fine per the "themes may repeat" rule, just don't schedule adjacent)
+- status: unclaimed
+
+### `en-madhyama-agama-patton.md` — scanned, no new candidates found beyond MĀ 7 and MĀ 16 (above)
+
+MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable), MĀ 4 (The Water Parable), MĀ 6 (The Good Person's Departure), MĀ 8 (The Seven Suns), MĀ 10 (Ending the Contaminants), MĀ 81 (Mindfulness of Body), and MĀ 98 (The Abodes of Mindfulness) were read and passed over silently: each is an extended parable or enumerated-list discourse (jhāna stages, contaminant-ending factors, the 18 practices/virtues of body-mindfulness, the four abodes of mindfulness) with no self-contained unit that separates cleanly without cutting — consistent with Rule 11's observation that Madhyama entries run parable-length rather than short-verse length. MĀ 200 (Ariṣṭa, the Snake and Raft parable) was also read in full — genuinely Buddha-spoken and includes well-known parables (the raft, the snake, dry grass and withered wood) but each is a multi-step extended simile, not a short whole quote; passed over. MĀ 5 and MĀ 9 were near-misses; MĀ 31 likewise — see `rejected.md`.
