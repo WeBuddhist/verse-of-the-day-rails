@@ -37,6 +37,8 @@ A "Railroads" **anthology** producing WeBuddhist's **Verse of the Day**: one sho
 
 **Importing more source text:** CBETA → [`4-SYSTEM/Skills/json-to-source-text/converters/cbeta_sutra.py`](4-SYSTEM/Skills/json-to-source-text/converters/cbeta_sutra.py) (verse/sūtra) or `cbeta_agama.py` (Āgama prose); sparse-clone only the Taishō volume you need (see the converter docstring). Register in `vault-annex.md` (corpus table + §7 licensing). **Open item:** populate `previously-used.md` with WeBuddhist's real prior-published verses when available.
 
+**Open item — candidate-tagging coverage gap:** the Chinese Āgamas/sūtras, Pali verse collections (Dhp/Snp/Ud/Iti), and the Tibetan Udānavarga have all had a real `candidate-tagging` scan. The Pali prose Nikāyas (DN/MN/SN/AN, ~245,000 lines combined) and the ~229 individual Tibetan Kangyur sūtra files have **not** — this is a much bigger lift than everything scanned so far and needs a dedicated future pass (likely parallel sub-agents, not one sequential read). See [`3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md`](3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md) for exact status and how to resume.
+
 ---
 
 ## Structure, citation chain, write permissions
