@@ -368,7 +368,8 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - buddhavacana: confirmed — Buddha addressing the monks
 - length_est: ~110 chars EN (est.) for this half alone; the full ordinary/noble contrast would run over budget
 - theme: restraint-of-senses (second instance)
-- status: claimed (day 60, 2026-08-22)
+- note: **problem-side only — weak daily fit** (Evan, 2026-07-13). Built as Day 60, then pulled: it states the bondage (clinging → "no time of release") with no turn toward the freedom of restraint, too sober for a daily card (see `selection-criteria.md` §2 "Offer a way through" / §3). Leave for review; if restraint-of-senses is wanted, find an instance that shows the relief.
+- status: unclaimed
 
 **EA — ea-c — six creatures tied to one post** (vivid alternate framing of the same gap)
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0723c2903]]
