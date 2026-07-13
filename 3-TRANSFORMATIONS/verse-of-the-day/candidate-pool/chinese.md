@@ -177,7 +177,7 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 
 ---
 
-**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan now covers DA 1-29 of 30 (only DA 30 left). DA 21-29 read in full this pass — 6 new unclaimed candidates found: DA 22, DA 23 x2, DA 26, DA 27 (see below); DA 21, DA 24, DA 25, DA 28, DA 29 read but yielded nothing new (see `rejected.md`/pass-over notes). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 remains unread. DA 30 (~630-line cosmology treatise, `世記經` — descriptions of Mount Sumeru, the four continents, hell/heaven realms, cosmic cycles) deliberately skipped (Evan's call, low expected yield given the genre) — Dīrgha Āgama scan now considered closed at DA 1-29. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — not a blind full-file scan; worked a 46-citation shortcut list surfaced by a user-supplied secondary compilation (庄春江's 阿含经随身剪辑) instead, grepping each citation's distinctive phrase directly into the source to locate and verify its anchor (per Rule 10). ~18 accepted, several rejected/deferred (see below and `rejected.md`). The remaining ~14,000 lines outside these 46 leads are still unscanned — this was a targeted pass, not a systematic one.**
+**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan now covers DA 1-29 of 30 (only DA 30 left). DA 21-29 read in full this pass — 6 new unclaimed candidates found: DA 22, DA 23 x2, DA 26, DA 27 (see below); DA 21, DA 24, DA 25, DA 28, DA 29 read but yielded nothing new (see `rejected.md`/pass-over notes). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 remains unread. DA 30 (~630-line cosmology treatise, `世記經` — descriptions of Mount Sumeru, the four continents, hell/heaven realms, cosmic cycles) deliberately skipped (Evan's call, low expected yield given the genre) — Dīrgha Āgama scan now considered closed at DA 1-29. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — the 46-citation shortcut list (~18 accepted) is done (see below and `rejected.md`); now also sequentially scanning the file proper, fascicles (卷) 1-10 of 51 done this pass (~92 entries, lines 1-2686), 10 new candidates found (see below). Fascicles 1-3 are mostly formulaic (the ten recollections repeated twice, then "foremost disciple" name-catalogues) with little to extract; fascicles 4-10 (mixed short suttas and a few long narrative ones — Nanda's temptation, the Nālāgiri elephant, Rāhula's training) yielded more. 41 fascicles remain.**
 
 ### `en-samyukta-agama-patton.md` — scanned, no new candidates found beyond what's above
 
@@ -518,3 +518,91 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 ### EA — leads that could not be independently verified (untagged, not accepted from memory)
 
 Three of the digest's 46 citations — the famous "do no evil, do all good, purify the mind" twin-verse (cited as 增‧序品), "if you wish to venerate the Buddha..." (增‧三二二), and the "though you recite a thousand chapters..." self-conquest couplet (增‧二七五) — could not be located via direct-phrase grep against `zh-ekottarika-agama.md`. The twin-verse in particular traditionally sits in Ekottarika's 序品 (preface chapter), and this vault's source file starts directly at 卷1/EA1 with no 序品 section at all — it may simply not be present in this particular source copy. Per Rule 4, none of these are tagged; they're flagged here so a future pass doesn't re-attempt the same grep search without knowing why it came up empty.
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 1-10 of 51
+
+**Method note:** unlike the shortcut-list pass above, this is a direct sequential read of the source file, fascicle by fascicle, same discipline as the Dīrgha Āgama pass.
+
+**EA (juan 2, "recollection of the Dharma") — the Dharma's fragrance**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0554b2407]]
+- quote: "夫正法者，於欲至無欲，離諸結縛、諸蓋之病。此法猶如眾香之氣，無有瑕疵亂想之念。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~120 chars EN (est.) — near/over budget, likely trimmed to just the fragrance clause
+- theme: virtue-fragrance (recurring — fresh instance: the Dharma itself, not just virtuous conduct, likened to fragrance)
+- status: unclaimed
+
+**EA (juan 5, "caring for the sick") — tending the sick is tending the Buddha**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0569c0102]]
+- quote: "其有瞻視病者，則為瞻視我已；有看病者，則為看我已。" (part of a longer passage where the Buddha personally tends a sick monk and explains why)
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~55 chars EN (est.) — well within budget
+- theme: great-compassion
+- status: unclaimed
+
+**EA (juan 6, Nakulapitā) — though the body is sick, let the mind not be sick**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0573a0516]]
+- quote: "其有依憑此身者，正可須臾之樂；此是愚心，非智慧者所貴。是故，長者！雖身有病，令心無病。" (the closing maxim of a longer passage to the elderly, ailing householder Nakulapitā; also independently confirmed and elaborated by Sāriputta in the same sutta, but that continuation is disciple-spoken, not tagged here)
+- buddhavacana: confirmed — Buddha addressing the elder Nakulapitā directly
+- length_est: ~75 chars EN (est.) for the last sentence alone ("though the body is sick, let the mind not be sick") — within budget if trimmed to that core line
+- theme: inner-peace
+- status: unclaimed
+
+**EA (juan 6, "21 fetters" sutta / juan 7-8, Rāhula) — a mind of joy dissolves envy**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0581c1216]]
+- quote: "汝今，羅雲！當行喜心，已行喜心，所有嫉心皆當除盡。" (one clause from a set of four instructions to Rāhula — loving-kindness dissolves anger, compassion dissolves cruelty, joy dissolves envy, equanimity dissolves conceit; a fuller, more formulaic version of the same joy-clause also appears independently at [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0574a1516]], embedded in a longer sutta on 21 mental fetters)
+- buddhavacana: confirmed — Buddha addressing his son Rāhula directly
+- length_est: ~65 chars EN (est.) — within budget
+- theme: sympathetic joy — **this fills the muditā known gap** (previously only present under `speaks_to` on other cards, never centered as a theme — see theme-checklist.md)
+- status: unclaimed
+
+**EA (juan 4, "mind swift as bending an arm") — a good mind carries you to heaven as quickly**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0563a0202]]
+- quote: "我恆觀見一人心中所念之事，如屈伸臂頃而生天上。所以然者，由善心故。" (paired in the source with a matching passage on an evil mind leading just as quickly to hell — both short, both self-contained, this is the positive half)
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~85 chars EN (est.) — within budget
+- theme: thought-shapes-mind
+- status: unclaimed
+
+**EA (juan 4, "non-negligence defined") — non-negligence is not disturbing any being**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0564a0501]]
+- quote: "所謂不觸嬈一切眾生，不害一切眾生，不惱一切眾生，是謂無放逸行。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~75 chars EN (est.) — within budget
+- theme: harmlessness
+- status: unclaimed
+
+**EA (juan 4, Anāthapiṇḍika) — giving to the very last morsel, without a hair's resentment**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0565b0502]]
+- quote: "最後一摶之餘，已不自食，惠施他人，爾時不起憎嫉之心如毛髮許。" (the Buddha describing his own practice of giving, in a passage praising Anāthapiṇḍika's indiscriminate generosity)
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~90 chars EN (est.) — within budget
+- theme: generosity
+- status: unclaimed
+
+**EA (juan 8, "waxing and waning moon") — a good friend's virtue grows like the moon**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0584c2102]]
+- quote: "猶如月初生時，隨所經過日夜，光明漸增，稍稍盛滿，便於十五日具足盛滿，一切眾生靡不見者。如是，若善知識，經歷日夜，增益信、戒、聞、施、智慧。" (paired in the source with the waning-moon half describing a bad friend's decline — this is the positive half)
+- buddhavacana: confirmed — Buddha addressing the brahmin Janussoni (生漏婆羅門)
+- length_est: ~140 chars EN (est.) — over budget, needs compression (likely to just the moon simile itself)
+- speaks_to: [spiritual-friendship]
+- status: unclaimed (no clean theme-checklist match; speaks_to alone is sufficient per Rule 5)
+
+**EA (juan 8, "bitter seed, sweet seed") — right view bears fruit like a sweet seed**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0583b0402]]
+- quote: "猶如有諸甜菓，若甘蔗、若蒲桃菓，及諸一切甘美之菓，有人修治良地，而取種之，然後生子皆悉甘美。此正見眾生亦復如是，所念、所趣及諸餘行，一切皆可貪樂。" (paired in the source with a matching bitter-seed simile for wrong view — this is the positive half)
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~135 chars EN (est.) — over budget, needs compression
+- theme: right-view
+- status: unclaimed
+
+**EA (juan 10, Śakra) — observing feeling as impermanent and empty, fear ends**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0593c1706]]
+- quote: "身所覺知苦樂之法，若不苦不樂之法，即於此身觀悉無常，皆歸於空。彼已觀此不苦不樂之變，亦不起想，以無有想，則無恐怖；以無恐怖，則般涅槃。" (the Buddha answering Śakra's question on how a monk cuts off craving and finds liberation — this same exchange is independently repeated twice more later in the same fascicle, once relayed by Śakra to Moggallāna and once retold by the Buddha to Moggallāna directly, all matching)
+- buddhavacana: confirmed — Buddha addressing Śakra (釋提桓因) directly
+- length_est: ~155 chars EN (est.) — over budget, needs compression
+- theme: innate-purity (fresh instance — fills the "emptiness (śūnyatā), a Pali/Chinese-side example" known gap, previously only covered from the Tibetan side)
+- status: unclaimed
+
+**Fascicles 1-3 note:** mostly formulaic and passed over silently per Rule 1 — the ten recollections (Buddha/Dharma/Saṅgha/precepts/generosity/devas/tranquility/breath/body/death) repeated across juan 1-2 with growing elaboration, then juan 3's "foremost disciple" catalogues (monks, nuns, laymen, laywomen each named for their standout quality) — pure enumeration, no extractable teaching.
