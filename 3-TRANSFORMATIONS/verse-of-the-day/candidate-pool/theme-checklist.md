@@ -1,0 +1,30 @@
+# Theme checklist — core Buddhist teachings to watch for
+
+A reference list `candidate-tagging` checks candidates against when deciding whether to tag `theme:`. This is **not** the `speaks_to` felt-state list (that one's fixed — see `discovery-by-feeling.md`); this is the doctrinal-topic side, and it's deliberately semi-open: it grows when tagging hits a clearly-recognized core teaching that isn't listed yet (see `4-SYSTEM/Skills/candidate-tagging/SKILL.md`).
+
+A candidate only gets a theme tag if it (a) is a genuinely good, self-contained, gate-passing quote on its own terms, and (b) is a clean instance of something on this list. A good quote that doesn't match anything here still goes in the pool untagged for theme (still tagged for `speaks_to` if it fits there).
+
+## Already covered (see `log.md`'s `theme` column for the full running list — don't re-flag these as gaps)
+
+friendship, impermanence, non-hatred, self-mastery, mind, right-view, overcoming-anger, self-reflection, mindfulness-of-breathing, loving-kindness, not-self, speech, generosity, patience, effort, peace-of-a-good-heart, threefold-training, equanimity, contentment, truthfulness, wholesome-action, harmlessness, inner-peace, self-knowledge, wise-priorities, taming-the-mind, small-good-deeds, freedom-from-craving, self-responsibility, gradual-purification, living-lightly, serenity-of-the-wise, words-and-deeds, true-nobility, purity-of-mind, bodhicitta, thought-shapes-mind, great-compassion, concentration, gratitude, buddhas-purpose, gift-of-teaching, non-attached-giving, virtue-fragrance, true-renunciation, middle-way (partial — SN 1.1 only), self-reliance, genuine-cultivation, seeing-the-good, innate-purity (emptiness, accessible framing), four-noble-truths, bodhicitta-is-pure.
+
+Themes may recur (never back-to-back) — a theme already covered is not a reason to skip a good new candidate on the same ground; it's just not a "gap."
+
+## Known gaps — actively look for these
+
+- **skilful means (upāya)** — not yet represented.
+- **restraint of the senses (indriyasaṁvara)** — not yet represented.
+- **dependent origination (paṭiccasamuppāda)** — not yet represented.
+- **forgiveness** — not yet represented.
+- **refuge / confidence (saddhā)** — not yet represented as its own theme (distinct from the self-reliance / self-refuge angle already covered).
+- **karma and its fruit** — touched by `toh330-generosity` and `t366-roots-of-merit`, but no card centers it as the theme itself.
+- **renunciation** — touched by `t210-true-renunciation`; a second, fresh angle would still be welcome.
+- **middle way** — only SN 1.1 so far; a clearer/different angle would help.
+- **sympathetic joy (muditā)** — covered under `speaks_to` on some cards, but no theme/day centers it.
+- **dedication of merit** — not yet represented (Mahāyāna).
+- **right speech / right livelihood specifically** — "speech" (Dhp 100) is covered generally; the ethical-conduct angle specifically is not.
+- **emptiness (śūnyatā), a Pali/Chinese-side example** — `innate-purity` and `bodhicitta-is-pure` cover it from the Tibetan side; a Pali or Chinese source teaching it directly would round this out.
+
+## How this grows
+
+When `candidate-tagging` finds a passage that's a clean instance of a real, recognized core Buddhist teaching not listed above (and not already in the "already covered" list), add it to "Known gaps" (or move it to "already covered" once a day actually runs on it — that housekeeping can happen whenever `log.md` is next updated, not urgently). Don't add vague or one-off phrasings — this list is for teachings substantial enough that a reader would recognize them as "a thing," not a paraphrase invented for one verse.
