@@ -242,7 +242,7 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - length_est: ~90 chars EN (est.)
 - speaks_to: [doubtful, aspiration]
 - theme: wholesome-action (recurring — already covered; a fresh Chinese-Āgama instance of the same core "end the unwholesome, grow the wholesome" teaching that anchors the vault's mission verse, Dhp 183)
-- status: unclaimed
+- status: claimed (day 58, 2026-08-20)
 
 ### DA 11 (增一經, the "Progressive Ones" catalogue) — da-11 — don't let regret arrive after complacency
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0059a2401]]
@@ -368,7 +368,7 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - buddhavacana: confirmed — Buddha addressing the monks
 - length_est: ~110 chars EN (est.) for this half alone; the full ordinary/noble contrast would run over budget
 - theme: restraint-of-senses (second instance)
-- status: unclaimed
+- status: claimed (day 60, 2026-08-22)
 
 **EA — ea-c — six creatures tied to one post** (vivid alternate framing of the same gap)
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0723c2903]]

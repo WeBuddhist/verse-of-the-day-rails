@@ -272,7 +272,7 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - length_est: ~130 chars EN (est., "All things follow conditions; all rest on the root of intention. Whatever aspiration one makes, such a fruit is obtained.") — borderline, may need light compression
 - speaks_to: [aspiration]
 - theme: karma-and-its-fruit (fresh instance, intention/aspiration-specific framing)
-- status: unclaimed
+- status: claimed (day 57, 2026-08-19)
 - textual-variant note: Lotsawa House's printed citation reads "འདུན་པའི་རྩེ་ལ" (rtse) with a footnote admitting the Degé actually reads "རྩ" (rtsa) — **the vault's own source file confirms rtsa**, matching the Degé per that footnote. Also a second minor variant: Lotsawa prints "འབྲས་བུར་ཐོབ་པར་འགྱུར"; the vault source reads "འབྲས་བུ་ཐོབ་པར་འགྱུར" (no ར). Quote above transcribed exactly as it appears in `bo-toh59.md`.
 
 ### Toh 59 (same sūtra) — toh59-root-of-illwill
@@ -387,7 +387,7 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - length_est: ~115 chars EN (est., "Objects are like a dream — they arise only to vanish. What wise person would feel desire for objects like a dream?")
 - speaks_to: [craving, doubtful]
 - theme: freedom-from-craving (fresh dream-simile framing)
-- status: unclaimed
+- status: claimed (day 59, 2026-08-21)
 
 ### Toh 231 — toh231-merit-pursued-with-respect
 - link: [[1-SOURCES/Text/bo-toh231.md#^p32]]
