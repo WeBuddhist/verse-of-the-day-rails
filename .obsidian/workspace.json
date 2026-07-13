@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/chinese.md",
+                "file": "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/rejected.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chinese"
+              "title": "rejected"
             }
           }
         ]
@@ -197,12 +197,16 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
-    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/pali.md",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/tibetan.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/pali.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/kangyur-scan-leads.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/chinese.md",
+    "0-INBOX/raw-data/data-tei",
+    "0-INBOX/raw-data",
+    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md.tmp.98633.07b3d0eb9a3d",
+    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/theme-checklist.md",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/rejected.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/chinese.md",
     "3-TRANSFORMATIONS/verse-of-the-day/selection-criteria.md",
     "4-SYSTEM/Skills/candidate-tagging/SKILL.md",
     "4-SYSTEM/Skills/candidate-tagging",
@@ -227,11 +231,6 @@
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Scheduled-Tasks",
     "gemini-scribe/Skills",
-    "gemini-scribe/Prompts",
-    "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions",
-    "gemini-scribe",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-042-buddhas-purpose-t262.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-041-gratitude-an2-32.md"
+    "gemini-scribe/Prompts"
   ]
 }

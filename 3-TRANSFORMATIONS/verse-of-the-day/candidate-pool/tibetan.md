@@ -258,3 +258,162 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - status: unclaimed
 
 **Deferred (real teaching, not tagged — worth a future dedicated pass):** the ch.26 dependent-origination prose chain (too long/multi-clause to extract a single link without misrepresenting it), a ch.15 "weeds are the fault of the field" verse (pairs vices with generosity-worthiness, not the specific three-poisons antidotes the gap wants), and the ch.9/28 "gift of Dharma excels all gifts" verse (near-duplicate of the already-published Day 43 card). **Not found despite a full-text search:** a clean, independently-stateable restraint-of-the-senses verse (the phrase recurs but always bundled with anger/āsava-ending, never standalone); sympathetic joy (muditā) and dedication-of-merit-specific verses (genuine gaps, remain open for this canon).
+
+---
+
+## Kangyur sūtra scan — Toh 59, 95, 231 (leads from Lotsawa House's "Words of the Buddha" quotations page, see `kangyur-scan-leads.md`)
+
+Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-NC-ND, consulted for meaning only — never for wording). Lotsawa House's own English gloss was never copied into any entry below; only used to locate and cross-check the Tibetan.
+
+### Toh 59 (Sūtra on the Array of Qualities in Mañjuśrī's Pure Realm) — toh59-intention-and-fruit
+- link: [[1-SOURCES/Text/bo-toh59.md#^p559]]
+- quote: "ཆོས་རྣམས་ཐམས་ཅད་རྐྱེན་བཞིན་ཏེ། །འདུན་པའི་རྩ་ལ་རབ་ཏུ་གནས། །གང་གིས་སྨོན་ལམ་ཅི་བཏབ་པ། །དེ་འདྲའི་འབྲས་བུ་ཐོབ་པར་འགྱུར། །"
+- buddhavacana: confirmed — spoken by the past Tathāgata "Thunder-Cloud-Voiced King" within Śākyamuni's own narration to Mañjuśrī, to King Ākāśa
+- length_est: ~130 chars EN (est., "All things follow conditions; all rest on the root of intention. Whatever aspiration one makes, such a fruit is obtained.") — borderline, may need light compression
+- speaks_to: [aspiration]
+- theme: karma-and-its-fruit (fresh instance, intention/aspiration-specific framing)
+- status: unclaimed
+- textual-variant note: Lotsawa House's printed citation reads "འདུན་པའི་རྩེ་ལ" (rtse) with a footnote admitting the Degé actually reads "རྩ" (rtsa) — **the vault's own source file confirms rtsa**, matching the Degé per that footnote. Also a second minor variant: Lotsawa prints "འབྲས་བུར་ཐོབ་པར་འགྱུར"; the vault source reads "འབྲས་བུ་ཐོབ་པར་འགྱུར" (no ར). Quote above transcribed exactly as it appears in `bo-toh59.md`.
+
+### Toh 59 (same sūtra) — toh59-root-of-illwill
+- link: [[1-SOURCES/Text/bo-toh59.md#^p508]]
+- quote: "རྒྱལ་པོ་ཆེན་པོ་ངར་འཛིན་པ་དང་། ང་ཡིར་འཛིན་པ་ཡོད་པ་ལས་གནོད་སེམས་དང་། ཐ་བ་དང་། ཞེ་སྡང་དང་། འཆབ་པ་འབྱུང་བར་འགྱུར་རོ།"
+- buddhavacana: confirmed — the Buddha's direct reply to King Ajātaśatru, who asked where ill will, hostility, hatred, and concealment come from
+- length_est: ~95 chars EN (est., "Great king, from grasping at 'I' and 'mine' arise ill will, hostility, hatred, and concealment.")
+- speaks_to: [angry, irritated]
+- theme: not-self (fresh instance — names self/mine-grasping as the specific causal root of ill will; could alternatively fold into `overcoming-anger`, or be considered alongside the "root-of-conflict" gap already flagged from Snp 4.15 — human call on final theme tag)
+- status: unclaimed
+
+### Toh 95 (Lalitavistara Sūtra) — toh95-hesitation-to-teach
+- link: [[1-SOURCES/Text/bo-toh95.md#^p376]]
+- quote: "ཟབ་ཞི་རྡུལ་བྲལ་འོད་གསལ་འདུས་མ་བྱས། །བདུད་རྩི་ཆོས་ནི་བདག་གིས་ཐོབ་པར་གྱུར། །བདག་གིས་བསྟན་ཀྱང་གཞན་གྱིས་མི་ཤེས་ཏེ། །མི་སྨྲར་ནགས་འདབས་གནས་པར་བྱ་བ་སྙམ། །"
+- buddhavacana: confirmed, strongly — the newly-awakened Buddha's own internal reflection, explicitly closed "at that time he spoke these verses"
+- length_est: ~180 chars EN (est., "Profound, peaceful, immaculate, luminous, unconditioned — a nectar-like Dharma have I found. Yet if I taught it, none would understand; I shall remain silent, dwelling in the forest.") — needs compression
+- theme: **new gap — "the Buddha's hesitation to teach"** (the profundity-of-realization/reluctance episode, MN 26 parallel) — distinct from `buddhas-purpose`/`gift-of-teaching` since this is specifically the doubt *before* deciding to teach
+- status: unclaimed
+- variant note: vault source reads རྡུལ་བྲལ ("immaculate"), not the སྤྲོས་བྲལ ("free from complexity") variant Lotsawa House flags as an alternate reading elsewhere.
+- important note: **Lead 1 from the same Lotsawa House page ("because of craving... like a potter's wheel," ^p177) was checked and REJECTED** — full context shows it's introduced as arising "from the sound of the cymbals" (a musical omen), not spoken by the Buddha. Despite Lotsawa House listing it as a "Word of the Buddha," it fails this vault's buddhavacana gate — do not re-tag.
+
+### Toh 95 — toh95-resolve-to-teach
+- link: [[1-SOURCES/Text/bo-toh95.md#^p384]]
+- quote: "ཚངས་པ་མ་ག་དྷཱ་ཡི་སེམས་ཅན་གང་། །རྣ་བ་ལྡན་ཞིང་དད་དང་ལྡན་གྱུར་ལ། །མི་འཚེ་འདུ་ཤེས་རྟག་ཏུ་ཆོས་ཉན་པས། །དེ་དག་ལ་ནི་བདུད་རྩིའི་སྒོ་ཕྱེའོ།"
+- buddhavacana: confirmed — the Buddha's own resolution of the hesitation above, declared to Great Brahmā in verse
+- length_est: ~180 chars EN (est.) — needs compression
+- theme: pairs with `toh95-hesitation-to-teach` as the affirmative flip side — "resolve to teach"
+- status: unclaimed
+
+### Toh 95 — toh95-earth-as-witness
+- link: [[1-SOURCES/Text/bo-toh95.md#^p312]]
+- quote: "སྡིག་ཅན་ས་འདི་ནི་ངའི་དཔང་ཡིན་ནོ།"
+- buddhavacana: confirmed — the bodhisattva's direct reply to Māra at the earth-touching gesture
+- length_est: ~36 chars EN ("Evil one, this earth is my witness.") — fits easily, iconic and instantly recognizable
+- theme: self-reliance (fresh, iconic instance)
+- status: unclaimed
+
+### Toh 95 — toh95-liberation-declaration
+- link: [[1-SOURCES/Text/bo-toh95.md#^p403]]
+- quote: "ངའི་སྐྱེ་བ་ཟད་དོ། །ཚངས་པར་སྤྱད་པ་བསྙེན་ཏོ། །བྱ་བ་བྱས་སོ། །འདི་ལ་སྲིད་པ་གཞན་མི་ཤེས་སོ།"
+- buddhavacana: confirmed
+- length_est: ~92 chars EN — fits easily
+- speaks_to: [aspiration]
+- theme: full-liberation-self-declaration (second independent instance, alongside Udānavarga ch.21)
+- status: unclaimed
+
+### Toh 95 — toh95-middle-way-eightfold-path
+- link: [[1-SOURCES/Text/bo-toh95.md#^p401]]
+- quote: "དགེ་སློང་དག་མཐའ་གཉིས་པོ་འདི་དག་སྤངས་ནས་དབུ་མའི་ལམ་ཉིད་ཀྱིས་དེ་བཞིན་གཤེགས་པ་ཆོས་སྟོན་ཏེ། འདི་ལྟ་སྟེ། ཡང་དག་པའི་ལྟ་བ་དང་། ཡང་དག་པའི་རྟོག་པ་དང་། ཡང་དག་པའི་ངག་དང་། ཡང་དག་པའི་ལས་ཀྱི་མཐའ་དང་། ཡང་དག་པའི་འཚོ་བ་དང་། ཡང་དག་པའི་རྩོལ་བ་དང་། ཡང་དག་པའི་དྲན་པ་དང་། ཡང་དག་པའི་ཏིང་ངེ་འཛིན་ཏོ།"
+- buddhavacana: confirmed — the first sermon, addressed to the five monks
+- length_est: ~235 chars EN (est.) — needs real compression, eight-item-list treatment (cf. `toh330-generosity`)
+- theme: middle-way (fills the checklist's request for a clearer/different angle)
+- status: unclaimed
+
+### Toh 95 — toh95-four-noble-truths
+- link: [[1-SOURCES/Text/bo-toh95.md#^p401]]
+- quote: "དགེ་སློང་དག་བཞི་པོ་འདི་དག་ནི་འཕགས་པའི་བདེན་པ་དག་སྟེ། བཞི་གང་ཞེ་ན། སྡུག་བསྔལ་བ་དང་། སྡུག་བསྔལ་ཀུན་འབྱུང་བ་དང་། སྡུག་བསྔལ་འགོག་པ་དང་། སྡུག་བསྔལ་འགོག་པར་འགྲོ་བའི་ལམ་མོ།"
+- buddhavacana: confirmed
+- length_est: ~160 chars EN (est.) — needs light compression
+- theme: four-noble-truths (fresh instance)
+- status: unclaimed
+
+### Toh 95 — toh95-illusion-of-phenomena
+- link: [[1-SOURCES/Text/bo-toh95.md#^p426]]
+- quote: "ཇི་ལྟར་སྒྱུ་མ་སྨིག་རྒྱུ་དང་། །རྨི་ལམ་བྲག་ཅ་ཆུ་ཟླ་དང་། །དེ་དག་འདྲ་བའི་འཁོར་ལོ་ནི། །འཇིག་རྟེན་མགོན་པོས་རབ་བསྐོར་ཏོ།"
+- buddhavacana: confirmed — answering Maitreya's question, cleanly separable quatrain from a refrain-chain (Rule 7)
+- length_est: ~150 chars EN (est.) — needs light compression
+- speaks_to: [craving, equanimity]
+- theme: emptiness/illusion-nature-of-phenomena — the classic six-similes image (illusion, mirage, dream, echo, moon-in-water), fresh angle distinct from `innate-purity`/`bodhicitta-is-pure`
+- status: unclaimed
+
+### Toh 95 — deferred, human judgment call needed: the newborn bodhisattva's declaration
+- link: [[1-SOURCES/Text/bo-toh95.md#^p93]]
+- quote: "ང་ནི་འཇིག་རྟེན་ན་ཕུལ་དུ་ཕྱིན་པའོ། །འདི་ནི་ངའི་སྐྱེ་བ་ཐ་མ་སྟེ། སྐྱེ་བ་དང་། རྒ་བ་དང་། ན་བ་དང་། འཆི་བ་མཐར་དབྱུང་ངོ་།"
+- length_est: ~105 chars EN — fits without compression ("I am supreme in the world. This is my last birth. I will put an end to birth, old age, sickness, and death.")
+- theme: buddhas-purpose
+- status: unclaimed (deferred pending a human call — see note below on the pre-enlightenment attribution question; this is the single most famous line in the text, so worth a deliberate decision either way rather than a default skip)
+
+**Gate-boundary note (Toh 95), flagged for a human, not resolved unilaterally:** several accepted/deferred candidates above (the newborn declaration, the palace-gate renunciation vow, "I will end old age and death," rejecting Rudraka Rāmaputra's attainment) are the bodhisattva's own **pre-enlightenment** words, sometimes self-spoken and sometimes relayed through another character's report. These were judged as buddhavacana because the Lalitavistara's frame is the Buddha retelling his own life story to monks in the first person — but this is a real interpretive call about how far "spoken by the Buddha" extends to his own pre-awakening words, not a relaxation of the gate. A human should confirm or overrule this reading before any of these ship. Additional Toh 95 candidates along the same lines, not individually detailed above (full quotes in the scanning agent's report): the palace-gate vow ("until I attain unsurpassed awakening, I will not enter Kapilavastu"), "I will put an end to old age and death," rejecting Rudraka Rāmaputra's attainment as insufficient, the jhāna-memory/middle-way-discovery scene (needs heavy compression), and the Tathāgata's vow not to pass into parinirvāṇa prematurely.
+
+### Toh 231 (Ratnamegha / Jewel Cloud Sūtra) — toh231-karma-by-mind
+- link: [[1-SOURCES/Text/bo-toh231.md#^p165]]
+- quote: "དགེ་བའམ་ཡང་ན་མི་དགེ་བའི་ལས་ནི་སེམས་ཀྱིས་བསགས་པའོ།"
+- buddhavacana: confirmed — the Buddha's direct teaching to the bodhisattva Sarvanivāraṇaviṣkambhin, on mindfulness of mind
+- length_est: ~55 chars EN ("Whether virtuous or non-virtuous, karma is accumulated by mind.") — fits easily
+- speaks_to: [doubtful, aspiration]
+- theme: karma-and-its-fruit (the confirmed lead — exceptionally clean, famous, standalone)
+- status: unclaimed
+
+### Toh 231 (same passage) — toh231-mind-paints-the-world
+- link: [[1-SOURCES/Text/bo-toh231.md#^p165]]
+- quote: "འཇིག་རྟེན་སེམས་ཀྱིས་བྲིས་པ་སྟེ། སེམས་ནི་སེམས་ཀྱིས་མི་མཐོང་ངོ་།"
+- buddhavacana: confirmed — same passage/speaker
+- length_est: ~60 chars EN ("The world is painted by mind, yet mind does not see mind.") — fits easily
+- speaks_to: [doubtful, overwhelmed]
+- theme: mind (fresh, very compact epigram)
+- status: unclaimed
+- note: shares a folio block with `toh231-karma-by-mind` and the mind-similes quatrain below — a future selection would only use one of the three on a given day.
+
+### Toh 231 (same passage) — toh231-minds-four-similes
+- link: [[1-SOURCES/Text/bo-toh231.md#^p165]]
+- quote: "སེམས་ནི་མགལ་མེ་ལྟ་བུར་འཁོར། །སེམས་ནི་རྟ་ལྟར་འཁྱམ་པ་ཡིན། སེམས་ནི་ནགས་ཀྱི་མེ་ལྟར་འཚིག །སེམས་ནི་ཆུ་ཆེན་བཞིན་དུ་སྐྱེད།"
+- buddhavacana: confirmed — same passage/speaker
+- length_est: ~110 chars EN (est., "whirls like a firebrand, roams like a horse, consumes like a forest fire, and swells like a flood") — fits as-is
+- speaks_to: [restless, overwhelmed]
+- theme: taming-the-mind (vivid quatrain of similes, distinct instance)
+- status: unclaimed
+
+### Toh 231 — toh231-small-poison-small-wrongdoing
+- link: [[1-SOURCES/Text/bo-toh231.md#^p32]]
+- quote: "དགེ་སློང་དག་དུག་ཆུང་ངུས་ཀྱང་སྐྱེས་བུ་འཆི་བར་འགྱུར་རོ། །དགེ་སློང་དག་དུག་ཆེན་པོས་ཀྱང་སྐྱེས་བུ་འཆི་བར་འགྱུར་རོ། །དེ་བཞིན་དུ་སྡིག་པ་ཆུང་ངུས་ཀྱང་ངན་སོང་རྣམས་སུ་ཕྱིན་པར་བྱེད་དོ། །སྡིག་པ་ཆེན་པོས་ཀྱང་ངན་སོང་རྣམས་སུ་ཕྱིན་པར་བྱེད་དོ།"
+- buddhavacana: confirmed — introduced as the Blessed One's own words, quoted by the bodhisattva
+- length_est: ~150 chars EN (est.) — needs compression
+- speaks_to: [discouraged, doubtful]
+- theme: karma-and-its-fruit (fresh angle — consequences scale-independent)
+- status: unclaimed
+
+### Toh 231 — toh231-objects-like-a-dream
+- link: [[1-SOURCES/Text/bo-toh231.md#^p31]]
+- quote: "ཡུལ་ནི་རྨི་ལམ་དང་འདྲ་བ་དག་སྟེ། བྱུང་ནས་མེད་པར་འགྱུར་བ་ཡིན་ན་མཁས་པའི་རང་བཞིན་ཅན་སུ་ཞིག་རྨི་ལམ་ལྟ་བུའི་ཡུལ་དག་ལ་འདོད་ཆགས་སྐྱེད་པར་བྱེད།"
+- buddhavacana: confirmed — introduced as the Blessed One's own words, within the bodhisattva's contemplation on desire's remedy
+- length_est: ~115 chars EN (est., "Objects are like a dream — they arise only to vanish. What wise person would feel desire for objects like a dream?")
+- speaks_to: [craving, doubtful]
+- theme: freedom-from-craving (fresh dream-simile framing)
+- status: unclaimed
+
+### Toh 231 — toh231-merit-pursued-with-respect
+- link: [[1-SOURCES/Text/bo-toh231.md#^p32]]
+- quote: "དགེ་སློང་རྣམས་བསོད་ནམས་དག་གུས་པར་བྱའོ། །ཚུལ་ཁྲིམས་གུས་པར་བསྲུང་ངོ་། །ཤེས་རབ་གུས་པར་བསྒོམ་མོ།"
+- buddhavacana: confirmed — introduced as the Blessed One's own words (quote trimmed here to the clean three-item core; the source continues with a causal clause not needed for the card)
+- length_est: ~100 chars EN (own gloss on the trimmed core: "Merit must be pursued with respect, discipline guarded with respect, wisdom cultivated with respect.")
+- speaks_to: [aspiration, hopeful]
+- theme: wholesome-action (fresh angle on the manner/attitude of practice, not just the act)
+- status: unclaimed
+
+### Toh 231 — deferred, human judgment call: universal kinship across rebirths
+- link: [[1-SOURCES/Text/bo-toh231.md#^p25]]
+- quote: "དེ་བཞིན་གཤེགས་པས་ཀྱང་སྐྱེ་བ་འཕོ་བ་དེ་དང་དེ་དག་ཏུ་སེམས་ཅན་གྱི་རིས་སུ་གང་ཁྱོད་ཀྱི་ཕའམ། མ་འམ་བུའམ། གཉེན་བཤེས་སམ། ཉེ་དུའམ། སྣག་གི་གཉེན་མཚམས་དག་གང་ཡང་རུང་བའི་གནས་སུ་མ་གྱུར་པའི་སེམས་ཅན་དེ་ལྟ་བུ་མེད་དོ།"
+- length_est: ~150 chars EN (est.) — needs light compression
+- speaks_to: [lonely, grieving]
+- theme: no clean checklist match — a fresh angle on compassion/loving-kindness (universal-kinship-across-rebirths framing, distinct from the standard mettā formula); flagged for a human's judgment on whether this merits its own theme line
+- status: unclaimed
+
+**Toh 231, rejected on the tone/wellbeing gate:** a string of Buddha-spoken similes on the shortcomings of desire ("like an impaling stake... like the edge of a sword... like a snake's head... rotten, foul-smelling," ^p45) — confirmed buddhavacana and self-contained, but the graphic imagery fails the tone gate regardless of doctrinal soundness (same category as the already-logged MĀ 5 precedent in `rejected.md`). **Two `<br>`-formatted verse passages** (~lines 50-58, arrival/praise verses) rejected as third-party praise of the Buddha, not his own speech — confirmed no other stand-alone verse sections exist anywhere else in this sūtra.

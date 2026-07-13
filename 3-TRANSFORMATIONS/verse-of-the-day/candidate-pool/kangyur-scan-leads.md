@@ -1,0 +1,38 @@
+# Leads for the Tibetan Kangyur scan (task: candidate-tagging, ~229 unscanned `bo-toh*.md` files)
+
+A lead-generation list, not a source of quotable text itself — matches Rule 13 of `candidate-tagging` ("secondary compilations as lead-generation shortcuts"). Points at which Toh sūtras are worth prioritizing when the Kangyur scan (see `SCAN-STATUS.md`) is picked up, instead of working through all ~229 files in file-number order.
+
+**Source:** Lotsawa House, ["Words of the Buddha"](https://www.lotsawahouse.org/words-of-the-buddha/) → "Quotations" section (Evan flagged this page, 2026-07-13).
+
+**Important caveat — do not copy Lotsawa House's English wording into any rail or day card.** Lotsawa House translations are licensed CC BY-NC 4.0 (non-commercial), a different license and a different translator lineage than this vault's paired `en-toh<N>-84000.md` reference translations (which are themselves "reference-only, never shipped" per `CLAUDE.md` hard rule 5). Treat every entry below purely as a pointer — "this Toh number has a well-known, quotable passage, roughly here" — then verify the actual quote fresh against the vault's own `bo-toh<N>.md` Tibetan source text, per the normal `candidate-tagging`/`verse-rail` rules (verbatim from source, never from a secondary rendering).
+
+## Leads, with vault file status checked
+
+| Toh | Title | Lotsawa House page | Topic (per their one-line note) | `bo-toh<N>.md` in vault? |
+|---|---|---|---|---|
+| 12 | Perfection of Wisdom in Eight Thousand Lines (Aṣṭasāhasrikā) | [eight-thousand-line-quotations](https://www.lotsawahouse.org/words-of-the-buddha/eight-thousand-line-quotations) | Prajñāpāramitā, emptiness | **Not importable yet** — see "84000 availability" note below |
+| 13 | Verse Summary of the Transcendent Perfection of Wisdom (Prajñāpāramitāsaṃcayagāthā) | [verse-summary-quotations](https://www.lotsawahouse.org/words-of-the-buddha/verse-summary-quotations) | Prajñāpāramitā | **Not importable yet** — see "84000 availability" note below |
+| 16 | The Diamond Cutter (Vajracchedikā / Diamond Sūtra) | [diamond-cutter-quotations](https://www.lotsawahouse.org/words-of-the-buddha/diamond-cutter-quotations) | Prajñāpāramitā | **Not importable yet** — see "84000 availability" note below. `CLAUDE.md` already lists `zh-diamond-sutra` as an in-scope Chinese Mahāyāna source, so this sūtra isn't a total gap for the anthology even without the Tibetan side |
+| 53 | Sūtra on the Ten Factors (Daśadharmaka) | [dashadharmaka-quotations](https://www.lotsawahouse.org/words-of-the-buddha/dashadharmaka-quotations) | Buddha Nature | **Not importable yet** — see "84000 availability" note below |
+| 59 | Sūtra on the Array of Qualities in Mañjuśrī's Pure Realm | [all-phenomena-circumstantial](https://www.lotsawahouse.org/words-of-the-buddha/all-phenomena-circumstantial) | The famous four-line verse on the power of intention ("all phenomena are circumstantial...") | **Scanned** (this session) — 2 candidates accepted, see `tibetan.md` |
+| 60 | Sūtra of the Meeting of Father and Son (Pitāputra-samāgamana) | [meeting-father-son-quotations](https://www.lotsawahouse.org/words-of-the-buddha/meeting-father-son-quotations) | Two Truths | **Not importable yet** — see "84000 availability" note below |
+| 95 | Lalitavistara Sūtra | [lalitavistara-quotations](https://www.lotsawahouse.org/words-of-the-buddha/lalitavistara-quotations) | Life of the Buddha | **Scanned** (this session) — 8 candidates accepted, 5 deferred pending a human call on pre-enlightenment buddhavacana attribution, 1 of the 2 original leads rejected (see `tibetan.md`) |
+| 127 | King of Samādhi Sūtra (Samādhirāja) | [king-samadhi-quotations](https://www.lotsawahouse.org/words-of-the-buddha/king-samadhi-quotations) | Emptiness | **Already claimed** — `toh127-seeing-the-good` rail exists (day 51 in `log.md`); useful confirmation this lead list overlaps real vault picks, but don't re-scan for the same theme |
+| 231 | Jewel Cloud Sūtra (Ratnamegha) | [ratnamegha-quotations](https://www.lotsawahouse.org/words-of-the-buddha/ratnamegha-quotations) | Karma | **Scanned** (this session) — 8 candidates accepted, 1 deferred, see `tibetan.md` |
+| 326 | Udānavarga | [udanavarga-quotations](https://www.lotsawahouse.org/words-of-the-buddha/udanavarga-quotations) | Impermanence, karma | **Already scanned** (this session, full 33-chapter sequential pass — see `tibetan.md`); this page could still serve as a cross-check for anything missed, but is lower priority now |
+
+### 84000 availability — checked, Toh 12/13/16/53/60 can't be imported yet
+
+Checked `84000/data-tei` (their public GitHub repo of published translations, ~396 texts) directly: **Toh 12, 13, 16, 53, and 60 are not among them.** 84000 simply hasn't published an English translation of these five sūtras yet (confirmed by extracting every Toh number present in the repo's filenames — the sequence runs …11, 19, 21… skipping 12–18 entirely, and similarly skips 53 and 60).
+
+The raw Tibetan **is** available from OpenPecha's Degé Kangyur digitization (`P000001`) for all five — checked via its `index.yml`, spans confirmed present for T12, T13, T16, T53, T60. But this vault's own rail-building approach depends on a paired reference translation to ground meaning (`CLAUDE.md`: "no commentaries, so rails are translation-grounded"); importing Tibetan-only would mean building rails for these five with no translation aid at all, unlike every other Kangyur text in the vault. Also worth noting for scope: T12's span is enormous (~907,000 characters across two volumes) and T60's is large too (~520,000 characters) — both would be bigger imports than anything in the vault so far, for a single quotable lead each.
+
+**Not done, left for a human decision:** whether to (a) skip these five and wait for 84000 to eventually publish them, (b) import Tibetan-only anyway and accept the harder, translation-less scanning work, or (c) look for a different paired-translation source for these specific five texts. No files were imported for these five this session.
+
+**Two other quotation pages found on the same Lotsawa House page, lower priority / out of scope:**
+- ["Just as gold..."](https://www.lotsawahouse.org/words-of-the-buddha/just-as-gold) — the famous "examine my words as you would test gold" verse, sourced from Śāntarakṣita's *Tattvasaṃgraha* (a scholastic commentarial work, Toh 4266 in the Tengyur, not the Kangyur) — out of scope per `CLAUDE.md`'s "no tantra, Vinaya, or scholastic" rule, since the Tengyur is commentarial by definition. Skip.
+- Everything outside the "Quotations" section (aspiration prayers, dhāraṇī, praise, tantra, songs, testaments) — out of scope per the same rule; these are liturgical/tantric genres, not discourse/verse buddhavacana.
+
+## Recommended next step when task #31 is picked up
+
+Start with the three Toh numbers whose source files are **already present and unscanned** — 59, 95, 231 — since no import work is needed first. These are also comparatively short (225–887 lines each), making them a good on-ramp before tackling the ~226 remaining Kangyur files with no lead at all. Toh 12, 13, 53, 60 are good import candidates if/when someone wants to expand the Kangyur corpus further (register any new import in `vault-annex.md`'s corpus table + §7 licensing, per `CLAUDE.md`).
