@@ -22,6 +22,18 @@ Converts JSON exports of root texts (e.g. from tipitaka.org or SuttaCentral) int
 
 ---
 
+## Candidate pooling skills
+
+These skills bulk-scan `1-SOURCES/` ahead of time and bank pre-verified candidates in `3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/`, so the curation skills below can filter that pool instead of re-scanning raw source text each time.
+
+### `candidate-tagging` **[exists]**
+**Purpose:** Bulk-scan one or more source files for verse-of-the-day candidates and record them in the candidate pool (buddhavacana confirmed, verbatim quote, rough length estimate, speaks_to/theme tagged), plus near-misses in a rejected list, so a later selection pass never re-scans raw source text.
+**Inputs:** Source file(s) in `1-SOURCES/Text/`; `discovery-by-feeling.md`; `candidate-pool/theme-checklist.md`; existing `candidate-pool/*.md` and `rejected.md`; `log.md` and `2-RAILS/Verses/` (already-claimed set); `selection-criteria.md` §1–2 gates.
+**Outputs:** Entries appended to `3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/<canon>.md` and/or `candidate-pool/rejected.md`.
+→ [`candidate-tagging/SKILL.md`](candidate-tagging/SKILL.md)
+
+---
+
 ## Curation skills (verse-of-the-day selection)
 
 ### `verse-selection` **[exists]**

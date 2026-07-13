@@ -22,7 +22,7 @@ A "Railroads" **anthology** producing WeBuddhist's **Verse of the Day**: one sho
 
 ## Verse-of-the-Day — pipeline and hard rules (the core of this vault)
 
-**Pipeline:** `verse-selection` → `verse-rail` → build the day card → `translation-qa` → add the `log.md` row. Read, in [`3-TRANSFORMATIONS/verse-of-the-day/`](3-TRANSFORMATIONS/verse-of-the-day/): **`About verse-of-the-day.md`** (day-card template), **`selection-criteria.md`** (gates + balance), **`termbase.md`** (locked terms), **`log.md`** (what's used + running balance), **`previously-used.md`** (dedupe).
+**Pipeline:** `candidate-tagging` (optional, run ahead of time in bulk against `1-SOURCES/` to seed `3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/`) → `verse-selection` → `verse-rail` → build the day card → `translation-qa` → add the `log.md` row. Read, in [`3-TRANSFORMATIONS/verse-of-the-day/`](3-TRANSFORMATIONS/verse-of-the-day/): **`About verse-of-the-day.md`** (day-card template), **`selection-criteria.md`** (gates + balance), **`termbase.md`** (locked terms), **`log.md`** (what's used + running balance), **`previously-used.md`** (dedupe), **`candidate-pool/`** (pre-tagged candidates — check here before scanning `1-SOURCES/` raw).
 
 **Hard rules — a card that breaks any of these must be redone:**
 1. **Buddhavacana spoken *by* the Buddha, not *about* him** — no praise-of-the-Buddha stanzas, no words of disciples/gods/kings.
@@ -70,6 +70,7 @@ A "Railroads" **anthology** producing WeBuddhist's **Verse of the Day**: one sho
 
 | Task | Skill |
 |------|-------|
+| Bulk-tag verse candidates from source text ahead of time | `candidate-tagging` |
 | Select the next day's verse (rotation + dedupe) | `verse-selection` |
 | Build a verse rail (translation-grounded) | `verse-rail` |
 | Pre-review QA of a verse's six renderings | `translation-qa` |
