@@ -312,6 +312,7 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - length_est: ~92 chars EN — fits easily
 - speaks_to: [aspiration]
 - theme: full-liberation-self-declaration (second independent instance, alongside Udānavarga ch.21)
+- note: **proclamation of attainment — weak daily fit** (Evan, 2026-07-13). Authentic and clear, but reports the Buddha's finished state rather than pointing the way; not a good daily card for a practitioner audience. See `selection-criteria.md` §2 and `theme-checklist.md`'s full-liberation note. Leave for review before any use.
 - status: unclaimed
 
 ### Toh 95 — toh95-middle-way-eightfold-path
