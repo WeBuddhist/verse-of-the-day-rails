@@ -177,7 +177,7 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 
 ---
 
-**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan in progress, DA 1-20 of 30 done (9 unclaimed candidates found: DA 1, DA 5 x2, DA 6 x2, DA 8, DA 11, DA 13, DA 14, DA 16 — see below). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 and DA 30 (~630-line cosmology treatise, `世記經`) remain unread, still flagged as their own dedicated batch given their size. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — not a blind full-file scan; worked a 46-citation shortcut list surfaced by a user-supplied secondary compilation (庄春江's 阿含经随身剪辑) instead, grepping each citation's distinctive phrase directly into the source to locate and verify its anchor (per Rule 10). ~18 accepted, several rejected/deferred (see below and `rejected.md`). The remaining ~14,000 lines outside these 46 leads are still unscanned — this was a targeted pass, not a systematic one.**
+**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan now covers DA 1-29 of 30 (only DA 30 left). DA 21-29 read in full this pass — 6 new unclaimed candidates found: DA 22, DA 23 x2, DA 26, DA 27 (see below); DA 21, DA 24, DA 25, DA 28, DA 29 read but yielded nothing new (see `rejected.md`/pass-over notes). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 remains unread. DA 30 (~630-line cosmology treatise, `世記經` — descriptions of Mount Sumeru, the four continents, hell/heaven realms, cosmic cycles) deliberately skipped (Evan's call, low expected yield given the genre) — Dīrgha Āgama scan now considered closed at DA 1-29. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — not a blind full-file scan; worked a 46-citation shortcut list surfaced by a user-supplied secondary compilation (庄春江's 阿含经随身剪辑) instead, grepping each citation's distinctive phrase directly into the source to locate and verify its anchor (per Rule 10). ~18 accepted, several rejected/deferred (see below and `rejected.md`). The remaining ~14,000 lines outside these 46 leads are still unscanned — this was a targeted pass, not a systematic one.**
 
 ### `en-samyukta-agama-patton.md` — scanned, no new candidates found beyond what's above
 
@@ -305,6 +305,49 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - note: found via a lead in a user-supplied secondary compilation (庄春江's 阿含经随身剪辑, cited there as 长‧二), then independently located and verified verbatim against `1-SOURCES/zh-digha-agama.md` directly — per Rule 10's "lead, not proof" standard.
 
 **DA 2 note:** targeted two-anchor check only (via an external lead, not a full read) — the other ~700 lines of this sutta remain unread. Both anchors above verified directly against the Chinese source.
+
+### DA 22 (種德經, the Soṇadaṇḍa Sutta parallel) — da-22 — virtue and wisdom purify each other
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0096b1608]]
+- quote: "如人洗手，左右相須，左能淨右，右能淨左。此亦如是，有慧則有戒，有戒則有慧，戒能淨慧，慧能淨戒。" (the Buddha distills "what makes a true brahmin" down to virtue and wisdom, after a long social-narrative frame about the brahmin Soṇadaṇḍa deciding whether to visit him)
+- buddhavacana: confirmed — Buddha addressing the brahmin Soṇadaṇḍa directly
+- length_est: ~140 chars EN (est.) — over budget as quoted whole, likely needs the "washing hands" clause trimmed to just one direction (e.g. "as the left hand cleans the right and the right cleans the left, so wisdom and virtue purify each other")
+- theme: threefold-training (recurring — this instance covers virtue and wisdom specifically, not concentration)
+- status: unclaimed
+
+### DA 23 (究羅檀頭經, the Kūṭadanta Sutta parallel) — da-23-a — a moment of loving-kindness surpasses any sacrifice
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0100c1716]]
+- quote: "若能以慈心念一切眾生，如搆牛乳頃，其福最勝。" (the peak of an escalating ladder the Buddha describes — animal sacrifice, then sustained support of the sangha, then building monastery dwellings, then going for refuge, then the five precepts, then this — each surpassing the last)
+- buddhavacana: confirmed — Buddha addressing the brahmin Kūṭadanta, who had prepared a large animal sacrifice
+- length_est: ~85 chars EN (est.) — within budget
+- theme: loving-kindness (recurring — vivid, concrete simile: even loving-kindness held for only as long as it takes to milk a cow)
+- status: unclaimed
+
+### DA 23 (究羅檀頭經, the Kūṭadanta Sutta parallel) — da-23-b — going for refuge with a joyful heart
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0100c0910]]
+- quote: "起歡喜心，口自發言：『我歸依佛，歸依法，歸依僧。』此福最勝。" (one rung of the same escalating ladder as da-23-a, one step below it)
+- buddhavacana: confirmed — Buddha addressing the brahmin Kūṭadanta
+- length_est: ~90 chars EN (est.) — within budget
+- theme: refuge (second instance — a fresh angle from DA 2-b: taking refuge itself as a supremely meritorious act, rather than the teaching being a refuge after the Buddha's death)
+- status: unclaimed
+
+### DA 26 (三明經, the Tevijja Sutta parallel) — da-26 — loving-kindness carries you swiftly
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0107a1008]]
+- quote: "當知行慈比丘身壞命終，如發箭之頃，生梵天上。" (closing line, after a long dialogue refuting brahmin claims to a path to union with Brahmā, and describing the four immeasurables as the real path)
+- buddhavacana: confirmed — Buddha addressing the brahmin students Vāseṭṭha and Bhāradvāja
+- length_est: ~75 chars EN (est.) — within budget
+- theme: loving-kindness (recurring — fresh simile, an arrow's flight, not yet used elsewhere in the pool)
+- status: unclaimed
+- note: the sutta's fuller four-immeasurables formula (loving-kindness, compassion, joy, equanimity) only spells out the loving-kindness clause verbatim — the other three are elided with "亦復如是" ("and so on"), so per Rule 7 they aren't independently verifiable as separately-worded units and aren't tagged here.
+
+### DA 27 (沙門果經, the Sāmaññaphala Sutta parallel) — da-27 — genuine repentance is met with compassion
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0109b1704]]
+- quote: "汝愚冥無識，迷於五欲，乃害父王，今於賢聖法中能悔過者，即自饒益。吾愍汝故，受汝悔過。" (the Buddha's response to King Ajātaśatru's confession of patricide)
+- buddhavacana: confirmed — Buddha addressing King Ajātaśatru directly
+- length_est: ~180 chars EN (est.) — well over budget, needs real compression (likely dropping the "you harmed your father" specifics and keeping the general shape: "one who can repent within the noble teaching benefits themselves; out of compassion, I accept your repentance")
+- theme: forgiveness (new instance — fills a known gap; this vault's copy of this sutta is otherwise heavily elided at the point where the famous gradual-training/hindrance similes would appear, using "乃至" rather than spelling them out, matching what DA 20 already showed elsewhere in the pool)
+- status: unclaimed
+
+**DA 21, DA 24, DA 25, DA 28, DA 29 — read in full, no new candidates** (see `rejected.md` for the whole-sutta notes): DA 21 (梵動經, the Brahmajāla parallel) is a systematic 62-wrong-views catalogue with no positive teaching to extract; DA 24 (堅固經, the Kevaddha parallel) is a long narrative about a monk seeking where the four elements cease, ending in a verse whose text isn't present in this source copy (same gap pattern as elsewhere in this file); DA 25 (倮形梵志經, the Kassapa-Sīhanāda parallel) is a repetitive Q&A about ascetic practice vs. the threefold training with no short unit distinct from what's already in the pool; DA 28 (布吒婆樓經, the Poṭṭhapāda parallel) is a technical dialogue on perception and the unanswered questions, list-heavy throughout; DA 29 (露遮經, the Lohicca parallel) is a repetitive catechism against withholding the Dharma from others, with no single sentence that stands alone without the Q&A frame.
 
 **Cost note before continuing:** DA 1 alone ran ~160 lines of dense classical narrative (the longest Nikāya/Āgama-style biographical sutta, retelling Vipaśyin Buddha's whole life story) with no English pairing to lean on — meaningfully more expensive per-entry than even Madhyama, since every sentence needs direct classical Chinese reading rather than a Patton assist. The file's 30 sūtras vary hugely in length (roughly 30-250 lines each, except two outliers: DA 2, the Mahāparinibbāna-parallel, ~710 lines, and DA 30, a cosmology treatise, ~630 lines). Recommend treating DA as several sub-batches rather than one pass, and treating DA 2/DA 30 as their own dedicated sessions given their size — flagged for Evan before continuing further into this file.
 

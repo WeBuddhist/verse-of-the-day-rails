@@ -52,6 +52,26 @@ Passages considered and disqualified, so a future tagging pass doesn't re-read a
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^da9-0]] and [[1-SOURCES/Text/zh-digha-agama.md#^da10-0]]
 - reason: both are delivered entirely by Śāriputra at the Buddha's request (the Buddha, with a backache, asks Śāriputra to teach in his place and only endorses it afterward — "世尊印可舍利弗所說"). Gate 1 fail for the whole sutta. Also moot even setting that aside: both are pure Abhidhamma-style numeric-matrix catalogues (the "ones... twos... tens" format), with no extractable short whole sentence — same shape as `DA 11`'s catalogue, which is the Buddha-spoken version of this same genre (see `chinese.md`).
 
+### DA 21 (梵動經, the Brahmajāla Sutta parallel) — whole sutta, no positive teaching to extract
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^da21-0]]
+- reason: a long, systematic catalogue of 62 wrong views about self and world (the "net of views"), Buddha-spoken throughout but structurally a taxonomy, not a teaching. The closing lines (the Buddha's ended rebirth, likened to a palm tree cut off at the crown) duplicate ground already covered by `DA 5` in this pool.
+
+### DA 24 (堅固經, the Kevaddha Sutta parallel) — no extractable unit
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^da24-0]]
+- reason: a long narrative of a monk traveling through the heavens asking where the four elements cease without remainder, sent back to the Buddha by a Brahmā who admits he doesn't know. It closes with "即說偈言" ("and spoke a verse") but the verse text itself isn't present at this anchor in this source copy — same "頌曰 with no verse following" gap seen at `DA 2`'s anchors. No prose teaching stands alone without the narrative frame.
+
+### DA 25 (倮形梵志經, the Kassapa-Sīhanāda Sutta parallel) — no new extractable unit
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^da25-0]]
+- reason: a long Q&A between the Buddha and the naked ascetic Kassapa contrasting physical austerities with the threefold training, plus a repetitive "you don't think the Tathāgata roars like a lion without confidence, do you? Don't think that" refrain. The one summary line on virtue/view surpassing austerity depends on an elided "乃至" (i.e., "and so on") clause to make sense, so it isn't independently verifiable as a complete unit per Rule 7.
+
+### DA 28 (布吒婆樓經, the Poṭṭhapāda Sutta parallel) — no extractable unit
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^da28-0]]
+- reason: a technical dialogue on the sequential cessation of perception through the jhānas and the Buddha's refusal to answer metaphysical questions about self and world (the avyākata). Contains a nice milk-to-ghee simile (states of rebirth don't coexist, like milk isn't simultaneously curd, butter, and ghee) but it's in service of a narrow metaphysical point, not a standalone teaching.
+
+### DA 29 (露遮經, the Lohicca Sutta parallel) — no extractable unit
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^da29-0]]
+- reason: a repetitive catechism establishing that preventing someone from hearing the Dharma is unwholesome and leads to a bad rebirth — genuinely good content, but delivered entirely as a call-and-response Q&A ("is that wholesome or unwholesome?" "unwholesome." "does that lead to a good realm or bad?" "bad.") with no single declarative sentence that stands alone without reconstructing the frame. The sutta's other memorable image (a flawed teacher likened to someone tearing down an old prison to build a new one) started life as the brahmin's own wrong view and is only awkwardly reappropriated later — too context-dependent to extract cleanly.
+
 ---
 
 ## Ekottarika Āgama shortcut-list near-misses (from 庄春江's 阿含经随身剪辑, 46 citations checked — see `chinese.md` for the ~18 accepts)

@@ -15,7 +15,7 @@ Themes may recur (never back-to-back) — a theme already covered is not a reaso
 - **skilful means (upāya)** — not yet represented.
 - **restraint of the senses (indriyasaṁvara)** — not yet represented. Candidates found: EA ea-a, ea-b, ea-c, three instances all from the Ekottarika shortcut-list pass (`candidate-pool/chinese.md`).
 - **dependent origination (paṭiccasamuppāda)** — not yet represented. Touched partially by EA ea-q's closing clause ("the darkness of delusion — remove it entirely with the twelve links") but not centered as its own theme there.
-- **forgiveness** — not yet represented.
+- **forgiveness** — not yet represented. Candidate found: DA 27, the Buddha accepting King Ajātaśatru's repentance for patricide ("one who can repent within the noble teaching benefits themselves; out of compassion, I accept your repentance") (`candidate-pool/chinese.md`).
 - **refuge / confidence (saddhā)** — not yet represented as its own theme (distinct from the self-reliance / self-refuge angle already covered). Candidate found: DA 2-b, "the teaching and discipline are your refuge after I am gone" (`candidate-pool/chinese.md`).
 - **karma and its fruit** — touched by `toh330-generosity` and `t366-roots-of-merit`, but no card centers it as the theme itself.
 - **renunciation** — touched by `t210-true-renunciation`; a second, fresh angle would still be welcome.
