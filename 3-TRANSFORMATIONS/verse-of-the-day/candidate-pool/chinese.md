@@ -177,7 +177,7 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 
 ---
 
-**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan now covers DA 1-29 of 30 (only DA 30 left). DA 21-29 read in full this pass — 6 new unclaimed candidates found: DA 22, DA 23 x2, DA 26, DA 27 (see below); DA 21, DA 24, DA 25, DA 28, DA 29 read but yielded nothing new (see `rejected.md`/pass-over notes). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 remains unread. DA 30 (~630-line cosmology treatise, `世記經` — descriptions of Mount Sumeru, the four continents, hell/heaven realms, cosmic cycles) deliberately skipped (Evan's call, low expected yield given the genre) — Dīrgha Āgama scan now considered closed at DA 1-29. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — the 46-citation shortcut list (~18 accepted) is done (see below and `rejected.md`); now also sequentially scanning the file proper. Fascicles 1-10 of 51 done in an earlier pass (~92 entries, lines 1-2686, 10 new candidates). Fascicles 11-20 now also done this pass (lines 2687-5722+, spanning juan 11 through the start of juan 20), 15 more new candidates found (see below) — highlights include the classic "carrying your parents on your shoulders for a lifetime still couldn't repay them" filial-piety line, the Śroṇa Koṭikarṇa lute-string middle-way simile, the "putting down the burden" five-aggregates teaching (SN 22.22 parallel), and the fingernail-dirt-vs-the-earth impermanence simile. Fascicle 15 is entirely absent from this vault's source copy (header with no content, straight into fascicle 16). Fascicles 1-14 and 16-18 were read in full; fascicle 19 (Bakkula's suicide, the four truths, Anāthapiṇḍika's giving hierarchy) and fascicle 20 (the miser Bhaddiya/母難陀 conversion narrative, plus more) were read. Fascicles 21-25 also now done this pass, 5 more new candidates found (see below) — highlights include the Buddha's own "a wasted body cannot reach the sublime path" account of discovering the Middle Way, and the classic four-rivers-lose-their-names-in-the-ocean simile for caste equality in the sangha. Fascicle 22 (the very long Sumāgadhā/Sumati miracle-contest narrative), most of fascicle 24 (hell narratives, monastic patient/caregiver etiquette), and fascicle 25 (five kings debating sense-pleasures, generosity formulas already well represented) yielded nothing further beyond `rejected.md`. 26 fascicles remain (26-51).**
+**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan now covers DA 1-29 of 30 (only DA 30 left). DA 21-29 read in full this pass — 6 new unclaimed candidates found: DA 22, DA 23 x2, DA 26, DA 27 (see below); DA 21, DA 24, DA 25, DA 28, DA 29 read but yielded nothing new (see `rejected.md`/pass-over notes). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 remains unread. DA 30 (~630-line cosmology treatise, `世記經` — descriptions of Mount Sumeru, the four continents, hell/heaven realms, cosmic cycles) deliberately skipped (Evan's call, low expected yield given the genre) — Dīrgha Āgama scan now considered closed at DA 1-29. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — the 46-citation shortcut list (~18 accepted) is done (see below and `rejected.md`); now also sequentially scanning the file proper. Fascicles 1-10 of 51 done in an earlier pass (~92 entries, lines 1-2686, 10 new candidates). Fascicles 11-20 now also done this pass (lines 2687-5722+, spanning juan 11 through the start of juan 20), 15 more new candidates found (see below) — highlights include the classic "carrying your parents on your shoulders for a lifetime still couldn't repay them" filial-piety line, the Śroṇa Koṭikarṇa lute-string middle-way simile, the "putting down the burden" five-aggregates teaching (SN 22.22 parallel), and the fingernail-dirt-vs-the-earth impermanence simile. Fascicle 15 is entirely absent from this vault's source copy (header with no content, straight into fascicle 16). Fascicles 1-14 and 16-18 were read in full; fascicle 19 (Bakkula's suicide, the four truths, Anāthapiṇḍika's giving hierarchy) and fascicle 20 (the miser Bhaddiya/母難陀 conversion narrative, plus more) were read. Fascicles 21-25 also now done this pass, 5 more new candidates found (see below) — highlights include the Buddha's own "a wasted body cannot reach the sublime path" account of discovering the Middle Way, and the classic four-rivers-lose-their-names-in-the-ocean simile for caste equality in the sangha. Fascicle 22 (the very long Sumāgadhā/Sumati miracle-contest narrative), most of fascicle 24 (hell narratives, monastic patient/caregiver etiquette), and fascicle 25 (five kings debating sense-pleasures, generosity formulas already well represented) yielded nothing further beyond `rejected.md`. **The sequential scan of `zh-ekottarika-agama.md` is now complete end to end (fascicles 1-51).** Fascicles 26-51 (this final stretch, ~11,800 lines) added roughly 20 more unclaimed candidates — highlights include: the Buddha's own Middle-Way "wasted body" account and the four-rivers caste-equality simile (fascicles 21-25, noted above); the dependent-origination core couplet and the "ancient path to a forgotten city" simile (juan 30-31); the Aṅgulimāla exchange "I have stopped; it is you who have not stopped" (juan 31); the four dharma-seals formula and "the power of impermanence surpasses all," both spoken as the Buddha neared his own parinirvāṇa (juan 36); the log-adrift-in-the-river simile for the middle way and the raft parable "even the good must be let go" (juan 38); the samādhi-of-emptiness-as-king-of-samādhis (juan 41); the seven-awakening-factors-as-supreme-medicine and the wheel-king/precious-human-life contrast (juan 33); and the ten recollections and mindfulness-of-death teachings (juan 34-35). Also newly filled: several long-standing theme-checklist gaps (dependent-origination, karma-and-its-fruit, middle-way, emptiness, precious-human-life, seven-factors-of-awakening, ten-recollections, mindfulness-of-death, the four-dharma-seals) — see `theme-checklist.md`. One passage (a troubling "kinship" line embedded in the Vidūḍabha/Kapilavastu genocide narrative, juan 26) was explicitly skipped per Evan's call rather than tagged; see `rejected.md`. Many fascicles in this stretch (32, 34, 36-37, 39, 42-50) consist mostly of formulaic numerical-list teachings, monastic-discipline narratives, the Maitreya prophecy, the Devadatta schism, and the parinirvāṇa cycle (the Buddha's, Mahāpajāpatī Gotamī's, and Anāthapiṇḍika's) — largely narrative or redundant with material already in the pool, passed over per Rule 1 with brief notes left inline above and in `rejected.md`. With this, every source file registered for the candidate-tagging pass has now been through at least one full sequential scan.**
 
 ### `en-samyukta-agama-patton.md` — scanned, no new candidates found beyond what's above
 
@@ -899,4 +899,116 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - theme: precious-human-life / rarity-of-encountering-the-dharma (new gap — a classic, widely-recognized Buddhist teaching not yet represented in the pool)
 - status: unclaimed
 
-**Note:** fascicle 33 continues with the "digging through the mountain" allegorical riddle (a deva's dream-image decoded term by term by the Buddha for Kāśyapa) — passed over as too compound (the teaching only exists as the full apparatus of correspondences, not as a standalone line). Fascicle 33 (remainder) through 51 remain.
+**Note:** fascicle 33 continues with the "digging through the mountain" allegorical riddle (a deva's dream-image decoded term by term by the Buddha for Kāśyapa) — passed over as too compound (the teaching only exists as the full apparatus of correspondences, not as a standalone line), and closes with Puṇṇa Mantānīputta's famous "seven relay-chariots" dialogue with Śāriputra (parallel to MN 24) — see `rejected.md`, disciple-spoken.
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 34-35 (partial)
+
+**EA (juan 34, to the miserly Vilāsin/毘羅先長者, via Ānanda) — the ten recollections**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0739c2906]]
+- quote: "念佛、念法、念比丘僧、念戒、念施、念天、念休息、念安般、念身、念死。"
+- buddhavacana: confirmed — taught by Ānanda under the Buddha's instruction, then confirmed by the Buddha himself in the following passage ("當求方便，修行十念")
+- length_est: ~110 chars EN (est.)
+- theme: ten recollections (new — a recognized formula distinct from `mindfulness-of-breathing`, which covers only one of the ten)
+- status: unclaimed
+
+**EA (juan 35, correcting monks on "mindfulness of death") — death is to be seen in the breath, not measured in days left**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0742a2207]]
+- quote: "一切諸行皆空、皆寂，起者、滅者皆是幻化，無有真實。是故，比丘！當於出入息中思惟死想。"
+- buddhavacana: confirmed — the Buddha correcting several monks who each described "mindfulness of death" as merely hoping to live a few more days
+- length_est: ~100 chars EN (est.)
+- theme: mindfulness of death (maraṇasati) (new — distinct from `impermanence` and `mindfulness-of-breathing` individually; this is their specific pairing)
+- status: unclaimed
+
+**Note:** fascicle 34 opens with the Buddha's extended cosmological account of world-dissolution and re-formation (the Aggañña-Sutta parallel, tracing the origin of rice, property, theft, and the four castes) — passed over as far too long and narrative to extract a single unit; also contains another "then he spoke this verse" gap where the verse text itself is missing from this copy. Fascicle 35 continues with King Prasenajit mistaking naked ascetics for arahants, corrected by the Buddha via a long jātaka about the deva Asita and seven mistaken ascetics — passed over as too compound (the core point, that true attainment is inward and not outward asceticism, only survives embedded in the jātaka's frame).
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 36-37 (partial — the Buddha's final days)
+
+**EA (juan 36, to the grieving people of Vesālī) — the four dharma-seals: impermanence, suffering, not-self, nirvana**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0749a0512]]
+- quote: "一切行無常，是謂一法；一切行苦，是謂二法；一切行無我，是謂三法；涅槃為滅盡，是謂第四法之本。"
+- buddhavacana: confirmed — spoken to console the people of Vesālī as the Buddha, nearing his own parinirvāṇa, looks back at the city one last time
+- length_est: ~100 chars EN (est.)
+- theme: four-dharma-seals (new — a compact, canonical fourfold formula distinct from `impermanence` alone)
+- status: unclaimed
+
+**EA (juan 36, to the weeping Ānanda) — a thing that must break cannot be kept from breaking**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0751a1910]]
+- quote: "止！止！阿難！無為愁憂。夫物處世，應當壞敗，欲使不變易者，此事不然。勤加精進，念修正法，如是不久亦當盡苦際。"
+- buddhavacana: confirmed — the Buddha comforting Ānanda, who is weeping at his teacher's approaching death
+- length_est: ~120 chars EN (est.)
+- theme: impermanence (fresh instance — direct, warm consolation to a grieving disciple, distinct in tone from more abstract instances already in the pool)
+- status: unclaimed
+
+**EA (juan 36, in reply to a monk's question about the greatest power) — the power of impermanence surpasses all**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0750b1310]]
+- quote: "亦有此力出諸力之上，所謂無常力是。"
+- buddhavacana: confirmed — the Buddha's own words, immediately followed by his own remark that this very power will carry him to parinirvāṇa that night
+- length_est: ~40 chars EN (est.) — very compact
+- theme: impermanence (second fresh instance — a strikingly compact, aphoristic framing: impermanence itself named as the ultimate power)
+- status: unclaimed
+
+**Note:** fascicles 36-37 are largely the extended Mahāparinirvāṇa narrative (farewell to Vesālī, the stone-lifting and Moggallāna/Śāriputta comparisons, Kuṇḍalakeśī's own parinirvāṇa, the ocean's-eight-wonders-vs.-the-Dharma's-eight-wonders dialogue with an asura king, Subhadda's conversion, and instructions on monastic address) — see `rejected.md` for the specific passages considered and passed over.
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 38-39 (partial)
+
+**EA (juan 38, to the cowherd Nanda) — the log adrift in the river that reaches the sea**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0758c1702]]
+- quote: "設不著此岸，不著彼岸，又不中沒，復非在岸上，不為人、非人所捉，亦不為水所迴轉，亦不腐敗，便當漸漸至涅槃處。"
+- buddhavacana: confirmed — the Buddha, watching a log drift down a river, addressing the assembled monks
+- length_est: ~140 chars EN (est.) — slightly over budget, likely compressible to the core "not caught on either bank, not sunk, not rotting" image
+- theme: middle-way (fills the long-standing partial gap — a fresh, vivid image distinct from SN 1.1)
+- status: unclaimed
+
+**EA (juan 38, the raft parable, to the monks after subduing Māra) — even the good must be let go, how much more so the not-good**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0760a2603]]
+- quote: "善法猶可捨，何況非法？"
+- buddhavacana: confirmed — the Buddha's own summation of the classic raft simile (a traveler who builds a raft to cross a river, then must not carry it on his back afterward)
+- length_est: ~25 chars EN (est.) — extremely compact
+- theme: true-renunciation (fresh instance — famous formula, the specific point that even wholesome attachments must eventually be released)
+- status: unclaimed
+
+**Note:** fascicle 38 also contains an extended retelling of the Māra-battle-under-the-Bodhi-tree narrative (embedding the raft parable above) — mostly narrative, passed over beyond the extracted line. Fascicle 39 opens with a cowherd-crossing-the-Ganges simile mapping four grades of disciples to four strengths of cattle — passed over as too compound, same category as the juan-33 seven-water-similes reject. Fascicle 39 also retells King Ajātaśatru's confession and the "does good done now bear fruit now" teaching (a servant promoted by degrees) — largely redundant with the already-covered `forgiveness` gap-filler (DA 27) and too compound to extract a cleaner unit here. Fascicle 39 closes (EA 9) with a second, cleaner instance of the "unstained lotus" simile already represented in the pool (EA ea-i) — worth knowing about as a possible swap-in, not logged as a separate entry.
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 40-41 (partial)
+
+**EA (juan 41, to Śāriputra) — the samādhi of emptiness is king among all samādhis**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0773c0202]]
+- quote: "空三昧者，於諸三昧最為第一，三昧王三昧者，空三昧是也。"
+- buddhavacana: confirmed — the Buddha praising Śāriputra's meditative attainment, then recounting his own realization of this samādhi under the Bodhi tree
+- length_est: ~70 chars EN (est.)
+- theme: innate-purity / emptiness (a second, more compact instance alongside the juan-10 Śakra candidate already in the pool — either could anchor the card)
+- status: unclaimed
+
+**Note:** fascicle 40 contains a second, more vivid instance of the "tending the sick is tending me" teaching (the Buddha personally cleaning and feeding a neglected sick monk himself, watched by Śakra, Brahmā, and the four heavenly kings), redundant with the juan-5 candidate already in the pool but worth knowing about as a stronger possible swap-in given its narrative power; it also contains a second, shorter instance of the precious-human-life teaching, redundant with the juan-33 candidate. Fascicle 41 contains the Buddha's recounting of the four ordinary foods vs. five "transcendent foods" (禪食、願食、念食、八解脫食、喜食) taught by a past Buddha to thwart Māra — passed over as too compound (a nine-item list). Fascicle 41 also contains a strong loving-kindness passage ("wearing the armor of loving-kindness, I subdued Māra beneath the Bodhi tree; loving-kindness is foremost among all things") — not logged separately since `loving-kindness` is already well represented in the pool. Fascicle 41 closes with the Śirīguptahouseholder fire-pit/poisoned-food episode (Jain-instigated attempt on the Buddha's life, foiled by miracle) — narrative-heavy, no clean standalone teaching beyond material already in the pool.
+
+Fascicles 42-43 are almost entirely formulaic numerical lists in the Ekottarika's own organizing style (the ten benefits of monastic precepts, the ten qualities of a "noble abode," the Tathāgata's ten powers and four assurances, ten non-virtues/virtues and their fruits, the "one through ten" enumeration-of-enumerations, the ten contemplations, and — repeated near-verbatim four times across EA 4-7 — monks being redirected from idle gossip about kings, food prices, and politics toward "the ten things worth discussing") — passed over per Rule 1 as formulaic/repetitive content with no single extractable unit distinct from material already in the pool. One notable line recurs in this stretch: "當自熾然其行...自歸最尊" (be a lamp/refuge unto yourself), a fresh instance of the already-covered `self-reliance` theme, not logged separately.
+
+Fascicles 44-46 (partial) continue in the same vein: the full Maitreya prophecy (EA 44, the Ketumatī utopia, King Śaṅkha, the birth and awakening of Maitreya, his three assemblies) is extensive pure narrative/prophecy with no standalone declarative teaching beyond the ten contemplations already logged; the "seven Buddhas compared" recitation (EA 45, listing each past Buddha's caste, clan, bodhi-tree, disciple count, attendant, and lifespan) is genealogical, not teaching; Śāriputra's invulnerability through the vajra-samādhi (EA 45-46, a mischievous yakṣa who strikes him falls straight into Avīci hell) is a narrative about a specific samādhi's protective power, redundant with the emptiness/samādhi candidates already in the pool; the eleven qualities of a good cowherd mapped onto eleven qualities of a good monk (EA 46) is a long formulaic list, same category as prior cowherd/water similes passed over as too compound. No new candidates found in this stretch.
+
+Fascicle 46 (continued) contains the caste dialogue with the brahmin Śaila (paralleling the already-accepted four-rivers caste-equality simile) and the twelve-link dependent-origination formula restated in full via the ancient "aśura prince testing the ocean's depth" simile (redundant with the juan-30/31 dependent-origination candidates already in the pool). Fascicle 47 contains an etymological reframing of sacred titles by inner virtue rather than birth or outward form ("cessation of all fetters is what makes a śramaṇa a śramaṇa...") — a fresh instance of the already-covered `wholesome-action`/conduct-over-birth theme, not logged separately; also the "eating only once a day" monastic-discipline narratives (Bhaddiya, Kāḷudāyin's mishap) and the opening of the Devadatta schism narrative — all narrative/disciplinary, no new extractable teaching.
+
+Fascicles 47 (remainder) through 49 (partial) continue the Devadatta narrative to its conclusion (the attempted parricide-and-buddhacide, the drunk-elephant episode, the murder of the arahant nun Uppalavaṇṇā, Devadatta's death and Maudgalyāyana's visit to him in Avīci hell, his eventual prophesied pratyekabuddhahood) — entirely narrative, no standalone teaching beyond material already assessed. Also passed over as narrative/genealogical/too-compound: the four great hell-dwellers and their torments (tone/wellbeing gate, same category as prior hell-imagery rejects); the Buddha's ten-powers/four-fearlessnesses restated via the five similes of foreseeing rebirth destinations (compound); the "great tree on Himalaya / thriving in a noble family" simile (five qualities: faith, virtue, learning, generosity, wisdom) — a fine but unremarkable instance of already-covered `wholesome-action`-adjacent material; the Bhāradvāja-monk-and-nuns scandal (disciplinary); the incalculability of past/future aeons (to the brahmin Jāṇussoṇi); the Sineru/Himalaya mountain-height-by-era similes; the tears-shed-in-saṃsāra-exceed-the-Ganges and blood-shed-in-saṃsāra-exceed-the-Ganges twin teachings (EA 49 opens with these) — both fresh, compact, memorable instances of impermanence/saṃsāra's suffering, but redundant with `impermanence` already well represented; and the beginning of the Subhūti-deva-reborn-as-a-childless-king's-son jātaka (narrative, not yet concluded).
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 49-51 (final stretch)
+
+**EA (juan 51, to a monk) — the five benefits of hearing the Dharma at the right time**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0825c2302]]
+- quote: "未曾聞法便聞之，已聞便持，除去狐疑，亦無邪見，解甚深之法。"
+- buddhavacana: confirmed — the Buddha addressing the monks directly
+- length_est: ~90 chars EN (est.)
+- theme: gift-of-teaching (fresh instance — the listener's-side benefits, complementing the already-covered giver's-side "gift of teaching" angle)
+- status: unclaimed
+
+**Note:** the remainder of fascicle 49 concludes the Anāthapiṇḍika cycle (his final illness, Śāriputra's profound emptiness-teaching to him on his deathbed — redundant with `innate-purity` candidates already in the pool — his rebirth as a deva, and the "wife like a mother/sister/thief/servant" teaching to his daughter-in-law Sujātā, redundant with already-covered relational-conduct material). Fascicle 50 is almost entirely the parinirvāṇa of Mahāpajāpatī Gotamī (Mahāprajāpatī/大愛道) and 500 arahant bhikkhunīs, including Bhaddā Kaccānā's (Kapilā's) extended past-life recollection across six Buddhas — moving narrative, no standalone declarative teaching distinct from material already in the pool. Fascicle 51 (the text's final fascicle) contains two aeon-length similes (a mustard-seed-filled iron city emptied one seed per century; a mountain worn away by a cloth brushed across it once a century) illustrating saṃsāra's vastness — vivid but too-compound/narrative-dependent to extract as a single line, redundant with `impermanence`; and closes with routine formulaic material on the five benefits of a generous donor (redundant with `generosity`/`non-attached-giving`, already well covered).
+
+This completes the sequential scan of the entire Ekottarika Āgama (zh-ekottarika-agama.md), fascicles 1 through 51.

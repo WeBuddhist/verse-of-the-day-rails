@@ -223,3 +223,43 @@ Passages considered and disqualified, so a future tagging pass doesn't re-read a
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0721c1601]]
 - reason: propositioned by a merchant's daughter, the pratyekabuddha Sunetra plucks out his own eye and holds it in his palm, asking "what is there here to be attached to?" then teaches that the six sense faculties are impermanent, empty, and merely causally arisen. Two independent disqualifiers: (1) a pratyekabuddha, not the Buddha, is speaking — not buddhavacana at all; (2) even setting that aside, the self-mutilation-as-teaching-device is exactly the graphic/self-harm-adjacent imagery the tone/wellbeing gate exists to catch. Skip.
 
+### EA (juan 32, King Prasenajit's six-point eulogy of the Tathāgata) — disciple/lay-spoken, gate 1 fail
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0725a1016]]
+- reason: King Prasenajit, not the Buddha, lists the six reasons the Tathāgata deserves veneration; the Buddha only praises the king's "lion's roar" afterward and tells the monks to memorize the king's words. Praise-of-the-Buddha by a layperson, not buddhavacana. Gate 1 fail, same category as `Toh 323`.
+
+### EA (juan 33, the "day-blooming tree" simile for the four jhānas) — too compound to extract
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0729b1202]]
+- reason: an extended, lovely simile mapping the Trāyastriṃśa "day tree"'s wilt-fall-ash-bud-bloom cycle onto the stages from renunciation through the four jhānas to arahantship, closing on "the fragrance of virtue spreads everywhere" (redundant with `virtue-fragrance`, already covered). The teaching only works as the full extended parallel — no single line survives extraction on its own. Passed over.
+
+### EA (juan 33, the seven water-similes for seven types of people) — too compound to extract
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0729c2502]]
+- reason: a typology of seven kinds of practitioners (sunk, briefly surfaced then resunk, surfaced and looking, standing, wading across, nearly across, fully across) each requiring its own gloss. Doctrinally solid but needs the whole apparatus to make sense — no standalone quotable unit. Passed over, same category as the four-snakes parable.
+
+### EA (juan 33, Kāśyapa's deva-riddle: "digging through the mountain") — too compound to extract
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0733b1304]]
+- reason: a deva poses a chain of allegorical images (house, smoke, fire, brahmin, wise one, knife, mountain, toad, meat-heap, yoke, two roads, branch, dragon) which the Buddha then decodes term by term (body, thoughts, actions, arahant, learner, wisdom, conceit, anger, greed, five desires, doubt, ignorance, the Tathāgata). Neat, but only exists as the full correspondence table — no single extractable line. Passed over.
+
+### EA (juan 33, Puṇṇa Mantānīputta's "seven relay-chariots" dialogue with Śāriputra) — famous, disciple-spoken
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0734c1202]]
+- reason: parallel to MN 24 (Rathavinīta Sutta) — purity of virtue relays to purity of mind, view, and so on to nirvana, like seven chariots relaying King Prasenajit to his destination. Genuinely excellent teaching and very famous, but it's an exchange between two chief disciples, not the Buddha's own speech — gate 1 fail, same category as `SĀ 259` and the juan-30 Śāriputra self-defense entry.
+
+### EA (juan 36, the eight great hells and their sixteen sub-hells) — tone/wellbeing gate fail
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0747c0602]]
+- reason: an extended, graphically detailed catalogue of hell-torments (dismemberment, molten iron, boiling cauldrons). Doctrinally a warning against unwholesome action, but the imagery is exactly what the tone/wellbeing gate exists to exclude, same category as the Yama's-five-messengers and Kokālika rejects.
+
+### EA (juan 36, Kuṇḍalakeśī's reply on the nature of suffering) — disciple-spoken
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0750c0115]]
+- reason: asked by the Buddha to reflect on suffering shortly before her own chosen parinirvāṇa (moments before his), the bhikkhunī Kuṇḍalakeśī recites the classic eightfold list of sufferings ("birth is suffering, aging is suffering..."). A famous, canonical formula, but it's her own answer, not the Buddha's speech — gate 1 fail.
+
+### EA (juan 36, Subhadda's inner reflection: "a Buddha's arising is as rare as the udumbara flower") — non-Buddha-spoken here
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0752a0810]]
+- reason: the wandering ascetic Subhadda's own private reflection, prompting him to seek out the dying Buddha for one last question. The udumbara-flower simile for a Buddha's rarity is genuinely famous and elsewhere attested as the Buddha's own words (e.g. in the Udāna/Anguttara), but in this specific passage it's Subhadda's interior monologue, not a quotation of the Buddha — gate 1 fail for this instance specifically. Worth re-checking if a cleaner, Buddha-spoken instance of this simile turns up elsewhere in the corpus.
+
+### EA (juan 37, the ocean's eight wonders vs. the Dharma's eight wonders, told to an asura king) — too compound to extract
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0753a1416]]
+- reason: a paired list of eight marvels of the ocean matched point-for-point against eight marvels of the Buddha's teaching (depth, all rivers losing their names, one taste, tides, inhabited by great beings, vastness, treasures, golden sand beneath). Elegant structure, but only works as the full parallel list — no single extractable line. Passed over.
+
+### EA (juan 36, the eight inopportune conditions for the holy life) — too compound to extract
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0747a0802]]
+- reason: the classic list of eight unfavorable rebirths/conditions in which a being cannot hear the Dharma even when a Buddha arises (hell, animal, hungry ghost, long-life heaven, border regions, defective faculties, wrong view, absence of a Buddha), capped by the one favorable condition. Doctrinally important and famous (the aṭṭha akkhaṇā), but only works as the full eight-plus-one list — no single quotable line. Passed over; worth remembering this exists if a future pass wants to build a card around "precious human life" using a different, more compressible source instead (see the juan-33 wheel-king candidate already in the pool for that theme).
+
