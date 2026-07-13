@@ -779,4 +779,124 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - theme: middle-way (fresh, historically central instance — the actual turning point of the Buddha's own path)
 - status: unclaimed
 
-**Note:** this pass covers the end of fascicle 20 through fascicle 25, plus the start of fascicle 26; fascicles 22 (the very long Sumāgadhā/Sumati narrative — miracle contest, no clean short teaching beyond a laywoman's own words on modesty, which is not Buddha-spoken) and most of 24-25 (hell narratives, monastic patient/caregiver etiquette, five kings debating sense-pleasures, generosity formulas already well represented) were read but yielded nothing further beyond what's above and in `rejected.md`. Fascicle 26 opens with the historical destruction of Kapilavastu by King Virūḍhaka (Vidūḍabha) — an extremely violent episode (see `rejected.md`, tone/wellbeing gate) that will be skimmed rather than mined further once the pattern is clear. Fascicles 26-51 remain, in progress.
+**Note:** this pass covers the end of fascicle 20 through fascicle 25, plus the start of fascicle 26; fascicles 22 (the very long Sumāgadhā/Sumati narrative — miracle contest, no clean short teaching beyond a laywoman's own words on modesty, which is not Buddha-spoken) and most of 24-25 (hell narratives, monastic patient/caregiver etiquette, five kings debating sense-pleasures, generosity formulas already well represented) were read but yielded nothing further beyond what's above and in `rejected.md`. Fascicle 26 opens with the historical destruction of Kapilavastu by King Virūḍhaka (Vidūḍabha) — an extremely violent episode (see `rejected.md`, tone/wellbeing gate), skipped per Evan's call.
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 26-28 (partial)
+
+**EA (juan 26/27 boundary, the asura king Vemacitrin) — bound by one's own view, not by literal restraint**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0697b1702]]
+- quote: "設與結使魔以被縛，動魔被縛，不動魔不被縛。是故，諸比丘！當求方便，使心不被縛，樂閑靜之處。" (the frame: an asura king bound in chains feels free the moment he judges the devas' conduct as right, and feels bound again the moment he favors his own side, even though his physical chains never change)
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~90 chars EN (est.) for the core teaching alone
+- theme: inner-peace (fresh angle — freedom as a state of mind independent of literal circumstance)
+- status: unclaimed
+
+**EA (juan 27) — heedfulness is the one strength that overcomes all of Māra's**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0699a2902]]
+- quote: "弊魔波旬亦有五力...若聖弟子成就一力，勝爾許力。云何為一力？所謂無放逸力。設賢聖弟子成就無放逸者，則不為色、聲、香、味、細滑之所拘繫。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~110 chars EN (est.)
+- theme: heedfulness-as-foundation-of-virtue (fresh instance)
+- status: unclaimed
+
+**EA (juan 27) — the five gifts that truly build merit: parks, groves, bridges, boats, dwellings**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0699a1601]]
+- quote: "復有五施令得大福。云何為五？一者造作園觀，二者造作林樹，三者造作橋梁，四者造作大船，五者與當來、過去造作房舍住處。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~110 chars EN (est.)
+- theme: generosity (fresh instance — a public-infrastructure/public-service angle, distinct from direct almsgiving)
+- status: unclaimed
+
+**EA (juan 28) — a life of killing doesn't buy good fortune, even when it looks like it does**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0703a1902]]
+- quote: "我亦不見、不聞屠牛之人殺害生類已，得乘車馬、大象...汝等若見殺牛之人乘車馬者，此是前世之德，非今世福也，皆是前世宿行所致也...是故，諸比丘！當起慈心於一切眾生。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~130 chars EN (est.) — needs compression to the core point
+- theme: karma-and-its-fruit (fills an existing known gap — "touched by toh330-generosity and t366-roots-of-merit, but no card centers it as the theme itself")
+- status: unclaimed
+
+**Note:** fascicle 28 continues into the very famous narrative of the Buddha's three-month teaching visit to Trāyastriṃśa heaven for his mother, his descent on the triple jeweled stairway, and Subhūti's reflection that contemplating emptiness is truer homage than physically greeting the Buddha (an ambiguous case — see `rejected.md`) — mostly narrative, not yet fully mined.
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 29-30 (partial)
+
+**EA (juan 29) — six things to hold dear, for harmony among practitioners**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0708c1202]]
+- quote: "身行念慈...口行念慈,意行念慈...得法利之具，能與諸梵行者共之，亦無悋想...禁戒不朽、不敗...欲使此戒分布與人，使同其味...正見賢聖得出要...欲與諸梵行者共同此法。"
+- buddhavacana: confirmed — Buddha addressing the monks (a close parallel to the six sāraṇīya dhammā/"conditions of concord," AN 6.12)
+- length_est: ~140 chars EN (est.) — over budget, needs compression to 2-3 of the six points or a summary framing
+- theme: communal-harmony (new gap — distinct from `spiritual-friendship`, which is dyadic; this is about a whole community holding practice, gains, and views in common)
+- status: unclaimed
+
+**EA (juan 30) — dependent origination: this being, that becomes**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0713c1511]]
+- quote: "是有則有，此生則生...無是則無，此滅則滅。" (the compact frame around the full twelve-link chain — ignorance conditions formations, through to old age, death, sorrow, and their reverse cessation)
+- buddhavacana: confirmed — Buddha addressing the monks, teaching "the foremost emptiness" (第一最空法)
+- length_est: ~50 chars EN (est.) for the compact couplet alone
+- theme: dependent-origination (fills a long-standing known gap — see theme-checklist.md; this is the classic formula itself, not just a closing clause referencing it)
+- status: unclaimed
+
+**Note:** fascicle 29 opens with the famous contest of psychic power between Śāriputra and Maudgalyāyana at Lake Anavatapta (long narrative, no clean short teaching beyond what's above) and the "lion-grove" dialogue among six senior disciples (Ānanda, Revata, Anuruddha, Kāśyapa, Maudgalyāyana, Śāriputra, each praising a different quality, capped by the Buddha's own answer) — pleasant but too dependent on its frame to extract cleanly. Fascicle 30 opens with Śāriputra's famous self-defense against a false accusation (the earth/water/fire/broom/razor-tongued-outcaste-girl similes of non-reactivity) — see `rejected.md`, disciple-spoken.
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 31-32 (partial)
+
+**EA (juan 31) — six kinds of strength, ending in the Buddha's great compassion**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0717b1802]]
+- quote: "小兒以啼為力...女人以瞋恚為力...沙門、婆羅門以忍為力...國王以憍慠為力...阿羅漢以專精為力...諸佛世尊成大慈悲，以大悲為力弘益眾生。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~140 chars EN (est.) for the full list — over budget; could trim to just the arahant/Buddha pair
+- theme: great-compassion (fresh instance, memorable "what is your strength?" framing)
+- status: unclaimed
+
+**EA (juan 31, the Buddha's own account of his awakening) — the ancient path to an abandoned, overgrown city**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0718b2402]]
+- quote: "猶如有人在山林中行，逐小徑道...見舊城郭、園觀、浴池，皆悉茂盛，但彼城中無有居民...大王！可使人民在彼城止住。" (the Buddha's simile for rediscovering the ancient, forgotten path of dependent origination that past Buddhas had already walked — close parallel to SN 12.65, the Nagara Sutta)
+- buddhavacana: confirmed — the Buddha's own account of his awakening, addressed to the monks
+- length_est: ~150+ chars EN (est.) — well over budget, needs very heavy compression to just the core image (an old path leading to a forgotten, still-beautiful city)
+- theme: dependent-origination (second instance — the "rediscovery, not invention" angle) or buddhas-purpose
+- status: unclaimed
+
+**EA (juan 31, to Anuruddha) — nirvana's nourishment is heedfulness**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0719a1915]]
+- quote: "涅槃者以無放逸為食，乘無放逸，得至於無為。"
+- buddhavacana: confirmed — Buddha answering Anuruddha's question of what nirvana "feeds on"
+- length_est: ~50 chars EN (est.)
+- theme: heedfulness-as-foundation-of-virtue (fresh, compact instance)
+- status: unclaimed
+
+**EA (juan 31, Aṅgulimāla) — "I have stopped; it is you who have not stopped"**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0720a1812]]
+- quote: "我自住耳，汝自不住。" (the Buddha's answer when the murderer Aṅgulimāla, unable to catch up to him despite running, shouts "Stop, stop, ascetic!")
+- buddhavacana: confirmed — Buddha addressing Aṅgulimāla, moments before his conversion
+- length_est: ~20 chars EN (est.) core line — extremely compact, though the full resonance depends on the reader knowing who's speaking and why
+- theme: harmlessness / self-mastery (fresh, famous instance — the Buddha has "stopped" harming all beings; Aṅgulimāla has not)
+- status: unclaimed
+
+**Note:** fascicle 32 opens with the roll call of pratyekabuddhas who once lived on Vulture Peak, and a pratyekabuddha's teaching to a lustful woman using the classic "plucking out the eye" simile for detachment from the senses — flagged in `rejected.md` (non-Buddha speaker plus graphic self-harm imagery, doubly disqualifying).
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicle (卷) 33 (partial)
+
+**EA (juan 33, to the ill monk Junda/均頭) — the seven awakening-factors as supreme medicine**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0731b0501]]
+- quote: "此七覺意甚難曉了，一切諸法皆悉了知，照明一切諸法，亦如良藥療治一切眾病，猶如甘露食無厭足。" (spoken after the gravely ill Junda recited the seven factors of awakening and was healed on the spot)
+- buddhavacana: confirmed — the Buddha addressing the assembled monks
+- length_est: ~110 chars EN (est.)
+- theme: seven-factors-of-awakening (new — the awakening factors as healing medicine, distinct from `concentration`)
+- status: unclaimed
+
+**EA (juan 33, the wheel-turning king vs. the Tathāgata's teaching) — the rarity of a human birth and of meeting the Dharma**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0733a2006]]
+- quote: "人身甚為難得，遭值八難，求出甚難...如來出現，甚不可遭...比丘今日善修梵行，於此現身得盡苦際，用此轉輪聖王七寶乎？" (the Buddha telling a monk who envied a wheel-turning king's glory that even such a king cannot escape the lower realms, while a human life spent in genuine practice can end suffering completely, in this very body)
+- buddhavacana: confirmed — the Buddha addressing a monk directly
+- length_est: over budget as quoted — needs trimming to the core rhetorical question and the "human birth is hard to obtain, meeting a Buddha is hard to encounter" clause
+- theme: precious-human-life / rarity-of-encountering-the-dharma (new gap — a classic, widely-recognized Buddhist teaching not yet represented in the pool)
+- status: unclaimed
+
+**Note:** fascicle 33 continues with the "digging through the mountain" allegorical riddle (a deva's dream-image decoded term by term by the Buddha for Kāśyapa) — passed over as too compound (the teaching only exists as the full apparatus of correspondences, not as a standalone line). Fascicle 33 (remainder) through 51 remain.

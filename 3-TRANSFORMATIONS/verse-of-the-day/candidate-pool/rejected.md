@@ -193,12 +193,33 @@ Passages considered and disqualified, so a future tagging pass doesn't re-read a
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0689a0603]]
 - reason: a series of "better X than Y" comparisons (better to burn in fire than consort improperly with a woman; better to have limbs cut off than accept undeserved honor; better to swallow a molten iron ball than eat alms as a fraudulent monk; better to lie on a bed of hot iron than accept a real bed dishonestly) — genuinely Buddha-spoken, making a valid point about integrity, but the graphic self-harm-adjacent imagery repeated four times over puts it in the same category as `MĀ 5` (Rule 12).
 
-### EA (juan 26, "the shade of one's own kin is better than a stranger's") — DEFERRED, troubling context
+### EA (juan 26, "the shade of one's own kin is better than a stranger's") — skipped, troubling context
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0691a0506]]
 - quote for reference: "親族之廕，故勝外人。"
-- reason: a clean, self-contained, genuinely warm line — the Buddha's reason for sitting under a bare, leafless tree of his own Śākya clan rather than a lush tree elsewhere, when he went out to intercept King Virūḍhaka (流離王) marching to destroy Kapilavastu. Taken alone the line reads as a nice teaching on the value of kinship/community. But its source context is the historical destruction of the Buddha's own clan (ending in mass killing) — repeated three times in the narrative, and each time the Buddha's gesture only delays, not prevents, the massacre. Deferred rather than accepted or flatly rejected: the line itself passes every gate, but a reviewer encountering its origin might reasonably find the pairing uncomfortable. Flagged for a human call rather than decided here.
+- reason: a clean, self-contained, genuinely warm line — the Buddha's reason for sitting under a bare, leafless tree of his own Śākya clan rather than a lush tree elsewhere, when he went out to intercept King Virūḍhaka (流離王) marching to destroy Kapilavastu. Taken alone the line reads fine, but its source context is the historical destruction of the Buddha's own clan (ending in mass killing), repeated three times in the narrative, with the Buddha's gesture only delaying rather than preventing the massacre each time. Evan's call: skip it — not tagged.
 
 ### EA (juan 26, the destruction of Kapilavastu / King Virūḍhaka) — whole episode, tone/wellbeing gate
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0690a1305]]
 - reason: the historical narrative of King Virūḍhaka's revenge and the massacre of the Śākyas (culminating in mass killing, mutilation of captured women, and Mahānāma's suicide) is extremely graphic and violent throughout — far beyond the `MĀ 5`/Rule 12 threshold. No portion of this narrative beyond the single deferred line above is appropriate for a daily verse card regardless of its historical/doctrinal importance elsewhere.
+
+### EA (juan 28, Subhūti's reflection on emptiness) — DEFERRED, ambiguous attribution
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0707c1113]]
+- quote for reference: "此中無我、無命、無人、無造作，亦無形容...諸法皆悉空寂。何者是我？我者無主。我今歸命真法之聚。"
+- reason: when the Buddha descends from Trāyastriṃśa heaven and crowds rush to be first to see him, Subhūti alone stays put, reasoning that contemplating the emptiness of all phenomena is truer homage than physical presence — a famous, profound moment (an early root of "whoever sees the Dharma sees me"). The passage frames it as "如世尊所說偈言" (as the World-Honored One said in a verse), which could mean Subhūti is reciting an authentic Buddha-verse, or could mean he's dressing his own insight in a citation. Genuinely ambiguous attribution — needs a closer read or a second source comparison before tagging either way, not a rushed call.
+
+### EA (juan 28, the Buddha's visit to Trāyastriṃśa heaven) — famous, but overwhelmingly narrative
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0703b1305]]
+- reason: the well-known story of the Buddha teaching his mother Māyā in the Trāyastriṃśa heaven for three months, the two nāga kings' jealousy, Maudgalyāyana subduing them, the golden/silver/crystal stairway descent, and the origin of the first Buddha images (King Udayana's sandalwood image, King Prasenajit's gold one) — historically and doctrinally significant, but almost entirely narrative. The one embedded formal teaching (the five-aggregates definitions) duplicates ground already well covered elsewhere in this pool.
+
+### EA (juan 30, Śāriputra's self-defense: "I am like the earth") — famous, disciple-spoken
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0713a0412]]
+- reason: falsely accused of quarreling with a fellow monk and leaving without apologizing, Śāriputra defends his equanimity to the Buddha with a chain of famous similes — like the earth, which receives clean and unclean things alike without resentment; like water, fire, and a cleaning cloth, which likewise make no distinction; like a bull with its horns removed, gentle and easily led; like an outcaste girl's daughter, without conceit. Extremely well-known and a genuinely beautiful teaching on non-reactivity, but it's Śāriputra's own speech in his own defense, not the Buddha's — gate 1 fail, same category as `SĀ 259`. Worth flagging given how often this passage gets quoted (sometimes loosely attributed) elsewhere.
+
+### EA (juan 30-31 boundary, the Buddha's Socratic debate with the Nirgrantha ascetic) — no standalone declarative unit
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0716c0102]]
+- reason: the Buddha methodically corners a Jain (尼揵) ascetic into admitting form is impermanent through a long chain of question-and-answer. Buddha-spoken and doctrinally sound, but the "teaching" only exists as the shape of the dialogue itself — there's no single quotable declarative line that survives being lifted out of the back-and-forth. Passed over, same category as other Socratic-debate suttas earlier in this text.
+
+### EA (juan 32, a pratyekabuddha's "plucking out the eye" teaching to a lustful merchant's daughter) — doubly disqualified
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0721c1601]]
+- reason: propositioned by a merchant's daughter, the pratyekabuddha Sunetra plucks out his own eye and holds it in his palm, asking "what is there here to be attached to?" then teaches that the six sense faculties are impermanent, empty, and merely causally arisen. Two independent disqualifiers: (1) a pratyekabuddha, not the Buddha, is speaking — not buddhavacana at all; (2) even setting that aside, the self-mutilation-as-teaching-device is exactly the graphic/self-harm-adjacent imagery the tone/wellbeing gate exists to catch. Skip.
 

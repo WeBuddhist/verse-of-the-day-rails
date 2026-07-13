@@ -14,10 +14,10 @@ Themes may recur (never back-to-back) — a theme already covered is not a reaso
 
 - **skilful means (upāya)** — not yet represented.
 - **restraint of the senses (indriyasaṁvara)** — not yet represented. Candidates found: EA ea-a, ea-b, ea-c, three instances all from the Ekottarika shortcut-list pass (`candidate-pool/chinese.md`).
-- **dependent origination (paṭiccasamuppāda)** — not yet represented. Touched partially by EA ea-q's closing clause ("the darkness of delusion — remove it entirely with the twelve links") but not centered as its own theme there.
+- **dependent origination (paṭiccasamuppāda)** — touched partially by EA ea-q's closing clause ("the darkness of delusion — remove it entirely with the twelve links") but not centered as its own theme there. Strong candidate now found: EA juan 30, the compact "this being, that becomes; this ceasing, that ceases" formula framing the full twelve-link chain (`candidate-pool/chinese.md`).
 - **forgiveness** — not yet represented. Candidate found: DA 27, the Buddha accepting King Ajātaśatru's repentance for patricide ("one who can repent within the noble teaching benefits themselves; out of compassion, I accept your repentance") (`candidate-pool/chinese.md`).
 - **refuge / confidence (saddhā)** — not yet represented as its own theme (distinct from the self-reliance / self-refuge angle already covered). Candidate found: DA 2-b, "the teaching and discipline are your refuge after I am gone" (`candidate-pool/chinese.md`).
-- **karma and its fruit** — touched by `toh330-generosity` and `t366-roots-of-merit`, but no card centers it as the theme itself.
+- **karma and its fruit** — touched by `toh330-generosity` and `t366-roots-of-merit`, but no card centers it as the theme itself. Candidate found: EA juan 28, the butcher-who-rides-in-luxury teaching (present fortune traced to past-life merit, not to a harmful livelihood) (`candidate-pool/chinese.md`).
 - **renunciation** — touched by `t210-true-renunciation`; a second, fresh angle would still be welcome.
 - **middle way** — only SN 1.1 so far; a clearer/different angle would help. Candidate found: EA ea-h, "the middle way of diligence" (over-effort vs. laziness) (`candidate-pool/chinese.md`).
 - **sympathetic joy (muditā)** — covered under `speaks_to` on some cards, but no theme/day centers it. Candidate found: EA (juan 6-8, Rāhula) — "cultivate a mind of joy; once joy is cultivated, all envy is entirely removed" (`candidate-pool/chinese.md`).
@@ -33,6 +33,7 @@ Themes may recur (never back-to-back) — a theme already covered is not a reaso
 - **detachment from gain and honor** (not clinging to material support, fame, or veneration — the "gain/loss" pair of the eight worldly winds) — distinct from `freedom-from-craving` (broader) and `non-attached-giving` (about giving, not receiving). Candidate found: EA juan 13 (`candidate-pool/chinese.md`).
 - **true kingship / true authority reframed** (the Buddha declining worldly kingship: "I am already a Dharma king") — minor, narrow gap. Candidate found: EA juan 14 (`candidate-pool/chinese.md`).
 - **spiritual equality in the sangha** (renunciation erases caste distinction, as rivers lose their names on entering the ocean) — distinct from `wholesome-action`'s conduct-over-birth angle (EA juan 18); this one is specifically about unity/equality within the monastic community itself. Candidate found: EA juan 21, the four-rivers simile (`candidate-pool/chinese.md`).
+- **communal harmony among practitioners** (the six conditions of concord — shared bodily/verbal/mental kindness, sharing material gains, holding precepts and right view in common) — distinct from `spiritual-friendship` (dyadic); this is about a whole community's cohesion. Candidate found: EA juan 29 (`candidate-pool/chinese.md`).
 
 ## How this grows
 
