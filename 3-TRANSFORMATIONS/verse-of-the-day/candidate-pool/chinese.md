@@ -177,7 +177,7 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 
 ---
 
-**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan now covers DA 1-29 of 30 (only DA 30 left). DA 21-29 read in full this pass — 6 new unclaimed candidates found: DA 22, DA 23 x2, DA 26, DA 27 (see below); DA 21, DA 24, DA 25, DA 28, DA 29 read but yielded nothing new (see `rejected.md`/pass-over notes). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 remains unread. DA 30 (~630-line cosmology treatise, `世記經` — descriptions of Mount Sumeru, the four continents, hell/heaven realms, cosmic cycles) deliberately skipped (Evan's call, low expected yield given the genre) — Dīrgha Āgama scan now considered closed at DA 1-29. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — the 46-citation shortcut list (~18 accepted) is done (see below and `rejected.md`); now also sequentially scanning the file proper. Fascicles 1-10 of 51 done in an earlier pass (~92 entries, lines 1-2686, 10 new candidates). Fascicles 11-20 now also done this pass (lines 2687-5722+, spanning juan 11 through the start of juan 20), 15 more new candidates found (see below) — highlights include the classic "carrying your parents on your shoulders for a lifetime still couldn't repay them" filial-piety line, the Śroṇa Koṭikarṇa lute-string middle-way simile, the "putting down the burden" five-aggregates teaching (SN 22.22 parallel), and the fingernail-dirt-vs-the-earth impermanence simile. Fascicle 15 is entirely absent from this vault's source copy (header with no content, straight into fascicle 16). Fascicles 1-14 and 16-18 were read in full; fascicle 19 (Bakkula's suicide, the four truths, Anāthapiṇḍika's giving hierarchy) and the start of fascicle 20 (the miser Bhaddiya conversion narrative, in progress) were skimmed for teaching content without a fresh candidate beyond what's noted. 31 fascicles remain (21-51).**
+**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan now covers DA 1-29 of 30 (only DA 30 left). DA 21-29 read in full this pass — 6 new unclaimed candidates found: DA 22, DA 23 x2, DA 26, DA 27 (see below); DA 21, DA 24, DA 25, DA 28, DA 29 read but yielded nothing new (see `rejected.md`/pass-over notes). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 remains unread. DA 30 (~630-line cosmology treatise, `世記經` — descriptions of Mount Sumeru, the four continents, hell/heaven realms, cosmic cycles) deliberately skipped (Evan's call, low expected yield given the genre) — Dīrgha Āgama scan now considered closed at DA 1-29. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — the 46-citation shortcut list (~18 accepted) is done (see below and `rejected.md`); now also sequentially scanning the file proper. Fascicles 1-10 of 51 done in an earlier pass (~92 entries, lines 1-2686, 10 new candidates). Fascicles 11-20 now also done this pass (lines 2687-5722+, spanning juan 11 through the start of juan 20), 15 more new candidates found (see below) — highlights include the classic "carrying your parents on your shoulders for a lifetime still couldn't repay them" filial-piety line, the Śroṇa Koṭikarṇa lute-string middle-way simile, the "putting down the burden" five-aggregates teaching (SN 22.22 parallel), and the fingernail-dirt-vs-the-earth impermanence simile. Fascicle 15 is entirely absent from this vault's source copy (header with no content, straight into fascicle 16). Fascicles 1-14 and 16-18 were read in full; fascicle 19 (Bakkula's suicide, the four truths, Anāthapiṇḍika's giving hierarchy) and fascicle 20 (the miser Bhaddiya/母難陀 conversion narrative, plus more) were read. Fascicles 21-25 also now done this pass, 5 more new candidates found (see below) — highlights include the Buddha's own "a wasted body cannot reach the sublime path" account of discovering the Middle Way, and the classic four-rivers-lose-their-names-in-the-ocean simile for caste equality in the sangha. Fascicle 22 (the very long Sumāgadhā/Sumati miracle-contest narrative), most of fascicle 24 (hell narratives, monastic patient/caregiver etiquette), and fascicle 25 (five kings debating sense-pleasures, generosity formulas already well represented) yielded nothing further beyond `rejected.md`. 26 fascicles remain (26-51).**
 
 ### `en-samyukta-agama-patton.md` — scanned, no new candidates found beyond what's above
 
@@ -734,3 +734,49 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - status: unclaimed
 
 **Near-misses and rejects from this range:** see `rejected.md`.
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 20-25 (partial; picks up from the end of fascicle 20)
+
+**EA (juan 20, the skull-diviner) — the liberated one cannot be tracked or categorized**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0651c1508]]
+- quote: "此髑髏者，無終、無始、亦無生死，亦無八方、上下所可適處，此是...阿羅漢之髑髏也。"
+- buddhavacana: confirmed — Buddha explaining to the brahmin skull-diviner why he cannot divine an arahant's rebirth
+- length_est: ~100 chars EN (est.)
+- theme: full-liberation (fresh instance — the point that the liberated one transcends categorization/tracking, distinct from the "birth is ended" self-declaration formula already in the pool)
+- status: unclaimed
+
+**EA (juan 20, to a young householder) — true peace comes from ending craving, not comfort**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0650b0804]]
+- quote: "如彼欲意盛者，今如來永盡無餘，無復根本，更不復興...如來今日無復此心，永盡無餘，亦無根本。" (answering the question of how the Buddha sleeps well despite cold and poverty)
+- buddhavacana: confirmed — Buddha addressing a young householder's son
+- length_est: ~90 chars EN (est.)
+- theme: inner-peace (fresh instance)
+- status: unclaimed
+
+**EA (juan 20/21 boundary) — practice is bitter first, sweet after**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0653b1201]]
+- quote: "修習梵行先苦而後樂；誦習經文先苦而後樂；坐禪念定先苦而後樂；數出入息先苦而後樂。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~110 chars EN (est.)
+- theme: effort (fresh instance — specifically the delayed-reward framing)
+- status: unclaimed
+
+**EA (juan 21) — rivers lose their names in the ocean; castes lose distinction in the sangha**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0658b2702]]
+- quote: "四大河入海已，無復本名字，但名為海。此亦如是...出家學道，無復本姓，但言沙門釋迦子。"
+- buddhavacana: confirmed — Buddha addressing the monks (famous parallel to Udāna 5.5)
+- length_est: ~110 chars EN (est.)
+- theme: spiritual-equality-in-the-sangha (new gap — see theme-checklist.md)
+- status: unclaimed
+
+**EA (juan 23, the Buddha's own account of his awakening) — a wasted body cannot reach the sublime path**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0671b2906]]
+- quote: "不可以此羸劣之體，求於上尊之道。"
+- buddhavacana: confirmed — the Buddha's own realization, recounted to the monks, that led him to abandon six years of extreme asceticism
+- length_est: ~55 chars EN (est.)
+- theme: middle-way (fresh, historically central instance — the actual turning point of the Buddha's own path)
+- status: unclaimed
+
+**Note:** this pass covers the end of fascicle 20 through fascicle 25, plus the start of fascicle 26; fascicles 22 (the very long Sumāgadhā/Sumati narrative — miracle contest, no clean short teaching beyond a laywoman's own words on modesty, which is not Buddha-spoken) and most of 24-25 (hell narratives, monastic patient/caregiver etiquette, five kings debating sense-pleasures, generosity formulas already well represented) were read but yielded nothing further beyond what's above and in `rejected.md`. Fascicle 26 opens with the historical destruction of Kapilavastu by King Virūḍhaka (Vidūḍabha) — an extremely violent episode (see `rejected.md`, tone/wellbeing gate) that will be skimmed rather than mined further once the pattern is clear. Fascicles 26-51 remain, in progress.

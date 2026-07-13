@@ -160,3 +160,45 @@ Passages considered and disqualified, so a future tagging pass doesn't re-read a
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0608c0402]]
 - reason: Buddha-spoken and not disqualified on gate 1, but the passage generalizes about women specifically being prone to jealousy/sleep/desire and consequently more liable to hell — this kind of gendered generalization sits poorly with the vault's ecumenical-wording spirit (`CLAUDE.md` hard rule 4) regardless of canonical authenticity. Not tagged; flagged so a future pass doesn't reach for it as a three-poisons or restraint-of-senses candidate without noticing the framing.
 
+---
+
+## Ekottarika Āgama — sequential scan, fascicles 20-25 near-misses
+
+### EA (juan 20, "the five great gifts" reframing the five precepts as generosity) — disciple-relayed, borderline
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0648a0910]]
+- reason: "如來說有二大施...一者不得殺生，此名為大施..." — Moggallāna explicitly cites this as the Buddha's own teaching ("如來說"), but he is the direct speaker in the scene addressing the miser's sister, not the Buddha. A genuinely appealing reframe (abstaining from harm as itself the truest form of giving) but the relay format keeps it borderline per the disciple-spoken concern seen elsewhere (`SĀ 259`, `MĀ 9`).
+
+### EA (juan 23, the four-snakes/five-enemies/six-bandits parable) — famous, too compound to extract
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0669c0302]]
+- reason: a close parallel to the Āsīvisopama Sutta (SN 35.238) — a man fleeing four venomous snakes (the four elements), five assassins (the five aggregates), a sixth enemy (craving), an empty village (the six sense bases), and crossing a flood on a raft (the four floods/eightfold path) to reach the far shore (nibbāna). Extremely well-known and rich, but it is a multi-part allegory built from a chain of correspondences — no single sentence stands alone without the full frame, the same "list of similes" problem as the desire-chain entries rejected earlier in this pool.
+
+### EA (juan 24, Yama's five messengers) — tone/wellbeing gate fail
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0674c0110]]
+- reason: the core reflection (seeing birth, old age, sickness, and death as warnings one failed to heed) is a recognized, valuable teaching (parallel to MN 130/AN 3.35), but in this telling it's wrapped in a very long, extremely graphic hell-torture sequence (impaling, boiling, flesh stripped and eaten) — same tone/wellbeing gate concern as `MĀ 5` (Rule 12). The reflection itself is too enmeshed in the surrounding hell narrative to extract cleanly without the graphic frame.
+
+### EA (juan 24, Nārada's counsel to King Muṇḍa) — recurrence of an already-logged reject
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0679a0805]]
+- reason: this is the same Nārada/King Muṇḍa (here called 文茶王) grief-counsel sutta already logged above from the shortcut-list pass — encountered again in the sequential scan. Same reason stands: disciple-spoken (Nārada), not the Buddha. No new action needed; noted only so a future pass recognizes it as already covered.
+
+### EA (juan 25, Śivali's birth story) — "four small things not to despise," deva-spoken
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0683b2116]]
+- quote for reference: "國王雖小最不可輕；火雖小亦不可輕；龍雖小復不可輕；學道之人雖復年幼亦不可輕。"
+- reason: a well-known, quotable formula (echoed elsewhere in the canon, e.g. AN 4.90's "four things not to be despised for being small"), but in this telling it is spoken by a deva to the anxious father Candra-prabha (月光長者), not by the Buddha. Gate 1 fail — flagged since the line is memorable enough that a future pass might reach for it without checking the speaker.
+
+### EA (juan 25, the five soldiers facing a woman's beauty) — redundant
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0686c2102]]
+- reason: two parallel "five kinds of soldier" similes (fear of dust/banner/arrows/capture/death, mapped to a monk's escalating loss of restraint when a woman is nearby) — genuinely Buddha-spoken and well-constructed, but redundant with the restraint-of-senses ground already covered more cleanly by `ea-a`/`ea-b`/`ea-c` in this pool.
+
+### EA (juan 25, "swallow a hot iron ball rather than eat unearned alms") — tone/wellbeing gate fail
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0689a0603]]
+- reason: a series of "better X than Y" comparisons (better to burn in fire than consort improperly with a woman; better to have limbs cut off than accept undeserved honor; better to swallow a molten iron ball than eat alms as a fraudulent monk; better to lie on a bed of hot iron than accept a real bed dishonestly) — genuinely Buddha-spoken, making a valid point about integrity, but the graphic self-harm-adjacent imagery repeated four times over puts it in the same category as `MĀ 5` (Rule 12).
+
+### EA (juan 26, "the shade of one's own kin is better than a stranger's") — DEFERRED, troubling context
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0691a0506]]
+- quote for reference: "親族之廕，故勝外人。"
+- reason: a clean, self-contained, genuinely warm line — the Buddha's reason for sitting under a bare, leafless tree of his own Śākya clan rather than a lush tree elsewhere, when he went out to intercept King Virūḍhaka (流離王) marching to destroy Kapilavastu. Taken alone the line reads as a nice teaching on the value of kinship/community. But its source context is the historical destruction of the Buddha's own clan (ending in mass killing) — repeated three times in the narrative, and each time the Buddha's gesture only delays, not prevents, the massacre. Deferred rather than accepted or flatly rejected: the line itself passes every gate, but a reviewer encountering its origin might reasonably find the pairing uncomfortable. Flagged for a human call rather than decided here.
+
+### EA (juan 26, the destruction of Kapilavastu / King Virūḍhaka) — whole episode, tone/wellbeing gate
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0690a1305]]
+- reason: the historical narrative of King Virūḍhaka's revenge and the massacre of the Śākyas (culminating in mass killing, mutilation of captured women, and Mahānāma's suicide) is extremely graphic and violent throughout — far beyond the `MĀ 5`/Rule 12 threshold. No portion of this narrative beyond the single deferred line above is appropriate for a daily verse card regardless of its historical/doctrinal importance elsewhere.
+

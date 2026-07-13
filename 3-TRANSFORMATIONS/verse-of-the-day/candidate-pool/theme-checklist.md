@@ -32,6 +32,7 @@ Themes may recur (never back-to-back) — a theme already covered is not a reaso
 - **heedfulness as the foundation of virtue** (appamāda/不放逸 as the ground all other good qualities grow from, not just "effort" applied to a task) — distinct from `effort` and `self-mastery`. Candidate found: EA juan 18, the earth simile ("all plants depend on the earth to grow; all good qualities depend on heedfulness") (`candidate-pool/chinese.md`).
 - **detachment from gain and honor** (not clinging to material support, fame, or veneration — the "gain/loss" pair of the eight worldly winds) — distinct from `freedom-from-craving` (broader) and `non-attached-giving` (about giving, not receiving). Candidate found: EA juan 13 (`candidate-pool/chinese.md`).
 - **true kingship / true authority reframed** (the Buddha declining worldly kingship: "I am already a Dharma king") — minor, narrow gap. Candidate found: EA juan 14 (`candidate-pool/chinese.md`).
+- **spiritual equality in the sangha** (renunciation erases caste distinction, as rivers lose their names on entering the ocean) — distinct from `wholesome-action`'s conduct-over-birth angle (EA juan 18); this one is specifically about unity/equality within the monastic community itself. Candidate found: EA juan 21, the four-rivers simile (`candidate-pool/chinese.md`).
 
 ## How this grows
 
