@@ -177,7 +177,7 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 
 ---
 
-**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan started, DA 1-7 of 30 done (4 unclaimed candidates found: DA 1, DA 5 x2, DA 6 x2 — see below; DA 2, the ~710-line Mahāparinibbāna parallel, deliberately skipped for now, see cost note). `zh-ekottarika-agama.md` not yet touched.**
+**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan in progress, DA 1-20 of 30 done (9 unclaimed candidates found: DA 1, DA 5 x2, DA 6 x2, DA 8, DA 11, DA 13, DA 14, DA 16 — see below). DA 2 (~710-line Mahāparinibbāna parallel) and DA 30 (~630-line cosmology treatise, `世記經`) deliberately not yet read — flagged as their own dedicated batch given their size. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) not yet touched.**
 
 ### `en-samyukta-agama-patton.md` — scanned, no new candidates found beyond what's above
 
@@ -234,6 +234,50 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - speaks_to: [doubtful, aspiration]
 - theme: self-reliance (recurring — already covered, e.g. by an existing self-reliance-themed card; fine per "themes may recur," just don't schedule adjacent)
 - status: unclaimed
+
+### DA 8 (散陀那經, the Udumbarikā-Sīhanāda Sutta parallel) — da-8 — the purpose of the teaching
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0049b0401]]
+- quote: "吾所說法，微妙第一，為滅不善，增益善法。" (the Buddha's direct answer to the wanderer Nigrodha about his motive for teaching)
+- buddhavacana: confirmed — Buddha addressing the wanderer Nigrodha directly
+- length_est: ~90 chars EN (est.)
+- speaks_to: [doubtful, aspiration]
+- theme: wholesome-action (recurring — already covered; a fresh Chinese-Āgama instance of the same core "end the unwholesome, grow the wholesome" teaching that anchors the vault's mission verse, Dhp 183)
+- status: unclaimed
+
+### DA 11 (增一經, the "Progressive Ones" catalogue) — da-11 — don't let regret arrive after complacency
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0059a2401]]
+- quote: "勿自放恣，今不勉力，後悔何益？此是我教，勤受持之。" (the sutta's closing exhortation, after the Buddha's own long numeric-catalogue teaching — extracted as the self-contained closing address, not the catalogue itself)
+- buddhavacana: confirmed — Buddha addressing the monks directly (unlike DA 9/DA 10's near-identical catalogue format, this one is Buddha-spoken start to finish, not delegated to Śāriputra)
+- length_est: ~115 chars EN (est.) — near the budget ceiling, verify at claim time
+- speaks_to: [discouraged, aspiration]
+- theme: effort (recurring — already covered)
+- status: unclaimed
+
+### DA 13 (大緣方便經, the Mahānidāna Sutta parallel) — da-13 — the three feelings are not self
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0061c0608]]
+- quote: not yet fixed to a single sentence — the extractable unit is "此三受有為無常，從因緣生，盡法、滅法，為朽壞法。彼非我有，我非彼有，當以正智如實觀之。" (the three feelings — pleasant, painful, neither — are conditioned, impermanent, arisen from causes, subject to ending and decay; they are not mine, I am not theirs, this should be seen truly with right wisdom); full sentence likely runs past the ~125 char budget in English and needs a compress-without-cutting pass
+- buddhavacana: confirmed — Buddha addressing Ānanda directly throughout, no narrative wrapper (unlike DA 4/DA 7/DA 9/DA 10)
+- length_est: unresolved — flagged for compression at claim time
+- speaks_to: [doubtful, equanimity]
+- theme: not-self (recurring — already covered, e.g. by `sa-33`; a fresh Chinese-Āgama instance on feeling specifically rather than the five aggregates generally)
+- status: unclaimed
+- note: this sutta also contains the same twelve-link dependent-origination chain already picked up at DA 1 (see above) — not re-tagged here to avoid duplication.
+
+### DA 14 (釋提桓因問經, the Sakkapañha Sutta parallel) — da-14 — the root of conflict
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0064a1616]]
+- quote: "怨結之生，皆由貪嫉。" (the Buddha's direct answer to Śakra's opening question — why do gods, humans, and asuras come to blows?)
+- buddhavacana: confirmed — Buddha addressing Śakra (帝釋) directly
+- length_est: ~40 chars EN (est.) — well within budget
+- speaks_to: [angry, aspiration]
+- status: unclaimed (no clean theme-checklist match — the fuller chain this answer opens, greed/envy ← craving/aversion ← desire ← perception ← restlessness, is interesting but not itself a named checklist theme; speaks_to alone is sufficient per Rule 5)
+
+### DA 16 (善生經, the Sigālovāda Sutta parallel) — da-16 — the six directions reframed as relationships
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0072a1808]] (the naming sentence sits within a longer passage — exact single-sentence anchor is [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0071c0501]], "當知六方..." at the start of this section)
+- quote: "父母為東方，師長為南方，妻婦為西方，親黨為北方，僮僕為下方，沙門、婆羅門、諸高行者為上方。" (the Buddha reframes the young householder Sigāla's ritual bowing to the six compass directions as, instead, six real relationships to honor)
+- buddhavacana: confirmed — Buddha addressing the householder's son Sigāla (善生) directly
+- length_est: ~110 chars EN (est.) — verify at claim time, near the budget ceiling
+- speaks_to: [gratitude, belonging]
+- status: unclaimed (no clean theme-checklist match — the sutta's real content is the enumerated list of mutual duties for each relationship, which doesn't compress to a single quote; this reframing line is the one self-contained, memorable unit)
 
 ### DA 6 — da-6-b — no force surpasses a liberated mind
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0042b1616]]
