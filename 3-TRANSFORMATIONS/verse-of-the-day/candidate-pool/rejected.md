@@ -36,3 +36,11 @@ Passages considered and disqualified, so a future tagging pass doesn't re-read a
 - link: [[1-SOURCES/Text/zh-madhyama-agama.md#^ma31-0]]
 - reason: the Buddha frames the four noble truths and hands the detailed teaching to Śāriputra, who delivers essentially the entire discourse (including the closing verse praising the Buddha's insight — "This is what Venerable Śāriputra said"). Gate 1 fail — same disciple-spoken pattern as SĀ 259 and MĀ 9; the closing verse is additionally praise-of-the-Buddha rather than Buddha-spoken (compounding gate 1 fail).
 
+### DA 4 (闍尼沙經, the Janavasabha Sutta parallel)
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^da4-0]]
+- reason: heavily layered reported speech — a yakkha (Janavasabha) recounts to the Buddha what he overheard a young Brahmā god say to the Thirty-Three, who was in turn relaying Vessavaṇa. Even the one clean teaching content (the four foundations of mindfulness, the seven qualities for concentration, the four bases of power) arrives third-hand through this frame, never as the Buddha's own direct address until the very end wrap-up. Passed over whole — no clean, directly Buddha-spoken extractable unit.
+
+### DA 7 (弊宿經, the Pāyāsi Sutta parallel) — whole sutta, gate 1 fail
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^da7-0]]
+- reason: the entire (long, ~210-line) sutta is a debate between the monk Kumāra-Kassapa (童女迦葉) and the skeptic brahmin Pāyāsi (弊宿) — the Buddha has already passed into final nirvāṇa within the story's own frame ("今我師世尊，滅度未久"), so there is no Buddha-spoken content here at all, not even a frame narration. Gate 1 fail for the whole sutta, not a partial near-miss — worth naming explicitly since it's tempting content (good similes on karma/rebirth, a "clean giving" passage) that a future pass might otherwise reach for without checking who's speaking.
+

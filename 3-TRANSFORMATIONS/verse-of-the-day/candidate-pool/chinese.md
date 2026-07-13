@@ -177,7 +177,7 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 
 ---
 
-**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` and `zh-ekottarika-agama.md` not yet touched (no Patton pairing exists for either).**
+**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan started, DA 1-7 of 30 done (4 unclaimed candidates found: DA 1, DA 5 x2, DA 6 x2 — see below; DA 2, the ~710-line Mahāparinibbāna parallel, deliberately skipped for now, see cost note). `zh-ekottarika-agama.md` not yet touched.**
 
 ### `en-samyukta-agama-patton.md` — scanned, no new candidates found beyond what's above
 
@@ -195,3 +195,52 @@ The other 32 of the 39 Patton-paired sūtras not listed above (SĀ 2-11, 34-36, 
 ### `en-madhyama-agama-patton.md` — scanned, no new candidates found beyond MĀ 7 and MĀ 16 (above)
 
 MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable), MĀ 4 (The Water Parable), MĀ 6 (The Good Person's Departure), MĀ 8 (The Seven Suns), MĀ 10 (Ending the Contaminants), MĀ 81 (Mindfulness of Body), and MĀ 98 (The Abodes of Mindfulness) were read and passed over silently: each is an extended parable or enumerated-list discourse (jhāna stages, contaminant-ending factors, the 18 practices/virtues of body-mindfulness, the four abodes of mindfulness) with no self-contained unit that separates cleanly without cutting — consistent with Rule 11's observation that Madhyama entries run parable-length rather than short-verse length. MĀ 200 (Ariṣṭa, the Snake and Raft parable) was also read in full — genuinely Buddha-spoken and includes well-known parables (the raft, the snake, dry grass and withered wood) but each is a multi-step extended simile, not a short whole quote; passed over. MĀ 5 and MĀ 9 were near-misses; MĀ 31 likewise — see `rejected.md`.
+
+### DA 1 (大本經, the Mahāpadāna/"Great Origin" Sutta parallel) — da-1 — **UNCLAIMED, needs compression, fills a known theme gap**
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0007b0715]] (arising direction); cessation direction at [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0007b2103]]
+- quote: not yet fixed to a single sentence — the twelve-link dependent-origination chain itself ("緣癡有行，緣行有識，緣識有名色，緣名色有六入，緣六入有觸，緣觸有受，緣受有愛，緣愛有取，緣取有有，緣有有生，緣生有老、病、死、憂、悲、苦惱" and its mirrored cessation form) is the extractable unit — genuinely whole and self-contained as a formula, but 12 links translated into English will run well past the ~125 char budget; needs a compress-without-cutting pass (or a decision to quote only the shortest 2-3-link fragment that still reads as complete) before it's card-ready
+- buddhavacana: confirmed — Buddha addressing the monks, recounting the past Buddha Vipaśyin's realization in his own voice throughout ("佛告比丘...")
+- length_est: unresolved — flagged for compression at claim time
+- speaks_to: [doubtful, aspiration]
+- theme: dependent-origination (fills a "Known gaps" entry in theme-checklist.md — first Pali/Chinese-side candidate found for this gap)
+- status: unclaimed
+
+**Note on this file's converted text:** the Chinese source's verse markers ("佛時頌曰：" / "the Buddha then spoke a verse") are followed by no verse content in this converted file — the actual gāthās referenced throughout DA appear to not have been captured by the CBETA conversion. This means DA's verse-form teachings (if any were meant to be quotable) aren't accessible from this file as-is; only the prose sections can be tagged. Worth flagging to a human — may need a re-run of the converter or a manual check against CBETA directly if DA's verses are wanted later.
+
+### DA 5 (小緣經, the Aggañña Sutta parallel) — da-5-a — arahant declaration formula
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0039a0108]]
+- quote: "彼族姓子法服出家，修無上梵行，於現法中自身作證：『生死已盡，梵行已立，所作已辦，不復受有。』" (the closing self-realization formula, addressed by the Buddha directly to Vāseṭṭha and Bhāradvāja, applied identically across all four castes — extracted as the repeated clause itself, not the whole sutta)
+- buddhavacana: confirmed — Buddha addressing the brahmin monks Vāseṭṭha (婆悉吒) and Bhāradvāja (婆羅墮) throughout, no narrative wrapper
+- length_est: ~90 chars EN (est.) — likely fits without compression, but verify at claim time
+- speaks_to: [doubtful, aspiration]
+- theme: full-liberation (new — see theme-checklist.md; this classic arahant self-declaration formula, "birth is ended, the holy life fulfilled, the task done, no more becoming," doesn't map to any already-covered theme)
+- status: unclaimed
+- note: the identical formula also appears in DA 3 (embedded after a long deva-narrated frame story) and DA 6 (embedded in the wheel-turning-king narrative) — DA 5 is the cleanest anchor since it's Buddha-speaking directly from the sutta's start with no narrative wrapper to untangle. Don't re-tag those two occurrences as separate candidates.
+
+### DA 5 — da-5-b — karma bears its own fruit, not caste
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0037a0105]]
+- quote: "夫不善行有不善報，為黑冥行則有黑冥報。" (part of the Buddha's argument that unwholesome result follows unwholesome conduct regardless of birth caste — self-contained as its own clause)
+- buddhavacana: confirmed — Buddha addressing Vāseṭṭha
+- length_est: ~85 chars EN (est.)
+- speaks_to: [doubtful, aspiration]
+- theme: karma-and-its-fruit (known gap — currently only "touched" by `toh330-generosity`/`t366-roots-of-merit`, not centered as the theme itself; this would be the first card to center it, and a Pali/Chinese-side example)
+- status: unclaimed
+
+### DA 6 (轉輪聖王修行經, the Cakkavatti-Sīhanāda Sutta parallel) — da-6-a — be a lamp unto yourself
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0039a2315]]
+- quote: "汝等當自熾燃，熾燃於法，勿他熾燃；當自歸依，歸依於法，勿他歸依。" (the opening line of the sutta — the "be your own island/lamp" formula, addressed to the monks)
+- buddhavacana: confirmed — Buddha addressing the monks, opening line of the sutta
+- length_est: ~110 chars EN (est.) — near the budget ceiling, verify at claim time
+- speaks_to: [doubtful, aspiration]
+- theme: self-reliance (recurring — already covered, e.g. by an existing self-reliance-themed card; fine per "themes may recur," just don't schedule adjacent)
+- status: unclaimed
+
+### DA 6 — da-6-b — no force surpasses a liberated mind
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0042b1616]]
+- quote: "我今遍觀諸有力者無過魔力，然漏盡比丘力能勝彼。" (the sutta's closing line)
+- buddhavacana: confirmed — Buddha addressing the monks, closing line of the sutta
+- length_est: ~115 chars EN (est.) — near the budget ceiling, verify at claim time
+- speaks_to: [afraid, aspiration]
+- status: unclaimed (no clean theme-checklist match; speaks_to alone is sufficient per Rule 5)
+
+**Cost note before continuing:** DA 1 alone ran ~160 lines of dense classical narrative (the longest Nikāya/Āgama-style biographical sutta, retelling Vipaśyin Buddha's whole life story) with no English pairing to lean on — meaningfully more expensive per-entry than even Madhyama, since every sentence needs direct classical Chinese reading rather than a Patton assist. The file's 30 sūtras vary hugely in length (roughly 30-250 lines each, except two outliers: DA 2, the Mahāparinibbāna-parallel, ~710 lines, and DA 30, a cosmology treatise, ~630 lines). Recommend treating DA as several sub-batches rather than one pass, and treating DA 2/DA 30 as their own dedicated sessions given their size — flagged for Evan before continuing further into this file.

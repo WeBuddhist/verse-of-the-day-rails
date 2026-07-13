@@ -24,6 +24,7 @@ Themes may recur (never back-to-back) — a theme already covered is not a reaso
 - **dedication of merit** — not yet represented (Mahāyāna).
 - **right speech / right livelihood specifically** — "speech" (Dhp 100) is covered generally; the ethical-conduct angle specifically is not.
 - **emptiness (śūnyatā), a Pali/Chinese-side example** — `innate-purity` and `bodhicitta-is-pure` cover it from the Tibetan side; a Pali or Chinese source teaching it directly would round this out.
+- **full liberation / the arahant's self-declaration** ("birth is ended, the holy life fulfilled, the task done, no more becoming") — a classic, recurring canonical formula (found at DA 3, DA 5, DA 6 in the Dīrgha Āgama alone) distinct from any already-covered theme; not yet centered on a card. Candidate found: DA 5 (`candidate-pool/chinese.md`).
 
 ## How this grows
 
