@@ -128,3 +128,15 @@ Passages considered and disqualified, so a future tagging pass doesn't re-read a
 - link: not located at all — see `chinese.md`'s Ekottarika section for the full note
 - reason: could not be found via direct-phrase grep against `zh-ekottarika-agama.md`; the twin verse traditionally sits in Ekottarika's 序品 (preface chapter), which this vault's source file doesn't appear to include (the file starts directly at 卷1/EA1). Not tagged from the digest's wording alone, per Rule 4 — flagged so a future pass doesn't repeat the same failed search blind.
 
+---
+
+## Ekottarika Āgama — sequential scan, fascicles 1-10 near-misses
+
+### EA (juan 10, Brahmā's lotus-pond simile) — whole passage, gate 1 fail
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0593a0000]] (approximate — the passage around the Brahmā-and-lotuses episode, juan 10)
+- reason: this is the famous origin-story simile (lotuses at different depths of a pond, representing beings of varying spiritual readiness) that persuades the newly-enlightened Buddha to teach — but in this telling it's Brahmā Sahampati speaking the simile to the Buddha, not the Buddha speaking it. Gate 1 fail, same category as `DA 7` — worth naming explicitly since it's tempting, famous content a future pass might reach for without checking who's speaking. Also: the verse the Buddha then speaks in response ("即說偈言"/"便說此偈") is, per the now-familiar pattern (`DA 2`, `DA 24`), not present at this anchor in this source copy.
+
+### EA (juan 6, Subhūti's three-poisons teaching to Śakra) — disciple-spoken, redundant
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0574c0000]] (approximate — juan 6, Subhūti-Śakra exchange)
+- reason: "貪欲病者用不淨治，瞋恚病者用慈心治，愚癡病者用智慧治" ("greed is treated with impurity-contemplation, hatred with loving-kindness, delusion with wisdom") — disciple-spoken (Subhūti answering Śakra, not the Buddha), gate 1 fail. Also redundant even setting that aside: the same three-poisons-and-remedies formula is already accepted as `ea-q` in `chinese.md` from the earlier shortcut-list pass.
+
