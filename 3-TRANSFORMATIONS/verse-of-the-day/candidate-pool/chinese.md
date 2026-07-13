@@ -177,7 +177,7 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 
 ---
 
-**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan now covers DA 1-29 of 30 (only DA 30 left). DA 21-29 read in full this pass — 6 new unclaimed candidates found: DA 22, DA 23 x2, DA 26, DA 27 (see below); DA 21, DA 24, DA 25, DA 28, DA 29 read but yielded nothing new (see `rejected.md`/pass-over notes). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 remains unread. DA 30 (~630-line cosmology treatise, `世記經` — descriptions of Mount Sumeru, the four continents, hell/heaven realms, cosmic cycles) deliberately skipped (Evan's call, low expected yield given the genre) — Dīrgha Āgama scan now considered closed at DA 1-29. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — the 46-citation shortcut list (~18 accepted) is done (see below and `rejected.md`); now also sequentially scanning the file proper, fascicles (卷) 1-10 of 51 done this pass (~92 entries, lines 1-2686), 10 new candidates found (see below). Fascicles 1-3 are mostly formulaic (the ten recollections repeated twice, then "foremost disciple" name-catalogues) with little to extract; fascicles 4-10 (mixed short suttas and a few long narrative ones — Nanda's temptation, the Nālāgiri elephant, Rāhula's training) yielded more. 41 fascicles remain.**
+**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan now covers DA 1-29 of 30 (only DA 30 left). DA 21-29 read in full this pass — 6 new unclaimed candidates found: DA 22, DA 23 x2, DA 26, DA 27 (see below); DA 21, DA 24, DA 25, DA 28, DA 29 read but yielded nothing new (see `rejected.md`/pass-over notes). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 remains unread. DA 30 (~630-line cosmology treatise, `世記經` — descriptions of Mount Sumeru, the four continents, hell/heaven realms, cosmic cycles) deliberately skipped (Evan's call, low expected yield given the genre) — Dīrgha Āgama scan now considered closed at DA 1-29. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) — the 46-citation shortcut list (~18 accepted) is done (see below and `rejected.md`); now also sequentially scanning the file proper. Fascicles 1-10 of 51 done in an earlier pass (~92 entries, lines 1-2686, 10 new candidates). Fascicles 11-20 now also done this pass (lines 2687-5722+, spanning juan 11 through the start of juan 20), 15 more new candidates found (see below) — highlights include the classic "carrying your parents on your shoulders for a lifetime still couldn't repay them" filial-piety line, the Śroṇa Koṭikarṇa lute-string middle-way simile, the "putting down the burden" five-aggregates teaching (SN 22.22 parallel), and the fingernail-dirt-vs-the-earth impermanence simile. Fascicle 15 is entirely absent from this vault's source copy (header with no content, straight into fascicle 16). Fascicles 1-14 and 16-18 were read in full; fascicle 19 (Bakkula's suicide, the four truths, Anāthapiṇḍika's giving hierarchy) and the start of fascicle 20 (the miser Bhaddiya conversion narrative, in progress) were skimmed for teaching content without a fresh candidate beyond what's noted. 31 fascicles remain (21-51).**
 
 ### `en-samyukta-agama-patton.md` — scanned, no new candidates found beyond what's above
 
@@ -606,3 +606,131 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - status: unclaimed
 
 **Fascicles 1-3 note:** mostly formulaic and passed over silently per Rule 1 — the ten recollections (Buddha/Dharma/Saṅgha/precepts/generosity/devas/tranquility/breath/body/death) repeated across juan 1-2 with growing elaboration, then juan 3's "foremost disciple" catalogues (monks, nuns, laymen, laywomen each named for their standout quality) — pure enumeration, no extractable teaching.
+
+---
+
+## Ekottarika Āgama — sequential scan, fascicles (卷) 11-20 of 51
+
+**Note:** fascicle 15 appears to be entirely absent from this vault's source copy — its header is immediately followed by fascicle 16's, with no content between.
+
+**EA (juan 11) — remembering even small kindness**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0600a0602]]
+- quote: "若有眾生知反復者，此人可敬，小恩尚不忘，何況大恩！"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~55 chars EN (est.)
+- theme: gratitude (fresh instance)
+- status: unclaimed
+
+**EA (juan 11) — a lifetime carrying your parents could not repay them**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0601a1102]]
+- quote: "若復，比丘！有人以父著左肩上，以母著右肩上，至千萬歲，衣被、飯食、床蓐臥具、病瘦醫藥，即於肩上放於屎溺，猶不能得報恩。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~110 chars EN (est.) — near budget, likely trimmed
+- theme: gratitude (fresh, classic, vivid instance — filial devotion specifically)
+- status: unclaimed
+
+**EA (juan 11) — craving is the root of both union's and separation's pain**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0601c1503]]
+- quote: "此二法由愛興，由愛生，由愛成，由愛起；當學除其愛，不令使生。"
+- buddhavacana: confirmed — Buddha addressing the monks (closing a teaching on why meeting enemies and losing loved ones are both painful)
+- length_est: ~70 chars EN (est.)
+- theme: freedom-from-craving (fresh instance)
+- status: unclaimed
+
+**EA (juan 12) — the Three Jewels, unsurpassed like ghee refined from milk**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0602a0107]]
+- quote: "由牛得乳，由乳得酪，由酪得酥，由酥得醍醐；然復醍醐於中，最尊、最上，無能及者。" (paired identically for the Buddha, the Dharma, and the Saṅgha in turn)
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~100 chars EN (est.) for one instance of the simile
+- theme: refuge (fresh, vivid instance — third overall for this gap, distinct for its classic milk-to-ghee image)
+- status: unclaimed
+
+**EA (juan 12) — eating only to sustain the body, like greasing a heavy cart's axle**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0603c2805]]
+- quote: "猶如重載之車，所以膏轂者，欲致重有所至。比丘亦如是，飲食知節，思惟所從來處，不求肥白，趣欲支形，得全四大。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~120 chars EN (est.) — near budget
+- theme: moderation-in-eating (new gap — see theme-checklist.md)
+- status: unclaimed
+
+**EA (juan 13, King Prasenajit) — samsara is long; don't call your merit-work finished**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0610c2805]]
+- quote: "莫作是說言：『我所作福祐，今日已辦。』...當作是說：『我今身、口、意所作眾行，盡求解脫，不求在生死福業，便於長夜安隱無量。』"
+- buddhavacana: confirmed — Buddha correcting King Prasenajit
+- length_est: ~130 chars EN (est.) — over budget, needs compression
+- theme: wise-priorities (fresh instance — non-complacency in practice)
+- status: unclaimed
+
+**EA (juan 13, Venerable Śroṇa Koṭikarṇa) — the lute string, neither too taut nor too loose**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0612b1812]]
+- quote: "若彈絃極急，嚮不齊等...若琴絃不急不緩，爾時琴音便可聽採。此亦如是，極精進者，猶如調戲；若懈怠者，此墮邪見；若能在中者，此則上行。"
+- buddhavacana: confirmed — Buddha addressing Venerable 二十億耳 (Śroṇa Koṭikarṇa), whose feet bled from over-zealous walking meditation
+- length_est: ~140 chars EN (est.) — over budget, needs heavy compression to the closing formula alone
+- theme: middle-way (fresh, superior/more famous instance than `ea-h`; this is the classic lute-tuning simile for balanced effort)
+- status: unclaimed
+
+**EA (juan 13, to Ānanda) — virtue's fragrance travels even against the wind**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0613b2501]]
+- quote: "戒香、聞香、施香。是謂，阿難！有此香種，然復此逆風香，亦順風香，亦逆順風香。諸世間所有之香，此三種香最勝、最上，無與等者，無能及者。"
+- buddhavacana: confirmed — Buddha answering Ānanda's question about a fragrance that travels in all directions
+- length_est: ~130 chars EN (est.) — over budget, needs compression
+- theme: virtue-fragrance (fresh instance, close parallel to the famous Dhammapada "against the wind" verses)
+- status: unclaimed
+
+**EA (juan 13) — not clinging to gain or veneration**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0614a2413]]
+- quote: "諸比丘！亦莫興意著於利養。設有比丘著於利養，而不獲三法...若有比丘不著利養，便獲三法。云何為三？所謂賢聖戒、賢聖三昧、賢聖智慧。"
+- buddhavacana: confirmed — Buddha addressing the monks (occasioned by Devadatta's fame from King Ajātaśatru's patronage)
+- length_est: ~120 chars EN (est.)
+- speaks_to: none clean; theme: detachment-from-gain-and-honor (new, partial gap — see theme-checklist.md)
+- status: unclaimed
+
+**EA (juan 14) — recalling the Three Jewels dispels fear**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0615a1703]]
+- quote: "設有比丘、比丘尼、優婆塞、優婆夷，若有畏怖衣毛竪者，爾時當念我身...設有恐怖衣毛竪者，便自消滅。"
+- buddhavacana: confirmed — Buddha addressing the monks, paralleling Śakra's advice to the Thirty-Three to recall his banner in battle
+- length_est: ~100 chars EN (est.)
+- theme: refuge; speaks_to: [afraid] (fresh, fear-specific instance)
+- status: unclaimed
+
+**EA (juan 14, to the Śākyas) — "I am already a Dharma king"**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0617a2314]]
+- quote: "我今正是王身，名曰法王。"
+- buddhavacana: confirmed — Buddha declining the Śākyas' request that he become a worldly king
+- length_est: ~35 chars EN (est.) — well within budget
+- theme: true-kingship-reframed (new, minor gap)
+- status: unclaimed
+
+**EA (juan 14) — the dirt under a fingernail, against the whole earth**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0617b2016]]
+- quote: "世尊取少許土，著爪上...設當有爾許色恒在於世者，則梵行之人不可分別。"
+- buddhavacana: confirmed — Buddha's own simile to a monk questioning whether anything is permanent
+- length_est: ~100 chars EN (est.) once trimmed to just the simile
+- theme: impermanence (fresh, classic vivid instance)
+- status: unclaimed
+
+**EA (juan 17) — putting down the burden**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0631c1602]]
+- quote: "彼云何名為擔？所謂五盛陰是...彼云何名為擔因緣？所謂愛著因緣是...彼云何名為當捨離擔？所謂能使彼愛永盡無餘，已除、已吐，是謂名捨離擔。"
+- buddhavacana: confirmed — Buddha addressing the monks (parallel to SN 22.22, the Bhāra Sutta)
+- length_est: ~120 chars EN (est.) — needs compression to the core "burden/cause/putting-down" formula
+- theme: freedom-from-craving (fresh, classic instance — the burden simile)
+- status: unclaimed
+
+**EA (juan 18) — non-negligence, the ground all good qualities grow from**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0635b1202]]
+- quote: "猶如山河、石壁、百草、五穀，皆依於地而得長大，然復此地最尊、最上。此亦如是，諸善道品之法，住不放逸之地，使諸善法而得長大。"
+- buddhavacana: confirmed — Buddha addressing the monks (the first of four parallel similes — earth, a cakravartin among lesser kings, the moon among stars, jasmine among flowers — all making the same point; this is the most vivid, the other three are redundant and not separately tagged)
+- length_est: ~110 chars EN (est.)
+- theme: heedfulness-as-foundation-of-virtue (new gap — see theme-checklist.md)
+- status: unclaimed
+
+**EA (juan 18, King Prasenajit) — conduct decides your destiny, not your birth**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0636a1317]]
+- quote: "或有一人生卑賤家...然復身、口行善法，意念善法...身壞命終，生善處天上。" (paired with its inverse: a person of high birth who holds wrong view and disdains the virtuous "身壞命終，生地獄中")
+- buddhavacana: confirmed — Buddha addressing King Prasenajit
+- length_est: ~130 chars EN (est.) — over budget, needs compression to the core contrast
+- theme: wholesome-action (fresh instance — the specific point that conduct, not caste or birth, determines one's future; socially significant given the Buddhist rejection of caste-determinism)
+- status: unclaimed
+
+**Near-misses and rejects from this range:** see `rejected.md`.

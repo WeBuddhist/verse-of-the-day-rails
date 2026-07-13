@@ -140,3 +140,23 @@ Passages considered and disqualified, so a future tagging pass doesn't re-read a
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0574c0000]] (approximate — juan 6, Subhūti-Śakra exchange)
 - reason: "貪欲病者用不淨治，瞋恚病者用慈心治，愚癡病者用智慧治" ("greed is treated with impurity-contemplation, hatred with loving-kindness, delusion with wisdom") — disciple-spoken (Subhūti answering Śakra, not the Buddha), gate 1 fail. Also redundant even setting that aside: the same three-poisons-and-remedies formula is already accepted as `ea-q` in `chinese.md` from the earlier shortcut-list pass.
 
+---
+
+## Ekottarika Āgama — sequential scan, fascicles 11-20 near-misses
+
+### EA (juan 11, the Dīpaṅkara/Sumedha jātaka) — famous, but no clean extractable teaching
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0597a2302]]
+- reason: this is the celebrated origin story of the Buddha's vow before Dīpaṅkara Buddha (the ascetic Sumedha buying five lotus flowers from the brahmin girl Sumitrā/瞿夷 and spreading his hair in the mud for the Buddha to walk on) — extremely famous content, but it's a long narrative frame, not a standalone teaching; the verses exchanged between Sumedha and Dīpaṅkara ("便說偈言"/"以此偈報") are, per the now-familiar pattern (`DA 2`, `DA 24`, the juan-10 Brahmā episode), not present at this anchor in this source copy. Worth naming since it's tempting, well-known content a future pass might reach for.
+
+### EA (juan 11, Cūḷapanthaka's "removal is wisdom, impurity is fetters") — disciple-spoken, borderline
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0601b2602]]
+- reason: Cūḷapanthaka (朱利槃特), coached by the Buddha with a broom mnemonic, arrives at this formula himself and states it to the Buddha, who briefly affirms it ("善哉！比丘！如汝所言"). The core insight is disciple-spoken, not Buddha-restated at length (contrast with the Ānanda craving-reflection case, where the Buddha fully restates the content in his own words) — closer to a brief confirmation than a restatement, so gate 1 concerns stand. Flagged as a genuine borderline case rather than a clean pass or fail.
+
+### EA (juan 12, Kokālika/Cokāli slanders Sāriputta and Moggallāna) — tone/wellbeing gate fail
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0603b1210]]
+- reason: the slandering monk's death and rebirth includes graphic hell imagery (boils erupting over the body, the tongue ploughed by a hundred oxen) — same category as `MĀ 5` (Rule 12), regardless of the genuinely good closing teaching (guard body/speech/mind).
+
+### EA (juan 12, "women enter hell more than men") — appropriateness concern, not tagged
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0608c0402]]
+- reason: Buddha-spoken and not disqualified on gate 1, but the passage generalizes about women specifically being prone to jealousy/sleep/desire and consequently more liable to hell — this kind of gendered generalization sits poorly with the vault's ecumenical-wording spirit (`CLAUDE.md` hard rule 4) regardless of canonical authenticity. Not tagged; flagged so a future pass doesn't reach for it as a three-poisons or restraint-of-senses candidate without noticing the framing.
+
