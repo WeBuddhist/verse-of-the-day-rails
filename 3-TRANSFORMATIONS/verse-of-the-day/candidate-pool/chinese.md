@@ -177,7 +177,7 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 
 ---
 
-**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan in progress, DA 1-20 of 30 done (9 unclaimed candidates found: DA 1, DA 5 x2, DA 6 x2, DA 8, DA 11, DA 13, DA 14, DA 16 — see below). DA 2 (~710-line Mahāparinibbāna parallel) and DA 30 (~630-line cosmology treatise, `世記經`) deliberately not yet read — flagged as their own dedicated batch given their size. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) not yet touched.**
+**Live-scan additions below — `en-samyukta-agama-patton.md` fully scanned (all 39 Patton-paired sūtras, the only English-aided subset of `zh-samyukta-agama.md`'s much larger raw text). `en-madhyama-agama-patton.md` also now fully scanned (all 15 Patton-paired MĀ sūtras). No new clean accepts beyond what's backfilled above and MĀ 7 below; see `rejected.md` for near-misses and two significant findings (Patton/Chinese misalignment; disciple-spoken near-misses). `zh-digha-agama.md` (Dīrgha Āgama, no Patton pairing — raw classical Chinese) scan in progress, DA 1-20 of 30 done (9 unclaimed candidates found: DA 1, DA 5 x2, DA 6 x2, DA 8, DA 11, DA 13, DA 14, DA 16 — see below). DA 2 (~710-line Mahāparinibbāna parallel) got a targeted two-anchor check only, via leads from a user-supplied secondary compilation (see DA 2-a/DA 2-b below) — not a full read; the rest of DA 2 and DA 30 (~630-line cosmology treatise, `世記經`) remain unread, still flagged as their own dedicated batch given their size. DA 20 (~490 lines, the longest single sutta read so far) was read in full but yielded nothing new: it's the standard "gradual training" gradual-jhāna/three-knowledges sequence already represented elsewhere in the pool by pattern, wrapped in a very long caste-pride narrative. `zh-ekottarika-agama.md` (14,502 lines) not yet touched.**
 
 ### `en-samyukta-agama-patton.md` — scanned, no new candidates found beyond what's above
 
@@ -286,5 +286,24 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - length_est: ~115 chars EN (est.) — near the budget ceiling, verify at claim time
 - speaks_to: [afraid, aspiration]
 - status: unclaimed (no clean theme-checklist match; speaks_to alone is sufficient per Rule 5)
+
+### DA 2 (遊行經, the Mahāparinibbāna parallel) — da-2-a — true offering is practicing the teaching
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0021a1103]]
+- quote: "人能受法，能行法者，斯乃名曰供養如來。" (spoken after devas scatter untimely flowers over the Buddha at the twin trees; he tells Ānanda that isn't the real offering)
+- buddhavacana: confirmed — Buddha addressing Ānanda directly
+- length_est: ~65 chars EN (est.) — well within budget
+- theme: practice-as-true-offering (new — see theme-checklist.md)
+- status: unclaimed
+
+### DA 2 (遊行經, the Mahāparinibbāna parallel) — da-2-b — the teaching and discipline are your refuge after I am gone
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0026a2513]]
+- quote: "汝謂佛滅度後，無復覆護，失所持耶？勿造斯觀，我成佛來所說經戒，即是汝護，是汝所持。" (part of a longer Ānanda Q&A chain near the Buddha's death, but this rhetorical-question-plus-answer reads as a complete, self-contained unit on its own)
+- buddhavacana: confirmed — Buddha addressing Ānanda directly, near the parinirvāṇa
+- length_est: ~140 chars EN (est.) — over budget as quoted whole; will need compression at claim time (e.g. dropping the rhetorical-question framing and keeping just "the teaching and discipline I have taught are your refuge, your support")
+- theme: refuge (new — see theme-checklist.md; fills the "refuge / confidence" known gap)
+- status: unclaimed
+- note: found via a lead in a user-supplied secondary compilation (庄春江's 阿含经随身剪辑, cited there as 长‧二), then independently located and verified verbatim against `1-SOURCES/zh-digha-agama.md` directly — per Rule 10's "lead, not proof" standard.
+
+**DA 2 note:** targeted two-anchor check only (via an external lead, not a full read) — the other ~700 lines of this sutta remain unread. Both anchors above verified directly against the Chinese source.
 
 **Cost note before continuing:** DA 1 alone ran ~160 lines of dense classical narrative (the longest Nikāya/Āgama-style biographical sutta, retelling Vipaśyin Buddha's whole life story) with no English pairing to lean on — meaningfully more expensive per-entry than even Madhyama, since every sentence needs direct classical Chinese reading rather than a Patton assist. The file's 30 sūtras vary hugely in length (roughly 30-250 lines each, except two outliers: DA 2, the Mahāparinibbāna-parallel, ~710 lines, and DA 30, a cosmology treatise, ~630 lines). Recommend treating DA as several sub-batches rather than one pass, and treating DA 2/DA 30 as their own dedicated sessions given their size — flagged for Evan before continuing further into this file.

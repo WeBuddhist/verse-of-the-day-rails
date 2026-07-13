@@ -16,7 +16,7 @@ Themes may recur (never back-to-back) — a theme already covered is not a reaso
 - **restraint of the senses (indriyasaṁvara)** — not yet represented.
 - **dependent origination (paṭiccasamuppāda)** — not yet represented.
 - **forgiveness** — not yet represented.
-- **refuge / confidence (saddhā)** — not yet represented as its own theme (distinct from the self-reliance / self-refuge angle already covered).
+- **refuge / confidence (saddhā)** — not yet represented as its own theme (distinct from the self-reliance / self-refuge angle already covered). Candidate found: DA 2-b, "the teaching and discipline are your refuge after I am gone" (`candidate-pool/chinese.md`).
 - **karma and its fruit** — touched by `toh330-generosity` and `t366-roots-of-merit`, but no card centers it as the theme itself.
 - **renunciation** — touched by `t210-true-renunciation`; a second, fresh angle would still be welcome.
 - **middle way** — only SN 1.1 so far; a clearer/different angle would help.
@@ -25,6 +25,7 @@ Themes may recur (never back-to-back) — a theme already covered is not a reaso
 - **right speech / right livelihood specifically** — "speech" (Dhp 100) is covered generally; the ethical-conduct angle specifically is not.
 - **emptiness (śūnyatā), a Pali/Chinese-side example** — `innate-purity` and `bodhicitta-is-pure` cover it from the Tibetan side; a Pali or Chinese source teaching it directly would round this out.
 - **full liberation / the arahant's self-declaration** ("birth is ended, the holy life fulfilled, the task done, no more becoming") — a classic, recurring canonical formula (found at DA 3, DA 5, DA 6 in the Dīrgha Āgama alone) distinct from any already-covered theme; not yet centered on a card. Candidate found: DA 5 (`candidate-pool/chinese.md`).
+- **practice as true offering/homage** ("one who receives the teaching and puts it into practice — this is called true offering to the Tathāgata") — a recognized formula distinct from `non-attached-giving` (which is about the spirit of material giving, not what counts as genuine devotion to the Buddha); prompted in its source context by devas scattering flowers, which the Buddha names as not the real offering. Candidate found: DA 2-a (`candidate-pool/chinese.md`).
 
 ## How this grows
 
