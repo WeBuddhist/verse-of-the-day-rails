@@ -307,3 +307,171 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 **DA 2 note:** targeted two-anchor check only (via an external lead, not a full read) — the other ~700 lines of this sutta remain unread. Both anchors above verified directly against the Chinese source.
 
 **Cost note before continuing:** DA 1 alone ran ~160 lines of dense classical narrative (the longest Nikāya/Āgama-style biographical sutta, retelling Vipaśyin Buddha's whole life story) with no English pairing to lean on — meaningfully more expensive per-entry than even Madhyama, since every sentence needs direct classical Chinese reading rather than a Patton assist. The file's 30 sūtras vary hugely in length (roughly 30-250 lines each, except two outliers: DA 2, the Mahāparinibbāna-parallel, ~710 lines, and DA 30, a cosmology treatise, ~630 lines). Recommend treating DA as several sub-batches rather than one pass, and treating DA 2/DA 30 as their own dedicated sessions given their size — flagged for Evan before continuing further into this file.
+
+---
+
+## Ekottarika Āgama (`zh-ekottarika-agama.md`) — shortcut-list pass
+
+**Method note:** this file (14,502 lines) has no Patton-style English pairing and was not read sequentially. Instead, a user-supplied secondary compilation (庄春江's 阿含经随身剪辑, a topically-organized digest of "beneficial" excerpts across all four Āgamas) surfaced 46 candidate citations tagged `增‧<Fóguāng number>`. Fóguāng numbering doesn't map to this file's CBETA-position anchors, so each citation's distinctive Chinese phrase was grepped directly into the source to locate and verify the real anchor — the digest's own wording was never used as the tagged quote (per Rule 10, "a lead, not proof"). Roughly 18 of the 46 leads verified as good, gate-passing candidates; the rest were rejected/deferred (see `rejected.md`) or, in a few cases, could not be independently located in this file at all (noted below — those stay untagged rather than tagged from memory, per Rule 4).
+
+### EA — restraint of the senses (indriyasaṁvara) — fills a known theme gap, 2 instances found
+
+**EA — ea-a — Māra seeks his opening**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0560c1813]]
+- quote: "弊魔波旬恆在汝後，求其方便，壞敗善根。波旬便化極妙奇異色、聲、香、味、細滑之法，欲迷亂諸比丘意。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~90 chars EN (est.), likely needs light trimming (the "波旬" clause could be dropped)
+- theme: restraint-of-senses (new instance — see theme-checklist.md)
+- status: unclaimed
+
+**EA — ea-b — the ordinary person clings, the noble disciple does not**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0728b0202]]
+- quote: "凡夫之人，若眼見色，便起染著之心，不能捨離；彼以見色，極起愛著，流轉生死，無有解時。" (paired in the source with the noble disciple's contrasting non-attachment — full contrast needs both halves, so this may need compression to one side or the other)
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~110 chars EN (est.) for this half alone; the full ordinary/noble contrast would run over budget
+- theme: restraint-of-senses (second instance)
+- status: unclaimed
+
+**EA — ea-c — six creatures tied to one post** (vivid alternate framing of the same gap)
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0723c2903]]
+- quote: "設復有人取此六種之蟲，繫著一處，而不得東、西、南、北。是時，六種之蟲雖復動轉，亦不離故處。" (the six senses as six different animals tied together — memorable simile, but the setup naming each animal comes earlier in the sutta and isn't in this exact clause)
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: unresolved — the simile's full sense needs the preceding animal-naming sentence too; compression needed
+- theme: restraint-of-senses (third instance/alternate)
+- status: unclaimed
+
+### EA — the mind — 3 instances found (theme already covered, all recurring)
+
+**EA — ea-d — the monkey-mind simile**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0562c0302]]
+- quote: "我不見一法疾於心者，無譬可喻，猶如獼猴捨一取一，心不專定。" (a second near-identical occurrence exists at ^pT02p0562c1101 — same teaching repeated)
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~75 chars EN (est.) — within budget
+- theme: mind
+- status: unclaimed
+
+**EA — ea-e — the mind is hard to subdue**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0566c1002]]
+- quote: "此心不可降伏，難得時宜，受諸苦報。是故，諸比丘！當分別心，當思惟心，善念諸善本。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~95 chars EN (est.) — within budget
+- theme: mind
+- status: unclaimed
+
+**EA — ea-f — guarding the mind, defined**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0563c1202]]
+- quote: "云何為無放逸行？所謂護心也。云何護心？於是，比丘！常守護心有漏、有漏法。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~90 chars EN (est.) — within budget
+- theme: mind (or effort — this defines non-negligence itself as "guarding the mind")
+- status: unclaimed
+
+### EA — other accepted candidates
+
+**EA — ea-g — all wholesome roots grow from non-negligence, as crops grow from the earth**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0635b1202]]
+- quote: "猶如山河、石壁、百草、五穀，皆依於地而得長大，然復此地最尊、最上。此亦如是，諸善道品之法，住不放逸之地，使諸善法而得長大。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~130 chars EN (est.) — over budget, needs compression (the "石壁" clause could be trimmed)
+- theme: effort
+- status: unclaimed
+
+**EA — ea-h — the middle way of diligence**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0612b1812]]
+- quote: "極精進者，猶如調戲；若懈怠者，此墮邪見；若能在中者，此則上行。"
+- buddhavacana: confirmed — Buddha addressing a monk directly (context: over-zealous striving vs. laziness)
+- length_est: ~85 chars EN (est.) — within budget
+- theme: middle-way (fresh angle — see theme-checklist.md; only SN 1.1 covered this before)
+- status: unclaimed
+
+**EA — ea-i — the lotus rises unstained from the mud**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0764b2102]]
+- quote: "如來出現世間，又於世界成佛道，然不著世間八法，猶與周旋，猶如淤泥出生蓮華，極為鮮潔，不著塵水，諸天所愛敬，見者心歡。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~120 chars EN (est.) — near/over budget, likely needs trimming to just the lotus clause
+- theme: unstained-in-the-world (new — see theme-checklist.md; a distinct image from `innate-purity`'s introspective framing)
+- status: unclaimed
+
+**EA — ea-j — the Buddha's own humanity**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0637b2116]]
+- quote: "如是，大王！如大王語，如來亦當有此生、老、病、死。我今亦是人數，父名真淨，母名摩耶，出轉輪聖王種。" (Buddha answering a king's question about whether Buddhas' bodies also age, sicken, and die)
+- buddhavacana: confirmed — Buddha addressing a king directly
+- length_est: ~130 chars EN (est.) — over budget, needs compression
+- speaks_to: [belonging]
+- status: unclaimed (no clean theme-checklist match — the Buddha's shared mortality/humanity doesn't map cleanly to an existing theme)
+
+**EA — ea-k — nothing but virtue accompanies you when death comes**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0828c2501]]
+- quote: "生死長遠，多諸畏難，無有救者。有此之難，誰堪代者？唯有布施、持戒，語常和悅，不傷人意，作眾功德，行諸善本。" (spoken as a formal verse — 世尊便說斯偈 — to King Prasenajit; the passage leading up to it contains graphic hell-realm imagery, but this quoted verse itself is entirely positive in tone)
+- buddhavacana: confirmed — Buddha addressing King Prasenajit, in verse
+- length_est: ~140 chars EN (est.) — over budget, needs compression
+- theme: generosity
+- status: unclaimed
+
+**EA — ea-l — craving that never tires**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0583b2302]]
+- quote: "諸有人民，興欲愛想，便增欲想，長夜習之，無有厭足。" (Ānanda first raises this as his own private reflection; this exact wording is the Buddha's own restatement of it back to Ānanda moments later — that restatement, not Ānanda's original line, is what's tagged here)
+- buddhavacana: confirmed — Buddha addressing Ānanda, affirming and restating his observation
+- length_est: ~75 chars EN (est.) — within budget
+- theme: freedom-from-craving
+- status: unclaimed
+
+**EA — ea-m — the classic first sermon: four noble truths**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0619a0813]]
+- quote: "汝等當知，有此四諦。云何為四？苦諦、苦習諦、苦盡諦、苦出要諦。彼云何名為苦諦？所謂生苦、老苦、病苦、死苦、憂悲惱苦、愁憂苦痛，不可稱記。怨憎會苦、恩愛別苦、所欲不得，亦復是苦，取要言之，五盛陰苦，是謂苦諦。" (only the "苦諦" portion quoted; the sutta continues through the other three truths at similar length)
+- buddhavacana: confirmed — Buddha's first teaching, addressing the five monks
+- length_est: needs heavy compression as quoted — likely to just "life, aging, sickness, death, sorrow, and not getting what one wants — this, in brief, is the truth of suffering"
+- theme: four-noble-truths (recurring instance)
+- status: unclaimed
+
+**EA — ea-n — wisdom is the point of it all**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0759c0703]]
+- quote: "戒律之法者，世俗常數；三昧成就者，亦是世俗常數；神足飛行者，亦是世俗常數；智慧成就者，此是第一之義。"
+- buddhavacana: confirmed — Buddha speaking
+- length_est: ~110 chars EN (est.) — within/near budget
+- theme: wise-priorities
+- status: unclaimed
+
+**EA — ea-o — the eight worldly winds**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0764b1402]]
+- quote: "有世八法隨世迴轉。云何為八？一者利，二者衰，三者毀，四者譽，五者稱，六者譏，七者苦，八者樂。是謂，比丘！有此八法隨世迴轉。諸比丘！當求方便，除此八法。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~130 chars EN (est.) — over budget, the eight-item list itself needs compressing to something like "gain and loss, honor and disgrace, praise and blame, pleasure and pain — these eight winds turn the world; look beyond them"
+- theme: equanimity
+- status: unclaimed
+
+**EA — ea-p — approach good friends**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0631b1202]]
+- quote: "有此四法，多饒益人。云何為四？第一法者當親近善知識，第二者當聞法，第三者當知法，第四者當法法相明。"
+- buddhavacana: confirmed — Buddha addressing the monks
+- length_est: ~110 chars EN (est.) — within/near budget, four-item list may compress awkwardly
+- speaks_to: [spiritual-friendship]
+- status: unclaimed (no clean theme match; speaks_to alone is sufficient per Rule 5)
+
+**EA — ea-q — three poisons, three remedies**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0667c0811]]
+- quote: "極盛欲心，要當觀不淨之想，然後乃除。若瞋恚盛者，以慈心除之。愚癡之闇，以十二緣法然後除盡。"
+- buddhavacana: confirmed — Buddha speaking
+- length_est: ~110 chars EN (est.) — within/near budget
+- theme: three-poisons-and-their-remedies (new — see theme-checklist.md; also brushes the dependent-origination gap via its third clause)
+- status: unclaimed
+
+**EA — ea-r — the five aggregates, empty of self**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0715c1110]]
+- quote: "色者無常，無常即是苦，苦者即是無我，無我者即是空，空者彼非我有，我非彼有；痛、想、行、識及五盛陰皆悉無常，無常即是苦，苦者無我，無我者是空，空者彼非我有，我非彼有。" (this same formula appears twice more in the file spoken by disciples quoting the Buddha's teaching — ^pT02p0702b1716 and ^pT02p0715b0402 — this anchor is the one instance where the Buddha states it directly, to the Jain ascetic Nirgrantha)
+- buddhavacana: confirmed — Buddha addressing Nirgrantha (尼健子) directly
+- length_est: ~150 chars EN (est.) — well over budget, needs real compression
+- theme: not-self
+- status: unclaimed
+
+**EA — ea-s — all Buddhas arise from the human world**
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0694a0201]]
+- quote: "諸佛世尊皆出人間，非由天而得也。"
+- buddhavacana: confirmed — Buddha addressing a monk
+- length_est: ~55 chars EN (est.) — well within budget
+- speaks_to: [aspiration]
+- status: unclaimed (no clean theme-checklist match)
+
+### EA — leads that could not be independently verified (untagged, not accepted from memory)
+
+Three of the digest's 46 citations — the famous "do no evil, do all good, purify the mind" twin-verse (cited as 增‧序品), "if you wish to venerate the Buddha..." (增‧三二二), and the "though you recite a thousand chapters..." self-conquest couplet (增‧二七五) — could not be located via direct-phrase grep against `zh-ekottarika-agama.md`. The twin-verse in particular traditionally sits in Ekottarika's 序品 (preface chapter), and this vault's source file starts directly at 卷1/EA1 with no 序品 section at all — it may simply not be present in this particular source copy. Per Rule 4, none of these are tagged; they're flagged here so a future pass doesn't re-attempt the same grep search without knowing why it came up empty.
