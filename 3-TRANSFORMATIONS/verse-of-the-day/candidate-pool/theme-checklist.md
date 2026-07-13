@@ -13,19 +13,21 @@ Themes may recur (never back-to-back) — a theme already covered is not a reaso
 ## Known gaps — actively look for these
 
 - **skilful means (upāya)** — not yet represented.
-- **restraint of the senses (indriyasaṁvara)** — not yet represented.
-- **dependent origination (paṭiccasamuppāda)** — not yet represented.
+- **restraint of the senses (indriyasaṁvara)** — not yet represented. Candidates found: EA ea-a, ea-b, ea-c, three instances all from the Ekottarika shortcut-list pass (`candidate-pool/chinese.md`).
+- **dependent origination (paṭiccasamuppāda)** — not yet represented. Touched partially by EA ea-q's closing clause ("the darkness of delusion — remove it entirely with the twelve links") but not centered as its own theme there.
 - **forgiveness** — not yet represented.
 - **refuge / confidence (saddhā)** — not yet represented as its own theme (distinct from the self-reliance / self-refuge angle already covered). Candidate found: DA 2-b, "the teaching and discipline are your refuge after I am gone" (`candidate-pool/chinese.md`).
 - **karma and its fruit** — touched by `toh330-generosity` and `t366-roots-of-merit`, but no card centers it as the theme itself.
 - **renunciation** — touched by `t210-true-renunciation`; a second, fresh angle would still be welcome.
-- **middle way** — only SN 1.1 so far; a clearer/different angle would help.
+- **middle way** — only SN 1.1 so far; a clearer/different angle would help. Candidate found: EA ea-h, "the middle way of diligence" (over-effort vs. laziness) (`candidate-pool/chinese.md`).
 - **sympathetic joy (muditā)** — covered under `speaks_to` on some cards, but no theme/day centers it.
 - **dedication of merit** — not yet represented (Mahāyāna).
 - **right speech / right livelihood specifically** — "speech" (Dhp 100) is covered generally; the ethical-conduct angle specifically is not.
 - **emptiness (śūnyatā), a Pali/Chinese-side example** — `innate-purity` and `bodhicitta-is-pure` cover it from the Tibetan side; a Pali or Chinese source teaching it directly would round this out.
 - **full liberation / the arahant's self-declaration** ("birth is ended, the holy life fulfilled, the task done, no more becoming") — a classic, recurring canonical formula (found at DA 3, DA 5, DA 6 in the Dīrgha Āgama alone) distinct from any already-covered theme; not yet centered on a card. Candidate found: DA 5 (`candidate-pool/chinese.md`).
 - **practice as true offering/homage** ("one who receives the teaching and puts it into practice — this is called true offering to the Tathāgata") — a recognized formula distinct from `non-attached-giving` (which is about the spirit of material giving, not what counts as genuine devotion to the Buddha); prompted in its source context by devas scattering flowers, which the Buddha names as not the real offering. Candidate found: DA 2-a (`candidate-pool/chinese.md`).
+- **unstained in the world** (the lotus rising clean from mud, as an image for the Buddha/a practitioner unmarked by worldly conditions) — distinct from `innate-purity`, which covers emptiness/inherent purity from an introspective, Tibetan-side angle; this is an external, image-based instance of the same idea. Candidate found: EA ea-i (`candidate-pool/chinese.md`).
+- **three poisons and their remedies** (greed/hatred/delusion, each paired with its specific antidote — impurity-contemplation, loving-kindness, dependent origination) — a recognized, compact formula distinct from `overcoming-anger` (which only covers one of the three). Candidate found: EA ea-q (`candidate-pool/chinese.md`).
 
 ## How this grows
 

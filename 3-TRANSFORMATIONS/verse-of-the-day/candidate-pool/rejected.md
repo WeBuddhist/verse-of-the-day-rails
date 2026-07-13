@@ -52,3 +52,59 @@ Passages considered and disqualified, so a future tagging pass doesn't re-read a
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^da9-0]] and [[1-SOURCES/Text/zh-digha-agama.md#^da10-0]]
 - reason: both are delivered entirely by Śāriputra at the Buddha's request (the Buddha, with a backache, asks Śāriputra to teach in his place and only endorses it afterward — "世尊印可舍利弗所說"). Gate 1 fail for the whole sutta. Also moot even setting that aside: both are pure Abhidhamma-style numeric-matrix catalogues (the "ones... twos... tens" format), with no extractable short whole sentence — same shape as `DA 11`'s catalogue, which is the Buddha-spoken version of this same genre (see `chinese.md`).
 
+---
+
+## Ekottarika Āgama shortcut-list near-misses (from 庄春江's 阿含经随身剪辑, 46 citations checked — see `chinese.md` for the ~18 accepts)
+
+### EA (增‧三七五, "eight thoughts of a great person")
+- link: not independently re-located — content is a numbered list (少欲/知足/闲居/持戒/三昧/智慧/多闻/精进) plus a Maitreya-comparison aside
+- reason: list-heavy (needs the whole eight-item enumeration to make sense) with a tangential Bodhisattva Maitreya comparison that would need its own verification; no single clean extractable sentence.
+
+### EA (增‧四五九, "better to burn out your eyes than see forms and think confused thoughts")
+- link: not independently re-located
+- reason: tone/wellbeing gate — self-mutilation imagery (hot iron on eyes, an awl through the ears, a sword through the tongue) as similes for sense-restraint, same category as `MĀ 5` (see Rule 12).
+
+### EA (增‧二一三, three fetters — self-view/doubt/precept-attachment)
+- link: not independently re-located
+- reason: Abhidhamma-style catalogue defining each of the three fetters at length; no short self-contained unit, same shape as `DA 9`/`DA 10`.
+
+### EA (增‧二八二 and 增‧二三一, King Muṇḍa's grief)
+- link: not independently re-located
+- reason: both are the monk Nārada's counsel to the grieving King Muṇḍa after his queen's death — disciple-spoken (Nārada cites "是如来之所说" partway through, but Nārada himself is the direct speaker in the passage), same disciple-spoken pattern as `SĀ 259`/`MĀ 9`/`MĀ 31`.
+
+### EA (增‧三五七, seven fetters/underlying tendencies)
+- link: not independently re-located
+- reason: Abhidhamma-style numeric catalogue (the seven anusaya), no extractable single sentence.
+
+### EA (增‧五九, attraction to the opposite sex)
+- link: not independently re-located
+- reason: not disqualified outright, just redundant — covers the same restraint-of-senses ground already filled more cleanly by the two accepted EA entries in `chinese.md` (ea-a, ea-b). Deferred rather than developed further.
+
+### EA (增‧三一六 and 增‧三四一, Venerable Vaṅgīsa's reflection on the body, including the "form is like foam" simile) — DEFERRED, genuinely ambiguous
+- link: not independently re-located
+- reason: contains the classic five-aggregates "foam/bubble/mirage/banana-trunk/magic-trick" simile (a well-known canonical image, parallel to SN 22.95), but in this passage it's framed as Venerable Vaṅgīsa's own internal reflection after seeing an attractive woman, closing with "皆由此身，善逝所说" (attributing the substance to the Buddha, but Vaṅgīsa is the one speaking/reciting it here). Genuinely ambiguous whether this counts as buddhavacana or disciple-spoken-quoting-Buddha — needs a direct read of the anchor before ruling either way, not a quick call.
+
+### EA (增‧四一七 and 增‧一二○, similes for the danger of desire)
+- link: not independently re-located
+- reason: both are long chains of similes (desire as a filthy pit, a honey-coated knife, a poisonous tree, etc.) with no single sentence that stands alone without the rest of the chain — list-of-similes problem, not a tone issue.
+
+### EA (增‧一五三, Śakra asks how to end craving)
+- link: not independently re-located
+- reason: not disqualified, just deferred — genuine Buddha-Śakra dialogue on emptiness, but the teaching is doctrinally dense/abstract; needs a closer direct read to find a clean self-contained sentence rather than being rushed through this shortcut-list pass.
+
+### EA (增‧三六八, eightfold path mapped to seven awakening factors)
+- link: not independently re-located
+- reason: Abhidhamma-style matrix (each path factor mapped to a bojjhaṅga), no extractable single sentence.
+
+### EA (增‧二四九, four divisions of scripture: sutra/vinaya/abhidharma/precept)
+- link: not independently re-located
+- reason: bibliographic/classificatory content, not a teaching.
+
+### EA (增‧二一二, "hatred is never appeased by hatred") — DEFERRED, genuinely ambiguous
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0627b2501]]
+- reason: this Dhammapada-parallel verse is genuinely excellent content, but in this sutta it's spoken by the dying King Dīghīti (长寿王) to his son within a jātaka-style story — presumably narrated by the Buddha as illustration, but the in-story direct speaker is the king, not the Buddha. Same category concern as disciple-spoken content, but for a Buddha-narrated legend rather than a disciple's report — needs a check of whether the frame closes with the Buddha presenting it as his own teaching ("thus should you learn") before accepting.
+
+### EA (增‧序品, the "do no evil, do all good, purify the mind" twin verse), EA (增‧三二二, "the true meaning of venerating the Buddha"), EA (增‧二七五, "though you recite a thousand chapters...")
+- link: not located at all — see `chinese.md`'s Ekottarika section for the full note
+- reason: could not be found via direct-phrase grep against `zh-ekottarika-agama.md`; the twin verse traditionally sits in Ekottarika's 序品 (preface chapter), which this vault's source file doesn't appear to include (the file starts directly at 卷1/EA1). Not tagged from the digest's wording alone, per Rule 4 — flagged so a future pass doesn't repeat the same failed search blind.
+
