@@ -1,6 +1,6 @@
 ---
 name: verse-rail
-description: Use this skill whenever a verse has been selected (by verse-selection or named directly by the user) and needs a rail built before rendering — even if the user just says "build the rail for Dhp 5" or names a sutta/verse directly without saying "rail." Builds a translation-grounded verse-of-the-day rail at 2-RAILS/Verses/<slug>.md for one verse from any canon (Pali, Chinese Āgama, Tibetan Kangyur): transcludes the source block, cites the authoritative translation(s) the vault holds, writes a precise disambiguated meaning, and tags theme + source_ref. This anthology holds no commentaries, so grounding is always translation-based — About Rails explicitly permits this ("a claim may cite a commentary block ID, or a translation passage").
+description: Use this skill whenever a verse has been selected (by verse-selection or named directly by the user) and needs a rail built before rendering — even if the user just says "build the rail for Dhp 5" or names a sutta/verse directly without saying "rail." Builds a translation-grounded verse-of-the-day rail at 2-RAILS/Verses/<slug>.md for one verse from any canon (Pali, Chinese Āgama, Tibetan Kangyur): transcludes the source block, cites the authoritative translation(s) the vault holds, writes a precise disambiguated meaning, and tags theme + source_ref. This anthology holds no commentaries, so grounding is translation-based — About Rails explicitly permits this ("a claim may cite a commentary block ID, or a translation passage") — with one narrow, human-approved exception (grounding: source-only) for a few Kangyur sūtras 84000 hasn't translated yet, grounded on the Tibetan source alone; see the grounding table.
 ---
 
 # verse-rail (translation-grounded)
@@ -36,10 +36,12 @@ Key conventions, documented in `vault-annex.md`:
 | **Chinese Mahāyāna sūtras (T235/262/366/389/475/779…)** | `chinese-source` | CBETA CC BY-NC-SA | own rendering; zh = verbatim source; cross-check a standard translation |
 | **Tibetan Udānavarga (Toh 326)** | `parallel-pali` | Degé **Public Domain** | own rendering; **bo = verbatim source**; ground on the Pali Dhp/Udāna parallel |
 | **Tibetan Kangyur Mahāyāna sūtras (bo-toh + 84000)** | `source-plus-reference` | Degé **PD** source; **84000 English = reference only (CC BY-NC-ND — never excerpt)** | own rendering from bo; bo = verbatim source; 84000 consulted for meaning only |
+| **Tibetan Kangyur, no 84000 translation yet (Toh 12, 13, 16, 53, 60 only)** | `source-only` | Degé **PD** source; **no reference translation exists** | own rendering translated directly from bo; bo = verbatim source; **no reference to consult** — see the source-only note below |
 
 - **zh is the verbatim CBETA source** on Chinese-source cards; **bo is the verbatim Degé source** on Tibetan-source cards — they *are* the quote.
 - **84000 English is reference-only** — cite it, never ship its wording.
 - **Grounding-by-parallel:** name the exact Pali parallel (e.g. Dhp 239) and transclude Sujato as the meaning anchor. The T210 Dharmapada and the Udānavarga are the Chinese/Tibetan Dharmapada — parallel to the Pali; **don't rely on them alone for non-Pali variety, and don't pull Chinese only from T210 or Tibetan only from the Udānavarga** (use the Āgamas and the Kangyur Mahāyāna sūtras too, per [`selection-criteria.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/selection-criteria.md) §3).
+- **`source-only` — the reference-less exception (Toh 12, 13, 16, 53, 60 only).** These five Kangyur sūtras have no 84000 translation and no Pali parallel to anchor on, so — by explicit human decision (Evan, 2026-07-13; recorded in [`candidate-pool/kangyur-scan-leads.md`](../../../3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/kangyur-scan-leads.md)) — a rail may be built grounding on the Tibetan Degé source **alone**, with the Disambiguated Meaning translated directly from the bo with no reference translation to consult. This is a bounded exception, **not a general license**: it applies only to these five texts, and only after each is imported and registered. Everything else is unchanged and still fully enforced — the buddhavacana gate, verbatim-from-source, in-scope (mdo, not tantra/Vinaya/scholastic), ecumenical wording, and the ~125-char fit. Because there is no reference to catch a misreading, take **extra** care with the Tibetan: leave `status: draft`, and in `## Traditional Interpretation` / `## Theme & Selection Notes` flag explicitly that this rail is source-only and needs a native-Tibetan reviewer to confirm the meaning before it can move toward `complete`. Set `review_status: escalate-native-review` for bo. Do **not** use this grounding value for any text that *does* have an 84000 reference — that stays `source-plus-reference`.
 
 ## Inputs
 
@@ -64,7 +66,7 @@ canon: Pali | Chinese Āgama | Tibetan Kangyur
 unit_type: single | group
 source_text: 1-SOURCES/Text/<file>.md
 source_block: "^<id>"
-grounding: translation | parallel-pali | source-plus-reference | chinese-source | hybrid
+grounding: translation | parallel-pali | source-plus-reference | source-only | chinese-source | hybrid
 translations: [sujato | patton | 84000-reference | pali-parallel-reference | own-from-source | ...]
 pali_parallel: "<if grounding: parallel-pali — e.g. Dhp 239>"
 vehicle: "<Mahāyāna — only for Mahāyāna sūtras>"
@@ -129,6 +131,7 @@ stream's termbase). Every claim cites a 1-SOURCES translation/source block.>
 - [ ] Disambiguated meaning grounded, every claim cited; rendering choices flagged.
 - [ ] `source_ref`, `canon`, `grounding`, `theme` set; `status: draft`.
 - [ ] 84000 text referenced, not bulk-reproduced.
+- [ ] If `grounding: source-only`: text is one of the five approved (Toh 12/13/16/53/60), it's imported + registered, the rail is flagged source-only for native-Tibetan review, and bo `review_status: escalate-native-review`.
 
 ---
 
