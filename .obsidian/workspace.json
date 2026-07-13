@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/rejected.md",
+                "file": "3-TRANSFORMATIONS/verse-of-the-day/day-010-loving-kindness-iti27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rejected"
+              "title": "day-010-loving-kindness-iti27"
             }
           }
         ]
@@ -197,6 +197,7 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/rejected.md",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/tibetan.md",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/pali.md",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/kangyur-scan-leads.md",
@@ -206,7 +207,6 @@
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md.tmp.98633.07b3d0eb9a3d",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/theme-checklist.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/rejected.md",
     "3-TRANSFORMATIONS/verse-of-the-day/selection-criteria.md",
     "4-SYSTEM/Skills/candidate-tagging/SKILL.md",
     "4-SYSTEM/Skills/candidate-tagging",
