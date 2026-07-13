@@ -339,13 +339,8 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - status: unclaimed
 - note: the sutta's fuller four-immeasurables formula (loving-kindness, compassion, joy, equanimity) only spells out the loving-kindness clause verbatim — the other three are elided with "亦復如是" ("and so on"), so per Rule 7 they aren't independently verifiable as separately-worded units and aren't tagged here.
 
-### DA 27 (沙門果經, the Sāmaññaphala Sutta parallel) — da-27 — genuine repentance is met with compassion
-- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0109b1704]]
-- quote: "汝愚冥無識，迷於五欲，乃害父王，今於賢聖法中能悔過者，即自饒益。吾愍汝故，受汝悔過。" (the Buddha's response to King Ajātaśatru's confession of patricide)
-- buddhavacana: confirmed — Buddha addressing King Ajātaśatru directly
-- length_est: ~180 chars EN (est.) — well over budget, needs real compression (likely dropping the "you harmed your father" specifics and keeping the general shape: "one who can repent within the noble teaching benefits themselves; out of compassion, I accept your repentance")
-- theme: forgiveness (new instance — fills a known gap; this vault's copy of this sutta is otherwise heavily elided at the point where the famous gradual-training/hindrance similes would appear, using "乃至" rather than spelling them out, matching what DA 20 already showed elsewhere in the pool)
-- status: unclaimed
+### DA 27 (沙門果經) — da-27 — MOVED to `rejected.md` (2026-07-13)
+- Was tagged for the `forgiveness` gap, but fails the §2 out-of-context test: stripped of the patricide/confession frame (no room on the card), "out of compassion I accept your repentance" doesn't stand alone. See `rejected.md`. The forgiveness gap is **reopened** — needs a standalone-intelligible candidate.
 
 **DA 21, DA 24, DA 25, DA 28, DA 29 — read in full, no new candidates** (see `rejected.md` for the whole-sutta notes): DA 21 (梵動經, the Brahmajāla parallel) is a systematic 62-wrong-views catalogue with no positive teaching to extract; DA 24 (堅固經, the Kevaddha parallel) is a long narrative about a monk seeking where the four elements cease, ending in a verse whose text isn't present in this source copy (same gap pattern as elsewhere in this file); DA 25 (倮形梵志經, the Kassapa-Sīhanāda parallel) is a repetitive Q&A about ascetic practice vs. the threefold training with no short unit distinct from what's already in the pool; DA 28 (布吒婆樓經, the Poṭṭhapāda parallel) is a technical dialogue on perception and the unanswered questions, list-heavy throughout; DA 29 (露遮經, the Lohicca parallel) is a repetitive catechism against withholding the Dharma from others, with no single sentence that stands alone without the Q&A frame.
 

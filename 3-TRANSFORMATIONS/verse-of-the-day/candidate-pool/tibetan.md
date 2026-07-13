@@ -302,13 +302,8 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - theme: pairs with `toh95-hesitation-to-teach` as the affirmative flip side — "resolve to teach"
 - status: unclaimed
 
-### Toh 95 — toh95-earth-as-witness
-- link: [[1-SOURCES/Text/bo-toh95.md#^p312]]
-- quote: "སྡིག་ཅན་ས་འདི་ནི་ངའི་དཔང་ཡིན་ནོ།"
-- buddhavacana: confirmed — the bodhisattva's direct reply to Māra at the earth-touching gesture
-- length_est: ~36 chars EN ("Evil one, this earth is my witness.") — fits easily, iconic and instantly recognizable
-- theme: self-reliance (fresh, iconic instance)
-- status: unclaimed
+### Toh 95 — toh95-earth-as-witness — MOVED to `rejected.md` (2026-07-13)
+- Iconic, but fails the §2 out-of-context test: "Evil one, this earth is my witness" needs the Māra / earth-touching scene to mean anything, and the card has no room for it. See `rejected.md`. (Other Toh 95 candidates above are unaffected.)
 
 ### Toh 95 — toh95-liberation-declaration
 - link: [[1-SOURCES/Text/bo-toh95.md#^p403]]
@@ -362,14 +357,8 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - theme: karma-and-its-fruit (the confirmed lead — exceptionally clean, famous, standalone)
 - status: unclaimed
 
-### Toh 231 (same passage) — toh231-mind-paints-the-world
-- link: [[1-SOURCES/Text/bo-toh231.md#^p165]]
-- quote: "འཇིག་རྟེན་སེམས་ཀྱིས་བྲིས་པ་སྟེ། སེམས་ནི་སེམས་ཀྱིས་མི་མཐོང་ངོ་།"
-- buddhavacana: confirmed — same passage/speaker
-- length_est: ~60 chars EN ("The world is painted by mind, yet mind does not see mind.") — fits easily
-- speaks_to: [doubtful, overwhelmed]
-- theme: mind (fresh, very compact epigram)
-- status: unclaimed
+### Toh 231 (same passage) — toh231-mind-paints-the-world — MOVED to `rejected.md` (2026-07-13)
+- Whole and standalone, but fails the §2 accessibility gate: "the world is painted by mind, yet mind does not see mind" is too esoteric for a no-glossary lay reader to grasp at a glance. See `rejected.md`. (Other Toh 231 candidates above are unaffected.)
 - note: shares a folio block with `toh231-karma-by-mind` and the mind-similes quatrain below — a future selection would only use one of the three on a given day.
 
 ### Toh 231 (same passage) — toh231-minds-four-similes

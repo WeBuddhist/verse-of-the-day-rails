@@ -263,3 +263,21 @@ Passages considered and disqualified, so a future tagging pass doesn't re-read a
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0747a0802]]
 - reason: the classic list of eight unfavorable rebirths/conditions in which a being cannot hear the Dharma even when a Buddha arises (hell, animal, hungry ghost, long-life heaven, border regions, defective faculties, wrong view, absence of a Buddha), capped by the one favorable condition. Doctrinally important and famous (the aṭṭha akkhaṇā), but only works as the full eight-plus-one list — no single quotable line. Passed over; worth remembering this exists if a future pass wants to build a card around "precious human life" using a different, more compressible source instead (see the juan-33 wheel-king candidate already in the pool for that theme).
 
+---
+
+## Reclassified from accepted → rejected: the "out-of-context" / accessibility gate (Evan, 2026-07-13)
+
+These three were accepted into the pool before `selection-criteria.md` §2 was sharpened to separate *grammatically whole* from *intelligible out of context*. They're grammatically whole but fail on the card (which ships alone, no room for backstory). Kept here so a future pass doesn't re-tag them. See `candidate-tagging` Rule 14 and `selection-criteria.md` §2/§6.
+
+### Toh 95 (Lalitavistara) — toh95-earth-as-witness
+- link: [[1-SOURCES/Text/bo-toh95.md#^p312]]
+- reason: "Evil one, this earth is my witness" — iconic, but **out-of-context fail (§2b)**: meaningless without the Māra / earth-touching scene, which the card can't supply. Other Toh 95 candidates are unaffected.
+
+### DA 27 (沙門果經, Sāmaññaphala parallel) — da-27 (forgiveness)
+- link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0109b1704]]
+- reason: the Buddha accepting King Ajātaśatru's repentance — **out-of-context fail (§2b)**: once the patricide/confession frame is dropped for length, "out of compassion I accept your repentance" doesn't stand alone. **Reopens the `forgiveness` theme gap** — needs a standalone-intelligible candidate.
+
+### Toh 231 (Ratnamegha) — toh231-mind-paints-the-world
+- link: [[1-SOURCES/Text/bo-toh231.md#^p165]]
+- reason: "The world is painted by mind, yet mind does not see mind" — whole and standalone, but **accessibility fail (§2)**: too esoteric for a no-glossary lay reader. Different reason from the two above. Other Toh 231 candidates are unaffected.
+
