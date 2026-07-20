@@ -320,7 +320,7 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - buddhavacana: confirmed — Buddha addressing the brahmin Kūṭadanta, who had prepared a large animal sacrifice
 - length_est: ~85 chars EN (est.) — within budget
 - theme: loving-kindness (recurring — vivid, concrete simile: even loving-kindness held for only as long as it takes to milk a cow)
-- status: unclaimed
+- status: claimed (day 72, 2026-09-03) — rail `da-23-loving-kindness.md`
 
 ### DA 23 (究羅檀頭經, the Kūṭadanta Sutta parallel) — da-23-b — going for refuge with a joyful heart
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0100c0910]]
