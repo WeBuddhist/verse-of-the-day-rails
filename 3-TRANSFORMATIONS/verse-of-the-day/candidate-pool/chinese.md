@@ -505,11 +505,11 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 
 **EA — ea-s — all Buddhas arise from the human world**
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0694a0201]]
-- quote: "諸佛世尊皆出人間，非由天而得也。"
+- quote: "佛世尊皆出人間，非由天而得也。" (source reads 佛世尊, not 諸佛世尊 — corrected at claim time against `zh-ekottarika-agama.md`)
 - buddhavacana: confirmed — Buddha addressing a monk
 - length_est: ~55 chars EN (est.) — well within budget
 - speaks_to: [aspiration]
-- status: unclaimed (no clean theme-checklist match)
+- status: claimed (day 75, 2026-09-06, theme tagged precious-human-life) — rail `ea-buddhas-among-humans.md`
 
 ### EA — leads that could not be independently verified (untagged, not accepted from memory)
 
