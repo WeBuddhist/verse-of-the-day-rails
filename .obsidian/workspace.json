@@ -196,8 +196,11 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "d066ca5c15f520a5",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "2-RAILS/Verses/ea-mind-not-sick.md",
+    "2-RAILS/Verses/udv-heedfulness.md",
+    "2-RAILS/Verses/dhp-197.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-063-wholesome-action-toh231.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-062-true-offering-da2.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-061-communal-harmony-udv.md",
@@ -221,12 +224,9 @@
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/rejected.md",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/tibetan.md",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/pali.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/kangyur-scan-leads.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/chinese.md",
     "0-INBOX/raw-data/data-tei",
     "0-INBOX/raw-data",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md.tmp.98633.07b3d0eb9a3d",
-    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md",
     "4-SYSTEM/Skills/candidate-tagging",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
