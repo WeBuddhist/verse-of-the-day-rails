@@ -246,7 +246,7 @@ The Udāna's narrative-frame-then-verse structure is unusually well-suited to th
 - buddhavacana: confirmed
 - length_est: ~115 chars EN (est.)
 - theme: truthfulness / purity-of-mind (fresh instance)
-- status: claimed (day 69, 2026-08-31) — rail `ud1-9-purity.md`
+- status: unclaimed
 
 ### Ud 1.10a (Bāhiyasutta) — "in the seen, just the seen"
 - link: [[1-SOURCES/Text/pi-udana.md#^ud1-10-8-1]]
@@ -310,7 +310,7 @@ The Udāna's narrative-frame-then-verse structure is unusually well-suited to th
 - buddhavacana: confirmed — after King Pasenadi and Queen Mallikā both admit they love themselves most
 - length_est: ~155 chars EN (est.) — needs light compression
 - theme: harmlessness (one of the most famous verses in the collection — self-regard as the ground for the golden rule)
-- status: unclaimed
+- status: claimed (day 69, 2026-08-31) — rail `ud5-1-harmlessness.md`
 
 ### Ud 5.4 (Kumārakasutta) — fear suffering, therefore avoid bad deeds
 - link: [[1-SOURCES/Text/pi-udana.md#^ud5-4-4-1]]
