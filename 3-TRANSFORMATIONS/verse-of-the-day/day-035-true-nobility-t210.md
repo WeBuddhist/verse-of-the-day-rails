@@ -1,6 +1,5 @@
 ---
 day: 35
-date: 2026-07-28
 source_ref: "法句經 T210 (梵志品) · Dhp 393 parallel"
 canon: Chinese (Taishō)
 theme: true-nobility

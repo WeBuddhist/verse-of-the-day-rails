@@ -278,7 +278,7 @@ The Udāna's narrative-frame-then-verse structure is unusually well-suited to th
 - buddhavacana: confirmed — watching Sāriputta seated in concentration
 - length_est: ~120 chars EN (est.) — fits well
 - theme: concentration / inner-peace (fresh, clean instance)
-- status: unclaimed
+- status: claimed (day 74, 2026-09-05, theme tagged steadfastness) — rail `ud3-4-mountain.md`
 
 ### Ud 3.5 (Mahāmoggallānasutta) — body-mindfulness and sense-restraint lead to Nibbāna
 - link: [[1-SOURCES/Text/pi-udana.md#^ud3-5-3-1]]

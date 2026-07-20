@@ -1,6 +1,5 @@
 ---
 day: 8
-date: 2026-07-01
 source_ref: "Dhp 50"
 canon: Pali
 theme: self-reflection

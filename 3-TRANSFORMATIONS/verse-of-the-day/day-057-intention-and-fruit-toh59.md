@@ -1,6 +1,5 @@
 ---
 day: 57
-date: 2026-08-19
 source_ref: "Toh 59 (The Array of Qualities in Mañjuśrī's Pure Realm)"
 canon: Tibetan Kangyur (Mahāyāna)
 theme: karma-and-its-fruit

@@ -1,6 +1,5 @@
 ---
 day: 48
-date: 2026-08-10
 source_ref: "SN 1.1 (Oghataraṇasutta)"
 canon: Pali
 theme: middle-way

@@ -1,6 +1,5 @@
 ---
 day: 49
-date: 2026-08-11
 source_ref: "Udānavarga (Toh 326) · Dhp 160 parallel"
 canon: Tibetan Kangyur
 theme: self-reliance

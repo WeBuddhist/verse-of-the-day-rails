@@ -1,6 +1,5 @@
 ---
 day: 43
-date: 2026-08-05
 source_ref: "Dhp 354"
 canon: Pali
 theme: gift-of-teaching

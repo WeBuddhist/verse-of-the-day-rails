@@ -1,6 +1,5 @@
 ---
 day: 20
-date: 2026-07-13
 source_ref: "Dhp 200"
 canon: Pali
 theme: contentment

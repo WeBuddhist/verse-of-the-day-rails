@@ -1,6 +1,5 @@
 ---
 day: 2
-date: 2026-06-25
 source_ref: "SĀ 1"
 canon: Chinese Āgama
 theme: impermanence

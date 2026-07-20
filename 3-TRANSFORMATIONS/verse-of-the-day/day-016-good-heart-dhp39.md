@@ -1,6 +1,5 @@
 ---
 day: 16
-date: 2026-07-09
 source_ref: "Dhp 39"
 canon: Pali
 theme: peace-of-a-good-heart

@@ -1,6 +1,5 @@
 ---
 day: 17
-date: 2026-07-10
 source_ref: "Toh 282"
 canon: Tibetan Kangyur
 theme: threefold-training

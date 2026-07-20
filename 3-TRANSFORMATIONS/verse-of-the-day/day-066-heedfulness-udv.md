@@ -1,6 +1,5 @@
 ---
 day: 66
-date: 2026-08-28
 source_ref: "Udānavarga 4 (Toh 326) · Dhp 21 parallel"
 canon: Tibetan Kangyur
 theme: heedfulness

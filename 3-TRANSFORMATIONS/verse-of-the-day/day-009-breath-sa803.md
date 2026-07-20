@@ -1,6 +1,5 @@
 ---
 day: 9
-date: 2026-07-02
 source_ref: "SĀ 803"
 canon: Chinese Āgama
 theme: mindfulness-of-breathing

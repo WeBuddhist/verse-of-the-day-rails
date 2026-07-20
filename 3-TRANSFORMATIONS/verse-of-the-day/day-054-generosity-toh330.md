@@ -1,6 +1,5 @@
 ---
 day: 54
-date: 2026-08-16
 source_ref: "The Shorter Devatā Sūtra (Toh 330)"
 canon: Tibetan Kangyur
 theme: generosity

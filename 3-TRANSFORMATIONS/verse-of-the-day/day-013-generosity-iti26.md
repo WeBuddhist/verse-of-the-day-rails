@@ -1,6 +1,5 @@
 ---
 day: 13
-date: 2026-07-06
 source_ref: "Iti 26"
 canon: Pali
 theme: generosity

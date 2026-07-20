@@ -1,6 +1,5 @@
 ---
 day: 68
-date: 2026-08-30
 source_ref: "Toh 231 (The Jewel Cloud / Ratnamegha)"
 canon: Tibetan Kangyur (Mahāyāna)
 theme: karma-and-its-fruit

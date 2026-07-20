@@ -1,6 +1,5 @@
 ---
 day: 24
-date: 2026-07-17
 source_ref: "Dhp 96"
 canon: Pali
 theme: inner-peace

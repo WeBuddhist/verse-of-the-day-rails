@@ -1,6 +1,5 @@
 ---
 day: 29
-date: 2026-07-22
 source_ref: "Udānavarga 2 (Toh 326) · Dhp 215 parallel"
 canon: Tibetan Kangyur
 theme: freedom-from-craving

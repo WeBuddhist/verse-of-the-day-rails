@@ -1,6 +1,5 @@
 ---
 day: 19
-date: 2026-07-12
 source_ref: "Udānavarga 1.3 (Toh 326) · aniccā vata saṅkhārā parallel"
 canon: Tibetan Kangyur
 theme: impermanence

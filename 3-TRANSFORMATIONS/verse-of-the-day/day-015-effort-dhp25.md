@@ -1,6 +1,5 @@
 ---
 day: 15
-date: 2026-07-08
 source_ref: "Dhp 25"
 canon: Pali
 theme: effort

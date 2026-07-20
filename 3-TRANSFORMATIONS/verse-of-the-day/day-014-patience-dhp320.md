@@ -1,6 +1,5 @@
 ---
 day: 14
-date: 2026-07-07
 source_ref: "Dhp 320"
 canon: Pali
 theme: patience

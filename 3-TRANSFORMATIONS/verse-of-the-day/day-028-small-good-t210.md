@@ -1,6 +1,5 @@
 ---
 day: 28
-date: 2026-07-21
 source_ref: "法句經 T210 (惡行品) · Dhp 122 parallel"
 canon: Chinese (Taishō)
 theme: small-good-deeds

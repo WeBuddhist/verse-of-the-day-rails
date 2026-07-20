@@ -1,6 +1,5 @@
 ---
 day: 33
-date: 2026-07-26
 source_ref: "法句經 T210 (明哲品) · Dhp 82 parallel"
 canon: Chinese (Taishō)
 theme: serenity-of-the-wise

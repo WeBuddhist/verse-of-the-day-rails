@@ -1,6 +1,5 @@
 ---
 day: 55
-date: 2026-08-17
 source_ref: "SĀ 33"
 canon: Chinese Āgama
 theme: not-self

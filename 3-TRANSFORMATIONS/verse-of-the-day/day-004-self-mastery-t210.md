@@ -1,6 +1,5 @@
 ---
 day: 4
-date: 2026-06-27
 source_ref: "法句經 T210 (述千品) · Dhp 103 parallel"
 canon: Chinese (Taishō)
 theme: self-mastery

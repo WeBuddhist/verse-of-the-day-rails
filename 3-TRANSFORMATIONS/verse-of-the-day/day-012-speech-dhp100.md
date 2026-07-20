@@ -1,6 +1,5 @@
 ---
 day: 12
-date: 2026-07-05
 source_ref: "Dhp 100"
 canon: Pali
 theme: speech

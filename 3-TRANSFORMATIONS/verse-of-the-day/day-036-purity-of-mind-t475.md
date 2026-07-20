@@ -1,6 +1,5 @@
 ---
 day: 36
-date: 2026-07-29
 source_ref: "維摩詰所說經 T475 · Vimalakīrti (佛國品)"
 canon: Chinese (Mahāyāna)
 theme: purity-of-mind

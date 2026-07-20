@@ -192,7 +192,7 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - length_est: ~105 chars EN (est.)
 - speaks_to: [doubtful, hopeful, aspiration]
 - theme: confidence (second, alternate refuge candidate — different chapter/angle from udv-faith-wealth)
-- status: unclaimed
+- status: claimed (day 71, 2026-09-02) — rail `udv-recollection.md`
 
 ### Udānavarga ch.13 (honor/gain, right livelihood) — udv-right-livelihood
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p442]]
@@ -282,7 +282,7 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - length_est: ~95 chars EN (est., "Great king, from grasping at 'I' and 'mine' arise ill will, hostility, hatred, and concealment.")
 - speaks_to: [angry, irritated]
 - theme: not-self (fresh instance — names self/mine-grasping as the specific causal root of ill will; could alternatively fold into `overcoming-anger`, or be considered alongside the "root-of-conflict" gap already flagged from Snp 4.15 — human call on final theme tag)
-- status: unclaimed
+- status: claimed (day 73, 2026-09-04) — rail `toh59-root-of-illwill.md` (vocative "Great king" dropped from the shipped quote)
 
 ### Toh 95 (Lalitavistara Sūtra) — toh95-hesitation-to-teach
 - link: [[1-SOURCES/Text/bo-toh95.md#^p376]]

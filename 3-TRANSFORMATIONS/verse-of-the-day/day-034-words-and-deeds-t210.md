@@ -1,6 +1,5 @@
 ---
 day: 34
-date: 2026-07-27
 source_ref: "法句經 T210 (華香品) · Dhp 51 parallel"
 canon: Chinese (Taishō)
 theme: words-and-deeds

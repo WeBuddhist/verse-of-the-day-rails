@@ -1,6 +1,5 @@
 ---
 day: 7
-date: 2026-06-30
 source_ref: "Dhp 223"
 canon: Pali
 theme: overcoming-anger

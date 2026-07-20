@@ -1,6 +1,5 @@
 ---
 day: 30
-date: 2026-07-23
 source_ref: "法句經 T210 (愛身品) · Dhp 165 parallel"
 canon: Chinese (Taishō)
 theme: self-responsibility

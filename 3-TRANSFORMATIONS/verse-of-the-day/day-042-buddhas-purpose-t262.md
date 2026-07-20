@@ -1,6 +1,5 @@
 ---
 day: 42
-date: 2026-08-04
 source_ref: "妙法蓮華經 T262 · Lotus Sūtra (方便品)"
 canon: Chinese (Mahāyāna)
 theme: buddhas-purpose

@@ -1,6 +1,5 @@
 ---
 day: 53
-date: 2026-08-15
 source_ref: "SĀ 379"
 canon: Chinese Āgama
 theme: four-noble-truths

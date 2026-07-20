@@ -1,6 +1,5 @@
 ---
 day: 3
-date: 2026-06-26
 source_ref: "Dhp 5"
 canon: Pali
 theme: non-hatred

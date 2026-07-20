@@ -1,6 +1,5 @@
 ---
 day: 41
-date: 2026-08-03
 source_ref: "AN 2.32"
 canon: Pali
 theme: gratitude

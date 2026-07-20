@@ -1,6 +1,5 @@
 ---
 day: 63
-date: 2026-08-25
 source_ref: "Toh 231 (The Jewel Cloud / Ratnamegha)"
 canon: Tibetan Kangyur (Mahāyāna)
 theme: wholesome-action

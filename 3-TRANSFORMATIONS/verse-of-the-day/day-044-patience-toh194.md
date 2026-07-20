@@ -1,6 +1,5 @@
 ---
 day: 44
-date: 2026-08-06
 source_ref: "The Inquiry of Jayamati (Toh 194)"
 canon: Tibetan Kangyur (Mahāyāna)
 theme: patience

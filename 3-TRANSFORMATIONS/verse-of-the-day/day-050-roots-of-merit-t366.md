@@ -1,6 +1,5 @@
 ---
 day: 50
-date: 2026-08-12
 source_ref: "佛說阿彌陀經 T366 · Amitābha"
 canon: Chinese (Mahāyāna)
 theme: genuine-cultivation

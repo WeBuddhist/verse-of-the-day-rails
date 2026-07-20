@@ -1,6 +1,5 @@
 ---
 day: 18
-date: 2026-07-11
 source_ref: "Dhp 81"
 canon: Pali
 theme: equanimity

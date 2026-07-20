@@ -1,6 +1,5 @@
 ---
 day: 51
-date: 2026-08-13
 source_ref: "The King of Samādhis (Toh 127) · Samādhirāja"
 canon: Tibetan Kangyur (Mahāyāna)
 theme: seeing-the-good

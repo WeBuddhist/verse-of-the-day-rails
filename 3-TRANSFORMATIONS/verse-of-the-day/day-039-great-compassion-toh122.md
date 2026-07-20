@@ -1,6 +1,5 @@
 ---
 day: 39
-date: 2026-08-01
 source_ref: "Wisdom at the Hour of Death (Toh 122)"
 canon: Tibetan Kangyur (Mahāyāna)
 theme: great-compassion

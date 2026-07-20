@@ -1,6 +1,5 @@
 ---
 day: 25
-date: 2026-07-18
 source_ref: "Dhp 63"
 canon: Pali
 theme: self-knowledge

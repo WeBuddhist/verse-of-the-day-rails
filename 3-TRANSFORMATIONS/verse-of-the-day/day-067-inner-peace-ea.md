@@ -1,6 +1,5 @@
 ---
 day: 67
-date: 2026-08-29
 source_ref: "EĀ 增壹阿含經 (卷6, to the householder Nakulapitā)"
 canon: Chinese
 theme: inner-peace

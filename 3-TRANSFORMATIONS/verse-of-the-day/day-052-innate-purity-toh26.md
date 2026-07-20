@@ -1,6 +1,5 @@
 ---
 day: 52
-date: 2026-08-14
 source_ref: "Toh 26 (Sūryagarbha Perfection of Wisdom)"
 canon: Tibetan Kangyur (Mahāyāna)
 theme: innate-purity

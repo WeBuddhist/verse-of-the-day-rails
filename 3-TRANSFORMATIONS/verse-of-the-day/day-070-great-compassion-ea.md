@@ -1,6 +1,5 @@
 ---
 day: 70
-date: 2026-09-01
 source_ref: "EĀ 增壹阿含經 (卷5, caring for the sick)"
 canon: Chinese
 theme: great-compassion

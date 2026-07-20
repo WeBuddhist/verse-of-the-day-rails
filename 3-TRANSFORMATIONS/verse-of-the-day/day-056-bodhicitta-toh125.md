@@ -1,6 +1,5 @@
 ---
 day: 56
-date: 2026-08-18
 source_ref: "The Gold Sūtra (Toh 125)"
 canon: Tibetan Kangyur (Mahāyāna)
 theme: bodhicitta-is-pure

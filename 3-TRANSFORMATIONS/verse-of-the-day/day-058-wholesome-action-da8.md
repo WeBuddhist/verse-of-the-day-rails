@@ -1,6 +1,5 @@
 ---
 day: 58
-date: 2026-08-20
 source_ref: "DĀ 8 (散陀那經, Udumbarikā-Sīhanāda parallel)"
 canon: Chinese
 theme: wholesome-action

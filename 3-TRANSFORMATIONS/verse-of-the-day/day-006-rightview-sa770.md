@@ -1,6 +1,5 @@
 ---
 day: 6
-date: 2026-06-29
 source_ref: "SĀ 770"
 canon: Chinese Āgama
 theme: right-view

@@ -1,6 +1,5 @@
 ---
 day: 31
-date: 2026-07-24
 source_ref: "Udānavarga (Toh 326) · Dhp 239 parallel"
 canon: Tibetan Kangyur
 theme: gradual-purification

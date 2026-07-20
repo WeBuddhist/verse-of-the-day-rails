@@ -1,6 +1,5 @@
 ---
 day: 45
-date: 2026-08-07
 source_ref: "金剛般若波羅蜜經 T235 · Diamond Sūtra"
 canon: Chinese (Mahāyāna)
 theme: non-attached-giving

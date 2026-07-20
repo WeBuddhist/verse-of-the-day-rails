@@ -1,6 +1,5 @@
 ---
 day: 46
-date: 2026-08-08
 source_ref: "Udānavarga (Toh 326) · Dhp 54 parallel"
 canon: Tibetan Kangyur
 theme: virtue-fragrance

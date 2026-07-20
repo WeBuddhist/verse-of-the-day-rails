@@ -1,6 +1,5 @@
 ---
 day: 40
-date: 2026-08-02
 source_ref: "佛遺教經 T389 · Bequeathed Teachings"
 canon: Chinese (Mahāyāna)
 theme: concentration

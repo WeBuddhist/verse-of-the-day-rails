@@ -1,6 +1,5 @@
 ---
 day: 61
-date: 2026-08-23
 source_ref: "Udānavarga 30 (Toh 326) · Dhp 194 parallel"
 canon: Tibetan Kangyur
 theme: communal-harmony

@@ -1,6 +1,5 @@
 ---
 day: 27
-date: 2026-07-20
 source_ref: "Dhp 35"
 canon: Pali
 theme: taming-the-mind

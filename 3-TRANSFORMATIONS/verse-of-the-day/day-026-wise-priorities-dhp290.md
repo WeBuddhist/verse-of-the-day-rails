@@ -1,6 +1,5 @@
 ---
 day: 26
-date: 2026-07-19
 source_ref: "Dhp 290"
 canon: Pali
 theme: wise-priorities

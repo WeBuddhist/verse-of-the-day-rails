@@ -1,6 +1,5 @@
 ---
 day: 10
-date: 2026-07-03
 source_ref: "Iti 27"
 canon: Pali
 theme: loving-kindness

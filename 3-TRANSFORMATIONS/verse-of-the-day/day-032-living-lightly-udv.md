@@ -1,6 +1,5 @@
 ---
 day: 32
-date: 2026-07-25
 source_ref: "Udānavarga (Toh 326) · Dhp 49 parallel"
 canon: Tibetan Kangyur
 theme: living-lightly

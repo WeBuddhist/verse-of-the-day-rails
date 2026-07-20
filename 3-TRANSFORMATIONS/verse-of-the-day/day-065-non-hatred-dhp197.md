@@ -1,6 +1,5 @@
 ---
 day: 65
-date: 2026-08-27
 source_ref: "Dhp 197"
 canon: Pali
 theme: non-hatred

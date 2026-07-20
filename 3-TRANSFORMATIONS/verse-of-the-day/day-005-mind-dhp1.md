@@ -1,6 +1,5 @@
 ---
 day: 5
-date: 2026-06-28
 source_ref: "Dhp 1"
 canon: Pali
 theme: mind

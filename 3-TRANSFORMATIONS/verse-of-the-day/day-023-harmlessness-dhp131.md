@@ -1,6 +1,5 @@
 ---
 day: 23
-date: 2026-07-16
 source_ref: "Dhp 131"
 canon: Pali
 theme: harmlessness

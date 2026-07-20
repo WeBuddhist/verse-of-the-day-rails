@@ -1,6 +1,5 @@
 ---
 day: 47
-date: 2026-08-09
 source_ref: "法句經 T210 (梵志品) · Dhp 264–265 parallel"
 canon: Chinese
 theme: true-renunciation

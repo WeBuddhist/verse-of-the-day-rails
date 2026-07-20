@@ -1,6 +1,5 @@
 ---
 day: 11
-date: 2026-07-04
 source_ref: "Dhp 62"
 canon: Pali
 theme: not-self

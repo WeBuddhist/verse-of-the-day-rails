@@ -1,6 +1,5 @@
 ---
 day: 69
-date: 2026-08-31
 source_ref: "Ud 5.1"
 canon: Pali
 theme: harmlessness

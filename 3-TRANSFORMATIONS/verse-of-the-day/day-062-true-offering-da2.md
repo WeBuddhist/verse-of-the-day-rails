@@ -1,6 +1,5 @@
 ---
 day: 62
-date: 2026-08-24
 source_ref: "DĀ 2 (遊行經, Mahāparinibbāna parallel)"
 canon: Chinese
 theme: practice-as-true-offering

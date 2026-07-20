@@ -1,6 +1,5 @@
 ---
 day: 37
-date: 2026-07-30
 source_ref: "佛說八大人覺經 T779 · Eight Realizations"
 canon: Chinese (Mahāyāna)
 theme: bodhicitta

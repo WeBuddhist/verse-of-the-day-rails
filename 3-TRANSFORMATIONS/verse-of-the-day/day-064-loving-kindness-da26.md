@@ -1,6 +1,5 @@
 ---
 day: 64
-date: 2026-08-26
 source_ref: "DĀ 26 (三明經, Tevijja parallel)"
 canon: Chinese
 theme: loving-kindness

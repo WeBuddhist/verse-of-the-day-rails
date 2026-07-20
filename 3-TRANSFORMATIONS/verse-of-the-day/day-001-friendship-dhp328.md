@@ -1,6 +1,5 @@
 ---
 day: 1
-date: 2026-06-24
 source_ref: "Dhp 328"
 canon: Pali
 theme: friendship

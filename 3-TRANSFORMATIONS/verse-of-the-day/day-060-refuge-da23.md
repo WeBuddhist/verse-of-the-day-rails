@@ -1,6 +1,5 @@
 ---
 day: 60
-date: 2026-08-22
 source_ref: "DĀ 23 (究羅檀頭經, Kūṭadanta parallel)"
 canon: Chinese
 theme: refuge

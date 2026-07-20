@@ -535,7 +535,7 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - buddhavacana: confirmed — Buddha addressing the monks
 - length_est: ~55 chars EN (est.) — well within budget
 - theme: great-compassion
-- status: unclaimed
+- status: claimed (day 70, 2026-09-01) — rail `ea-tend-the-sick.md`
 
 **EA (juan 6, Nakulapitā) — though the body is sick, let the mind not be sick**
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0573a0516]]
