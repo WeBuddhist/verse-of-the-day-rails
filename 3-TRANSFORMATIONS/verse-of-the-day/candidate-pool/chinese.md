@@ -293,7 +293,7 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - buddhavacana: confirmed — Buddha addressing Ānanda directly
 - length_est: ~65 chars EN (est.) — well within budget
 - theme: practice-as-true-offering (new — see theme-checklist.md)
-- status: unclaimed
+- status: claimed (day 62, 2026-08-24)
 
 ### DA 2 (遊行經, the Mahāparinibbāna parallel) — da-2-b — the teaching and discipline are your refuge after I am gone
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0026a2513]]
@@ -328,7 +328,7 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - buddhavacana: confirmed — Buddha addressing the brahmin Kūṭadanta
 - length_est: ~90 chars EN (est.) — within budget
 - theme: refuge (second instance — a fresh angle from DA 2-b: taking refuge itself as a supremely meritorious act, rather than the teaching being a refuge after the Buddha's death)
-- status: unclaimed
+- status: claimed (day 60, 2026-08-22)
 
 ### DA 26 (三明經, the Tevijja Sutta parallel) — da-26 — loving-kindness carries you swiftly
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0107a1008]]
@@ -336,7 +336,7 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - buddhavacana: confirmed — Buddha addressing the brahmin students Vāseṭṭha and Bhāradvāja
 - length_est: ~75 chars EN (est.) — within budget
 - theme: loving-kindness (recurring — fresh simile, an arrow's flight, not yet used elsewhere in the pool)
-- status: unclaimed
+- status: claimed (day 64, 2026-08-26)
 - note: the sutta's fuller four-immeasurables formula (loving-kindness, compassion, joy, equanimity) only spells out the loving-kindness clause verbatim — the other three are elided with "亦復如是" ("and so on"), so per Rule 7 they aren't independently verifiable as separately-worded units and aren't tagged here.
 
 ### DA 27 (沙門果經) — da-27 — MOVED to `rejected.md` (2026-07-13)

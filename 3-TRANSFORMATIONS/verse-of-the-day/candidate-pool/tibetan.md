@@ -246,7 +246,7 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - length_est: ~145 chars EN (est.) — may need light compression
 - speaks_to: [grateful, hopeful]
 - theme: communal-harmony (fills the checklist gap)
-- status: unclaimed
+- status: claimed (day 61, 2026-08-23)
 
 ### Udānavarga ch.33 (brāhmaṇa, not by birth but by truth, Dhp 393 parallel) — udv-spiritual-equality
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p500]]
@@ -396,7 +396,7 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - length_est: ~100 chars EN (own gloss on the trimmed core: "Merit must be pursued with respect, discipline guarded with respect, wisdom cultivated with respect.")
 - speaks_to: [aspiration, hopeful]
 - theme: wholesome-action (fresh angle on the manner/attitude of practice, not just the act)
-- status: unclaimed
+- status: claimed (day 63, 2026-08-25)
 
 ### Toh 231 — deferred, human judgment call: universal kinship across rebirths
 - link: [[1-SOURCES/Text/bo-toh231.md#^p25]]
