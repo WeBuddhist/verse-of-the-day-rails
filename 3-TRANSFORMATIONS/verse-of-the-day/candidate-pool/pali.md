@@ -70,7 +70,7 @@ Same format as `chinese.md`/`tibetan.md`. All Pali sources here are CC0 (SuttaCe
 - buddhavacana: confirmed — corpus-level
 - length_est: ~100 chars EN (est.)
 - theme: non-hatred (fresh instance, distinct positive-happiness framing from the already-claimed Dhp 5)
-- status: unclaimed
+- status: claimed (day 65, 2026-08-27) — rail `dhp-197.md`
 
 ### Dhp 204 — health, contentment, trust, and Nibbāna
 - link: [[1-SOURCES/Text/pi-dhammapada.md#^204]]
@@ -246,7 +246,7 @@ The Udāna's narrative-frame-then-verse structure is unusually well-suited to th
 - buddhavacana: confirmed
 - length_est: ~115 chars EN (est.)
 - theme: truthfulness / purity-of-mind (fresh instance)
-- status: unclaimed
+- status: claimed (day 69, 2026-08-31) — rail `ud1-9-purity.md`
 
 ### Ud 1.10a (Bāhiyasutta) — "in the seen, just the seen"
 - link: [[1-SOURCES/Text/pi-udana.md#^ud1-10-8-1]]

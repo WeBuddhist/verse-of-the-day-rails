@@ -147,7 +147,7 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - length_est: ~110 chars EN (est.)
 - speaks_to: [discouraged, aspiration, doubtful]
 - theme: heedfulness-as-foundation-of-virtue (fills the checklist gap — first Tibetan-canon instance)
-- status: unclaimed
+- status: claimed (day 66, 2026-08-28) — rail `udv-heedfulness.md`
 
 ### Udānavarga ch.5 (dear ones / grief, Dhp 212 parallel) — udv-dear-ones
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p429]]
@@ -356,7 +356,7 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - length_est: ~55 chars EN ("Whether virtuous or non-virtuous, karma is accumulated by mind.") — fits easily
 - speaks_to: [doubtful, aspiration]
 - theme: karma-and-its-fruit (the confirmed lead — exceptionally clean, famous, standalone)
-- status: unclaimed
+- status: claimed (day 68, 2026-08-30) — rail `toh231-karma-by-mind.md`
 
 ### Toh 231 (same passage) — toh231-mind-paints-the-world — MOVED to `rejected.md` (2026-07-13)
 - Whole and standalone, but fails the §2 accessibility gate: "the world is painted by mind, yet mind does not see mind" is too esoteric for a no-glossary lay reader to grasp at a glance. See `rejected.md`. (Other Toh 231 candidates above are unaffected.)

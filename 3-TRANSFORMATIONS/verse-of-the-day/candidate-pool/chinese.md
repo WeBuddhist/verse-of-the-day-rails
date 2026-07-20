@@ -543,7 +543,7 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - buddhavacana: confirmed — Buddha addressing the elder Nakulapitā directly
 - length_est: ~75 chars EN (est.) for the last sentence alone ("though the body is sick, let the mind not be sick") — within budget if trimmed to that core line
 - theme: inner-peace
-- status: unclaimed
+- status: claimed (day 67, 2026-08-29) — rail `ea-mind-not-sick.md`
 
 **EA (juan 6, "21 fetters" sutta / juan 7-8, Rāhula) — a mind of joy dissolves envy**
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0581c1216]]
