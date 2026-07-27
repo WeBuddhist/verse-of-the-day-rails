@@ -38,7 +38,7 @@ state:
 
 - **Māgha Pūjā** → **Dhp 183** (the Ovāda-pāṭimokkha) — ✅ rail exists. (Add 184–185 to complete the set.)
 - **Bodhi Day / awakening** → **Dhp 153–154**, the "house-builder" verses (the Buddha's words at awakening: *gahakāraka diṭṭho'si…*) — ⬜ acquire + build rail.
-- **Nirvana Day / parinibbāna** → the Buddha's last words, *"vayadhammā saṅkhārā, appamādena sampādetha"* (DN 16; "conditioned things decay — strive with diligence") — ⬜ acquire (DN not verse-indexed yet) + rail.
+- **Nirvana Day / parinibbāna** → the Buddha's last words, *"vayadhammā saṅkhārā appamādena sampādetha"* (DN 16) — ✅ rail exists at [`2-RAILS/Verses/dn16-last-words.md`](../../2-RAILS/Verses/dn16-last-words.md), verified at `pi-digha-nikaya.md#^dn16-6-7-3` (DN *is* block-indexed, contrary to the earlier note here). Ran as Day 77 (2026-09-08) and tagged `occasions: [nirvana-day, vesak, saga-dawa]`.
 - **Dhamma Day / first sermon** → the Dhammacakkappavattana (SN 56.11) — ⬜ pick a core line + rail.
 - **Vesak / Saga Dawa** → an awakening or whole-life verse (e.g. Dhp 153–154, or an impermanence verse for the parinibbāna aspect).
 

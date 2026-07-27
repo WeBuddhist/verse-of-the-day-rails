@@ -550,8 +550,8 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - quote: "汝今，羅雲！當行喜心，已行喜心，所有嫉心皆當除盡。" (one clause from a set of four instructions to Rāhula — loving-kindness dissolves anger, compassion dissolves cruelty, joy dissolves envy, equanimity dissolves conceit; a fuller, more formulaic version of the same joy-clause also appears independently at [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0574a1516]], embedded in a longer sutta on 21 mental fetters)
 - buddhavacana: confirmed — Buddha addressing his son Rāhula directly
 - length_est: ~65 chars EN (est.) — within budget
-- theme: sympathetic joy — **this fills the muditā known gap** (previously only present under `speaks_to` on other cards, never centered as a theme — see theme-checklist.md)
-- status: unclaimed
+- theme: sympathetic-joy — **fills the muditā known gap** (previously only present under `speaks_to` on other cards, never centered as a theme — see theme-checklist.md)
+- status: claimed (day 78, 2026-09-09) — rail `ea-mudita.md`. **Quote now verified verbatim against `zh-ekottarika-agama.md#^pT02p0581c1216`** (this entry sat in the "could not be independently verified" section; it checks out exactly as recorded). Shipped with the vocative `汝今，羅雲！` dropped; zh 19 chars, en ~99. Grounded on the Pali parallel **MN 62** (`pi-majjhima-nikaya.md#^mn62-20-1/2`) since no Patton English exists for the Ekottarika — note the parallel says *muditā* removes `arati`/"discontent" where the Chinese says 嫉心/"envy"; divergence flagged ⚑ in the rail, not flattened.
 
 **EA (juan 4, "mind swift as bending an arm") — a good mind carries you to heaven as quickly**
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0563a0202]]

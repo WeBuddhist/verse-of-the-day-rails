@@ -87,6 +87,9 @@ off + all six renderings reviewed, ready/published.
 | 2026-09-04 | 73 | Toh 59 (Array of Qualities in Mañjuśrī's Buddhafield) | Tibetan Kangyur (Mahāyāna) | not-self | angry, resentful | [[day-073-not-self-toh59]] | draft |
 | 2026-09-05 | 74 | Ud 3.4 | Pali | steadfastness | overwhelmed, restless, equanimity | [[day-074-steadfastness-ud3-4]] | draft |
 | 2026-09-06 | 75 | EĀ 增壹阿含經 (卷38, Buddhas arise among humans) | Chinese | precious-human-life | aspiration, hopeful, doubtful | [[day-075-precious-human-life-ea]] | draft |
+| 2026-09-07 | 76 | Toh 231 (Jewel Cloud / Ratnamegha) | Tibetan Kangyur (Mahāyāna) | universal-kinship | lonely, grieving, compassion | [[day-076-universal-kinship-toh231]] | draft |
+| 2026-09-08 | 77 | DN 16 (Mahāparinibbāna) | Pali | diligence | grieving, discouraged, aspiration | [[day-077-diligence-dn16]] | draft |
+| 2026-09-09 | 78 | EĀ 增壹阿含經 (卷7, to Rāhula) · MN 62 parallel | Chinese | sympathetic-joy | resentful, discontent, sympathetic-joy | [[day-078-sympathetic-joy-ea]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 

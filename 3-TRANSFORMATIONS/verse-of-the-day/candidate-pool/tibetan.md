@@ -403,7 +403,7 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - quote: "དེ་བཞིན་གཤེགས་པས་ཀྱང་སྐྱེ་བ་འཕོ་བ་དེ་དང་དེ་དག་ཏུ་སེམས་ཅན་གྱི་རིས་སུ་གང་ཁྱོད་ཀྱི་ཕའམ། མ་འམ་བུའམ། གཉེན་བཤེས་སམ། ཉེ་དུའམ། སྣག་གི་གཉེན་མཚམས་དག་གང་ཡང་རུང་བའི་གནས་སུ་མ་གྱུར་པའི་སེམས་ཅན་དེ་ལྟ་བུ་མེད་དོ།"
 - length_est: ~150 chars EN (est.) — needs light compression
 - speaks_to: [lonely, grieving]
-- theme: no clean checklist match — a fresh angle on compassion/loving-kindness (universal-kinship-across-rebirths framing, distinct from the standard mettā formula); flagged for a human's judgment on whether this merits its own theme line
-- status: unclaimed
+- theme: **universal-kinship** — a fresh angle on compassion/loving-kindness (universal-kinship-across-rebirths framing, distinct from the standard mettā formula). Tagged as its own theme when claimed for Day 76; added to `theme-checklist.md`'s covered list.
+- status: claimed (day 76, 2026-09-07) — rail `toh231-universal-kinship.md`. Length resolved: shipped as one verbatim sentence (attribution frame dropped), bo 174 chars / en ~115, no compression of the six-item list needed.
 
 **Toh 231, rejected on the tone/wellbeing gate:** a string of Buddha-spoken similes on the shortcomings of desire ("like an impaling stake... like the edge of a sword... like a snake's head... rotten, foul-smelling," ^p45) — confirmed buddhavacana and self-contained, but the graphic imagery fails the tone gate regardless of doctrinal soundness (same category as the already-logged MĀ 5 precedent in `rejected.md`). **Two `<br>`-formatted verse passages** (~lines 50-58, arrival/praise verses) rejected as third-party praise of the Buddha, not his own speech — confirmed no other stand-alone verse sections exist anywhere else in this sūtra.

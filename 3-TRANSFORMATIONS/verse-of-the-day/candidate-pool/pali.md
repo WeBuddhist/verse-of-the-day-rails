@@ -470,3 +470,21 @@ The Udāna's narrative-frame-then-verse structure is unusually well-suited to th
 
 **Rejected on the buddhavacana gate (third-person praise of the Buddha rather than his own teaching, not logged individually in rejected.md but worth remembering):** Iti 38, 89, 100, 112 (the collection's capstone Tathāgata-epithet sutta). **Tone/wellbeing gate rejects:** Iti 48, Iti 91 (both share a molten-iron-ball simile). **Passed over as formulaic clusters / near-duplicates:** Iti 1-14, 17-18, 20-21, 24-25, 28, 30-37, 40, 44-46, 49, 51-58, 60-65, 67-73, 78-80, 82-85, 87-90, 94-99, 101-105, 107-111 — dominated by repeated abandon-the-defilement refrains, vedanā/esanā/āsava formula triads, and narrative/technical suttas redundant with themes already covered; see the scanning agent's report for the full per-sutta reasoning if a future pass wants it.
 
+
+---
+
+## Prose Nikāyas (DN/MN/SN/AN) — no systematic scan yet
+
+The four prose Nikāyas remain **unscanned** (`SCAN-STATUS.md`); entries below are
+one-off finds from targeted raw-source picks, not a pass over the corpus. Do not
+read the shortness of this section as "nothing here" — it means nobody has looked.
+
+### DN 16 (Mahāparinibbāna) — the Buddha's last words
+- link: [[1-SOURCES/Text/pi-digha-nikaya.md#^dn16-6-7-3]] (Sujato paired at the same anchor; `^dn16-6-7-4` confirms "these were the Realized One's last words"; the same sentence also occurs at `^dn16-3-51-4`)
+- quote: "vayadhammā saṅkhārā appamādena sampādethā"ti."
+- buddhavacana: confirmed — the Buddha's own final address to the monks (`^dn16-6-7-1`)
+- length_est: ~66-81 chars EN (exact, from day card) — fits easily in all six languages
+- speaks_to: [grieving, discouraged, aspiration]
+- theme: diligence (appamāda paired directly with impermanence; no glossary term needed, unlike the Day 66 "deathless" framing)
+- status: claimed (day 77, 2026-09-08) — rail `dn16-last-words.md`. Also closes the Nirvana Day acquisition gap in `occasions.md`.
+- note: **the first DN card in the vault** and the first pick against the long-owed Pali prose-Nikāya slot. Found by targeted grep, not by a scan — the DN is block-indexed and greps cleanly, which the old `occasions.md` note ("DN not verse-indexed yet") wrongly denied.
