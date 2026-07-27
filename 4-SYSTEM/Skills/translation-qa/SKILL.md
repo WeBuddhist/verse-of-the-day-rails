@@ -1,6 +1,6 @@
 ---
 name: translation-qa
-description: Use this skill whenever a verse-of-the-day's draft renderings are ready and need pre-review QA before a human reviewer sees them — even if the user just says "check the drafts," "QA day 20," or "is this ready for review" without naming translation-qa. For one verse's six language renderings (or any subset), critiques each against its rail's disambiguated meaning and flagged rendering choices, back-translates to catch drift, checks terminology and register, revises the draft, and flags low-confidence spots for the reviewer. Raises draft quality and cuts reviewer load — it does NOT replace native dharma-reviewer sign-off (especially bo/mn).
+description: Use this skill whenever a verse-of-the-day's draft renderings are ready and need pre-review QA before a human reviewer sees them — even if the user just says "check the drafts," "QA day 20," or "is this ready for review" without naming translation-qa. For one verse's seven language renderings (en · zh · bo · hi · ne · mn · lbj Ladakhi, or any subset), critiques each against its rail's disambiguated meaning and flagged rendering choices, back-translates to catch drift, checks terminology and register, revises the draft, and flags low-confidence spots for the reviewer. On Chinese- or Tibetan-source cards it also back-translates the modern zh/bo against the verbatim source. Raises draft quality and cuts reviewer load — it does NOT replace native dharma-reviewer sign-off (especially bo/mn/lbj).
 ---
 
 # translation-qa (pre-review pass)
@@ -58,16 +58,46 @@ For each rendering, evaluate against the rail and record findings:
    Flag any sectarian phrasing.
 6. **Register & locale.** Modern, plain, audience-appropriate ("feel like home",
    not scholarly). **zh = modern Traditional Chinese, Taiwan/HK/SG.** **No em
-   dashes in the English.** Not classical/Literary register.
+   dashes in the English.** **Not classical/Literary register — in ANY language,
+   including on a card whose source is that same language.** Our readers are
+   cultural Buddhists with a casual practice, not scholars: a Tibetan or Chinese
+   reader gets plain modern prose for the same reason an English reader gets
+   modern English rather than Middle English. See rule 8.
 7. **Real quote, whole, within the card (~125 chars).** The rendering is a
    *complete* quote (a verse or one self-contained sentence), never a summary,
    stitch, or gist. If it reads like a paraphrase-to-fit, that is a **critical**
    finding — the fix is a shorter source, not tighter wording. Check it fits the
    ~125-char card in every language.
-8. **Verbatim source on source-language cards.** For a Chinese-source verse the
-   **zh must be the verbatim CBETA source**; for a Tibetan-source verse the **bo
-   must be the verbatim Degé source** (it is the quote itself — do not "improve"
-   it). 84000 English is reference-only and must never appear as the shipped text.
+8. **Source-language cards ship MODERN language, and get an extra back-translation
+   check.** (Rewritten 2026-09 — this rule previously said the opposite, that `zh`/`bo`
+   *must be* the verbatim source. It does not say that any more. **Do not revert a
+   modern `zh`/`bo` rendering to the classical source text.**)
+   - For a **Chinese-source** verse the shipped `zh` is **modern Traditional
+     Chinese** (Taiwan/HK/SG); for a **Tibetan-source** verse the shipped `bo` is
+     **modern Tibetan**. Both are freshly rendered from the rail's Disambiguated
+     Meaning, exactly like the other five languages.
+   - **Why:** our readers are cultural Buddhists with a casual practice, not
+     scholars, and the card must be *instantly* understandable. An English reader
+     isn't handed Middle English to decode; a Tibetan or Chinese reader is owed the
+     same plain-language treatment **even when the quote comes from their own
+     canon.** Full reasoning in `verse-rail`'s "Source-language output ships
+     modern" section and `vault-annex.md` §4.
+   - **The extra check this rule now carries.** The verbatim source still appears in
+     the card's `## Source` block, and on a source-language card it is a **second
+     ground truth**: back-translate the modern `zh`/`bo` **against the verbatim
+     source itself**, not only against the English, and record that in the QA note.
+     Drift away from the original is a **critical** finding. This replaces the old
+     rule's built-in guarantee — a copied source could not be mistranslated, a
+     modern rendering can be.
+   - Also confirm each classical→modern substitution the rail lists is faithful, and
+     that the result is *genuinely* modern rather than a half-classical middle
+     register. Flag the register question explicitly for the native reviewer.
+   - Native-review stakes **rise** on these cards: `bo` is now WeBuddhist-authored
+     prose rather than quoted Kangyur, so it stays `escalate-native-review`.
+   - 84000 English is reference-only and must never appear as the shipped text.
+   - **Backfill debt:** only Days 76, 78, 79 follow this rule. Roughly 23
+     Tibetan-source and 27 Chinese-source cards before Day 76 still ship classical
+     text; they predate the rule and are not precedent.
 9. **Fluency.** Natural in the target language; reads as something a person would
    actually say.
 
@@ -92,7 +122,8 @@ For each rendering, evaluate against the rail and record findings:
 - Net: clean for review.
 
 ### zh (Traditional)
-- <if the source IS Chinese: "the verbatim CBETA source; the quote itself."; else back-translation + findings>
+- Back-translation: "<EN back-translation of the modern zh>"
+- Findings: <faithfulness; term/register checks; Taiwan/HK/SG register ✓>. **If the source IS Chinese:** state that this is our modern rendering (not the source), list the classical→modern substitutions, and record the back-translation **against the verbatim source**.
 - Net: clean for review.
 
 ### hi
@@ -102,14 +133,19 @@ For each rendering, evaluate against the rail and record findings:
 - Back-translation / confidence flags. Net: needs native review.
 
 ### bo ⚑
-- <if source IS Tibetan: "the verbatim Degé source."; else back-translation (approx)> / confidence flags. Net: escalate to native Tibetan dharma reviewer.
+- Back-translation (approx) / confidence flags. **If the source IS Tibetan:** state that this is our modern rendering (not the verbatim Degé), list the classical→modern substitutions, back-translate **against the verbatim source**, and flag the register question explicitly.
+- Net: escalate to native Tibetan dharma reviewer.
 
 ### mn ⚑
 - Back-translation (approx) / confidence flags. Net: escalate to native Mongolian dharma reviewer.
+
+### lbj (Ladakhi) ⚑
+- Back-translation (approx) / confidence flags. Ladakhi is written in Tibetan script but is **not** classical Tibetan and **not** a copy of the `bo` line — it is modern spoken/written Ladakhi, and the two must differ where usage differs. Flag any place the rendering may have drifted toward Central Tibetan.
+- Net: escalate to native Ladakhi dharma reviewer.
 ```
 
 `review_status` in the card frontmatter mirrors the Nets: en/zh/hi default
-`clean-for-review` when faithful, ne `needs-native-review`, bo/mn
+`clean-for-review` when faithful, ne `needs-native-review`, bo/mn/**lbj**
 `escalate-native-review` (use `blocked` if a gate fails, e.g. non-buddhavacana).
 
 ## Rules
@@ -131,9 +167,12 @@ For each rendering, evaluate against the rail and record findings:
 ## Completion check
 
 - [ ] Every rendering checked against the rail's meaning (not parametric knowledge).
-- [ ] Back-translation recorded for each language.
+- [ ] Back-translation recorded for **each of the seven languages** (en · zh · bo · hi · ne · mn · lbj).
 - [ ] Findings tagged by MQM category + severity; critical/major fixed or flagged.
 - [ ] Terminology checked against glossary; register/locale rules enforced (zh Traditional, no em-dash English).
+- [ ] **No rendering is in classical register** — including the source language's own rendering on a Chinese- or Tibetan-source card.
+- [ ] **On a source-language card:** the modern `zh`/`bo` was back-translated **against the verbatim source** (not only the English), the rail's classical→modern substitutions were each checked, and the register question was flagged for the native reviewer.
+- [ ] `lbj` is genuinely Ladakhi, not a copy of the `bo` line, and is set to `escalate-native-review`.
 - [ ] Confidence flags listed for the reviewer; `status` still `draft`.
 
 ---

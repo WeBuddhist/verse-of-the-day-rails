@@ -12,16 +12,36 @@ re-invented. Consumed by [`verse-rail`](../../../4-SYSTEM/Skills/verse-rail/SKIL
 > row, treat it as a strong default, not a lock. Chinese is **Traditional**
 > (Taiwan/HK/SG). Seeded from the verses currently in the corpus.
 
+> **⚑ Ladakhi (`lbj`) column — added 2026-09, entirely unratified.** Ladakhi is the
+> seventh output language (`vault-annex.md` §4). Every cell reads `⚑ TBD`: the column
+> was added as structure, deliberately **not** filled in by guesswork.
+>
+> **How to fill it, and the trap to avoid.** Ladakhi is written in Tibetan script and
+> Ladakhi Buddhists largely use the same *written* dharma vocabulary as Tibetan, so for
+> many technical terms here (`སེམས`, `དྲན་པ`, `བྱམས་པ`, `ཚུལ་ཁྲིམས`…) the Ladakhi cell will
+> legitimately end up identical to the `བོད་ཡིག` cell. **That does not license copying the
+> Tibetan column across.** Ladakhi diverges from Central Tibetan in everyday vocabulary,
+> pronunciation-driven spelling choices, and grammar — exactly the register this vault
+> ships in, since our renderings are modern and plain rather than liturgical. So the rows
+> most likely to differ are the everyday ones (kinship words, `nipaka`-style ordinary
+> adjectives, verbal endings), which are also the rows a Tibetan-column copy would get
+> wrong. **A native Ladakhi dharma reviewer fills this column;** an agent may propose a
+> cell only when it can say why it differs from, or genuinely matches, the Tibetan.
+>
+> Until then, `lbj` renderings on day cards carry `escalate-native-review` and honest
+> low-confidence flags, and **Days 1–75 have no `lbj` rendering at all** (backfill owed;
+> Days 76–79 were the first).
+
 ---
 
 ## The friendship distinction (the reason this exists)
 
 Two different words, two different renderings — don't conflate:
 
-| Pāli term | Sense | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | Use when |
-|---|---|---|---|---|---|---|---|---|
-| **sahāya** | a companion / friend (plain) | companion, friend | 同伴 / 善友 | གྲོགས / གྲོགས་པོ | साथी | साथी | нөхөр / хамтрагч | the text says *sahāya* (e.g. **Dhp 328**) — a wise, good companion |
-| **kalyāṇa-mitta** | spiritual / admirable friend | good friend, spiritual friend | 善知識 | དགེ་བའི་བཤེས་གཉེན | कल्याणमित्र | कल्याणमित्र | буянт нөхөр ⚑ | the text says *kalyāṇa-mitta* (**Dhp 78**, **SN 45.2**) |
+| Pāli term | Sense | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད (lbj) | Use when |
+|---|---|---|---|---|---|---|---|---|---|
+| **sahāya** | a companion / friend (plain) | companion, friend | 同伴 / 善友 | གྲོགས / གྲོགས་པོ | साथी | साथी | нөхөр / хамтрагч | ⚑ TBD | the text says *sahāya* (e.g. **Dhp 328**) — a wise, good companion |
+| **kalyāṇa-mitta** | spiritual / admirable friend | good friend, spiritual friend | 善知識 | དགེ་བའི་བཤེས་གཉེན | कल्याणमित्र | कल्याणमित्र | буянт нөхөр ⚑ | ⚑ TBD | the text says *kalyāṇa-mitta* (**Dhp 78**, **SN 45.2**) |
 
 **Do not** render *sahāya* with `དགེ་བའི་བཤེས་གཉེན` / 善知識 — that imports a word the verse doesn't use. `གྲོགས(་པོ)` is warm/everyday and fits the modern register; a reviewer may prefer `གྲོགས` or `གྲོགས་བཟང` for a touch more dignity.
 
@@ -29,75 +49,75 @@ Two different words, two different renderings — don't conflate:
 
 ## Friendship & community
 
-| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
-|---|---|---|---|---|---|---|
-| nipaka (discerning/prudent) | wise, discerning | 明智 / 審慎 | གཟབ་པ / རྟོག་ལྡན ⚑ | समझदार / विवेकी | विवेकी / बुद्धिमान् | ухаалаг ⚑ |
-| sādhuvihārin (of good conduct) | good-hearted, of good conduct | 善行 / 良善 | སྤྱོད་པ་བཟང་བ ⚑ | सदाचारी / भला | असल / सदाचारी | сайн зан үйлтэй ⚑ |
-| saṅgha (community) | Sangha, community | 僧伽 / 僧團 | དགེ་འདུན | संघ | संघ | хувраг |
+| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད (lbj) |
+|---|---|---|---|---|---|---|---|
+| nipaka (discerning/prudent) | wise, discerning | 明智 / 審慎 | གཟབ་པ / རྟོག་ལྡན ⚑ | समझदार / विवेकी | विवेकी / बुद्धिमान् | ухаалаг ⚑ | ⚑ TBD |
+| sādhuvihārin (of good conduct) | good-hearted, of good conduct | 善行 / 良善 | སྤྱོད་པ་བཟང་བ ⚑ | सदाचारी / भला | असल / सदाचारी | сайн зан үйлтэй ⚑ | ⚑ TBD |
+| saṅgha (community) | Sangha, community | 僧伽 / 僧團 | དགེ་འདུན | संघ | संघ | хувраг | ⚑ TBD |
 
 > Note: `nipaka` has no single standard Tibetan/Mongolian term — `བློ་གྲོས་ལྡན` leans "intelligent," not "prudent/discerning." Flagged ⚑ for native choice.
 
 ## Mind, mind-states, emotions
 
-| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
-|---|---|---|---|---|---|---|
-| citta / mano (mind) | mind, heart | 心 | སེམས | मन / चित्त | मन | сэтгэл |
-| sati (mindfulness) | mindfulness | 正念 | དྲན་པ | स्मृति / सजगता | सजगता | ухаарал ⚑ (proposed; *ухамсар* = "consciousness," wrong — confirm vs дурсал / санах) |
-| ānāpānasati (mindfulness of breathing) | mindfulness of breathing | 出入息念 / 安那般那念 | དབུགས་འབྱུང་རྔུབ་ཀྱི་དྲན་པ | आनापान-स्मृति | आनापान-स्मृति | амьсгалын ухаарал ⚑ |
-| vera / avera (hatred / non-hatred) | hatred / non-hatred | 仇恨 / 無瞋 | ཞེ་སྡང / ཞེ་སྡང་མེད་པ | वैर / अवैर | घृणा / अवैर | үзэн ядалт / үзэн ядалтгүй |
-| kodha / akkodha (anger / non-anger) | anger / non-anger | 瞋 / 不瞋 | ཁྲོ་བ / མི་ཁྲོ་བ | क्रोध / अक्रोध | क्रोध / अक्रोध | уур / уургүй |
+| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད (lbj) |
+|---|---|---|---|---|---|---|---|
+| citta / mano (mind) | mind, heart | 心 | སེམས | मन / चित्त | मन | сэтгэл | ⚑ TBD |
+| sati (mindfulness) | mindfulness | 正念 | དྲན་པ | स्मृति / सजगता | सजगता | ухаарал ⚑ (proposed; *ухамсар* = "consciousness," wrong — confirm vs дурсал / санах) | ⚑ TBD |
+| ānāpānasati (mindfulness of breathing) | mindfulness of breathing | 出入息念 / 安那般那念 | དབུགས་འབྱུང་རྔུབ་ཀྱི་དྲན་པ | आनापान-स्मृति | आनापान-स्मृति | амьсгалын ухаарал ⚑ | ⚑ TBD |
+| vera / avera (hatred / non-hatred) | hatred / non-hatred | 仇恨 / 無瞋 | ཞེ་སྡང / ཞེ་སྡང་མེད་པ | वैर / अवैर | घृणा / अवैर | үзэн ядалт / үзэн ядалтгүй | ⚑ TBD |
+| kodha / akkodha (anger / non-anger) | anger / non-anger | 瞋 / 不瞋 | ཁྲོ་བ / མི་ཁྲོ་བ | क्रोध / अक्रोध | क्रोध / अक्रोध | уур / уургүй | ⚑ TBD |
 
 ## Path & core terms
 
-| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
-|---|---|---|---|---|---|---|
-| kusala (wholesome) | wholesome, skillful | 善 | དགེ་བ | कुशल | कुशल | буян / сайн үйл |
-| sāsana (teaching) | teaching, instruction | 教法 / 教導 | བསྟན་པ | शिक्षा / अनुशासन | शिक्षा | сургаал |
-| dāna (giving) | giving, generosity | 布施 | སྦྱིན་པ | दान | दान | өглөг |
-| sacca (truth) | truth | 真實 / 諦 | བདེན་པ | सत्य | सत्य | үнэн |
-| anicca (impermanence) | impermanence | 無常 | མི་རྟག་པ | अनित्यता | अनित्यता | хувирамтгай / мөнх бус |
-| anattā (not-self) | not-self | 無我 | བདག་མེད | अनात्म | अनात्म | би үгүй ⚑ |
-| dukkha (suffering) | suffering, unsatisfactoriness | 苦 | སྡུག་བསྔལ | दुःख | दुःख | зовлон |
-| khandha (aggregates) | the aggregates | 蘊 (五蘊) | ཕུང་པོ | स्कन्ध | स्कन्ध | чогц ⚑ |
-| nibbāna (liberation) | nibbāna, liberation | 涅槃 | མྱ་ངན་ལས་འདས་པ | निर्वाण | निर्वाण | нирвана |
-| puñña (merit) | merit, making merit | 福德 / 作福 | བསོད་ནམས | पुण्य | पुण्य | буян |
-| cetovimutti (heart's release) | heart's release, liberation of mind | 心解脫 | སེམས་རྣམ་གྲོལ / རྣམ་གྲོལ | चित्त-विमुक्ति | चित्त-विमुक्ति | сэтгэлийн чөлөөлөл ⚑ |
-| sīla (ethics) | ethics, moral conduct | 戒 / 戒律 | ཚུལ་ཁྲིམས | शील | शील | ёс журам / шагшаабад ⚑ |
-| samādhi (concentration) | concentration, meditative stillness | 定 / 三摩地 | ཏིང་ངེ་འཛིན | समाधि | समाधि | самади ⚑ |
-| paññā (wisdom) | wisdom | 慧 / 智慧 | ཤེས་རབ | प्रज्ञा | प्रज्ञा | билиг ухаан ⚑ |
-| khanti (patience) | patience, endurance | 忍 / 忍辱 | བཟོད་པ | क्षमा / सहनशीलता | धैर्य / सहनशीलता | тэвчээр ⚑ |
-| appamāda (diligence) | diligence, heedfulness | 不放逸 | བག་ཡོད | अप्रमाद | अप्रमाद | сэрэмж ⚑ |
-| santuṭṭhi (contentment) | contentment | 知足 | ཆོག་ཤེས | संतोष | सन्तोष | ханамж ⚑ |
+| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད (lbj) |
+|---|---|---|---|---|---|---|---|
+| kusala (wholesome) | wholesome, skillful | 善 | དགེ་བ | कुशल | कुशल | буян / сайн үйл | ⚑ TBD |
+| sāsana (teaching) | teaching, instruction | 教法 / 教導 | བསྟན་པ | शिक्षा / अनुशासन | शिक्षा | сургаал | ⚑ TBD |
+| dāna (giving) | giving, generosity | 布施 | སྦྱིན་པ | दान | दान | өглөг | ⚑ TBD |
+| sacca (truth) | truth | 真實 / 諦 | བདེན་པ | सत्य | सत्य | үнэн | ⚑ TBD |
+| anicca (impermanence) | impermanence | 無常 | མི་རྟག་པ | अनित्यता | अनित्यता | хувирамтгай / мөнх бус | ⚑ TBD |
+| anattā (not-self) | not-self | 無我 | བདག་མེད | अनात्म | अनात्म | би үгүй ⚑ | ⚑ TBD |
+| dukkha (suffering) | suffering, unsatisfactoriness | 苦 | སྡུག་བསྔལ | दुःख | दुःख | зовлон | ⚑ TBD |
+| khandha (aggregates) | the aggregates | 蘊 (五蘊) | ཕུང་པོ | स्कन्ध | स्कन्ध | чогц ⚑ | ⚑ TBD |
+| nibbāna (liberation) | nibbāna, liberation | 涅槃 | མྱ་ངན་ལས་འདས་པ | निर्वाण | निर्वाण | нирвана | ⚑ TBD |
+| puñña (merit) | merit, making merit | 福德 / 作福 | བསོད་ནམས | पुण्य | पुण्य | буян | ⚑ TBD |
+| cetovimutti (heart's release) | heart's release, liberation of mind | 心解脫 | སེམས་རྣམ་གྲོལ / རྣམ་གྲོལ | चित्त-विमुक्ति | चित्त-विमुक्ति | сэтгэлийн чөлөөлөл ⚑ | ⚑ TBD |
+| sīla (ethics) | ethics, moral conduct | 戒 / 戒律 | ཚུལ་ཁྲིམས | शील | शील | ёс журам / шагшаабад ⚑ | ⚑ TBD |
+| samādhi (concentration) | concentration, meditative stillness | 定 / 三摩地 | ཏིང་ངེ་འཛིན | समाधि | समाधि | самади ⚑ | ⚑ TBD |
+| paññā (wisdom) | wisdom | 慧 / 智慧 | ཤེས་རབ | प्रज्ञा | प्रज्ञा | билиг ухаан ⚑ | ⚑ TBD |
+| khanti (patience) | patience, endurance | 忍 / 忍辱 | བཟོད་པ | क्षमा / सहनशीलता | धैर्य / सहनशीलता | тэвчээр ⚑ | ⚑ TBD |
+| appamāda (diligence) | diligence, heedfulness | 不放逸 | བག་ཡོད | अप्रमाद | अप्रमाद | сэрэмж ⚑ | ⚑ TBD |
+| santuṭṭhi (contentment) | contentment | 知足 | ཆོག་ཤེས | संतोष | सन्तोष | ханамж ⚑ | ⚑ TBD |
 
 ## Mahāyāna & wisdom terms
 
-| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
-|---|---|---|---|---|---|---|
-| bodhicitta (byang chub sems) | the awakening mind (never "Great Vehicle mind") | 菩提心 | བྱང་ཆུབ་སེམས | बोधिचित्त | बोधिचित्त | бодь сэтгэл ⚑ |
-| śūnyatā (stong pa nyid) | emptiness, empty nature | 空性 | སྟོང་པ་ཉིད | शून्यता | शून्यता | хоосон чанар ⚑ |
+| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད (lbj) |
+|---|---|---|---|---|---|---|---|
+| bodhicitta (byang chub sems) | the awakening mind (never "Great Vehicle mind") | 菩提心 | བྱང་ཆུབ་སེམས | बोधिचित्त | बोधिचित्त | бодь сэтгэл ⚑ | ⚑ TBD |
+| śūnyatā (stong pa nyid) | emptiness, empty nature | 空性 | སྟོང་པ་ཉིད | शून्यता | शून्यता | хоосон чанар ⚑ | ⚑ TBD |
 
 ## The four noble truths (catu-sacca)
 
-| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
-|---|---|---|---|---|---|---|
-| samudaya (origin) | origin (of suffering) | 集 | ཀུན་འབྱུང་ | समुदय | समुदय | үүсэл ⚑ |
-| nirodha (cessation) | cessation | 滅 | འགོག་པ | निरोध | निरोध | зогсолт ⚑ |
-| magga (path) | path | 道 | ལམ | मार्ग | मार्ग | зам |
+| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད (lbj) |
+|---|---|---|---|---|---|---|---|
+| samudaya (origin) | origin (of suffering) | 集 | ཀུན་འབྱུང་ | समुदय | समुदय | үүсэл ⚑ | ⚑ TBD |
+| nirodha (cessation) | cessation | 滅 | འགོག་པ | निरोध | निरोध | зогсолт ⚑ | ⚑ TBD |
+| magga (path) | path | 道 | ལམ | मार्ग | मार्ग | зам | ⚑ TBD |
 
 ## Ethics — generosity terms
 
-| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
-|---|---|---|---|---|---|---|
-| adinnādāna / a-adinnādāna (taking what is not given / abstaining) | taking what isn't given / giving it up | 不與取 | མ་བྱིན་ལེན | अदत्तादान | अदत्तादान | өгөөгүйг авах ⚑ |
+| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད (lbj) |
+|---|---|---|---|---|---|---|---|
+| adinnādāna / a-adinnādāna (taking what is not given / abstaining) | taking what isn't given / giving it up | 不與取 | མ་བྱིན་ལེན | अदत्तादान | अदत्तादान | өгөөгүйг авах ⚑ | ⚑ TBD |
 
 ## Brahmavihāras (the four; the "grow" themes)
 
-| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол |
-|---|---|---|---|---|---|---|
-| mettā | loving-kindness | 慈 / 慈愛 | བྱམས་པ | मैत्री | मैत्री | энэрэл хайр ⚑ |
-| karuṇā | compassion | 悲 / 慈悲 | སྙིང་རྗེ | करुणा | करुणा | нигүүлсэл |
-| muditā | sympathetic joy | 喜 / 隨喜 | དགའ་བ | मुदिता | मुदिता | баясал ⚑ |
-| upekkhā | equanimity | 捨 / 平等心 | བཏང་སྙོམས | उपेक्षा | उपेक्षा | тэгш сэтгэл ⚑ |
+| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད (lbj) |
+|---|---|---|---|---|---|---|---|
+| mettā | loving-kindness | 慈 / 慈愛 | བྱམས་པ | मैत्री | मैत्री | энэрэл хайр ⚑ | ⚑ TBD |
+| karuṇā | compassion | 悲 / 慈悲 | སྙིང་རྗེ | करुणा | करुणा | нигүүлсэл | ⚑ TBD |
+| muditā | sympathetic joy | 喜 / 隨喜 | དགའ་བ | मुदिता | मुदिता | баясал ⚑ | ⚑ TBD |
+| upekkhā | equanimity | 捨 / 平等心 | བཏང་སྙོམས | उपेक्षा | उपेक्षा | тэгш сэтгэл ⚑ | ⚑ TBD |
 
 ---
 
@@ -105,7 +125,7 @@ Two different words, two different renderings — don't conflate:
 
 - **Building a rail / rendering** (`verse-rail`): when a key term appears, use its row here. If the verse needs a term not yet listed, add a row (propose renderings, mark ⚑ where unsure) rather than inventing per-verse.
 - **QA** (`translation-qa`): the terminology check compares each rendering's key terms against this table; mismatches are flagged.
-- **Adding/ratifying:** a native reviewer confirms ⚑ rows for their language; once confirmed, drop the ⚑ — that rendering is then locked for consistency. Keep one sense per row; if a term has two senses (e.g. *sahāya* vs *kalyāṇa-mitta*), give each its own row.
+- **Adding/ratifying:** a native reviewer confirms ⚑ rows for their language; once confirmed, drop the ⚑ — that rendering is then locked for consistency. The whole **Ladakhi (`lbj`)** column awaits a first pass — see the Ladakhi note at the top, and don't fill it by copying the Tibetan column. Keep one sense per row; if a term has two senses (e.g. *sahāya* vs *kalyāṇa-mitta*), give each its own row.
 - **Sourcing:** prefer renderings attested in the authoritative translations we hold (Sujato, 84000, Patton) and standard Buddhist dictionaries over fresh coinage.
 - **Standard term, not paraphrase:** always use the established dharma-term rendering, never an everyday word — *mettā* = loving-kindness / मैत्री, **not** "love"; *puñña* = merit; aggregates = form/feeling/perception/**volition/consciousness**. Paraphrase is the most common QA miss.
 - **Ecumenical (WeBuddhist is for all Buddhists):** render Mahāyāna terms inclusively — **bodhicitta = "the awakening mind," never "Great Vehicle mind"** (大乘 / *theg chen* reads sectarian). *Bodhisattva* is fine. Keep Mahāyāna content; drop sectarian framing.

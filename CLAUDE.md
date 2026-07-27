@@ -16,7 +16,7 @@ A task done without its skill must be redone. This is the most common error in t
 
 ## What this vault is
 
-A "Railroads" **anthology** producing WeBuddhist's **Verse of the Day**: one short, authentic **buddhavacana** verse per day, grounded in a cited source and rendered in six languages (**en · zh · bo · hi · ne · mn**), drawn from the **Pali Canon, Chinese canon, and Tibetan Kangyur** (discourse/verse only — no tantra, Vinaya, or scholastic). Authority is the human source + authoritative translations, **never the model's parametric knowledge**. It holds **no commentaries**, so rails are **translation-grounded** (the `verse-rail` skill) — with one narrow, human-approved exception: a few Kangyur sūtras 84000 hasn't translated yet (Toh 12, 13, 16, 53, 60) are grounded on the Tibetan Degé source alone (`grounding: source-only`), translated directly without a reference; all hard gates (buddhavacana, verbatim-from-source, in-scope) still apply. See `verse-rail`'s grounding table and [`candidate-pool/kangyur-scan-leads.md`](3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/kangyur-scan-leads.md). Anthology specifics: [`4-SYSTEM/Guidelines/vault-annex.md`](4-SYSTEM/Guidelines/vault-annex.md) §0.
+A "Railroads" **anthology** producing WeBuddhist's **Verse of the Day**: one short, authentic **buddhavacana** verse per day, grounded in a cited source and rendered in seven languages (**en · zh · bo · hi · ne · mn · lbj**, Ladakhi added 2026-09), drawn from the **Pali Canon, Chinese canon, and Tibetan Kangyur** (discourse/verse only — no tantra, Vinaya, or scholastic). Authority is the human source + authoritative translations, **never the model's parametric knowledge**. It holds **no commentaries**, so rails are **translation-grounded** (the `verse-rail` skill) — with one narrow, human-approved exception: a few Kangyur sūtras 84000 hasn't translated yet (Toh 12, 13, 16, 53, 60) are grounded on the Tibetan Degé source alone (`grounding: source-only`), translated directly without a reference; all hard gates (buddhavacana, verbatim-from-source, in-scope) still apply. See `verse-rail`'s grounding table and [`candidate-pool/kangyur-scan-leads.md`](3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/kangyur-scan-leads.md). Anthology specifics: [`4-SYSTEM/Guidelines/vault-annex.md`](4-SYSTEM/Guidelines/vault-annex.md) §0.
 
 ---
 
@@ -27,11 +27,11 @@ A "Railroads" **anthology** producing WeBuddhist's **Verse of the Day**: one sho
 **Hard rules — a card that breaks any of these must be redone:**
 1. **Buddhavacana spoken *by* the Buddha, not *about* him** — no praise-of-the-Buddha stanzas, no words of disciples/gods/kings.
 2. **Real quote, kept whole** — a complete verse or ONE self-contained sentence, quoted in full; never summarise / stitch / gist. **Verify the source verbatim from `1-SOURCES/` first — never render Pāli/Chinese/Tibetan from memory** (a mistyped syllable is a fabricated quote).
-3. **Fits the app card (~125 chars)** in all six languages; if it won't fit whole, pick a shorter source.
+3. **Fits the app card (~125 chars)** in all seven languages; if it won't fit whole, pick a shorter source.
 4. **Ecumenical wording** (for all Buddhists) — *bodhicitta* = "the awakening mind," never "Great Vehicle"; use standard `termbase.md` terms, not paraphrase (*mettā* = loving-kindness, not "love"; aggregates = form/feeling/perception/volition/consciousness).
-5. **No em dashes in English**; **zh = modern Traditional**; on Chinese/Tibetan-source cards the **zh/bo rendering IS the verbatim source**; **84000 English is reference-only, never shipped.**
+5. **No em dashes in English**; **zh = modern Traditional**; **every one of the seven output languages ships modern, plain language — including the source language itself.** On a Chinese- or Tibetan-source card the verbatim source goes in the `## Source` block and the shipped `zh`/`bo` is a **modern** rendering of it, not the classical text passed through (readers are cultural Buddhists with a casual practice, not scholars — a Tibetan reader is owed plain modern Tibetan for the same reason an English reader gets modern English, not Middle English). The verbatim source is then the yardstick you **back-translate the modern rendering against**. Full rule + worked examples: `verse-rail`'s "Source-language output ships modern"; QA duty: `translation-qa` rule 8. **84000 English is reference-only, never shipped.**
 6. **Dedupe the material** (log + previously-used + rails + days); **themes may repeat but never two days running**; keep the three canons roughly balanced.
-7. All cards stay **`status: draft`**; only a native dharma reviewer (esp. bo + mn) sets `complete`.
+7. All cards stay **`status: draft`**; only a native dharma reviewer (esp. bo + mn + lbj) sets `complete`.
 
 **Source breadth — do NOT default to the Dhammapada.** Rotate across: Pali verse collections (Dhp, Snp, Ud, Iti gāthās) **and prose Nikāyas** (DN/MN/SN/AN, Sujato CC0) · Chinese Dharmapada (T210), the four Āgamas, **and Chinese Mahāyāna sūtras** (`zh-diamond-sutra`, `zh-lotus-sutra`, `zh-amitabha-sutra`, `zh-bequeathed-teachings`, `zh-vimalakirti`, `zh-eight-realizations`) · Tibetan **Udānavarga** (Toh 326) **and Kangyur Mahāyāna sūtras** (`bo-toh<N>` + `en-toh<N>-84000`). **Mahāyāna must appear regularly**, worded ecumenically. Grounding & licensing per canon: the table in the [`verse-rail`](4-SYSTEM/Skills/verse-rail/SKILL.md) skill.
 
@@ -63,9 +63,9 @@ A "Railroads" **anthology** producing WeBuddhist's **Verse of the Day**: one sho
 
 ## Conventions
 
-- **Filenames:** lowercase, hyphenated, no diacritics; language-tag suffix (`-pi -sk -bo -zh -en -hi -ne -mn`). Rails in `2-RAILS/Verses/` are named by source slug (`dhp-5.md`, `sa-803.md`, `toh-282.md`). Full tag list: [`1-SOURCES/About Sources.md`](1-SOURCES/About%20Sources.md) §12.
+- **Filenames:** lowercase, hyphenated, no diacritics; language-tag suffix (`-pi -sk -bo -zh -en -hi -ne -mn -lbj`). Rails in `2-RAILS/Verses/` are named by source slug (`dhp-5.md`, `sa-803.md`, `toh-282.md`). Full tag list: [`1-SOURCES/About Sources.md`](1-SOURCES/About%20Sources.md) §12.
 - **Block IDs** are the verse-level link: `[verse] ^id`; link `[[1-SOURCES/Text/<file>.md#^id]]`, transclude `![[…#^id]]`. Per-source `verse_id_format` in each source file's frontmatter; details in `About Sources.md` §5.
-- **Status lifecycle:** `draft` (LLM + QA done) → `complete` (rail signed off **and** native review of all six renderings). Per-language `review_status`: `clean-for-review` / `needs-native-review` / `escalate-native-review` / `blocked`. bo + mn always need native review. The LLM never sets `complete`.
+- **Status lifecycle:** `draft` (LLM + QA done) → `complete` (rail signed off **and** native review of all seven renderings). Per-language `review_status`: `clean-for-review` / `needs-native-review` / `escalate-native-review` / `blocked`. bo + mn + lbj always need native review. The LLM never sets `complete`.
 - **No parametric knowledge; no consensus flattening** (flag divergences with ⚑).
 
 ---
@@ -77,7 +77,7 @@ A "Railroads" **anthology** producing WeBuddhist's **Verse of the Day**: one sho
 | Bulk-tag verse candidates from source text ahead of time | `candidate-tagging` |
 | Select the next day's verse (rotation + dedupe) | `verse-selection` |
 | Build a verse rail (translation-grounded) | `verse-rail` |
-| Pre-review QA of a verse's six renderings | `translation-qa` |
+| Pre-review QA of a verse's seven renderings | `translation-qa` |
 | Import source text (SuttaCentral / CBETA / OpenPecha) | `json-to-source-text` (+ converters, incl. `cbeta_sutra.py`) |
 | Ingest an EPUB | `epub-to-markdown` |
 | Create a new skill (full registration) | `create-skill` |

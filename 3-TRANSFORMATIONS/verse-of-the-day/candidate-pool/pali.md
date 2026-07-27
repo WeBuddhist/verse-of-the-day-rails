@@ -483,7 +483,7 @@ read the shortness of this section as "nothing here" — it means nobody has loo
 - link: [[1-SOURCES/Text/pi-digha-nikaya.md#^dn16-6-7-3]] (Sujato paired at the same anchor; `^dn16-6-7-4` confirms "these were the Realized One's last words"; the same sentence also occurs at `^dn16-3-51-4`)
 - quote: "vayadhammā saṅkhārā appamādena sampādethā"ti."
 - buddhavacana: confirmed — the Buddha's own final address to the monks (`^dn16-6-7-1`)
-- length_est: ~66-81 chars EN (exact, from day card) — fits easily in all six languages
+- length_est: ~66-81 chars EN (exact, from day card) — fits easily in all seven languages
 - speaks_to: [grieving, discouraged, aspiration]
 - theme: diligence (appamāda paired directly with impermanence; no glossary term needed, unlike the Day 66 "deathless" framing)
 - status: claimed (day 77, 2026-09-08) — rail `dn16-last-words.md`. Also closes the Nirvana Day acquisition gap in `occasions.md`.

@@ -1,7 +1,7 @@
 # About — verse-of-the-day
 
 The **verse-of-the-day** Plan. Deliberately **simple**: one verse per day,
-rendered in the six app languages, with a little metadata. We dropped the
+rendered in the seven app languages, with a little metadata. We dropped the
 template's heavy per-language stream folders (`requirements.md` / `termbase.md` /
 `schedule.md` × 6) — overkill for a daily verse. The whole plan is just:
 
@@ -15,17 +15,17 @@ verse-of-the-day/
 ├── previously-used.md          ← verses published before/outside this vault (dedupe)
 ├── log.md                      ← the master calendar (date → verse), the index
 ├── log-history.md              ← archived batch-by-batch reasoning (not loaded day-to-day)
-└── day-NNN-<slug>.md           ← ONE file per day, all six languages + metadata
+└── day-NNN-<slug>.md           ← ONE file per day, all seven languages + metadata
 ```
 
 ## The unit of work: one day = one file (or one row)
 
-Each day is a single `day-NNN-<slug>.md` card holding **all six renderings
+Each day is a single `day-NNN-<slug>.md` card holding **all seven renderings
 plus metadata** — see [`day-001-friendship-dhp328.md`](day-001-friendship-dhp328.md)
 for the shape. `log.md` is the running index (date → `source_ref`, theme, status).
 
 *(Alternative if you'd rather not have per-day files: the whole thing can live as
-one table — columns `date · source_ref · theme · en · zh · bo · hi · ne · mn ·
+one table — columns `date · source_ref · theme · en · zh · bo · hi · ne · mn · lbj ·
 status`. Per-day files win when you want the Pāli source, notes, and the rail
 link alongside; the table wins for pure compactness. We're using per-day files +
 the log index; say the word to switch to table-only.)*
@@ -51,8 +51,9 @@ review_status:
   zh: clean-for-review
   hi: clean-for-review
   ne: needs-native-review     # ne always needs native review
-  bo: escalate-native-review  # bo + mn always escalate (highest risk)
+  bo: escalate-native-review  # bo + mn + lbj always escalate (highest risk)
   mn: escalate-native-review
+  lbj: escalate-native-review # Ladakhi — added 2026-09, thinnest reviewer pool
 ---
 
 # Day <N> — <Theme> (<Source>)
@@ -68,12 +69,15 @@ Short <verse|sentence>, **quoted in full**. Meaning: <one plain line>.
 
 ## Renderings (one short line each)
 
+**Every one of the seven is a modern, plain-language rendering — including the source language's own line.** The verbatim source lives in `## Source` above and is never itself the shipped text.
+
 - **en** — <one short line>
-- **zh** — <verbatim source if the source IS Chinese; else our modern Traditional rendering>
-- **bo** — ⚑ <verbatim source if the source IS Tibetan; else our rendering>
+- **zh** — <our modern Traditional rendering — modern even when the source IS Chinese>
+- **bo** — ⚑ <our modern Tibetan rendering — modern even when the source IS Tibetan>
 - **hi** — <our rendering>
 - **ne** — <our rendering>
 - **mn** — ⚑ <our rendering>
+- **lbj** — ⚑ <our modern Ladakhi rendering — Tibetan script, but Ladakhi usage, NOT a copy of the bo line>
 
 ## QA — pre-review (against 2-RAILS/Verses/<slug>.md)
 
@@ -83,7 +87,7 @@ Short <verse|sentence>, **quoted in full**. Meaning: <one plain line>.
 - Net: clean for review.
 
 ### zh (Traditional)
-- <if verbatim source: "the verbatim CBETA source; the quote itself."; else back-translation + findings>
+- Back-translation + findings. **If the source IS Chinese:** say this is our modern rendering (not the verbatim CBETA text), list the classical→modern substitutions, and back-translate against the verbatim source.
 - Net: clean for review.
 
 ### hi
@@ -93,20 +97,25 @@ Short <verse|sentence>, **quoted in full**. Meaning: <one plain line>.
 - Back-translation / confidence flags. Net: needs native review.
 
 ### bo ⚑
-- Back-translation (approx) / confidence flags. Net: escalate to native Tibetan dharma reviewer.
+- Back-translation (approx) / confidence flags. **If the source IS Tibetan:** say this is our modern rendering (not the verbatim Degé), list the classical→modern substitutions, back-translate against the verbatim source, and flag the register question. Net: escalate to native Tibetan dharma reviewer.
 
 ### mn ⚑
 - Back-translation (approx) / confidence flags. Net: escalate to native Mongolian dharma reviewer.
+
+### lbj (Ladakhi) ⚑
+- Back-translation (approx) / confidence flags. Note where Ladakhi usage departs from the `bo` line. Net: escalate to native Ladakhi dharma reviewer.
 ```
 
-Notes on the fields: **source_ref** is the citation shown with the verse (a card with no resolvable citation does not ship); for grounding-by-parallel picks, append `· Dhp N parallel`. **source_rail / context_packages** point to the rail (and through it to `1-SOURCES/`). The **⚑** on bo/mn flags them for native ratification. `review_status` values used: `clean-for-review`, `needs-native-review`, `escalate-native-review`, `blocked`.
+Notes on the fields: **source_ref** is the citation shown with the verse (a card with no resolvable citation does not ship); for grounding-by-parallel picks, append `· Dhp N parallel`. **source_rail / context_packages** point to the rail (and through it to `1-SOURCES/`). The **⚑** on bo/mn/lbj flags them for native ratification. `review_status` values used: `clean-for-review`, `needs-native-review`, `escalate-native-review`, `blocked`.
 
 ## Language notes (folded in from the old per-stream contracts)
 
 - **Modern, plain language** throughout — no scholarly/classical register, no glossary needed (audience: Tier 3/4 practitioners; "feel like home").
+- **⚑ This applies to the source language too (Evan, 2026-09).** When the verse comes from the Chinese or Tibetan canon, that language's own rendering is still **modern** — the verbatim source sits in `## Source` and is *not* the shipped line. **Reasoning:** our readers are cultural Buddhists with a casual practice, not scholars, and the card must be instantly understandable. An English reader is not handed Middle or Old English to decode; they read a plain modern sentence. A Tibetan or Chinese reader is owed exactly the same, even when the quote is from their own canon. The verbatim source then does double duty: it is what the other languages are translated *from*, and it is what the modern `zh`/`bo` is **back-translated against** to prove it still says the same thing. Full rule: `verse-rail`'s "Source-language output ships modern"; QA duty: `translation-qa` rule 8. **Backfill debt:** only Days 76, 78, 79 comply; ~23 Tibetan-source and ~27 Chinese-source cards before Day 76 still ship classical text.
 - **en** — anchored on Bhikkhu Sujato (CC0); already modern.
-- **zh** — **modern Traditional Chinese** for Taiwan / Hong Kong / Singapore (not Simplified/mainland register).
-- **bo / hi / ne / mn** — WeBuddhist's own modern renderings from the rail's meaning; **bo and mn carry the highest risk** and need native dharma-reviewer sign-off.
+- **zh** — **modern Traditional Chinese** for Taiwan / Hong Kong / Singapore (not Simplified/mainland register). Modern *even on Chinese-source cards*, where rendering Literary Chinese into modern Chinese is itself a real translation task, not a script conversion.
+- **bo / hi / ne / mn / lbj** — WeBuddhist's own modern renderings from the rail's meaning; **bo, mn, and lbj carry the highest risk** and need native dharma-reviewer sign-off.
+- **lbj — Ladakhi (added 2026-09).** The seventh output language. Written in Tibetan script but it is **not** Central Tibetan and **not** a copy of the `bo` line: render in modern Ladakhi usage and note in QA wherever the two legitimately differ. Reviewer pool is the thinnest of any language here, so `lbj` always carries `escalate-native-review` and honest low-confidence flags. ISO 639-3 tag `lbj` (Ladakhi has no two-letter 639-1 code; `lad` was avoided because it means Ladino).
 - **No em dashes in the English.**
 - **Ecumenical wording — WeBuddhist is for all Buddhists.** Keep Mahāyāna *content* but render it in inclusive language: **bodhicitta → "the awakening mind," never "Great Vehicle mind"** (大乘 / *theg chen* reads sectarian). *Bodhisattva* is fine (pan-Buddhist); frame such lines as universal instructions. Use the standard, established dharma-term rendering in each language (see `termbase.md`) rather than paraphrase — e.g. *mettā* = "loving-kindness / मैत्री," not "love"; render the five aggregates with their standard names (form, feeling, perception, volition, consciousness).
 - **Real quote, kept whole — no distillation.** Each rendering is a *full* real quote: a complete verse, or a single self-contained sentence, translated in full. **Never** summarise a passage, stitch partial lines, or reduce a teaching to its "gist" to save space. Keep renderings short by *choosing a short source*, not by cutting — if a source only fits by distilling, don't use it (pick a genuinely short verse instead). Target ≈ ≤ 20 words / ≤ 120 chars in English where the quote allows, but faithfulness wins over the target. See the hard rule in [`selection-criteria.md`](selection-criteria.md) §2.

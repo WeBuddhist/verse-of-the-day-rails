@@ -8,7 +8,7 @@ and **occasion overrides**. Add a row each day; check the recent rows before
 selecting the next verse.
 
 Status legend: `draft` = generated, not yet reviewed · `complete` = rail signed
-off + all six renderings reviewed, ready/published.
+off + all seven renderings reviewed, ready/published.
 
 | Date | Day | source_ref | Canon | Theme | speaks_to | Day card | Status |
 |------|-----|-----------|-------|-------|-----------|----------|--------|

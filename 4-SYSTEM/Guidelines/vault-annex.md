@@ -111,22 +111,27 @@ When a commentary is needed to disambiguate a verse (e.g. Dhammapada-aṭṭhaka
 
 ## 4. Language tracks
 
-Source languages and the six app output (localization) languages. Note that `zh` and `bo` appear as **both** source and output languages — keep source files (`zh` = Chinese Āgama text; `bo` = Kangyur text) distinct from output streams (modern Chinese / modern Tibetan renderings).
+Source languages and the **seven** app output (localization) languages. Note that `zh` and `bo` appear as **both** source and output languages — keep source files (`zh` = Chinese Āgama text; `bo` = Kangyur text) distinct from output streams (modern Chinese / modern Tibetan renderings). This distinction is the whole point of the modern-output rule below.
 
 | Tag | Language | Role |
 | --- | -------- | ---- |
 | `pi` | Pāli | source |
-| `zh` | Chinese | source (Āgamas) **and** output (modern Mandarin) |
+| `zh` | Chinese | source (Āgamas) **and** output (modern Traditional Chinese) |
 | `bo` | Tibetan | source (Kangyur) **and** output (modern Tibetan) |
 | `sa` | Sanskrit | source (where extant; Devanāgarī) |
 | `en` | English | output |
 | `hi` | Hindi | output |
 | `ne` | Nepali | output |
 | `mn` | Mongolian (Cyrillic) | output |
+| `lbj` | **Ladakhi** (Tibetan script) | output — **added 2026-09** |
 
-The verse-of-the-day **Plan** (`3-TRANSFORMATIONS/Plans/verse-of-the-day/`) has one stream per output language: `en/`, `bo/`, `zh/`, `hi/`, `ne/`, `mn/`.
+The verse-of-the-day **Plan** (`3-TRANSFORMATIONS/Plans/verse-of-the-day/`) has one stream per output language: `en/`, `bo/`, `zh/`, `hi/`, `ne/`, `mn/`, `lbj/`.
 
-**Output language requirement — modern, plain language.** Every output stream must render verses in *contemporary, immediately understandable* language (modern Mandarin, modern colloquial Tibetan, contemporary Hindi/Nepali, modern Mongolian, plain English) — not classical or scholarly register. Where the only authoritative translation is classical (e.g. Literary Chinese, classical Tibetan), the meaning is sourced from it but the output is freshly rendered in modern language and flagged for native-reviewer sign-off.
+**Output language requirement — modern, plain language.** Every output stream must render verses in *contemporary, immediately understandable* language (modern Traditional Chinese, modern colloquial Tibetan, contemporary Hindi/Nepali, modern Mongolian, modern Ladakhi, plain English) — not classical or scholarly register. Where the only authoritative translation is classical (e.g. Literary Chinese, classical Tibetan), the meaning is sourced from it but the output is freshly rendered in modern language and flagged for native-reviewer sign-off.
+
+**This holds even when the verse's source IS that language (clarified by Evan, 2026-09).** A Chinese-source card still ships **modern** `zh`; a Tibetan-source card still ships **modern** `bo`. The verbatim source belongs in the card's `## Source` block, never on the shipped rendering line. *Reasoning:* the audience is cultural Buddhists with a casual practice, not scholars, and the daily card must be instantly understandable — an English reader is not handed Middle English to decode, and a Tibetan or Chinese reader is owed the same plain-language treatment even for a quote from their own canon. The verbatim source then serves two purposes: it is what the other languages are translated *from*, and it is the yardstick the modern `zh`/`bo` is **back-translated against** to confirm no drift. This paragraph resolves a contradiction that stood until 2026-09: this section always required modern output, while CLAUDE.md hard rule 5, the `verse-rail` grounding table, `translation-qa` rule 8, and the day-card template all said the source-language line *was* the verbatim source. All four were amended to match this section. **Backfill debt:** only Days 76, 78, 79 comply; ~23 Tibetan-source and ~27 Chinese-source cards before Day 76 still ship classical text.
+
+**Ladakhi (`lbj`) note.** ISO 639-3 `lbj`; Ladakhi has no two-letter 639-1 code, and `lad` was deliberately avoided because it denotes Ladino. Written in Tibetan script, but Ladakhi is **not** Central Tibetan: the `lbj` rendering must not be a copy of the `bo` line, and QA should note where the two legitimately differ. It has the thinnest reviewer pool of any output language, so `lbj` always carries `escalate-native-review`. **Backfill debt:** Days 1–75 have no `lbj` rendering at all; Days 76–79 were the first.
 
 **Chinese (`zh`) output target.** The Chinese stream targets **modern Traditional Chinese** for **Taiwan, Hong Kong, and Singapore** audiences — Traditional characters, Taiwan/HK Mandarin conventions and vocabulary. Not Simplified / mainland register. (Note this means rendering the Literary-Chinese Āgama source into *modern* Chinese is itself a core translation task, not a script conversion.)
 
@@ -134,7 +139,7 @@ The verse-of-the-day **Plan** (`3-TRANSFORMATIONS/Plans/verse-of-the-day/`) has 
 
 ## 5. Termbase (key-term renderings)
 
-In place of the template's per-language-pair bilingual glossaries, this anthology uses a **single shared termbase**: [`3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md`](../../3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md) — one agreed rendering per key term across all six output languages (en, zh, bo, hi, ne, mn). It locks the distinctions that matter (e.g. *sahāya* "companion" ≠ *kalyāṇa-mitta* "spiritual friend"). `verse-rail` consults it when rendering; `translation-qa` checks against it. Rows marked ⚑ are proposed and await native-reviewer ratification (esp. bo/mn).
+In place of the template's per-language-pair bilingual glossaries, this anthology uses a **single shared termbase**: [`3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md`](../../3-TRANSFORMATIONS/Plans/verse-of-the-day/termbase.md) — one agreed rendering per key term across all **seven** output languages (en, zh, bo, hi, ne, mn, lbj). It locks the distinctions that matter (e.g. *sahāya* "companion" ≠ *kalyāṇa-mitta* "spiritual friend"). `verse-rail` consults it when rendering; `translation-qa` checks against it. Rows marked ⚑ are proposed and await native-reviewer ratification (esp. bo/mn/lbj — the entire Ladakhi column is unratified, having been added 2026-09).
 
 ---
 
@@ -193,6 +198,8 @@ usage_status: "cleared | pending-permission | blocked"
 | `-zh` | Chinese (Traditional unless noted) | Āgama / canon source |
 | `-bo` | Unicode Tibetan | Kangyur source |
 | `-sa` | Devanāgarī | Sanskrit source where extant |
+
+Output-language tags (`-en -hi -ne -mn -lbj`, plus `-zh`/`-bo` in their output role) are listed in §4. Ladakhi is `-lbj` (ISO 639-3; no 639-1 code exists, and `-lad` was avoided because it denotes Ladino).
 
 Default for Pali sources is `-pi`. Roman/Wylie alternative scripts go in separate edition files.
 

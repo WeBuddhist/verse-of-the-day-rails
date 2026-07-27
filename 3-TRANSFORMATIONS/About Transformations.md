@@ -8,7 +8,7 @@ This folder holds the vault's **AI-generated outputs**. Where `2-RAILS/` records
 
 ## The one track: `verse-of-the-day/`
 
-One short buddhavacana verse per day, rendered in six languages (en · zh · bo · hi · ne · mn), grounded in a rail. Structure:
+One short buddhavacana verse per day, rendered in seven languages (en · zh · bo · hi · ne · mn · lbj Ladakhi), grounded in a rail. **Every language ships modern, plain prose — including the source language's own line on a Chinese- or Tibetan-source card** (see `vault-annex.md` §4). Structure:
 
 ```
 verse-of-the-day/
@@ -48,7 +48,7 @@ context_packages: [2-RAILS/Verses/<slug>.md]
 | Status | Meaning |
 |---|---|
 | `draft` | LLM-generated + `translation-qa` pass done; not yet human-reviewed |
-| `complete` | rail signed off **and** a native dharma reviewer approved all six renderings |
+| `complete` | rail signed off **and** a native dharma reviewer approved all seven renderings |
 
 Per-language `review_status` (`clean-for-review` / `needs-native-review` / `escalate-native-review` / `blocked`) tracks each rendering. **bo and mn always need native review.** Only a human sets `complete`; the LLM never does. Only `complete` cards publish.
 

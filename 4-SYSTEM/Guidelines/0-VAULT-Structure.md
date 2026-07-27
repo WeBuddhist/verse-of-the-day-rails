@@ -50,7 +50,7 @@ verse-of-the-day-rails/
 │       ├── About verse-of-the-day.md   # day-card template + language notes
 │       ├── selection-criteria.md · termbase.md · discovery-by-feeling.md · occasions.md
 │       ├── previously-used.md · log.md  # dedupe register + master calendar
-│       └── day-NNN-<slug>.md   # one card per day (six languages)
+│       └── day-NNN-<slug>.md   # one card per day (seven languages)
 └── 4-SYSTEM/            # skills, guidelines, converters — read-only for the LLM
     ├── Guidelines/      # cross-cutting methodology (this file, why-rails, vault-annex, skills-system)
     ├── Skills/          # verse-selection, verse-rail, translation-qa, json-to-source-text, epub-to-markdown, vault-audit, create-skill
@@ -109,19 +109,19 @@ Frontmatter, package layout, citation rules, and divergence-flagging conventions
 
 ### `3-TRANSFORMATIONS/`
 
-Generated output. This anthology has **one** transformation — the **verse-of-the-day** track. (The template's Translations / Adaptations / Plans categories and their per-track `requirements.md` / `termbase.md` / `audience.md` contracts are not used; a single day card holds all six renderings.)
+Generated output. This anthology has **one** transformation — the **verse-of-the-day** track. (The template's Translations / Adaptations / Plans categories and their per-track `requirements.md` / `termbase.md` / `audience.md` contracts are not used; a single day card holds all seven renderings.)
 
 ```
 3-TRANSFORMATIONS/
 └── verse-of-the-day/
     ├── About verse-of-the-day.md   # day-card template + language notes
     ├── selection-criteria.md       # gates, freshness, source diversity, vehicle representation, themes
-    ├── termbase.md                 # locked key-term renderings (six languages)
+    ├── termbase.md                 # locked key-term renderings (seven languages)
     ├── discovery-by-feeling.md     # felt-state / theme tags (speaks_to)
     ├── occasions.md                # holiday calendar (occasion overrides)
     ├── previously-used.md          # historical dedupe register
     ├── log.md                      # master calendar (date → verse) + running balance
-    └── day-NNN-<slug>.md            # one card per day: six renderings + metadata + QA
+    └── day-NNN-<slug>.md            # one card per day: seven renderings + metadata + QA
 ```
 
 Each output file's frontmatter records which `2-RAILS/` packages it was generated from, enforcing the citation chain through to the final artefact. Transformations are generated only from packages whose `status` is `complete`. Draft or partial packages are not used.
