@@ -36,7 +36,7 @@ Short verse, **quoted in full**. Meaning: the moon was always shining; applying 
 - **hi** — जो युवा साधक बुद्ध की शिक्षा में स्वयं को जोड़ता है, वह संसार को आलोकित करता है, जैसे बादलों से मुक्त चन्द्रमा।
 - **ne** — जो युवा साधक बुद्धको शिक्षामा आफूलाई जोड्छ, उसले संसारलाई उज्यालो पार्छ, बादलबाट मुक्त चन्द्रमाजस्तै।
 - **mn** — ⚑ Бурханы сургаалд өөрийгөө зүтгүүлэх залуу дасгалч нь үүлнээс гарсан сар мэт дэлхийг тодруулна.
-- **lbj** — ⚑ ञम्लेन्पा ज़ोन्नु चिक् सङ्ग्यस् की तेन्पा ला त्सोन्ना, त्रिन् लस् थर्बी ज़्लावा ज़िन् जिक्तेन् सल्बर च्या।
+- **lbj** — ⚑ ཉམས་ལེན་པ་གཞོན་ནུ་ཞིག་སངས་རྒྱས་ཀྱི་བསྟན་པ་ལ་བརྩོན་ན། སྤྲིན་ལས་ཐར་བའི་ཟླ་བ་བཞིན་འཇིག་རྟེན་གསལ་བར་བྱེད།
 
 ## QA — pre-review (against 2-RAILS/Verses/dhp-382.md)
 
@@ -72,6 +72,6 @@ Short verse, **quoted in full**. Meaning: the moon was always shining; applying 
 
 ### lbj (Ladakhi) ⚑
 - Back-translation (approx): "If a young practitioner applies himself to the Buddha's teaching, he lights up the world like the moon freed from clouds."
-- Findings: Devanagari per the 2026-09 script decision. Ladakhi content words: `ञम्लेन्पा` (nyamlenpa, practitioner), `ज़ोन्नु` (zonnu, young), `सङ्ग्यस् की तेन्पा` (sangyas ki tenpa, the Buddha's teaching), `त्रिन् लस् थर्बी ज़्लावा` (trin las tharbi zlawa, the moon freed from clouds), `सल्बर च्या` (salbar cha, illuminate). **Not** the `hi` line, which uses साधक/शिक्षा/चन्द्रमा — Sanskrit-derived throughout.
-- Confidence flags — **lowest confidence on this card.** (i) Orthography unresolved — no Devanagari convention for Ladakhi is fixed in this vault. (ii) Confirm these are Ladakhi usage, not transcribed Central Tibetan. (iii) Confirm no drift into Hindi. (iv) Check the conditional `-ना` and whether Ladakhi keeps the `ज़्लावा` form for moon. Treat as a draft to rewrite, not to approve.
+- Findings: **Tibetan script** — settled 2026-09 after this field was briefly specified as Devanagari and then corrected back; the Devanagari draft of this line has been discarded. Differs from the `bo` line only in word order — **`ཉམས་ལེན་པ་གཞོན་ནུ`** (noun then adjective) rather than `bo`'s genitive `གཞོན་ནུའི་ཉམས་ལེན་པ`. **That is very thin differentiation** and the reviewer should expect to rewrite: the simile and the whole dharma vocabulary are shared with `bo`, which is legitimate, but the grammar layer where Ladakhi actually diverges is barely represented here.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. Because Ladakhi shares script *and* much dharma vocabulary with `bo`, the differentiation above is unavoidably thin, and the reviewer's real job is the layer I cannot reach: everyday word choice, pronunciation-driven spelling, verb endings, and case particles. Treat this line as a draft to rewrite, not to approve.
 - Net: escalate to native Ladakhi dharma reviewer.

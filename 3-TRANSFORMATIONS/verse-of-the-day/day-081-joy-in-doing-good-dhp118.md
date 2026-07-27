@@ -36,7 +36,7 @@ Short verse, **quoted in full**. Meaning: goodness compounds, and the piling up 
 - **hi** — कोई पुण्य कर्म किया हो तो उसे बार-बार करो, उस पर मन लगाओ; पुण्य का संचय ही सुख है।
 - **ne** — कुनै पुण्य काम गरेको छ भने त्यसलाई फेरि-फेरि गर, त्यसमा मन लगाऊ; पुण्यको सञ्चय आफैँमा सुख हो।
 - **mn** — ⚑ Ямар нэг сайн үйл хийсэн бол дахин дахин хий, түүнд сэтгэлээ зориулж; буян хураах нь өөрөө баясал юм.
-- **lbj** — ⚑ गेवा चिक् च्यास्ना यङ् तङ् यङ् च्योस्। दे ला सेम्स् तोत्। गेवा सोक्पा रङ् ञित् देवा यिन्।
+- **lbj** — ⚑ དགེ་བ་ཞིག་བྱས་ན་ཡང་དང་ཡང་བྱོས། དེ་ལ་སེམས་གཏོད། དགེ་བ་བསགས་པ་རང་ཉིད་བདེ་བ་ཡིན།
 
 ## QA — pre-review (against 2-RAILS/Verses/dhp-118.md)
 
@@ -71,7 +71,7 @@ Short verse, **quoted in full**. Meaning: goodness compounds, and the piling up 
 - Net: escalate to native Mongolian dharma reviewer.
 
 ### lbj (Ladakhi) ⚑
-- Back-translation (approx): "If you have done something good, do it again and again. Put your mind to it. Accumulating goodness is itself happiness."
-- Findings: Devanagari per the 2026-09 script decision. Ladakhi content words: `गेवा` (gewa, `དགེ་བ`, good/wholesome), `यङ् तङ् यङ्` (yang tang yang, again and again), `सेम्स् तोत्` (sems töt, direct the mind), `सोक्पा` (sokpa, accumulate), `देवा` (dewa, `བདེ་བ`, happiness). **Not** the `hi` line, which uses पुण्य/संचय/सुख — Sanskrit-derived throughout.
-- Confidence flags — **lowest confidence on this card.** (i) Orthography unresolved — no Devanagari convention for Ladakhi is fixed in this vault. (ii) Confirm these are Ladakhi usage, not transcribed Central Tibetan. (iii) Confirm no drift into Hindi. (iv) Check the imperative forms `च्योस्` / `तोत्`. Treat as a draft to rewrite, not to approve.
+- Back-translation (approx): "If you have done something good, do it again and again. Direct your mind to it. Accumulating goodness is itself happiness."
+- Findings: **Tibetan script** — settled 2026-09 after this field was briefly specified as Devanagari and then corrected back; the Devanagari draft of this line has been discarded. Close to the `bo` line, differing in the doubling: **`ཡང་དང་ཡང`** rather than `bo`'s `ཡང་དང་ཡང་དུ`, and `བསགས་པ` for `bo`'s `གསོག་པ`. `དགེ་བ` and `བདེ་བ` are shared with `bo`. **Thin differentiation** — the reviewer should treat the ending and the doubling as the places to correct.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. Because Ladakhi shares script *and* much dharma vocabulary with `bo`, the differentiation above is unavoidably thin, and the reviewer's real job is the layer I cannot reach: everyday word choice, pronunciation-driven spelling, verb endings, and case particles. Treat this line as a draft to rewrite, not to approve.
 - Net: escalate to native Ladakhi dharma reviewer.

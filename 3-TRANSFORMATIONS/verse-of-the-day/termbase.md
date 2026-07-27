@@ -13,27 +13,25 @@ re-invented. Consumed by [`verse-rail`](../../../4-SYSTEM/Skills/verse-rail/SKIL
 > (Taiwan/HK/SG). Seeded from the verses currently in the corpus.
 
 > **⚑ Ladakhi (`lbj`) column — added 2026-09, entirely unratified.** Ladakhi is the
-> seventh output language (`vault-annex.md` §4), and **WeBuddhist ships it in Devanagari,
-> not Tibetan script** (Evan, 2026-09 — a product decision; don't "fix" it to Tibetan
-> script). Every cell reads `⚑ TBD`: the column was added as structure, deliberately
-> **not** filled in by guesswork.
+> seventh output language (`vault-annex.md` §4), written in **Tibetan script**. *Script
+> history, so it isn't re-litigated:* first assumed Tibetan, then specified as Devanagari,
+> then corrected back to **Tibetan script** by Evan — final. Every cell reads `⚑ TBD`: the
+> column was added as structure, deliberately **not** filled in by guesswork.
 >
-> **How to fill it, and the trap to avoid.** Ladakhi sits in an unusual position in this
-> table: it is a **Tibetic** language written in an **Indic** script. Its vocabulary is
-> largely cognate with the `བོད་ཡིག` column, while its script matches `हिन्दी` / `नेपाली`.
-> That splits the risk in two, and the second half is the dangerous one:
-> - Copying the **Tibetan** column can't happen by accident — wrong script.
-> - Copying the **Hindi** column *can*, and is wrong: right script, wrong language family.
->   A Ladakhi cell reading `मैत्री` would be a Hindi word wearing a Ladakhi label. The
->   Ladakhi cell for *mettā* should be the Ladakhi reflex of `བྱམས་པ` written in Devanagari,
->   not the Sanskrit-derived Hindi term.
-> - **Second open question:** which **Devanagari orthography convention for Ladakhi** we
->   standardise on. Nothing in this vault fixes that yet, and it determines the spelling of
->   every cell in the column.
+> **How to fill it, and the trap to avoid.** Ladakhi shares its script *and* much of its
+> written dharma vocabulary with Tibetan, so for many technical terms here (`སེམས`,
+> `དྲན་པ`, `བྱམས་པ`, `ཚུལ་ཁྲིམས`…) the Ladakhi cell will legitimately end up **identical**
+> to the `བོད་ཡིག` cell. **That does not license copying the Tibetan column across.**
+> Ladakhi diverges from Central Tibetan in everyday vocabulary, in pronunciation-driven
+> spelling, and in grammar — verb endings, case particles, kinship words. That everyday
+> layer is exactly the register this vault ships in, since our renderings are modern and
+> plain rather than liturgical, so it is also the layer a blind Tibetan-column copy would
+> get wrong. The rows most likely to differ are the ordinary ones (`sahāya`,
+> `nipaka`-style plain adjectives), not the doctrinal ones.
 >
 > **A native Ladakhi dharma reviewer fills this column;** an agent may propose a cell only
-> when it can say what the Ladakhi form is and why it differs from *both* the Tibetan and
-> the Hindi cell.
+> when it can say either what differs from the Tibetan cell, or why matching it is correct
+> here. A silent duplicate is not an answer.
 >
 > Until then, `lbj` renderings on day cards carry `escalate-native-review` and honest
 > low-confidence flags, and **Days 1–75 have no `lbj` rendering at all** (backfill owed;
@@ -45,7 +43,7 @@ re-invented. Consumed by [`verse-rail`](../../../4-SYSTEM/Skills/verse-rail/SKIL
 
 Two different words, two different renderings — don't conflate:
 
-| Pāli term | Sense | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | लदाख़ी · Ladakhi (lbj, Devanagari) | Use when |
+| Pāli term | Sense | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) | Use when |
 |---|---|---|---|---|---|---|---|---|---|
 | **sahāya** | a companion / friend (plain) | companion, friend | 同伴 / 善友 | གྲོགས / གྲོགས་པོ | साथी | साथी | нөхөр / хамтрагч | ⚑ TBD | the text says *sahāya* (e.g. **Dhp 328**) — a wise, good companion |
 | **kalyāṇa-mitta** | spiritual / admirable friend | good friend, spiritual friend | 善知識 | དགེ་བའི་བཤེས་གཉེན | कल्याणमित्र | कल्याणमित्र | буянт нөхөр ⚑ | ⚑ TBD | the text says *kalyāṇa-mitta* (**Dhp 78**, **SN 45.2**) |
@@ -56,7 +54,7 @@ Two different words, two different renderings — don't conflate:
 
 ## Friendship & community
 
-| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | लदाख़ी · Ladakhi (lbj, Devanagari) |
+| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) |
 |---|---|---|---|---|---|---|---|
 | nipaka (discerning/prudent) | wise, discerning | 明智 / 審慎 | གཟབ་པ / རྟོག་ལྡན ⚑ | समझदार / विवेकी | विवेकी / बुद्धिमान् | ухаалаг ⚑ | ⚑ TBD |
 | sādhuvihārin (of good conduct) | good-hearted, of good conduct | 善行 / 良善 | སྤྱོད་པ་བཟང་བ ⚑ | सदाचारी / भला | असल / सदाचारी | сайн зан үйлтэй ⚑ | ⚑ TBD |
@@ -66,7 +64,7 @@ Two different words, two different renderings — don't conflate:
 
 ## Mind, mind-states, emotions
 
-| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | लदाख़ी · Ladakhi (lbj, Devanagari) |
+| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) |
 |---|---|---|---|---|---|---|---|
 | citta / mano (mind) | mind, heart | 心 | སེམས | मन / चित्त | मन | сэтгэл | ⚑ TBD |
 | sati (mindfulness) | mindfulness | 正念 | དྲན་པ | स्मृति / सजगता | सजगता | ухаарал ⚑ (proposed; *ухамсар* = "consciousness," wrong — confirm vs дурсал / санах) | ⚑ TBD |
@@ -76,7 +74,7 @@ Two different words, two different renderings — don't conflate:
 
 ## Path & core terms
 
-| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | लदाख़ी · Ladakhi (lbj, Devanagari) |
+| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) |
 |---|---|---|---|---|---|---|---|
 | kusala (wholesome) | wholesome, skillful | 善 | དགེ་བ | कुशल | कुशल | буян / сайн үйл | ⚑ TBD |
 | sāsana (teaching) | teaching, instruction | 教法 / 教導 | བསྟན་པ | शिक्षा / अनुशासन | शिक्षा | сургаал | ⚑ TBD |
@@ -98,14 +96,14 @@ Two different words, two different renderings — don't conflate:
 
 ## Mahāyāna & wisdom terms
 
-| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | लदाख़ी · Ladakhi (lbj, Devanagari) |
+| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) |
 |---|---|---|---|---|---|---|---|
 | bodhicitta (byang chub sems) | the awakening mind (never "Great Vehicle mind") | 菩提心 | བྱང་ཆུབ་སེམས | बोधिचित्त | बोधिचित्त | бодь сэтгэл ⚑ | ⚑ TBD |
 | śūnyatā (stong pa nyid) | emptiness, empty nature | 空性 | སྟོང་པ་ཉིད | शून्यता | शून्यता | хоосон чанар ⚑ | ⚑ TBD |
 
 ## The four noble truths (catu-sacca)
 
-| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | लदाख़ी · Ladakhi (lbj, Devanagari) |
+| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) |
 |---|---|---|---|---|---|---|---|
 | samudaya (origin) | origin (of suffering) | 集 | ཀུན་འབྱུང་ | समुदय | समुदय | үүсэл ⚑ | ⚑ TBD |
 | nirodha (cessation) | cessation | 滅 | འགོག་པ | निरोध | निरोध | зогсолт ⚑ | ⚑ TBD |
@@ -113,13 +111,13 @@ Two different words, two different renderings — don't conflate:
 
 ## Ethics — generosity terms
 
-| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | लदाख़ी · Ladakhi (lbj, Devanagari) |
+| Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) |
 |---|---|---|---|---|---|---|---|
 | adinnādāna / a-adinnādāna (taking what is not given / abstaining) | taking what isn't given / giving it up | 不與取 | མ་བྱིན་ལེན | अदत्तादान | अदत्तादान | өгөөгүйг авах ⚑ | ⚑ TBD |
 
 ## Brahmavihāras (the four; the "grow" themes)
 
-| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | लदाख़ी · Ladakhi (lbj, Devanagari) |
+| Pāli | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) |
 |---|---|---|---|---|---|---|---|
 | mettā | loving-kindness | 慈 / 慈愛 | བྱམས་པ | मैत्री | मैत्री | энэрэл хайр ⚑ | ⚑ TBD |
 | karuṇā | compassion | 悲 / 慈悲 | སྙིང་རྗེ | करुणा | करुणा | нигүүлсэл | ⚑ TBD |

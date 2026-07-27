@@ -38,7 +38,7 @@ Short verse, **quoted in full**. Meaning: nothing you do is lost, and what it ri
 - **hi** — मनुष्य जो भी कुशल या अकुशल कर्म करता है, वे कर्म व्यर्थ नहीं जाते; जैसे किए, वैसे ही फल देते हैं।
 - **ne** — मानिसले जे जति कुशल वा अकुशल कर्म गर्छ, त्यो कर्म खेर जाँदैन; जस्तो गरे, त्यस्तै फल दिन्छ।
 - **mn** — ⚑ Хүн ямар ч буянт ба нүгэлт үйл хийсэн бол, тэр үйлс дэмий үрэгдэхгүй; яг тэр чигээрээ үрээ өгнө.
-- **lbj** — ⚑ मी चिक्किस् गेवा यङ्न स्दिक्पी लस् गङ् च्यास्ना, लस् दे छुत् ज़ोस् मि च्या; च्यास्पा जिबज़िन् द्रेबु स्मिन्नि यिन्।
+- **lbj** — ⚑ མི་ཞིག་གིས་དགེ་བའམ་སྡིག་པའི་ལས་གང་བྱས་ཀྱང་། ལས་དེ་ཆུད་ཟོས་མི་འགྲོ་བར། བྱས་པ་ཇི་བཞིན་འབྲས་བུ་སྨིན་ནི་ཡིན།
 
 ## QA — pre-review (against 2-RAILS/Verses/udv-karma-fruit.md)
 
@@ -75,6 +75,6 @@ Short verse, **quoted in full**. Meaning: nothing you do is lost, and what it ri
 
 ### lbj (Ladakhi) ⚑
 - Back-translation (approx): "Whatever wholesome or unwholesome deed a person does, that deed does not go to waste; as it was done, so its fruit ripens."
-- Findings: **Devanagari, per Evan's 2026-09 correction** — an earlier draft of this card wrongly rendered `lbj` in Tibetan script, which made it a near-copy of the `bo` line; that has been redone. Ladakhi content words in Devanagari: `गेवा`/`स्दिक्पा` (gewa/dikpa, `དགེ་བ`/`སྡིག་པ`, wholesome/unwholesome), `लस्` (las, deed), `छुत् ज़ोस् मि च्या` (chut zos mi cha, does not go to waste), `द्रेबु स्मिन्` (drebu min, fruit ripens). **Not** the `hi` line, which uses कुशल/अकुशल/कर्म/फल — Sanskrit-derived throughout.
-- Confidence flags — **lowest confidence of any language on this card, and the script correction adds a second layer of uncertainty.** (i) **Orthography is unresolved:** nothing in this vault fixes which Devanagari convention for Ladakhi we use, so every spelling above is a proposal, not a standard — settling that convention is the reviewer's first job and it may change all of these. (ii) Confirm the word choices are the ones Ladakhi speakers actually use, rather than Tibetan forms mechanically transcribed. (iii) Confirm nothing has drifted into Hindi: the script is shared with `hi`, the language is not. (iv) Check the verbal endings and case particles, the layer least likely to survive transcription from Tibetan. Treat this line as a draft to rewrite, not to approve.
+- Findings: **Tibetan script** — settled 2026-09 after this field was briefly specified as Devanagari and then corrected back; the Devanagari draft of this line has been discarded. Differs from the `bo` line at the sentence-final ending: **`སྨིན་ནི་ཡིན`** rather than `bo`'s `སྨིན་གྱི་རེད`, closer to Ladakhi's usual present/habitual construction. `དགེ་བ`/`སྡིག་པ`/`ལས` are shared dharma terms and correctly match. Otherwise close to `bo`, which is itself worth the reviewer's attention.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. Because Ladakhi shares script *and* much dharma vocabulary with `bo`, the differentiation above is unavoidably thin, and the reviewer's real job is the layer I cannot reach: everyday word choice, pronunciation-driven spelling, verb endings, and case particles. Treat this line as a draft to rewrite, not to approve.
 - Net: escalate to native Ladakhi dharma reviewer.

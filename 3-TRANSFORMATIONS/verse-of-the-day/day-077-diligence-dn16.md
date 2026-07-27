@@ -36,7 +36,7 @@ Short sentence, **quoted in full**. Meaning: everything assembled comes apart, s
 - **hi** — सभी संस्कार विनाशशील हैं। अप्रमाद के साथ साधना को पूरा करो।
 - **ne** — सबै संस्कार विनाशशील छन्। अप्रमादपूर्वक साधनालाई पूरा गर।
 - **mn** — ⚑ Хуран үйлдэгдсэн бүхэн эвдрэх чанартай. Сэрэмжтэйгээр номоо бүтээж дуусга.
-- **lbj** — ⚑ दुज्येत् थम्चत् जिक्पी छोस्चन् यिन्। बग्योत् च्यास्ते मथर् स्क्योल्।
+- **lbj** — ⚑ འདུ་བྱེད་རྣམས་འཇིག་པའི་ཆོས་ཅན་ཡིན། བག་ཡོད་པས་མཐར་ཕྱིན་པར་གྱིས།
 
 ## QA — pre-review (against 2-RAILS/Verses/dn16-last-words.md)
 
@@ -72,7 +72,7 @@ Short sentence, **quoted in full**. Meaning: everything assembled comes apart, s
 - Net: escalate to native Mongolian dharma reviewer.
 
 ### lbj (Ladakhi) ⚑
-- Back-translation (approx): "All conditioned things are of a nature to perish. Acting with diligence, carry it through to the end."
-- Findings: **Devanagari, per Evan's 2026-09 correction** — an earlier draft of this card wrongly rendered `lbj` in Tibetan script, which made it a near-copy of the `bo` line; that has been redone. Ladakhi content words in Devanagari: `दुज्येत्` (dujyet, the Ladakhi reflex of `འདུ་བྱེད`, *saṅkhārā*), `जिक्पी छोस्चन्` (jikpi chöchan, of a perishable nature), `बग्योत्` (bagyot, `བག་ཡོད`, diligence), `मथर् स्क्योल्` (mathar kyol, carry to completion). **Not** the `hi` line, which uses the Sanskrit-derived संस्कार and अप्रमाद — this uses the Tibetic terms instead.
-- Confidence flags — **lowest confidence of any language on this card, and the script correction adds a second layer of uncertainty.** (i) **Orthography is unresolved:** nothing in this vault fixes which Devanagari convention for Ladakhi we use, so every spelling above is a proposal, not a standard — settling that convention is the reviewer's first job and it may change all of these. (ii) Confirm the word choices are the ones Ladakhi speakers actually use, rather than Tibetan forms mechanically transcribed. (iii) Confirm nothing has drifted into Hindi: the script is shared with `hi`, the language is not. (iv) Check the verbal endings and case particles, the layer least likely to survive transcription from Tibetan. Treat this line as a draft to rewrite, not to approve.
+- Back-translation (approx): "Conditioned formations are of a nature to perish. With diligence, bring it to completion."
+- Findings: **Tibetan script** — settled 2026-09 after this field was briefly specified as Devanagari and then corrected back; the Devanagari draft of this line has been discarded. **Currently identical to the `bo` line, and that is a flag, not a result.** Both content words (`འདུ་བྱེད`, `བག་ཡོད`) are shared written dharma terms where a match is legitimate, but the sentence also has an imperative ending and a copula, and those are exactly where Ladakhi usually diverges — I could not identify a defensible Ladakhi form for them. Per the vault rule, a silent duplicate of `bo` is a QA failure, so this line is explicitly **not** signed off: the reviewer needs to supply the natural Ladakhi verb forms.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. Because Ladakhi shares script *and* much dharma vocabulary with `bo`, the differentiation above is unavoidably thin, and the reviewer's real job is the layer I cannot reach: everyday word choice, pronunciation-driven spelling, verb endings, and case particles. Treat this line as a draft to rewrite, not to approve.
 - Net: escalate to native Ladakhi dharma reviewer.

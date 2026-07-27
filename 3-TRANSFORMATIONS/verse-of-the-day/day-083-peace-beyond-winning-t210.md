@@ -38,7 +38,7 @@ Short verse, **quoted in full**. Meaning: both winning and losing cost you somet
 - **hi** — जीतने से वैर उपजता है, हारने से आत्म-तिरस्कार। जीत-हार का भाव छोड़ दो, तो कोई झगड़ा नहीं और मन स्वयं शान्त।
 - **ne** — जित्दा वैर जन्मिन्छ, हार्दा आत्म-अपमान। जित-हारको भाव छोड, कुनै झगडा रहँदैन र मन आफै शान्त हुन्छ।
 - **mn** — ⚑ Хожвол хорсол төрнө, хожигдвол өөрийгөө басамжилна. Хожих-хожигдох сэтгэлийг тавь, тэмцэл үгүй бол сэтгэл өөрөө амар.
-- **lbj** — ⚑ ग्यल्ना ङो शे स्लोङ्, फम्ना रङ् ञित् ला ञ्यास् सेम्स् क्ये। ग्यल् फम् गी लो तोर्ना, त्सोत्पा मेत्ते रङ्बज़िन् गिस् दे।
+- **lbj** — ⚑ རྒྱལ་ན་ཞེ་སྡང་སློང་། ཕམ་ན་རང་ལ་བརྙས་སེམས་སྐྱེ། རྒྱལ་ཕམ་གྱི་བློ་བོར་ན། རྩོད་པ་མེད་དེ་རང་བཞིན་གྱིས་བདེ།
 
 ## QA — pre-review (against 2-RAILS/Verses/t210-peace-beyond-winning.md)
 
@@ -73,7 +73,7 @@ Short verse, **quoted in full**. Meaning: both winning and losing cost you somet
 - Net: escalate to native Mongolian dharma reviewer.
 
 ### lbj (Ladakhi) ⚑
-- Back-translation (approx): "If you win, enmity arises; if you lose, contempt for yourself arises. If you drop the win-lose mind, with no contention there is natural ease."
-- Findings: Devanagari per the 2026-09 script decision. Ladakhi content words: `ग्यल्`/`फम्` (gyal/pham, `རྒྱལ`/`ཕམ`, win/lose), `ञ्यास् सेम्स्` (nyas sems, contempt), `लो तोर्` (lo tor, drop the mind/attitude), `त्सोत्पा मेत्` (tsotpa met, no contention), `रङ्बज़िन् गिस् दे` (rangzhin gis de, naturally at ease). **Not** the `hi` line, which uses वैर/आत्म-तिरस्कार/शान्त — Sanskrit-derived throughout.
-- Confidence flags — **lowest confidence on this card.** (i) Orthography unresolved — no Devanagari convention for Ladakhi is fixed in this vault. (ii) Confirm these are Ladakhi usage, not transcribed Central Tibetan. (iii) Confirm no drift into Hindi. (iv) Check the conditional endings `-ना`. Treat as a draft to rewrite, not to approve.
+- Back-translation (approx): "If you win, you provoke enmity; if you lose, contempt for yourself arises. If you cast off the win-lose mind, there is no contention and natural ease."
+- Findings: **Tibetan script** — settled 2026-09 after this field was briefly specified as Devanagari and then corrected back; the Devanagari draft of this line has been discarded. Differs from the `bo` line in two spots: **`བོར`** for "cast off" rather than `bo`'s `དོར`, and **`རང་ལ`** rather than `bo`'s fuller `རང་ཉིད་ལ`. `ཞེ་སྡང` and `རྒྱལ་ཕམ་གྱི་བློ` are shared with `bo` — the compound must stay one idea in both, per the rail's flag (a).
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. Because Ladakhi shares script *and* much dharma vocabulary with `bo`, the differentiation above is unavoidably thin, and the reviewer's real job is the layer I cannot reach: everyday word choice, pronunciation-driven spelling, verb endings, and case particles. Treat this line as a draft to rewrite, not to approve.
 - Net: escalate to native Ladakhi dharma reviewer.

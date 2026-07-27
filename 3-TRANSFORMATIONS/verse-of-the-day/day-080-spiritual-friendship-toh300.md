@@ -38,7 +38,7 @@ Short sentence, **quoted in full**. Meaning: who you keep company with is not a 
 - **hi** — कल्याणमित्र, अच्छे साथी और भरोसेमंद सहारे के साथ रहो।
 - **ne** — कल्याणमित्र, राम्रो साथी र भरपर्दो सहारासँग बस।
 - **mn** — ⚑ Буянт нөхөр, сайн хамтрагч, найдаж болох тулгуурын хамт амьдар.
-- **lbj** — ⚑ गेवी शेञ्येन्, ग्योक्पो यङ्पो, तङ् तेन् च्या रुङ्बी मी तङ् ञम्दु स्दोत्।
+- **lbj** — ⚑ དགེ་བའི་བཤེས་གཉེན་དང་། གྲོགས་པོ་བཟང་པོ་དང་། རྟེན་བྱ་རུང་བའི་མི་དང་མཉམ་པོ་སྡོད།
 
 ## QA — pre-review (against 2-RAILS/Verses/toh300-spiritual-friend.md)
 
@@ -75,6 +75,6 @@ Short sentence, **quoted in full**. Meaning: who you keep company with is not a 
 
 ### lbj (Ladakhi) ⚑
 - Back-translation (approx): "Live together with a spiritual friend, a good companion, and a person who can be relied upon."
-- Findings: Devanagari per the 2026-09 script decision. Ladakhi content words: `गेवी शेञ्येन्` (gewi shenyen, the Ladakhi reflex of `དགེ་བའི་བཤེས་གཉེན`), `ग्योक्पो यङ्पो` (gyokpo yangpo, good companion), `तेन् च्या रुङ्बी मी` (ten cha rungbi mi, a person fit to rely on), `ञम्दु स्दोत्` (nyamdu döt, live together). **Not** the `hi` line, which uses the Sanskrit-derived कल्याणमित्र — this uses the Tibetic term in Devanagari.
-- Confidence flags — **lowest confidence on this card.** (i) **Orthography unresolved:** no Devanagari convention for Ladakhi is fixed in this vault, so every spelling is a proposal. (ii) Confirm these are the words Ladakhi speakers use, not Tibetan forms transcribed. (iii) Confirm no drift into Hindi — shared script, different language family. (iv) Check the imperative ending. Treat as a draft to rewrite, not to approve.
+- Findings: **Tibetan script** — settled 2026-09 after this field was briefly specified as Devanagari and then corrected back; the Devanagari draft of this line has been discarded. Differs from the `bo` line at the comitative: **`མཉམ་པོ`** rather than `bo`'s `མཉམ་དུ`, the form Ladakhi tends to use. `དགེ་བའི་བཤེས་གཉེན` is the established term and is shared with `bo` — correctly, since it is the termbase entry and the same written word in both.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. Because Ladakhi shares script *and* much dharma vocabulary with `bo`, the differentiation above is unavoidably thin, and the reviewer's real job is the layer I cannot reach: everyday word choice, pronunciation-driven spelling, verb endings, and case particles. Treat this line as a draft to rewrite, not to approve.
 - Net: escalate to native Ladakhi dharma reviewer.

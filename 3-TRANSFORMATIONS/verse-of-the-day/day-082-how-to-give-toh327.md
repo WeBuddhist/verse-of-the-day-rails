@@ -38,7 +38,7 @@ Short sentence, **quoted in full**. Meaning: generosity is not measured by the s
 - **hi** — सज्जन श्रद्धा के साथ देता है, आदर से देता है, अपने ही हाथों से देता है, उचित समय पर देता है, और दूसरों को हानि पहुँचाए बिना देता है।
 - **ne** — भलादमी श्रद्धाका साथ दिन्छ, आदरसाथ दिन्छ, आफ्नै हातले दिन्छ, ठीक समयमा दिन्छ, र अरूलाई हानि नगरी दिन्छ।
 - **mn** — ⚑ Сайн хүн итгэлтэйгээр өглөг өргөнө, хүндэтгэлтэйгээр өгнө, өөрийн гараар өгнө, зөв цагт өгнө, бусдад хор хүргэлгүй өгнө.
-- **lbj** — ⚑ स्क्येबु तम्पस् तत्पा तङ् च्यास्ते जिन्, गुस्पस् जिन्, रङ्गी लक्पस् जिन्, तुस् तक्तक् ला जिन्, ग्यन् ला नोत्पा मेत्पा जिन्।
+- **lbj** — ⚑ སྐྱེས་བུ་དམ་པས་དད་པས་སྦྱིན། གུས་པས་སྦྱིན། རང་གི་ལག་པས་སྦྱིན། དུས་ཏག་ཏག་ལ་སྦྱིན། གཞན་ལ་གནོད་པ་མེད་པར་སྦྱིན།
 
 ## QA — pre-review (against 2-RAILS/Verses/toh327-five-gifts.md)
 
@@ -75,6 +75,6 @@ Short sentence, **quoted in full**. Meaning: generosity is not measured by the s
 
 ### lbj (Ladakhi) ⚑
 - Back-translation (approx): "A good person gives with trust, gives respectfully, gives with their own hand, gives at just the right time, gives without harming others."
-- Findings: Devanagari per the 2026-09 script decision. Ladakhi content words: `स्क्येबु तम्पा` (kyebu tampa, `སྐྱེས་བུ་དམ་པ`, a good person), `तत्पा` (tatpa, `དད་པ`, trust), `गुस्पा` (guspa, respect), `लक्पा` (lakpa, hand), `तुस् तक्तक्` (tus taktak, the right time), `नोत्पा मेत्पा` (nötpa metpa, without harm), `जिन्` (jin, `སྦྱིན`, give). **Not** the `hi` line, which uses श्रद्धा/आदर/हानि — Sanskrit-derived throughout.
-- Confidence flags — **lowest confidence on this card.** (i) Orthography unresolved — no Devanagari convention for Ladakhi is fixed in this vault. (ii) Confirm these are Ladakhi usage, not transcribed Central Tibetan. (iii) Confirm no drift into Hindi. (iv) Check the case particles and the repeated verb. Treat as a draft to rewrite, not to approve.
+- Findings: **Tibetan script** — settled 2026-09 after this field was briefly specified as Devanagari and then corrected back; the Devanagari draft of this line has been discarded. Differs from the `bo` line on the time phrase: **`དུས་ཏག་ཏག་ལ`** rather than `bo`'s `དུས་ཚོད་ཏག་ཏག་ལ`, and the agentive `སྐྱེས་བུ་དམ་པས` is fronted. All five items ship, as on every other language. The dharma vocabulary (`དད་པ`, `གུས་པ`, `སྦྱིན`) is shared with `bo` — correctly.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. Because Ladakhi shares script *and* much dharma vocabulary with `bo`, the differentiation above is unavoidably thin, and the reviewer's real job is the layer I cannot reach: everyday word choice, pronunciation-driven spelling, verb endings, and case particles. Treat this line as a draft to rewrite, not to approve.
 - Net: escalate to native Ladakhi dharma reviewer.

@@ -140,7 +140,7 @@ For each rendering, evaluate against the rail and record findings:
 - Back-translation (approx) / confidence flags. Net: escalate to native Mongolian dharma reviewer.
 
 ### lbj (Ladakhi) ⚑
-- Back-translation (approx) / confidence flags. Ladakhi ships in **Devanagari** (Evan, 2026-09), so `lbj` can never be a copy of the `bo` line. The real trap is the opposite one: it shares its script with `hi`/`ne` but is a **Tibetic** language, so its vocabulary is mostly cognate with Tibetan while only the script matches Hindi. **Flag any sign the rendering has drifted into Hindi** (Indo-Aryan words or grammar), and note which Devanagari orthography convention was assumed for Ladakhi.
+- Back-translation (approx) / confidence flags. Ladakhi ships in **Tibetan script** (settled 2026-09 after briefly being specified as Devanagari). Because it shares both script and much dharma vocabulary with `bo`, the `lbj` line will often look close to it and for technical terms may legitimately be identical — **but a silent duplicate of the `bo` line is a QA failure.** State either what differs from `bo` (everyday vocabulary, spelling, verb endings, case particles, kinship words — the layer where Ladakhi actually diverges from Central Tibetan) or, if it matches, why matching is correct here.
 - Net: escalate to native Ladakhi dharma reviewer.
 ```
 
