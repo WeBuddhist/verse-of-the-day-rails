@@ -177,6 +177,8 @@ The `1-SOURCES/` restriction is the most important. The folder receives the huma
 
 Every file carrying language-specific content carries a language tag suffix on its filename: `-sk` (Sanskrit IAST default), `-pi` (Pāli PTS default), `-bo` (Tibetan Unicode default), `-zh` (Chinese Unicode default), `-en` (English), and so on. When a non-default script or encoding is used, a script suffix is added: `-sk-iast`, `-bo-wy`, `-zh-cbeta`.
 
+In this vault the **seven output languages** are `en · zh · bo · hi · ne · mn · lbj` (Ladakhi, ISO 639-3, added 2026-09 — no 639-1 code exists and `-lad` was avoided because it denotes Ladino). Note `zh` and `bo` serve as both source and output tags; the output rendering is always **modern** language, never the classical source text, even on a card whose source is that same language. Full language-track table and reasoning: [`vault-annex.md`](vault-annex.md) §4.
+
 Filenames are lowercase, hyphenated, and use no diacritics. Diacritics appear freely inside file content and frontmatter, but never in filenames — this keeps the vault portable across filesystems and friendly to scripts that traverse it.
 
 The full tag list and naming conventions are specified in [`../../1-SOURCES/About Sources.md`](../../1-SOURCES/About Sources.md) §13.
