@@ -421,10 +421,36 @@ Not a systematic scan. Method worth reusing: the `en-toh*-84000.md` reference fi
 - length_est: bo ~110 chars / en 124 (measured) — **fits the card whole, no compression**, which is precisely why it was reached for
 - speaks_to: [grateful, lonely, hopeful]
 - theme: gratitude (fresh instance — honouring parents; recurring theme, last run Day 41/AN 2.32)
-- status: unclaimed — **verified verbatim and card-ready.** Proposed as the Day 80 substitute; Evan chose to park Day 80 instead (2026-09), so this stays banked for the next batch.
+- status: **REJECTED for daily-card use (Evan, 2026-09)** — verbatim and card-ready, but pulled on a content ground the pool had not been screening for: the verse's first predicate is **`ཚངས་པ` / Brahmā**, and Evan's call is that Brahmā **won't connect with WeBuddhist's users** (an audience spanning East Asian and Tibetan practitioners, not readers of Vedic cosmology). Reviving it would need a rendering that doesn't lean on Brahmā, which may be impossible since Brahmā *is* the opening claim. **The same objection kills the Pali-side twin, Iti 106** (`pali.md`), whose opening clause is `Brahmāti mātāpitaro`. **Generalise this:** a verse whose force depends on a culture-specific deity or Vedic frame fails for this audience even when it is otherwise perfect and fits the budget — screen for it before proposing.
 - pali parallel: **Iti 106** (`pi-itivuttaka.md#^iti106-4-1`ff, Sujato at the same anchors) — the same "parents are Brahmā / first teachers" verse, so grounding can run `parallel-pali`. ⚑ **Divergence to flag, do not flatten:** the Tibetan fourth line reads `མི་ཡང་ཡིན་ལ་ལྷ་ཡང་ཡིན` ("they are both human and divine"); the Pali fourth line is `pajāya anukampakā`, Sujato "for they love their offspring." Two different closings for the same quatrain.
 - note: this also supplies the Tibetan-canon instance of the Iti 106 material already sitting unclaimed in `pali.md`; running both would be near-duplicate content, so pick one canon and mark the other claimed-by-parallel.
 
 **Two further leads from the same spot check (read, not fully worked up):**
 - **Toh 309 (The Sūtra on Impermanence 1)** — closing verse: health, youth, prosperity, and life are each impermanent, "how can beings, afflicted as they are by impermanence, take delight in such desirable things?" Buddha-spoken, but the verse is six lines and ends on the rhetorical question with no turn toward a remedy — likely a **§2 "offer a way through" fail**; check before tagging.
 - **Toh 250 (The Sūtra on the Four Factors)** — closing similes: "wealth is like a rushing river, a home like a ferryboat, the body resembles a flower, life itself is like a water bubble." Vivid and fits, but the sūtra's prose body frames all four as "beliefs a wise son of good family does not hold," the first being "that there is pleasure to be found in women" — the framing is gendered in a way the card would have to leave behind entirely. Verse-only extraction may be defensible; flagged for a human's call.
+
+---
+
+## Batch 80–84 additions (2026-09) — both from the "read the smallest 84000 files" method
+
+### Toh 300 (Reliance upon a Virtuous Spiritual Friend / Kalyāṇamitrasevana) — toh300-spiritual-friend
+- link: [[1-SOURCES/Text/bo-toh300.md#^p610]]
+- quote: "དགེ་བའི་བཤེས་གཉེན་དང་། དགེ་བའི་གྲོགས་པོ་དང་། དགེ་བའི་སྟེན་དང་གནས་པར་བྱའི།"
+- buddhavacana: confirmed — the Buddha addressing the monks, spoken as he was about to pass into parinirvāṇa
+- length_est: bo 74 / en 68 chars (exact, from day card) — the shortest card in the batch
+- speaks_to: [lonely, doubtful, aspiration]
+- theme: **spiritual-friendship** (*kalyāṇa-mittatā*) — new to the calendar
+- status: claimed (day 80, 2026-09-11) — rail `toh300-spiritual-friend.md`
+- note: **closes a documented product gap.** `discovery-by-feeling.md`'s Door B table lists "spiritual friendship / sangha (*kalyāṇa-mittatā*) — the Connect pillar" with **SN 45.2 marked ⬜ acquire**; this is the Kangyur counterpart of that teaching, so the gap is closed from the Tibetan side without waiting on the SN import. Distinct from Day 1's `friendship` (Dhp 328, *sahāya*) — different term, different termbase row, and the termbase explicitly warns against swapping them. Only the **positive half** ships; the source continues with its negative mirror ("do not live with a bad friend…"), left off on tone grounds.
+
+### Toh 327 (The Good Person / Satpuruṣa-sūtra) — toh327-five-gifts
+- link: [[1-SOURCES/Text/bo-toh327.md#^p508]]
+- quote: "སྐྱེས་བུ་དམ་པ་ནི་དད་པས་སྦྱིན་པ་སྦྱིན་པར་བྱེད་པ་ཡིན། གུས་པར་བྱས་ཏེ་རང་གི་ལག་པ་ནས་དང་། དུས་སུ་གཞན་དག་ལ་མི་གནོད་པར་སྦྱིན་པ་སྦྱིན་པར་བྱེད་པ་ཡིན་ནོ།"
+- buddhavacana: confirmed — the Buddha addressing the monks directly
+- length_est: en 119 chars (exact, from day card) — **all five items fit; no trimming needed**
+- speaks_to: [grasping, hopeful, grateful]
+- theme: **how-to-give** — new tag, distinct from `generosity` (Days 13/54, *that* one should give) and `non-attached-giving` (Day 45, the spirit of giving). This one is the five conditions on the *manner*: with trust, respectfully, with one's own hands, at the right time, without harming others.
+- status: claimed (day 82, 2026-09-13) — rail `toh327-five-gifts.md`
+- note: a **list that works as a daily card**, which is unusual — the general guidance to avoid enumerations assumes technical dhamma lists, whereas all five items here are ordinary actions a lay reader can check themselves against today. The sūtra then expands each item with its karmic result over following folios; that expansion is not part of the quote.
+
+**Method note worth reusing:** both of the above, plus the (now-rejected) Toh 315, came from sorting `1-SOURCES/Translations/en-toh*-84000.md` by byte size and reading the smallest files. Short sūtras are where card-sized quotes live — the opposite of the Toh 149 failure mode, where a whole sūtra held nothing under ~180 chars. When the Kangyur is under-represented in the canon mix, start here rather than with the Udānavarga.

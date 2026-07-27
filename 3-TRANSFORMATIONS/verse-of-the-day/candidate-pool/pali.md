@@ -464,7 +464,7 @@ The Udāna's narrative-frame-then-verse structure is unusually well-suited to th
 - buddhavacana: confirmed — corpus-level
 - length_est: ~130 chars EN (est.) — minor compression
 - theme: gratitude (fresh instance — honoring parents)
-- status: unclaimed
+- status: **REJECTED for daily-card use (Evan, 2026-09)** — the opening clause is `Brahmāti mātāpitaro` ("parents are Brahmā"), and Evan's call is that **Brahmā won't connect with WeBuddhist's users**. Same ground as the Tibetan twin `toh315-parents` (`tibetan.md`); see the note there. Honouring parents is still a theme worth covering — but it needs a source that makes the point without a Vedic deity carrying it.
 
 **Additional accepted candidates (full detail in the scanning agent's report):** Iti 16 (wise attention, possible new theme), Iti 29 (senses+eating combined gap-filler), Iti 41 (wisdom supreme, possible new theme), Iti 42 (conscience/moral dread, possible new theme "hiri-ottappa"), Iti 43 (the unconditioned), Iti 66 (threefold purity of body/speech/mind), Iti 74 (the true child, moon freed from clouds), Iti 75 (rain-cloud giver simile), Iti 76 (rotten fish and fragrant leaf, choosing companions), Iti 77 (fragile body, ready for death), Iti 92 (true closeness is through the Dhamma, possible new theme).
 
