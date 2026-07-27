@@ -38,7 +38,7 @@ Short sentence, **quoted in full**. Meaning: there is no stranger anywhere, beca
 - **hi** — तुम्हारे अनेक जन्मों में ऐसा कोई प्राणी नहीं है जो कभी तुम्हारा पिता, माता, सन्तान, मित्र, सम्बन्धी या स्वजन न रहा हो।
 - **ne** — तिम्रा अनेक जन्महरूमा त्यस्तो कुनै प्राणी छैन, जो कहिल्यै तिम्रो बाबु, आमा, सन्तान, मित्र, आफन्त वा नातेदार भएको छैन।
 - **mn** — ⚑ Тоолж баршгүй төрөлд чиний эцэг, эх, үр хүүхэд, нөхөр, төрөл, садан болж байгаагүй нэг ч амьтан үгүй.
-- **lbj** — ⚑ ཁྱོད་ཀྱི་སྐྱེ་བ་མང་པོའི་ནང་ལ། ཁྱོད་ཀྱི་ཨ་ཕ། ཨ་མ། བུ། གྲོགས་པོ། ཉེ་འབྲེལ། སྤུན་ཟླ་མ་བྱས་པའི་སེམས་ཅན་གཅིག་ཀྱང་མེད།
+- **lbj** — ⚑ ख्येरङ्गी स्क्येवा मङ्पोइ नङ्ला, ख्येरङ्गी अबा, अमा, बु, ग्योक्पो, ञेन्द्रेल, पुन्ज़्ला मा च्यास्पी सेम्चन चिक् क्याङ् मेत्।
 
 ## QA — pre-review (against 2-RAILS/Verses/toh231-universal-kinship.md)
 
@@ -75,6 +75,6 @@ Short sentence, **quoted in full**. Meaning: there is no stranger anywhere, beca
 
 ### lbj (Ladakhi) ⚑
 - Back-translation (approx): "Across your many lives, there is not a single being who has not been your father, mother, child, friend, relative, or kin."
-- Findings: Derived transparently from the modern `bo` line: the shared written dharma/everyday vocabulary is kept, and the one substitution I could justify is the kinship pair `ཕ`/`མ` → **`ཨ་ཕ`/`ཨ་མ`**, the colloquial forms ordinary Ladakhi speech uses for father and mother. `ནང་དུ` → `ནང་ལ` as the more colloquial locative.
-- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language (added 2026-09) and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. The reviewer should treat this line as a draft to rewrite rather than to approve, and should specifically confirm: (i) whether the shared written dharma terms are what a Ladakhi reader actually expects here, or whether ordinary Ladakhi words are preferred; (ii) the verbal endings and imperatives; (iii) that the result reads as Ladakhi and not as Central Tibetan.
+- Findings: **Devanagari, per Evan's 2026-09 correction** — an earlier draft of this card wrongly rendered `lbj` in Tibetan script, which made it a near-copy of the `bo` line; that has been redone. Ladakhi content words, written in Devanagari: `अबा`/`अमा` (aba/ama, father/mother — the ordinary Ladakhi forms), `बु` (bu, child), `ग्योक्पो` (gyokpo, friend, the Ladakhi reflex of `གྲོགས་པོ`), `ञेन्द्रेल` (nyendrel, relative), `पुन्ज़्ला` (punzla, kin), `सेम्चन` (semchan, being), `चिक् क्याङ् मेत्` (chik kyang met, not a single one). **Not** built from the `hi` line: the Hindi reads पिता/माता/सन्तान/मित्र/सम्बन्धी, all Indo-Aryan, whereas these are Tibetic words in Indic script.
+- Confidence flags — **lowest confidence of any language on this card, and the script correction adds a second layer of uncertainty.** (i) **Orthography is unresolved:** nothing in this vault fixes which Devanagari convention for Ladakhi we use, so every spelling above is a proposal, not a standard — settling that convention is the reviewer's first job and it may change all of these. (ii) Confirm the word choices are the ones Ladakhi speakers actually use, rather than Tibetan forms mechanically transcribed. (iii) Confirm nothing has drifted into Hindi: the script is shared with `hi`, the language is not. (iv) Check the verbal endings and case particles, the layer least likely to survive transcription from Tibetan. Treat this line as a draft to rewrite, not to approve.
 - Net: escalate to native Ladakhi dharma reviewer.

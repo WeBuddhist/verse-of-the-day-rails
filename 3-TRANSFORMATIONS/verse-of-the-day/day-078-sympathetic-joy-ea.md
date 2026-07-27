@@ -38,7 +38,7 @@ Short sentence, **quoted in full**. Meaning: gladness at another's good fortune 
 - **hi** — मुदिता का अभ्यास करो। मुदिता का अभ्यास हो जाने पर सारी ईर्ष्या पूरी तरह मिट जाती है।
 - **ne** — मुदिताको अभ्यास गर। मुदिताको अभ्यास भएपछि सारा ईर्ष्या पूर्ण रूपमा मेटिन्छ।
 - **mn** — ⚑ Баясахуйг бясалга. Баясахуйг бясалгасны дараа бүх атаархал бүрэн арилна.
-- **lbj** — ⚑ དགའ་བ་བསྒོམས་ཤིག། དགའ་བ་བསྒོམས་ན་ཕྲག་དོག་ཐམས་ཅད་ཡོངས་སུ་ཟད་འགྲོ།
+- **lbj** — ⚑ गावा गोम्स्। गावा गोम्स्पी छेना, फ्रग्दोक् थम्चत् त्सङ्मा ज़त्ते च्या।
 
 ## QA — pre-review (against 2-RAILS/Verses/ea-mudita.md)
 
@@ -73,7 +73,7 @@ Short sentence, **quoted in full**. Meaning: gladness at another's good fortune 
 - Net: escalate to native Mongolian dharma reviewer.
 
 ### lbj (Ladakhi) ⚑
-- Back-translation (approx): "Cultivate sympathetic joy. If sympathetic joy is cultivated, all envy goes completely away."
-- Findings: Rendered from the rail's meaning (source is Chinese, so there is no Tibetan source to lean on). Shared dharma terms `དགའ་བ` (*muditā*) and `ཕྲག་དོག` (envy) kept; the final verb is given the lighter colloquial `ཟད་འགྲོ` rather than the more literary `ཡོངས་སུ་ཟད་པར་འགྱུར` used on the `bo` line, and the imperative is `བསྒོམས་ཤིག`.
-- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language (added 2026-09) and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. The reviewer should treat this line as a draft to rewrite rather than to approve, and should specifically confirm: (i) whether the shared written dharma terms are what a Ladakhi reader actually expects here, or whether ordinary Ladakhi words are preferred; (ii) the verbal endings and imperatives; (iii) that the result reads as Ladakhi and not as Central Tibetan.
+- Back-translation (approx): "Cultivate sympathetic joy. Once sympathetic joy is cultivated, all envy is entirely exhausted."
+- Findings: **Devanagari, per Evan's 2026-09 correction** — an earlier draft of this card wrongly rendered `lbj` in Tibetan script, which made it a near-copy of the `bo` line; that has been redone. Ladakhi content words in Devanagari: `गावा` (gawa, the Ladakhi reflex of `དགའ་བ`, *muditā*), `गोम्स्` (goms, cultivate/train), `फ्रग्दोक्` (phragdok, `ཕྲག་དོག`, envy), `ज़त्ते च्या` (zatte cha, entirely used up). **Not** the `hi` line, which keeps the loanword मुदिता; this uses the Tibetic term.
+- Confidence flags — **lowest confidence of any language on this card, and the script correction adds a second layer of uncertainty.** (i) **Orthography is unresolved:** nothing in this vault fixes which Devanagari convention for Ladakhi we use, so every spelling above is a proposal, not a standard — settling that convention is the reviewer's first job and it may change all of these. (ii) Confirm the word choices are the ones Ladakhi speakers actually use, rather than Tibetan forms mechanically transcribed. (iii) Confirm nothing has drifted into Hindi: the script is shared with `hi`, the language is not. (iv) Check the verbal endings and case particles, the layer least likely to survive transcription from Tibetan. Treat this line as a draft to rewrite, not to approve.
 - Net: escalate to native Ladakhi dharma reviewer.
