@@ -27,7 +27,7 @@ status: draft
 - **84000 English** — `1-SOURCES/Translations/en-toh231-84000.md` (CC BY-NC-ND), in the section on the bodhisattvas' perfect giving of fearlessness: the Thus-Gone One is recollected as having taught that among all sentient beings there is no one who, throughout all one's changing lives, has not at some point been one's father, mother, child, friend, relative, or kinsman. Consulted **only** to disambiguate meaning; not excerpted into any shipped rendering. The shipped verse is WeBuddhist's own translation from the Tibetan source.
 
 ## Traditional Interpretation (commentary)
-*No commentary imported.*
+*No commentary imported.* (Slot — see vault-annex §3 if one is added.)
 
 ## Disambiguated Meaning
 Grounded in the Tibetan source (`bo-toh231.md#^p25`) and the 84000 reference (`en-toh231-84000.md`, the giving-of-fearlessness section): the Buddha's teaching is a flat universal negative — **there is no being at all** (`སེམས་ཅན་དེ་ལྟ་བུ་མེད་དོ`) who, **across those many transmigrations from birth to birth** (`སྐྱེ་བ་འཕོ་བ་དེ་དང་དེ་དག་ཏུ`), **among the ranks of beings** (`སེམས་ཅན་གྱི་རིས་སུ`), **has not stood in the position of** (`གནས་སུ་མ་གྱུར་པའི`) your **father** (`ཕ`), **mother** (`མ`), **child** (`བུ`), **friend** (`གཉེན་བཤེས`), **relative** (`ཉེ་དུ`), or **kinsman** (`སྣག་གི་གཉེན་མཚམས`). In its source context this is the reason a bodhisattva can give up stick and weapon and perceive every being as close family: the sentence supplies the *ground* for fearlessness and non-harm, not merely a cosmological claim (`en-toh231-84000.md`, same section).

@@ -281,3 +281,10 @@ These three were accepted into the pool before `selection-criteria.md` §2 was s
 - link: [[1-SOURCES/Text/bo-toh231.md#^p165]]
 - reason: "The world is painted by mind, yet mind does not see mind" — whole and standalone, but **accessibility fail (§2)**: too esoteric for a no-glossary lay reader. Different reason from the two above. Other Toh 231 candidates are unaffected.
 
+---
+
+## Rejected on the length gate (§2 "must fit the app card", 2026-09 batch)
+
+### Toh 149 (The Question of Maitreya) — toh149-gift-of-teaching
+- link: [[1-SOURCES/Text/bo-toh149.md#^p662]] (verse) and the prose reply in the same block
+- reason: **length-gate fail (§2), not a buddhavacana or out-of-context fail.** Content is excellent (the Buddha to Maitreya: compassionately planting a single Dharma verse in someone's mind outweighs filling Ganges-sand-many world realms with the seven precious substances and offering them to the buddhas) and it is cleanly Buddha-spoken. But **no unit of this sūtra fits the ~125-char card whole**: the prose reply runs ~350 chars EN, and each of the two closing quatrains ~180+. The sūtra is only 29 lines long and contains nothing shorter. Making it fit would require distilling a long comparison down to its gist, which §2 forbids outright, so the entry's old "flagged for compression at claim time" note was not actually resolvable. Selected for Day 80 (2026-09-11), then **pulled at build time on this ground**; Evan chose to park Day 80 rather than substitute (2026-09). Do not re-tag as a daily-card candidate — but it is a strong candidate for any future *context-rich* feature that can carry a longer quote.

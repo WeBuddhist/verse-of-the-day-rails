@@ -134,7 +134,7 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - length_est: unresolved — flagged for compression at claim time (like toh330/toh125)
 - speaks_to: [grateful, aspiration, hopeful] (tentative — recheck once the exact quote is fixed)
 - theme: gift-of-teaching (recurring theme — already used Day 43/Dhp 354; same doctrinal ground, different sūtra, fine per selection-criteria §3)
-- status: unclaimed
+- status: **REJECTED — MOVED to `rejected.md` (2026-09)**. Selected for Day 80, then pulled at build time on the **§2 length gate**: the whole sūtra is 29 lines and holds nothing shorter than a ~350-char prose reply or two ~180-char quatrains, so the "flagged for compression at claim time" note was never resolvable without distilling. Not a daily-card candidate; keep for a future context-rich feature.
 
 ---
 
@@ -174,7 +174,7 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - length_est: ~110 chars EN (est.)
 - speaks_to: [doubtful, aspiration]
 - theme: karma-and-its-fruit (fills the checklist gap)
-- status: unclaimed
+- status: claimed (day 79, 2026-09-10) — rail `udv-karma-fruit.md`. Verified verbatim at `bo-udanavarga.md#^p436`; complete quatrain, no compression needed (bo 110 chars / en ~120). Grounded on the Pali parallel **AN 10.216** (`pi-anguttara-nikaya.md#^an10-216-6-9/10`, the kammadāyāda "heir to one's deeds" formula).
 
 ### Udānavarga ch.10 (faith, "faith is a person's finest wealth") — udv-faith-wealth
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p437]]
@@ -407,3 +407,24 @@ Each already had a paired 84000 English reference (`en-toh<N>-84000.md`, CC BY-N
 - status: claimed (day 76, 2026-09-07) — rail `toh231-universal-kinship.md`. Length resolved: shipped as one verbatim sentence (attribution frame dropped), bo 174 chars / en ~115, no compression of the six-item list needed.
 
 **Toh 231, rejected on the tone/wellbeing gate:** a string of Buddha-spoken similes on the shortcomings of desire ("like an impaling stake... like the edge of a sword... like a snake's head... rotten, foul-smelling," ^p45) — confirmed buddhavacana and self-contained, but the graphic imagery fails the tone gate regardless of doctrinal soundness (same category as the already-logged MĀ 5 precedent in `rejected.md`). **Two `<br>`-formatted verse passages** (~lines 50-58, arrival/praise verses) rejected as third-party praise of the Buddha, not his own speech — confirmed no other stand-alone verse sections exist anywhere else in this sūtra.
+
+---
+
+## Short-Kangyur-sūtra spot check (2026-09 batch) — found while hunting a replacement for the rejected Toh 149
+
+Not a systematic scan. Method worth reusing: the `en-toh*-84000.md` reference files were sorted by byte size and the smallest ones opened, on the reasoning that a **short sūtra is the likeliest place to find a quote that fits the card whole** — the opposite of the Toh 149 failure mode. Three of the ~3 kB files were read; one strong candidate and two leads came out of it in a few minutes.
+
+### Toh 315 (The Father and Mother Sūtra / ཕ་མའི་མདོ) — toh315-parents
+- link: [[1-SOURCES/Text/bo-toh315.md#^p340]] (the first of three closing quatrains; the prose body precedes it in the same block)
+- quote: "ཕ་མ་གཉིས་ནི་ཚངས་པ་སྟེ། །དེ་བཞིན་དང་པོ་སློབ་དཔོན་ཡིན། །བུ་ཡི་ཀུན་སྦྱིན་འོས་གྱུར་པ། །མི་ཡང་ཡིན་ལ་ལྷ་ཡང་ཡིན།"
+- buddhavacana: confirmed — "the Teacher proclaimed this, too," closing the Blessed One's own discourse to the monks
+- length_est: bo ~110 chars / en 124 (measured) — **fits the card whole, no compression**, which is precisely why it was reached for
+- speaks_to: [grateful, lonely, hopeful]
+- theme: gratitude (fresh instance — honouring parents; recurring theme, last run Day 41/AN 2.32)
+- status: unclaimed — **verified verbatim and card-ready.** Proposed as the Day 80 substitute; Evan chose to park Day 80 instead (2026-09), so this stays banked for the next batch.
+- pali parallel: **Iti 106** (`pi-itivuttaka.md#^iti106-4-1`ff, Sujato at the same anchors) — the same "parents are Brahmā / first teachers" verse, so grounding can run `parallel-pali`. ⚑ **Divergence to flag, do not flatten:** the Tibetan fourth line reads `མི་ཡང་ཡིན་ལ་ལྷ་ཡང་ཡིན` ("they are both human and divine"); the Pali fourth line is `pajāya anukampakā`, Sujato "for they love their offspring." Two different closings for the same quatrain.
+- note: this also supplies the Tibetan-canon instance of the Iti 106 material already sitting unclaimed in `pali.md`; running both would be near-duplicate content, so pick one canon and mark the other claimed-by-parallel.
+
+**Two further leads from the same spot check (read, not fully worked up):**
+- **Toh 309 (The Sūtra on Impermanence 1)** — closing verse: health, youth, prosperity, and life are each impermanent, "how can beings, afflicted as they are by impermanence, take delight in such desirable things?" Buddha-spoken, but the verse is six lines and ends on the rhetorical question with no turn toward a remedy — likely a **§2 "offer a way through" fail**; check before tagging.
+- **Toh 250 (The Sūtra on the Four Factors)** — closing similes: "wealth is like a rushing river, a home like a ferryboat, the body resembles a flower, life itself is like a water bubble." Vivid and fits, but the sūtra's prose body frames all four as "beliefs a wise son of good family does not hold," the first being "that there is pleasure to be found in women" — the framing is gendered in a way the card would have to leave behind entirely. Verse-only extraction may be defensible; flagged for a human's call.
