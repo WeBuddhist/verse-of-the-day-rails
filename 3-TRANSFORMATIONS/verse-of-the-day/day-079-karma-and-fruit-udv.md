@@ -23,15 +23,17 @@ review_status:
 Rail: [[2-RAILS/Verses/udv-karma-fruit]] · own translation from the Degé Kangyur (Public Domain), grounded on the Pali parallel AN 10.216 (Sujato, CC0).
 Short verse, **quoted in full**. Meaning: nothing you do is lost, and what it ripens into matches what it was.
 
-## Source (Tibetan)
+## Source (Tibetan, Udānavarga — verbatim)
 
 > མི་ཡིས་དགེ་བའམ་སྡིག་པ་ཡི། །ལས་ནི་གང་དང་གང་བྱས་པའི། །ལས་རྣམས་ཆུད་ཟར་མི་འགྱུར་ཏེ། །དེ་ལྟ་དེ་ལྟར་འབྲས་བུར་འགྱུར། ། (`bo-udanavarga.md#^p436`)
 
 ## Renderings (one short line each)
 
+> **Note on bo (Evan, 2026-09):** on Tibetan-source cards the verbatim Degé text is **the source** (above), but the **shipped bo rendering is modern, plain Tibetan** like every other language, not the classical source pasted through. This is a deliberate departure from `translation-qa` rule 8 and the day-card template's "verbatim source if the source IS Tibetan" branch — **do not "correct" it back to the classical text.** Applied to Days 76, 78, and 79 so far; the other Tibetan-source cards (19/51/52/68 and the rest) still ship the classical source and remain inconsistent with this decision.
+
 - **en** — Whatever deeds a person does, wholesome or unwholesome, those deeds are never wasted; just so do they bear their fruit.
 - **zh** — 人所作的一切善業或惡業，都不會白費，而是如其所作，如是結果。
-- **bo** — ⚑ མི་ཡིས་དགེ་བའམ་སྡིག་པ་ཡི། །ལས་ནི་གང་དང་གང་བྱས་པའི། །ལས་རྣམས་ཆུད་ཟར་མི་འགྱུར་ཏེ། །དེ་ལྟ་དེ་ལྟར་འབྲས་བུར་འགྱུར། །
+- **bo** — ⚑ མི་ཞིག་གིས་དགེ་བའམ་སྡིག་པའི་ལས་གང་བྱས་ཀྱང་། ལས་དེ་དག་ཆུད་ཟོས་མི་འགྲོ་བར། བྱས་པ་ཇི་བཞིན་དུ་འབྲས་བུ་སྨིན་གྱི་རེད།
 - **hi** — मनुष्य जो भी कुशल या अकुशल कर्म करता है, वे कर्म व्यर्थ नहीं जाते; जैसे किए, वैसे ही फल देते हैं।
 - **ne** — मानिसले जे जति कुशल वा अकुशल कर्म गर्छ, त्यो कर्म खेर जाँदैन; जस्तो गरे, त्यस्तै फल दिन्छ।
 - **mn** — ⚑ Хүн ямар ч буянт ба нүгэлт үйл хийсэн бол, тэр үйлс дэмий үрэгдэхгүй; яг тэр чигээрээ үрээ өгнө.
@@ -59,8 +61,9 @@ Short verse, **quoted in full**. Meaning: nothing you do is lost, and what it ri
 - Net: needs native review.
 
 ### bo ⚑
-- The verbatim Degé source (`bo-udanavarga.md#^p436`); the quote itself, not a rendering. Complete quatrain, nothing elided.
-- Confidence flags: reviewer to confirm the verse boundary is right, i.e. that the following line `དེ་ཡི་ཚོགས་པ་ཇི་སྲིད་པར` genuinely begins a new verse and this quatrain stands complete on its own.
+- Back-translation (approx): "Whatever wholesome or unwholesome deed a person does, those deeds do not go to waste; exactly as they were done, so does their fruit ripen."
+- Findings: **our own modern Tibetan rendering**, not the verbatim source (per the note above). What was modernised: the four-line verse structure with its `། །` metrical breaks becomes flowing modern prose; the archaic agentive `མི་ཡིས` becomes `མི་ཞིག་གིས`; the doubled emphatic `གང་དང་གང་བྱས་པའི` becomes the plain `གང་བྱས་ཀྱང་` ("whatever they do"); the archaic idiom `ཆུད་ཟར་མི་འགྱུར` becomes the current `ཆུད་ཟོས་མི་འགྲོ`; the doubled `དེ་ལྟ་དེ་ལྟར` becomes `བྱས་པ་ཇི་བཞིན་དུ` ("exactly as they were done"); and the classical `འབྲས་བུར་འགྱུར` takes the modern verbal ending `འབྲས་བུ་སྨིན་གྱི་རེད`. Rail flags honoured: the waste-clause stays **negative** (a), both halves of the `དགེ་བ`/`སྡིག་པ` pair ship (b), the deed-to-fruit correspondence is explicit (c), and the subject stays impersonal `མི་ཞིག` rather than second-person (d).
+- Confidence flags — **higher risk than usual, please read closely.** (i) Register: confirm `སྨིན་གྱི་རེད` is the right modern ending here and does not read as colloquial to the point of losing dignity; a reviewer may prefer `སྨིན་པར་འགྱུར`. (ii) Confirm `ཆུད་ཟོས་མི་འགྲོ` is current usage for "is not wasted" and keeps the consoling force the rail identifies. (iii) Confirm collapsing the doubled `གང་དང་གང` to `གང་བྱས་ཀྱང་` retains the emphatic "any and every" rather than weakening to a vague "whatever." (iv) Verse-boundary check still stands on the source above: confirm the following line `དེ་ཡི་ཚོགས་པ་ཇི་སྲིད་པར` genuinely begins a new verse.
 - Net: escalate to native Tibetan dharma reviewer.
 
 ### mn ⚑
