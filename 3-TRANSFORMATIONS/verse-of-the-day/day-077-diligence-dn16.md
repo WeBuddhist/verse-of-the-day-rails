@@ -16,6 +16,7 @@ review_status:
   ne: needs-native-review
   bo: escalate-native-review
   mn: escalate-native-review
+  lbj: escalate-native-review
 ---
 
 # Day 77 — Diligence (DN 16)
@@ -35,6 +36,7 @@ Short sentence, **quoted in full**. Meaning: everything assembled comes apart, s
 - **hi** — सभी संस्कार विनाशशील हैं। अप्रमाद के साथ साधना को पूरा करो।
 - **ne** — सबै संस्कार विनाशशील छन्। अप्रमादपूर्वक साधनालाई पूरा गर।
 - **mn** — ⚑ Хуран үйлдэгдсэн бүхэн эвдрэх чанартай. Сэрэмжтэйгээр номоо бүтээж дуусга.
+- **lbj** — ⚑ འདུ་བྱེད་རྣམས་འཇིག་པའི་ཆོས་ཅན་ཡིན། བག་ཡོད་པས་མཐར་ཕྱིན་པར་གྱིས།
 
 ## QA — pre-review (against 2-RAILS/Verses/dn16-last-words.md)
 
@@ -68,3 +70,9 @@ Short sentence, **quoted in full**. Meaning: everything assembled comes apart, s
 - Back-translation (approx): "All that is compounded is of a breakable nature. With diligence, complete your practice of the Dharma."
 - Confidence flags: сэрэмжтэйгээр for *appamāda* follows the termbase's ⚑ (unratified) row — confirm it does not read as mere "cautiously." "номоо бүтээж дуусга" adds the object "the Dharma" to carry *sampādetha*, which the Pali leaves implicit; confirm this is acceptable rather than an addition.
 - Net: escalate to native Mongolian dharma reviewer.
+
+### lbj (Ladakhi) ⚑
+- Back-translation (approx): "Conditioned formations are of a nature to perish. With diligence, bring it to completion."
+- Findings: **Currently identical to the modern `bo` line, and that is a flag, not a result.** Both content words here (`འདུ་བྱེད`, `བག་ཡོད`) are shared written dharma terms, and I could not identify a Ladakhi-specific divergence I could justify — most likely the imperative ending is where real Ladakhi usage would differ. Treat this line as a starting point for the reviewer to correct, not as a verified Ladakhi rendering.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language (added 2026-09) and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. The reviewer should treat this line as a draft to rewrite rather than to approve, and should specifically confirm: (i) whether the shared written dharma terms are what a Ladakhi reader actually expects here, or whether ordinary Ladakhi words are preferred; (ii) the verbal endings and imperatives; (iii) that the result reads as Ladakhi and not as Central Tibetan.
+- Net: escalate to native Ladakhi dharma reviewer.

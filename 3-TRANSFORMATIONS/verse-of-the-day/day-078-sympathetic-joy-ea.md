@@ -16,6 +16,7 @@ review_status:
   ne: needs-native-review
   bo: escalate-native-review
   mn: escalate-native-review
+  lbj: escalate-native-review
 ---
 
 # Day 78 — Sympathetic Joy (EĀ 增壹阿含經)
@@ -29,7 +30,7 @@ Short sentence, **quoted in full**. Meaning: gladness at another's good fortune 
 
 ## Renderings (one short line each)
 
-> **Note on zh (Evan, 2026-09):** on Chinese-source cards the verbatim CBETA text is **the source** (above), but the **shipped zh rendering is modern Traditional Chinese** (Taiwan/HK/SG) like every other language, not the classical source pasted through. This is a deliberate departure from `translation-qa` rule 8 and the day-card template's "verbatim source if the source IS Chinese" branch — **do not "correct" it back to the classical text.** Applied to Days 76, 78, and 79 so far; the other Chinese-source cards (T210, the Āgamas, the Mahāyāna sūtra cards) still ship the classical source and remain inconsistent with this decision.
+> **Note on zh:** the verbatim CBETA text above is **the source**; the shipped `zh` rendering is **modern Traditional Chinese** (Taiwan/HK/SG) like every other language. This is now the vault's standing rule (CLAUDE.md hard rule 5, `verse-rail` "Source-language output ships modern", `translation-qa` rule 8, `vault-annex.md` §4, all aligned 2026-09) — **do not "correct" it back to the classical text.** The verbatim source is also the yardstick the modern `zh` is back-translated against, in the QA note below. Days 76, 78, 79 were the first cards built this way; earlier Chinese- and Tibetan-source cards still ship classical text and are a backfill debt, not precedent.
 
 - **en** — Cultivate sympathetic joy. Once sympathetic joy is cultivated, all envy is entirely cleared away.
 - **zh** — 要修習隨喜心；隨喜心修習起來之後，一切嫉妒都會徹底去除。
@@ -37,6 +38,7 @@ Short sentence, **quoted in full**. Meaning: gladness at another's good fortune 
 - **hi** — मुदिता का अभ्यास करो। मुदिता का अभ्यास हो जाने पर सारी ईर्ष्या पूरी तरह मिट जाती है।
 - **ne** — मुदिताको अभ्यास गर। मुदिताको अभ्यास भएपछि सारा ईर्ष्या पूर्ण रूपमा मेटिन्छ।
 - **mn** — ⚑ Баясахуйг бясалга. Баясахуйг бясалгасны дараа бүх атаархал бүрэн арилна.
+- **lbj** — ⚑ དགའ་བ་བསྒོམས་ཤིག། དགའ་བ་བསྒོམས་ན་ཕྲག་དོག་ཐམས་ཅད་ཡོངས་སུ་ཟད་འགྲོ།
 
 ## QA — pre-review (against 2-RAILS/Verses/ea-mudita.md)
 
@@ -69,3 +71,9 @@ Short sentence, **quoted in full**. Meaning: gladness at another's good fortune 
 - Back-translation (approx): "Meditate on sympathetic joy. After sympathetic joy is meditated on, all envy disappears completely."
 - Confidence flags: баясал / баясахуй follows the termbase's ⚑ (unratified) *muditā* row — confirm it carries "joy at another's good" and not plain "delight"; confirm атаархал is the standard word for envy and that бясалга ("meditate") is the right verb for 行 rather than a word for ordinary practice.
 - Net: escalate to native Mongolian dharma reviewer.
+
+### lbj (Ladakhi) ⚑
+- Back-translation (approx): "Cultivate sympathetic joy. If sympathetic joy is cultivated, all envy goes completely away."
+- Findings: Rendered from the rail's meaning (source is Chinese, so there is no Tibetan source to lean on). Shared dharma terms `དགའ་བ` (*muditā*) and `ཕྲག་དོག` (envy) kept; the final verb is given the lighter colloquial `ཟད་འགྲོ` rather than the more literary `ཡོངས་སུ་ཟད་པར་འགྱུར` used on the `bo` line, and the imperative is `བསྒོམས་ཤིག`.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language (added 2026-09) and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. The reviewer should treat this line as a draft to rewrite rather than to approve, and should specifically confirm: (i) whether the shared written dharma terms are what a Ladakhi reader actually expects here, or whether ordinary Ladakhi words are preferred; (ii) the verbal endings and imperatives; (iii) that the result reads as Ladakhi and not as Central Tibetan.
+- Net: escalate to native Ladakhi dharma reviewer.

@@ -16,6 +16,7 @@ review_status:
   ne: needs-native-review
   bo: escalate-native-review
   mn: escalate-native-review
+  lbj: escalate-native-review
 ---
 
 # Day 79 — Karma and Its Fruit (Udānavarga 9)
@@ -29,7 +30,7 @@ Short verse, **quoted in full**. Meaning: nothing you do is lost, and what it ri
 
 ## Renderings (one short line each)
 
-> **Note on bo (Evan, 2026-09):** on Tibetan-source cards the verbatim Degé text is **the source** (above), but the **shipped bo rendering is modern, plain Tibetan** like every other language, not the classical source pasted through. This is a deliberate departure from `translation-qa` rule 8 and the day-card template's "verbatim source if the source IS Tibetan" branch — **do not "correct" it back to the classical text.** Applied to Days 76, 78, and 79 so far; the other Tibetan-source cards (19/51/52/68 and the rest) still ship the classical source and remain inconsistent with this decision.
+> **Note on bo:** the verbatim Degé text above is **the source**; the shipped `bo` rendering is **modern, plain Tibetan** like every other language. This is now the vault's standing rule (CLAUDE.md hard rule 5, `verse-rail` "Source-language output ships modern", `translation-qa` rule 8, `vault-annex.md` §4, all aligned 2026-09) — **do not "correct" it back to the classical text.** The verbatim source is also the yardstick the modern `bo` is back-translated against, in the QA note below. Days 76, 78, 79 were the first cards built this way; earlier Tibetan- and Chinese-source cards still ship classical text and are a backfill debt, not precedent.
 
 - **en** — Whatever deeds a person does, wholesome or unwholesome, those deeds are never wasted; just so do they bear their fruit.
 - **zh** — 人所作的一切善業或惡業，都不會白費，而是如其所作，如是結果。
@@ -37,6 +38,7 @@ Short verse, **quoted in full**. Meaning: nothing you do is lost, and what it ri
 - **hi** — मनुष्य जो भी कुशल या अकुशल कर्म करता है, वे कर्म व्यर्थ नहीं जाते; जैसे किए, वैसे ही फल देते हैं।
 - **ne** — मानिसले जे जति कुशल वा अकुशल कर्म गर्छ, त्यो कर्म खेर जाँदैन; जस्तो गरे, त्यस्तै फल दिन्छ।
 - **mn** — ⚑ Хүн ямар ч буянт ба нүгэлт үйл хийсэн бол, тэр үйлс дэмий үрэгдэхгүй; яг тэр чигээрээ үрээ өгнө.
+- **lbj** — ⚑ མི་ཞིག་གིས་དགེ་བའམ་སྡིག་པའི་ལས་གང་བྱས་ཀྱང་། ལས་དེ་ཆུད་ཟོས་མི་འགྲོ་བར། བྱས་པ་ཇི་བཞིན་འབྲས་བུ་སྨིན་ནི་ཡིན།
 
 ## QA — pre-review (against 2-RAILS/Verses/udv-karma-fruit.md)
 
@@ -70,3 +72,9 @@ Short verse, **quoted in full**. Meaning: nothing you do is lost, and what it ri
 - Back-translation (approx): "Whatever wholesome or unwholesome deed a person has done, those deeds are not wasted in vain; exactly so do they give their fruit."
 - Confidence flags: буянт / нүгэлт for the wholesome/unwholesome pair (termbase gives буян for *kusala* ✓, нүгэл is the standard counterpart but is unratified here); confirm дэмий үрэгдэхгүй is the idiomatic "not wasted"; confirm "яг тэр чигээрээ" carries the deed-to-fruit correspondence rather than merely "in the same manner."
 - Net: escalate to native Mongolian dharma reviewer.
+
+### lbj (Ladakhi) ⚑
+- Back-translation (approx): "Whatever wholesome or unwholesome deed a person does, that deed does not go to waste; as it was done, so its fruit ripens."
+- Findings: Derived from the modern `bo` line. `དགེ་བ`/`སྡིག་པ` and `ལས` are shared dharma terms and stay. The one substitution I could justify is the sentence-final ending: `སྨིན་གྱི་རེད` → **`སྨིན་ནི་ཡིན`**, closer to Ladakhi's usual present/habitual construction. Everything else is unchanged from `bo`, which is itself a flag.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language (added 2026-09) and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. The reviewer should treat this line as a draft to rewrite rather than to approve, and should specifically confirm: (i) whether the shared written dharma terms are what a Ladakhi reader actually expects here, or whether ordinary Ladakhi words are preferred; (ii) the verbal endings and imperatives; (iii) that the result reads as Ladakhi and not as Central Tibetan.
+- Net: escalate to native Ladakhi dharma reviewer.

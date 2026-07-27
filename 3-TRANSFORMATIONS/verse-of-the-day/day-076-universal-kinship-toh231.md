@@ -16,6 +16,7 @@ review_status:
   ne: needs-native-review
   bo: escalate-native-review
   mn: escalate-native-review
+  lbj: escalate-native-review
 ---
 
 # Day 76 — Universal Kinship (Toh 231)
@@ -29,7 +30,7 @@ Short sentence, **quoted in full**. Meaning: there is no stranger anywhere, beca
 
 ## Renderings (one short line each)
 
-> **Note on bo (Evan, 2026-09):** on Tibetan-source cards the verbatim Degé text is **the source** (above), but the **shipped bo rendering is modern, plain Tibetan** like every other language, not the classical source pasted through. This is a deliberate departure from `translation-qa` rule 8 and the day-card template's "verbatim source if the source IS Tibetan" branch — **do not "correct" it back to the classical text.** Applied to Days 76 and 79 only so far; Days 19/51/52/68 and the other Tibetan-source cards, plus every Chinese-source card's zh (including Day 78), still ship the classical source and remain inconsistent with this decision.
+> **Note on bo:** the verbatim Degé text above is **the source**; the shipped `bo` rendering is **modern, plain Tibetan** like every other language. This is now the vault's standing rule (CLAUDE.md hard rule 5, `verse-rail` "Source-language output ships modern", `translation-qa` rule 8, `vault-annex.md` §4, all aligned 2026-09) — **do not "correct" it back to the classical text.** The verbatim source is also the yardstick the modern `bo` is back-translated against, in the QA note below. Days 76, 78, 79 were the first cards built this way; earlier Tibetan- and Chinese-source cards still ship classical text and are a backfill debt, not precedent.
 
 - **en** — Across your many lives there is no being who has not been your father, mother, child, friend, relative, or kinsman.
 - **zh** — 在你生生流轉之中，沒有一個眾生不曾做過你的父親、母親、孩子、朋友、親屬或眷屬。
@@ -37,6 +38,7 @@ Short sentence, **quoted in full**. Meaning: there is no stranger anywhere, beca
 - **hi** — तुम्हारे अनेक जन्मों में ऐसा कोई प्राणी नहीं है जो कभी तुम्हारा पिता, माता, सन्तान, मित्र, सम्बन्धी या स्वजन न रहा हो।
 - **ne** — तिम्रा अनेक जन्महरूमा त्यस्तो कुनै प्राणी छैन, जो कहिल्यै तिम्रो बाबु, आमा, सन्तान, मित्र, आफन्त वा नातेदार भएको छैन।
 - **mn** — ⚑ Тоолж баршгүй төрөлд чиний эцэг, эх, үр хүүхэд, нөхөр, төрөл, садан болж байгаагүй нэг ч амьтан үгүй.
+- **lbj** — ⚑ ཁྱོད་ཀྱི་སྐྱེ་བ་མང་པོའི་ནང་ལ། ཁྱོད་ཀྱི་ཨ་ཕ། ཨ་མ། བུ། གྲོགས་པོ། ཉེ་འབྲེལ། སྤུན་ཟླ་མ་བྱས་པའི་སེམས་ཅན་གཅིག་ཀྱང་མེད།
 
 ## QA — pre-review (against 2-RAILS/Verses/toh231-universal-kinship.md)
 
@@ -70,3 +72,9 @@ Short sentence, **quoted in full**. Meaning: there is no stranger anywhere, beca
 - Back-translation (approx): "In countless births there is not one being who has not been your father, mother, child, friend, relation, or kin."
 - Confidence flags: Тоолж баршгүй төрөлд ("in countless births") is looser than "in those transmigrations from birth to birth" — confirm acceptable. төрөл / садан as the two kin-range words; нөхөр here means "friend/companion" (termbase: *sahāya* → нөхөр / хамтрагч), confirm it does not read as "spouse" in this list.
 - Net: escalate to native Mongolian dharma reviewer.
+
+### lbj (Ladakhi) ⚑
+- Back-translation (approx): "Across your many lives, there is not a single being who has not been your father, mother, child, friend, relative, or kin."
+- Findings: Derived transparently from the modern `bo` line: the shared written dharma/everyday vocabulary is kept, and the one substitution I could justify is the kinship pair `ཕ`/`མ` → **`ཨ་ཕ`/`ཨ་མ`**, the colloquial forms ordinary Ladakhi speech uses for father and mother. `ནང་དུ` → `ནང་ལ` as the more colloquial locative.
+- Confidence flags — **lowest confidence of any language on this card.** Ladakhi is the newest output language (added 2026-09) and its entire `termbase.md` column is still `⚑ TBD`, so there is no ratified vocabulary to check against. The reviewer should treat this line as a draft to rewrite rather than to approve, and should specifically confirm: (i) whether the shared written dharma terms are what a Ladakhi reader actually expects here, or whether ordinary Ladakhi words are preferred; (ii) the verbal endings and imperatives; (iii) that the result reads as Ladakhi and not as Central Tibetan.
+- Net: escalate to native Ladakhi dharma reviewer.
