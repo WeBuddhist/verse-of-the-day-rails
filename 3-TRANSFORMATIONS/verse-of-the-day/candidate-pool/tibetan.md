@@ -248,6 +248,17 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - theme: communal-harmony (fills the checklist gap)
 - status: claimed (day 61, 2026-08-23)
 
+### Udānavarga ch.30 (happiness, discerning people are rare / good company) — udv-good-company
+- link: [[1-SOURCES/Text/bo-udanavarga.md#^p484]]
+- quote: "སྐྱེས་བུ་ཅང་ཤེས་དཀོན་པ་སྟེ། །དེ་དག་ཀུན་དུ་འབྱུང་མ་ཡིན། །བརྟན་པ་རྣམས་དང་འགྲོགས་པ་དག །གཉེན་དང་ཕྲད་པ་ལྟ་བུར་བདེ།"
+- buddhavacana: confirmed — Udānavarga verse, same happiness chapter as the already-claimed `udv-sangha-harmony` (Day 61) but a separate quatrain
+- length_est: bo 109 / en 124 chars (exact, from day card) — fits whole, no compression
+- speaks_to: [lonely, grateful, hopeful]
+- theme: joy-of-good-company (new tag — the *felt experience* of good company, distinct from Day 80's `spiritual-friendship`, which is the Buddha's instruction to seek it, and from Day 1's `friendship` / *sahāya*)
+- status: claimed (day 85, 2026-09-16) — rail `udv-good-company.md`
+- pali parallel: **Dhp 207** (`pi-dhammapada.md#^207`, Sujato at the same anchor) — ⚑ **overlaps only in the second half.** Dhp 207 opens on the misery of consorting with fools ("like being stuck with your enemy"); this Tibetan quatrain replaces that with the rarity observation instead. Sound anchor for the simile and the claim, but **do not import the fool/enemy contrast** into any rendering. This is also why the Tibetan was preferred over the Pali here: Dhp 207 as a whole opens on bad company and would fail the tone screen.
+- note: passed over in the Days 80–84 batch purely for adjacency to Day 80's spiritual-friendship; accepted at five days' distance.
+
 ### Udānavarga ch.33 (brāhmaṇa, not by birth but by truth, Dhp 393 parallel) — udv-spiritual-equality
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p500]]
 - quote: "རིགས་ཀྱིས་བྲམ་ཟེར་འགྱུར་མ་ཡིན། །རལ་པས་མ་ཡིན་རུས་ཀྱིས་མིན། །གང་ཞིག་བདེན་པའི་ཆོས་ལྡན་པ། །གཙང་མ་དེ་ཡིན་བྲམ་ཟེ་ཡིན།"
