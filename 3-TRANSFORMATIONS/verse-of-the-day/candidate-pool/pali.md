@@ -446,9 +446,11 @@ The Udāna's narrative-frame-then-verse structure is unusually well-suited to th
 - link: [[1-SOURCES/Text/pi-itivuttaka.md#^iti86-4-1]]
 - quote: "Caraṁ vā yadi vā tiṭṭhaṁ, nisinno uda vā sayaṁ; Ajjhattaṁ samayaṁ cittaṁ, santimevādhigacchatī"ti.
 - buddhavacana: confirmed — corpus-level (the cleanest, shortest of three occurrences of this refrain in the text — Iti 110/111 embed it in much longer prose)
-- length_est: ~103 chars EN (est.) — fits well
+- length_est: **resolved — en 100 chars (exact, from day card).** Fits comfortably; the shortest card the vault has shipped in several batches.
 - theme: inner-peace (fresh instance)
-- status: unclaimed
+- status: claimed (day 92, 2026-09-23) — rail `iti-86.md`. Verified verbatim at `pi-itivuttaka.md#^iti86-4-1`–`^iti86-4-4`; **direct CC0 grounding** (Sujato aligned line-for-line at the same four anchors), so `grounding: translation`, not `parallel-pali` — the simplest rail in the recent run.
+- ⚑ **why this one succeeded where three vivid Kangyur picks failed the same week**: it is **self-applying** — no person, place, scene or event, addressed to anyone, meaning entirely on the surface. It has **no image at all**, which turned out not to matter. See `rejected.md`, "Rejected on the SELF-APPLYING screen": the operative test is whether the reader knows what the card is saying *to them* on one read, not whether it is concrete. **This entry is the reference case for that screen.**
+- rendering note: the four postures are a **Pali idiom for "in any situation," not four claims** — all four must ship, and dropping one to save characters would turn an idiom into an incomplete list. `ajjhattaṁ` ("inwardly") is the load-bearing word; without it the card reads as advice about posture. `samayaṁ` is *settled*, **not** *samādhi* — do not import the termbase's "concentration/meditative stillness."
 
 ### Iti 93 — the three fires and their remedies
 - link: [[1-SOURCES/Text/pi-itivuttaka.md#^iti93-6-1]]

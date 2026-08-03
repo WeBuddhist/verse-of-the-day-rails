@@ -613,9 +613,13 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0600a0602]]
 - quote: "若有眾生知反復者，此人可敬，小恩尚不忘，何況大恩！"
 - buddhavacana: confirmed — Buddha addressing the monks
-- length_est: ~55 chars EN (est.)
+- length_est: **resolved — zh 24 chars, en 118 (exact, from day card).** The pool's "~55 chars" estimate was far too low.
 - theme: gratitude (fresh instance)
-- status: unclaimed
+- status: claimed (day 93, 2026-09-24) — rail `ea-repay-kindness.md`. Verified verbatim at `zh-ekottarika-agama.md#^pT02p0600a0602`; the narrative frame `爾時，世尊告諸比丘：` dropped. Grounded on **AN 2.32** (`pi-anguttara-nikaya.md#^an2-32-2-5`, Sujato at the same anchor).
+- ⚑ **two things a future selector must know.** (1) **The grounding covers only half the quote.** AN 2.32 (`Sappuriso ca kho, bhikkhave, kataññū hoti katavedī`) anchors the first claim — gratitude as the mark of a true person — but contains **no counterpart to the small-kindness / great-kindness *a fortiori*,** which is the Chinese text's own. Flagged in the rail, not papered over. (2) **The negative mirror is deliberately excluded.** The source continues at length into the ungrateful person (`諸有眾生不知反復者，大恩尚不憶…`); the card ships only the positive half, following the Day 80 precedent, and **restoring it would turn a card that praises into one that warns** — the exact register that got Day 89 rejected.
+- ⚑ dedupe relative: **AN 2.32 itself already ran as Day 41** (`an2-32-gratitude`), 52 days earlier. Shipped text and angle both differ (Day 41: grateful people are hard to find; this: the small kindness is where gratitude shows), but the two cards are relatives and a curator should know it.
+- rendering note: `知反復` is **reciprocating**, stronger than "is grateful" — but avoid "repay a debt," which makes it transactional. The `何況` must stay a genuine *a fortiori* ("how much more"); rendering it "let alone" or "still less" **inverts the logic** and says the great kindness is forgotten. That is the easiest error on this card.
+- ⚑ **why this one succeeded** where three vivid Kangyur picks failed the same week: it is **self-applying** — no person, place, scene or event, addressed openly (`若有眾生`, "if there is anyone"), meaning entirely on the surface, and **no image at all**. See `rejected.md`, "Rejected on the SELF-APPLYING screen."
 
 **EA (juan 11) — a lifetime carrying your parents could not repay them**
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0601a1102]]
