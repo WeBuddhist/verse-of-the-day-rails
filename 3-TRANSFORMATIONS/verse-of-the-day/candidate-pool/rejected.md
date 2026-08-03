@@ -283,6 +283,35 @@ These three were accepted into the pool before `selection-criteria.md` §2 was s
 
 ---
 
+## Rejected on the SELF-APPLYING screen — the most important category, and it corrects an error this pool was making (2026-08-03)
+
+**Read the log's running-balance note first.** Three candidates were proposed **because** they were vivid and physical, and all three were rejected in one line each for the same reason: they are not understandable on their own. **A concrete image can be more context-dependent than a plain statement**, because the image points at a scene the reader is not in. The test is now: **does the reader know what this is saying to them, on one read, with nothing else in front of them?**
+
+### Toh 205 (The City Beggar Woman) — toh205-beggar-lamp
+- link: [[1-SOURCES/Text/bo-toh205.md#^p188]]
+- quote (verified verbatim): "གྲོང་ཁྱེར་འཚོ་བའི་འབྲུ་མར་སྲན་མ་གྲེའུ་སྦྱར་སྦར་བ་ཡིས། །འཛམ་གླིང་སྣང་བས་ཁྱབ་གྱུར་དེ་ནི་བྱང་ཆུབ་སེམས་ཀྱི་མཐུས།" Proposed rendering, 116 chars: "A beggar woman lit a lamp with a bean's worth of oil, and by the power of the awakening mind its light filled the world."
+- reason: **Evan: "I have no idea what that means. They are supposed to be immediately understandable and not need context."** It is a **narrative fragment about a specific person** — which woman, why, and what is it telling the reader about their own life? The sūtra's frame (her one lamp outshining King Prasenajit's thousand) carries the whole meaning and the card cannot supply it. Had been proposed as the batch's strongest card on concreteness and warmth; concreteness was the wrong criterion.
+- **generalise:** a story *about* someone, however moving, is not a daily card. The card has no narrator and no scene.
+
+### Toh 329 (The Devatā Sūtra) — toh329-true-possession
+- link: [[1-SOURCES/Text/bo-toh329.md#^p516]]
+- quote (verified verbatim): "བདག་གིས་གང་བྱིན་ཟིན་པ་ཡིན། །ཁྱིམ་དུ་གང་བཞག་འདིར་བོར་ཡིན།" Proposed rendering, 93 chars: "Whatever you have given is what you keep. Whatever you left at home is what you leave behind."
+- reason: **Evan: "Nicer, but still doesn't have context."** A clean paradox that **silently depends on an unstated frame** — the devatā's question is about what a person takes with them at death, and without that the two clauses read as a riddle rather than a teaching.
+- **generalise:** if the quote is an *answer*, check whether the question is doing the work. Paradoxes and reversals are the highest-risk shape here, because they read as clever rather than clear.
+
+### Toh 293 (The Crest Insignia 2) — toh293-remember-when-alone
+- link: [[1-SOURCES/Text/bo-toh293.md#^p535]]
+- quote (verified verbatim): "དགོན་པ་དང་ནི་ཤིང་དྲུང་དང་། །ཁྱིམ་སྟོང་དག་ཏུ་འཇིག་རྟེན་གཙོ། །རྣམ་པར་འདྲེན་པ་རྫོགས་སངས་རྒྱས། །རྗེས་སུ་དྲན་གྱིས་དགེ་སློང་དག" Proposed rendering, 96 chars: "In the wilderness, under a tree, in an empty house, remember the Buddha, the guide of the world."
+- reason: **Evan: "Same. I presume these are meditation places."** He had to *guess* what the three places were for — which is the failure. The list of settings has no stated relevance; the sūtra's surrounding point (these are where fear arises, and this is the remedy) is exactly what is missing from the quote.
+- **generalise:** **a list of places or things whose relevance the quote does not state will not land.** The reader should never have to infer why the items are being named.
+
+### What still stands from the same scan
+The mid-size Kangyur scan that produced these three also produced four candidates that are **not** rejected but should now be re-screened against this test before anyone proposes them — `toh183-give-without-return`, `toh183-bell-and-voice`, `toh329-merit-undestroyed`, `toh329-giving-makes-friends` (all in `tibetan.md`). On a first pass, the two Toh 183 gift verses are the most exposed (a gift-and-its-fruit pairing invites "why a bell?"), and `toh329-merit-undestroyed` is the most defensible, since "no wind breaks it, no fire burns it — that is merit" states its own subject.
+
+**And the structural point, flagged for Evan in `log.md`:** this screen substantially narrows the Kangyur Mahāyāna sūtras as a source, because that literature is overwhelmingly narrative and framed, while the shape the card format wants — the direct universal aphorism — is what the Dharmapada-type collections are made of. That is in direct tension with `selection-criteria.md` §3's canon-diversity rule, and it needs a decision rather than being re-litigated every batch.
+
+---
+
 ## Rejected on the ONE-IDEA screen — a NEW category (2026-08-03)
 
 ### Udānavarga ch.10 (Toh 326) — udv-faith-wealth · Snp 1.10 parallel · BUILT AS DAY 87, THEN SKIPPED
