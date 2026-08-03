@@ -495,3 +495,86 @@ Not a systematic scan. Method worth reusing: the `en-toh*-84000.md` reference fi
 - **Toh 155 (Questions of the Nāga King Sāgara)** — Mahāyāna, Buddha-spoken, the **four Dharma-seals**, and it *fits* (~114 chars). Passed over on the same objection Evan raised against Udānavarga 26: **four abstract propositions in a row** won't be understood. Flagged rather than rejected — a reviewer might disagree, and it is the cleanest short Mahāyāna Kangyur candidate left.
 
 **So the recommendation for the next batch is a real `candidate-tagging` pass over the mid-size Kangyur sūtras**, not another sort-by-filesize spot check. Per `SCAN-STATUS.md` the ~229 individual Kangyur sūtra files have never had a genuine scan, and the Tibetan pool's unclaimed entries are now overwhelmingly Udānavarga.
+
+---
+
+## Mid-size Kangyur scan, 5–13 kB band (2026-08-03) — the pass recommended above, and it worked
+
+**Method:** two parallel scanning passes over **30 `en-toh*-84000.md` files sized 5–13 kB** (Toh 41, 86, 104, 126, 170, 183, 189, 192, 197, 205, 206, 208, 211, 212, 215, 225, 241, 268, 278, 286, 293, 298, 303, 320, 328, 329, 331, 336, 337, 342). The 84000 English was used **only to locate** promising passages; every candidate was then verified verbatim by grep against the Degé Tibetan in `bo-toh<N>.md`, with the speech frame checked for the buddhavacana gate. **Yield: 7 usable candidates from 4 sūtras** — a far better rate than the smallest-file band, and crucially these pass the **one-idea and warmth screens** that the Udānavarga stock keeps failing. Files that yielded nothing are listed in `rejected.md` with reasons.
+
+**Run this method again over the 13–26 kB band before reaching for the Udānavarga.**
+
+### Toh 205 (The City Beggar Woman / Nagaropajīvinī) — toh205-beggar-lamp
+- link: [[1-SOURCES/Text/bo-toh205.md#^p188]]
+- quote: "གྲོང་ཁྱེར་འཚོ་བའི་འབྲུ་མར་སྲན་མ་གྲེའུ་སྦྱར་སྦར་བ་ཡིས། །འཛམ་གླིང་སྣང་བས་ཁྱབ་གྱུར་དེ་ནི་བྱང་ཆུབ་སེམས་ཀྱི་མཐུས།"
+- buddhavacana: confirmed — the Buddha's own verses, frame immediately preceding: `བཅོམ་ལྡན་འདས་ཀྱིས་དེའི་ཚེ་ཚིགས་སུ་བཅད་པ་འདི་དག་བཀའ་སྩལ་ཏོ།` ("Then the Blessed One spoke these verses"). Not the woman's own words — her aspiration is separate prose earlier in the sūtra.
+- length_est: en 116 chars — fits whole
+- speaks_to: [discouraged, hopeful, grateful]
+- theme: **power-of-a-small-offering** (new tag)
+- status: unclaimed — **the strongest single candidate the scan produced.** A beggar woman lights one lamp with a bean's worth of oil and its light fills the world by the power of the awakening mind. One image start to finish, a warm story rather than an instruction, and maximally concrete. Gate 2 note: the stanza's four long lines are two independent sentences — lines 1–2 are King Prasenajit's thousand lamps, lines 3–4 are the woman's one lamp; this is the whole of the second sentence, nothing stitched. Rendering flag: `སྲན་མ` (bean/legume) + `གྲེའུ` is the source's way of saying a minute quantity — "a bean's worth of oil" is more literal and more vivid than "a tiny bit"; a reviewer picks. `བྱང་ཆུབ་སེམས` = the awakening mind (termbase). `འཛམ་གླིང` = Jambudvīpa, rendered "the world."
+
+### Toh 329 (The Devatā Sūtra) — toh329-true-possession
+- link: [[1-SOURCES/Text/bo-toh329.md#^p516]]
+- quote: "བདག་གིས་གང་བྱིན་ཟིན་པ་ཡིན། །ཁྱིམ་དུ་གང་བཞག་འདིར་བོར་ཡིན།"
+- buddhavacana: confirmed — the Buddha answering a devatā's question at Jetavana; `བཅོམ་ལྡན་འདས་ཀྱིས་བཀའ་སྩལ་པ།` stands immediately before the couplet (grep-verified contiguous).
+- length_est: en 93 chars — fits easily
+- speaks_to: [grasping, hopeful, grateful]
+- theme: **true-possession** (new tag)
+- status: unclaimed. "Whatever you have given is what you keep. Whatever you left at home is what you leave behind." One paradox about what ownership actually is; the two halves are two sides of one image, not two claims. **Gate 2 note that matters:** the full reply-stanza answers four separate questions (possession / what is left behind / armour / weapon) — taking the whole quatrain would be exactly the shape rejected on Day 87, so **the couplet is the correct unit, not a convenience.** Rendering flag: the Tibetan is generic first person (`བདག་གིས`, "whatever I have given"); second person is far better on a card but the rail must note the person shift. Dedupe: the sibling text **Toh 330** already ran as Day 54 (`generosity`) — frame this one as *true-possession* and do not run it near a generosity card.
+
+### Toh 329 (same sūtra) — toh329-merit-undestroyed
+- link: [[1-SOURCES/Text/bo-toh329.md#^p518]]
+- quote: "རླུང་དམར་གྱིས་ཀྱང་མི་ཤིགས་ཤིང་། །མེས་ཀྱང་མི་འཚིག་བསོད་ནམས་ཡིན། །ས་རྣམས་ཁེབས་པར་བྱེད་པ་ཡི། །ཆུས་ཀྱང་མི་འདྲུལ་བསོད་ནམས་སོ།"
+- buddhavacana: confirmed — same speaker/frame as above
+- length_est: en 101 chars ("Merit is not broken by wind, not burned by fire, not rotted by the water that covers the whole earth."); riddle-order variant preserving the source's reveal-at-the-end, 94 chars: "No wind breaks it, no fire burns it, no water covering the whole earth rots it. That is merit."
+- speaks_to: [discouraged, afraid, hopeful]
+- theme: **merit-cannot-be-lost** (new tag)
+- status: unclaimed. A complete verse, whole — the cleanest gate-2 profile of the batch. Wind, fire and flood are one sustained picture, not three claims, and the card is purely reassuring. `བསོད་ནམས` = merit (termbase).
+- ⚑ **caution for whoever rails this:** do **not** reach for the neighbouring "kings and thieves cannot plunder it" stanza on the strength of 84000's English. 84000 note [n12] records that it **emended the Degé** there from `ཚུལ་ཁྲིམས` ("ethical discipline") to "merit," following the Sanskrit and a Dunhuang witness — the Degé we ground on does not say merit. That stanza also straddles the `^p517` page break mid-word. The wind/fire/water stanza reads `བསོད་ནམས` in the Degé itself, twice, unemended.
+
+### Toh 293 (The Mahāsūtra The Crest Insignia 2) — toh293-remember-when-alone
+- link: [[1-SOURCES/Text/bo-toh293.md#^p535]]
+- quote: "དགོན་པ་དང་ནི་ཤིང་དྲུང་དང་། །ཁྱིམ་སྟོང་དག་ཏུ་འཇིག་རྟེན་གཙོ། །རྣམ་པར་འདྲེན་པ་རྫོགས་སངས་རྒྱས། །རྗེས་སུ་དྲན་གྱིས་དགེ་སློང་དག"
+- buddhavacana: confirmed — the Buddha to the monks; frame `སྟོན་པས་གཞན་ཡང་འདི་སྐད་བཀའ་སྩལ་ཏོ།` ("the Teacher spoke further thus"). Note Śakra speaks earlier in this sūtra, but only inside a story the Buddha is telling; this stanza is the Buddha's own verse.
+- length_est: en 96 chars
+- speaks_to: [afraid, lonely, hopeful]
+- theme: **remember-when-alone** (new tag)
+- status: unclaimed. "In the wilderness, under a tree, in an empty house, remember the Buddha, the guide of the world." Three plain physical settings and one action — one unified thought (wherever you find yourself alone, do this), and the surrounding sūtra is about fear subsiding, so it consoles rather than instructs. **Two rendering decisions the rail must own, not slip through:** the vocative `དགེ་སློང་དག` ("monks") is dropped to keep it lay-facing and inside the ceiling; and the three epithets `འཇིག་རྟེན་གཙོ` / `རྣམ་པར་འདྲེན་པ` / `རྫོགས་སངས་རྒྱས` are condensed to "the Buddha, the guide of the world."
+
+### Toh 183 (Teaching the Benefits of Generosity) — toh183-give-without-return
+- link: [[1-SOURCES/Text/bo-toh183.md#^p194]]
+- quote: "ལན་ལ་མི་རེ་བ་ལ་གནས་ཏེ་སྦྱིན་པ་བྱིན་ན་རྣམ་པར་སྨིན་པ་བླ་ན་མེད་པ་ཡང་དག་པར་རྫོགས་པའི་བྱང་ཆུབ་རབ་ཏུ་འཐོབ་པར་འགྱུར་ཏེ།"
+- buddhavacana: confirmed — the whole sūtra is one unbroken Buddha discourse to the monks (`དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དགེ་སློང་རྣམས་ལ་བཀའ་སྩལ་པ།`); no other voice speaks anywhere in the text.
+- length_est: en 91 chars
+- speaks_to: [grasping, aspiration, hopeful]
+- theme: giving-without-return (recurring ground — cf. Day 45's `non-attached-giving`; a fresh instance, do not schedule adjacent)
+- status: unclaimed. "Give with no hope of anything in return, and what ripens is unsurpassed, perfect awakening." One action and one fruit — a single arc. Gate 2 note: the sentence ends on the connective `འགྱུར་ཏེ།` because it runs into the sūtra's closing summary; this is the opening portion stopped at a clause boundary, permitted, and it is the last and climactic of the thirty-seven kinds of giving the sūtra lists.
+
+### Toh 183 (same sūtra) — toh183-bell-and-voice
+- link: [[1-SOURCES/Text/bo-toh183.md#^p193]]
+- quote: "དྲིལ་བུ་སྦྱིན་པ་བྱིན་ན་རྣམ་པར་སྨིན་པ་སྒྲ་དབྱངས་ཡིད་དུ་འོང་བ་རབ་ཏུ་འཐོབ་པར་འགྱུར་རོ།"
+- buddhavacana: confirmed — same frame
+- length_est: en 77 chars — the shortest candidate on file
+- theme: gift-and-its-fruit
+- status: unclaimed. "Give the gift of a bell, and what ripens for you is a voice sweet to the ear." The warmest and lightest line the scan found — one object, one fruit, and they rhyme (sound for sound). ⚑ **Judgement needed before use:** to a modern reader this may land as transactional or magical-thinking (give object X, receive benefit Y) rather than charming. Worth Evan's call rather than an agent's. The same sūtra's flower verse (`མེ་ཏོག་སྦྱིན་པ་བྱིན་ན་རྣམ་པར་སྨིན་པ་བྱང་ཆུབ་ཀྱི་ཡན་ལག་གི་མེ་ཏོག་རབ་ཏུ་འཐོབ་པར་འགྱུར་རོ།`, `^p193`, 86 chars) has the same charm and the same risk, plus `བྱང་ཆུབ་ཀྱི་ཡན་ལག` is technically the seven bodhyaṅga lurking as a glossary term.
+
+### Toh 329 (same sūtra) — toh329-giving-makes-friends — BORDERLINE, held back
+- link: [[1-SOURCES/Text/bo-toh329.md#^p517]]
+- quote: "གཏོང་བས་མཛའ་བཤེས་འཕེལ་བར་འགྱུར། །བྱམས་པས་དགྲ་རྣམས་ཞི་བར་བྱེད།"
+- buddhavacana: confirmed — same frame
+- length_est: en 79 chars ("Giving makes friends increase, and loving-kindness makes enemies grow peaceful.")
+- status: unclaimed, **flagged borderline on the one-idea screen**: friends and enemies are arguably two different claims rather than two halves of one image — which is precisely the axis Day 87 was rejected on. Very warm and uses the locked terms; a reviewer may well accept it. Reported honestly rather than recommended.
+
+### Toh 189 (The Prediction for Brahmaśrī) — toh189-faith-and-awakening — BORDERLINE, held back
+- link: [[1-SOURCES/Text/bo-toh189.md#^p403]]
+- quote: "སངས་རྒྱས་ལ་ནི་དད་པ་ལ། །བྱང་ཆུབ་ཐོབ་པར་དཀའ་བ་མེད།" (opening half of a four-line stanza, stopped at the clause boundary)
+- buddhavacana: confirmed — the Buddha to Ānanda (`དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་དེའི་ཚེ་ཚིགས་སུ་བཅད་པ་འདི་དག་བཀའ་སྩལ་ཏོ།`)
+- length_est: en 70 chars ("For anyone who has faith in the Buddha, awakening is not hard to reach.")
+- status: unclaimed, **flagged borderline: no image at all, purely propositional** — fails the concreteness screen even though it passes every gate and is warm and encouraging. Not recommended as a lead pick.
+
+### Toh 303 — toh303-vase-and-ethics — BORDERLINE, held back
+- link: [[1-SOURCES/Text/bo-toh303.md#^p256]]
+- quote: "ཇི་ལྟར་བུམ་པ་བཟང་པོ་རིན་ཆེན་སྣོད། །དེ་བཞིན་ཚུལ་ཁྲིམས་ཆོས་རྣམས་སྐྱེད་པའི་གཞི།"
+- buddhavacana: confirmed — the Buddha to the monks
+- length_est: en 99 chars ("Just as a fine vase holds precious things, ethical conduct is the ground where good qualities grow.")
+- status: unclaimed, **flagged borderline on warmth**: one clean simile with a homely image, but it is the single salvageable unit in a text that is otherwise a wall of "moral discipline is the best ornament / the best fragrance / the source of all joy" — the compressed-parallel-praise shape already rejected — and the surrounding register is austere enough that the couplet may read as moralising by association.

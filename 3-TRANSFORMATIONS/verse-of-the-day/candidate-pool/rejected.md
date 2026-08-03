@@ -283,6 +283,26 @@ These three were accepted into the pool before `selection-criteria.md` §2 was s
 
 ---
 
+## Rejected on the ONE-IDEA screen — a NEW category (2026-08-03)
+
+### Udānavarga ch.10 (Toh 326) — udv-faith-wealth · Snp 1.10 parallel · BUILT AS DAY 87, THEN SKIPPED
+- link: [[1-SOURCES/Text/bo-udanavarga.md#^p437]] · Pali parallel [[1-SOURCES/Text/pi-sutta-nipata.md#^snp1-10-7-1]]
+- quote (verified verbatim): "འདི་ན་སྐྱེས་བུའི་ནོར་མཆོག་དད་པ་སྟེ། །འདི་ན་ཆོས་ལ་ལེགས་སྤྱོད་བདེ་བ་འཐོབ། །བདེན་པ་ཁོ་ན་རོ་བྲོ་རྣམས་ཀྱི་ཕུལ། །ཤེས་རབ་ཀྱིས་འཚོ་འཚོ་བའི་མཆོག་ཅེས་གསུངས།" Shipped rendering, 125 chars: "Faith is a person's finest wealth; practicing the teaching brings joy; truth is the sweetest taste; a life of wisdom is best."
+- reason: **one-idea screen fail.** Evan's words: **"too many ideas and seemed compressed."** Four true statements with four different subjects (wealth, practice, taste, living), no unifying image, and the tight rendering required to fit all four inside the character budget made it read clipped. Rail, card and full six-language QA were all built before this was caught — the most expensive rejection so far.
+- **the generalisable screen:** **a card must carry ONE idea and ideally ONE image.** A multi-part card is fine when the parts belong to one thing — Day 86's four powers are four steps of a single repair; Day 88's two hands are one simile — and fails when the parts are separate claims stacked to fill the budget. **Test: can you name the card's single image in five words?** If not, it is a list.
+- scope of the rejection — **these are now presumed dead on the same ground, do not propose them:** **Dhp 204** (health / contentment / trusted friend / Nibbāna — structurally identical), **Snp 3.3** (the fourfold well-spoken speech formula), **Udānavarga ch.8** (the same fourfold speech formula, Tibetan side), **Iti 93** (three poisons each paired with its antidote), **Iti 23**, **Ud 8.5** (four clauses), **Ud 4.6** (six clauses), **EĀ juan 34** (the ten recollections), **EĀ ea-o** (the eight worldly winds), **Toh 155** (the four Dharma-seals — already deferred on the abstraction ground, now doubly out). Note the pattern: the Dharmapada-type collections and the numerical-list Āgama passages are the two places this shape clusters.
+- note: the Pali parallel Snp 1.10 is a genuinely exact four-for-four match and the grounding was the strongest of any Udānavarga rail in the vault. **Sound scholarship is not the same as a good card** — that is the whole lesson of this rejection.
+
+### Udānavarga ch.13 (Toh 326) — udv-gain-and-honor · Dhp 365 parallel · BUILT AS DAY 89, THEN SKIPPED
+- link: [[1-SOURCES/Text/bo-udanavarga.md#^p442]] · Pali parallel [[1-SOURCES/Text/pi-dhammapada.md#^365]]
+- quote (verified verbatim): "རང་གི་རྙེད་པ་བླང་བྱ་ཞིང་། །གཞན་གྱི་ལ་ནི་འདོད་མི་སྐྱེད། །དགེ་སློང་གཞན་གྱི་འདོད་བྱེད་པས། །ཏིང་འཛིན་ཐོབ་པར་མི་འགྱུར་རོ།" Shipped rendering, 121 chars: "Take what comes to you; do not crave what is another's. Craving another's share, you will not reach meditative stillness."
+- reason: **tone fail. Evan's words: "too serious."** The verse is austere and faintly admonishing — it corrects the reader rather than gladdening them. It passed every hard gate, filled a documented theme gap with its first Tibetan-canon instance, and was still wrong for a daily card.
+- **the generalisable screen:** **prefer warm over instructive.** Cards that console, gladden or encourage beat cards that instruct or correct, even when the instruction is gentle and true. Austerity is the failure mode, not incorrectness.
+- **⚑ and the bigger consequence, recorded in `log.md`: the "sober card overdue" heuristic is now overridden.** Three consecutive sober-leaning picks have been rejected — Dhp 129 (*too negative*), Udānavarga 5 / Dhp 212 (*withdraw-affection reading*), and this one (*too serious*). **Do not propose a sober card again unless Evan asks for one**, regardless of what `selection-criteria.md` §3's "sober sparingly" balance rule says. §3 should probably be amended; that needs Evan.
+- also worth keeping: the theme gap this was meant to fill (`detachment-from-gain-and-honor`) is therefore **still open**, and its remaining candidates — Snp 2.4, Iti 81, EĀ juan 13 — should be screened for austerity before anyone proposes them, since the theme itself tends toward the register that just failed.
+
+---
+
 ## Rejected on the surface-reading gate — a NEW category (2026-08-03)
 
 ### Udānavarga ch.5 (Toh 326) — udv-dear-ones · Dhp 212 parallel
