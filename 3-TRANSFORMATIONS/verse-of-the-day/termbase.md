@@ -93,6 +93,12 @@ Two different words, two different renderings — don't conflate:
 | khanti (patience) | patience, endurance | 忍 / 忍辱 | བཟོད་པ | क्षमा / सहनशीलता | धैर्य / सहनशीलता | тэвчээр ⚑ | ⚑ TBD |
 | appamāda (diligence) | diligence, heedfulness | 不放逸 | བག་ཡོད | अप्रमाद | अप्रमाद | сэрэмж ⚑ | ⚑ TBD |
 | santuṭṭhi (contentment) | contentment | 知足 | ཆོག་ཤེས | संतोष | सन्तोष | ханамж ⚑ | ⚑ TBD |
+| saddhā (faith, confidence) | faith, confidence | 信心 | དད་པ | श्रद्धा | श्रद्धा | итгэл ⚑ (confirm vs **сүсэг**, which may be the established Buddhist term for faith-as-devotion) | — (discontinued) |
+| saraṇa / saraṇagamana (refuge) | refuge, going for refuge | 皈依 (皈依三寶) | སྐྱབས / སྐྱབས་སུ་འགྲོ་བ | शरण / शरण लेना | शरण / शरण लिनु | ⚑ TBD — **needs a real term**; "итгэлээ авах" was used as a placeholder on Day 86 and is weak | — (discontinued) |
+
+> **`saddhā` row — added 2026-08-03 for Day 87** (`udv-faith-wealth`, Udānavarga 10 / Snp 1.10). **Two English options are deliberately kept**, and this row does not lock one: **"faith"** matches Sujato at `en-sutta-nipata-sujato.md#^snp1-10-7-1` and is the standard translation; **"confidence"** avoids the theistic connotation English "faith" can carry for a secular-leaning reader, and is the word the calendar already uses for this theme (Day 71's `confidence` tag). Day 87 ships "faith." A reviewer may switch it; if they do, switch the theme tag's English gloss with it for consistency, not the tag itself.
+>
+> **`saraṇa` row — added 2026-08-03, and it is the weakest row in this file.** Refuge has now appeared on Days 22, 60 and 86 and never had a termbase row, which is how Day 86's Mongolian line ended up with a placeholder that its own QA note flags as needing replacement. The Chinese, Tibetan, Hindi and Nepali cells are solid; **the Mongolian cell is empty on purpose** rather than guessed at. This is the first row a Mongolian reviewer should fill.
 
 ## Mahāyāna & wisdom terms
 

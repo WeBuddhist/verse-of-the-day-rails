@@ -310,9 +310,9 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0096b1608]]
 - quote: "如人洗手，左右相須，左能淨右，右能淨左。此亦如是，有慧則有戒，有戒則有慧，戒能淨慧，慧能淨戒。" (the Buddha distills "what makes a true brahmin" down to virtue and wisdom, after a long social-narrative frame about the brahmin Soṇadaṇḍa deciding whether to visit him)
 - buddhavacana: confirmed — Buddha addressing the brahmin Soṇadaṇḍa directly
-- length_est: ~140 chars EN (est.) — over budget as quoted whole, likely needs the "washing hands" clause trimmed to just one direction (e.g. "as the left hand cleans the right and the right cleans the left, so wisdom and virtue purify each other")
-- theme: threefold-training (recurring — this instance covers virtue and wisdom specifically, not concentration)
-- status: unclaimed
+- length_est: **resolved — en 125 chars, no trimming of the simile needed.** The "~140, trim to one direction" estimate was wrong: compressing the *wording* of the two doctrinal claims (co-presence + mutual purification) into "go together, each cleansing the other" fits both claims **and** keeps both washing directions. Left/right both survive.
+- theme: threefold-training (recurring — this instance covers ethics and wisdom specifically, **not** concentration, which must not be added)
+- status: claimed (day 88, 2026-09-19) — rail `da-22-ethics-and-wisdom.md`. Verified verbatim at `zh-digha-agama.md#^pT01p0096b1608`; vocative `種德！` dropped. Grounded on **DN 4** (Soṇadaṇḍasutta, `pi-digha-nikaya.md#^dn4-22-2` / `^dn4-22-5` / `^dn4-22-6`, Sujato at the same anchors) — an **exact** parallel: same simile, same two claims, same order, same discourse to the same brahmin. ⚑ **Divergence flagged in the rail:** the Pali has **two** similes (hand washing hand *and* foot washing foot) where the Chinese has only hands, but the Chinese adds `左右相須` and spells out both directions, which the Pali does not. The card ships the Chinese. `戒` ships as **"ethics"** — both the `termbase.md` locked rendering *and* Sujato's own word, so "virtue" was not used.
 
 ### DA 23 (究羅檀頭經, the Kūṭadanta Sutta parallel) — da-23-a — a moment of loving-kindness surpasses any sacrifice
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0100c1716]]
@@ -771,9 +771,10 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0671b2906]]
 - quote: "不可以此羸劣之體，求於上尊之道。"
 - buddhavacana: confirmed — the Buddha's own realization, recounted to the monks, that led him to abandon six years of extreme asceticism
-- length_est: ~55 chars EN (est.)
-- theme: middle-way (fresh, historically central instance — the actual turning point of the Buddha's own path)
-- status: unclaimed
+- length_est: **resolved — en 122 chars, zh 27.** Note the pool's "~55 chars" figure was for the first clause alone; **the card deliberately quotes further**, through `多少食精微之氣，長育身體`, because the first clause on its own is a diagnosis with no remedy and would fail §2's "offer a way through." Quoting the contiguous opening portion and stopping at a clause boundary is permitted.
+- theme: middle-way (fresh, historically central instance — the actual turning point of the Buddha's own path). **Fills the long-standing checklist gap** that read "only SN 1.1 so far; a clearer/different angle would help."
+- status: claimed (day 90, 2026-09-21) — rail `ea-wasted-body.md`. Verified verbatim at `zh-ekottarika-agama.md#^pT02p0671b2906`; the `我復作是念：『` frame dropped. Grounded on **MN 36** (Mahāsaccakasutta, `pi-majjhima-nikaya.md#^mn36-33-2`, Sujato at the same anchor; duplicated at MN 85) — and the parallel is confirmed beyond the sentence itself, since the Chinese `時五比丘捨我還退` matches `^mn36-33-6` (the five monks leaving in disappointment) exactly. ⚑ **Two divergences flagged in the rail:** (1) the Chinese says the wasted body cannot reach `上尊之道`, *the highest **path***, where the Pali says it cannot reach `sukhaṁ`, *that **pleasure*** (the jhāna-bliss he had just recalled) — the Chinese is broader and the card ships it; (2) the Pali's food is homely and concrete (`odanakummāsa`, "rice and porridge") where the Chinese `精微之氣` is abstract — the card renders the sense, and does not import the rice. Also note `精微之氣` → `滋養的食物` is the largest classical→modern substitution on the card: a modern reader would misread `氣` as breath or vital energy.
+- wellbeing note: this card touches self-punishment and food. It is included **because** it counters harmful striving. `多少` ("some") must stay vague — do not sharpen it into a quantity, and nothing in any rendering may read as advice about how much to eat or as commentary on body size.
 
 **Note:** this pass covers the end of fascicle 20 through fascicle 25, plus the start of fascicle 26; fascicles 22 (the very long Sumāgadhā/Sumati narrative — miracle contest, no clean short teaching beyond a laywoman's own words on modesty, which is not Buddha-spoken) and most of 24-25 (hell narratives, monastic patient/caregiver etiquette, five kings debating sense-pleasures, generosity formulas already well represented) were read but yielded nothing further beyond what's above and in `rejected.md`. Fascicle 26 opens with the historical destruction of Kapilavastu by King Virūḍhaka (Vidūḍabha) — an extremely violent episode (see `rejected.md`, tone/wellbeing gate), skipped per Evan's call.
 
@@ -932,12 +933,12 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 - status: unclaimed
 
 **EA (juan 36, to the weeping Ānanda) — a thing that must break cannot be kept from breaking**
-- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0751a1910]]
-- quote: "止！止！阿難！無為愁憂。夫物處世，應當壞敗，欲使不變易者，此事不然。勤加精進，念修正法，如是不久亦當盡苦際。"
+- link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0751a2705]] — **⚑ ANCHOR CORRECTED 2026-08-03.** This entry previously cited `^pT02p0751a1910`, which holds only the **setup** (`是時，尊者阿難悲泣涕零…`, Ānanda weeping behind the Buddha's couch). The Buddha's words are two blocks later, at `^pT02p0751a2705`, verified directly against the source. **Spot-check the other Ekottarika anchors recorded during the shortcut-list pass for the same off-by-one-block error** — this is the kind of mistake that would only surface at build time.
+- quote: "止！止！阿難！無為愁憂。夫物處世，應當壞敗，欲使不變易者，此事不然。勤加精進，念修正法，如是不久亦當盡苦際。" (verified verbatim at the corrected anchor; the source continues `成無漏行。過去世時…` and then moves to the four unprecedented qualities of a wheel-turning king, which are not part of this quote)
 - buddhavacana: confirmed — the Buddha comforting Ānanda, who is weeping at his teacher's approaching death
-- length_est: ~120 chars EN (est.)
+- length_est: ~113 chars EN if quoted through `念修正法` and rendered tightly ("Things in this world must break down; no wish makes them otherwise. Keep up your effort; hold the teaching in mind."); the full quote through `盡苦際` runs ~140 and needs the ending compressed.
 - theme: impermanence (fresh instance — direct, warm consolation to a grieving disciple, distinct in tone from more abstract instances already in the pool)
-- status: unclaimed
+- status: **unclaimed — considered and deliberately passed over for Day 87 (2026-08-03), on adjacency, not quality.** This is the **strongest sober-with-a-way-through candidate in the entire pool** and the sober-tone debt is currently unpaid, so it was the obvious pick — but it is **near-identical in content to Day 77** (DN 16, 2026-09-08, ten days earlier): same scene (the Buddha's final days), same teaching, same "all conditioned things decay, so strive with diligence." Running it would have been a near-duplicate inside the no-repeat window. **Bank it for a much later slot**, where it will pay the sober debt better than anything else on file.
 
 **EA (juan 36, in reply to a monk's question about the greatest power) — the power of impermanence surpasses all**
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0750b1310]]

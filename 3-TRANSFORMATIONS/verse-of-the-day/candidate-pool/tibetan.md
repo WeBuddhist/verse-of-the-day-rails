@@ -156,7 +156,7 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - length_est: ~110 chars EN (est.)
 - speaks_to: [grieving, afraid, craving]
 - theme: **new theme "attachment-and-grief"** — distinct from freedom-from-craving: specifically clinging to loved ones
-- status: unclaimed
+- status: **REJECTED — see `rejected.md` (2026-08-03).** Selected for Day 87, verbatim-verified, fitted at 120 chars en / 110 bo, resolved its own tension, passed every existing gate — and pulled by Evan before build on a ground the pool had not been screening for: on a standalone card with no room to distinguish *piya* / `སྡུག་པ` (clinging attachment) from ordinary affection, the **surface reading is "do not love anyone."** **Generalise:** a verse whose surface reading tells the reader to withdraw affection fails for this audience even when the doctrine is exact. Distinct failure mode from the accessibility gate and the Brahmā/deity-frame gate. The same objection presumably kills Dhp 209–211 and any other *piya* verse. Replaced on Day 87 by `udv-faith-wealth` below.
 
 ### Udānavarga ch.8 (speech, fourfold right speech) — udv-right-speech
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p435]]
@@ -180,10 +180,10 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p437]]
 - quote: "འདི་ན་སྐྱེས་བུའི་ནོར་མཆོག་དད་པ་སྟེ། །འདི་ན་ཆོས་ལ་ལེགས་སྤྱོད་བདེ་བ་འཐོབ། །བདེན་པ་ཁོ་ན་རོ་བྲོ་རྣམས་ཀྱི་ཕུལ། །ཤེས་རབ་ཀྱིས་འཚོ་འཚོ་བའི་མཆོག་ཅེས་གསུངས།"
 - buddhavacana: confirmed
-- length_est: ~155 chars EN (est.) — needs compression
+- length_est: **resolved — en 122 chars, bo 143. The "~155, needs compression" estimate was wrong**; a tighter rendering fits the whole quatrain, so the fallback plan of shipping only the first two lines was dropped. Worth noting as a pattern: several `length_est` figures in this file are pessimistic, and resolving one properly at claim time can turn a "needs compression" entry into a clean whole-verse card.
 - speaks_to: [doubtful, discouraged, hopeful]
 - theme: confidence (fills the "refuge/confidence" checklist gap)
-- status: unclaimed
+- status: claimed (day 87, 2026-09-18) — rail `udv-faith-wealth.md`. Verified verbatim at `bo-udanavarga.md#^p437`. Grounded on **Snp 1.10** (Āḷavakasutta, `pi-sutta-nipata.md#^snp1-10-7-1`–`^snp1-10-7-4`, Sujato at the same anchors) — a **line-for-line four-for-four parallel**, the strongest grounding of any Udānavarga rail in the vault; duplicated verbatim at SN 1.73 and SN 10.12. Claimed as the **replacement for the rejected `udv-dear-ones`** above. Two flagged losses in the English for length: `ལེགས` ("well" practised) and `ཁོ་ན` ("truth *alone*"); both are restored in the zh and hi lines, so the card is deliberately inconsistent across languages in the source's favour. New `termbase.md` row added for `དད་པ` / *saddhā*.
 
 ### Udānavarga ch.15 (recollection, refuge in the Buddha) — udv-refuge-buddha
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p445]]
@@ -207,10 +207,10 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p442]]
 - quote: "རང་གི་རྙེད་པ་བླང་བྱ་ཞིང་། །གཞན་གྱི་ལ་ནི་འདོད་མི་སྐྱེད། །དགེ་སློང་གཞན་གྱི་འདོད་བྱེད་པས། །ཏིང་འཛིན་ཐོབ་པར་མི་འགྱུར་རོ།"
 - buddhavacana: confirmed
-- length_est: ~135 chars EN (est.)
-- speaks_to: [grasping, discouraged]
+- length_est: **resolved — en 119 chars, bo 118.** The "~135" estimate was pessimistic; dropping the monastic subject `དགེ་སློང` and recasting line 3 as a conditional brought it well inside budget.
+- speaks_to: [grasping, discontent, equanimity] (`discontent` added at claim time — the felt-state this verse actually meets is comparison/envy, which `grasping` alone undersells)
 - theme: detachment-from-gain-and-honor (fills the checklist gap — first Tibetan-canon instance)
-- status: unclaimed
+- status: claimed (day 89, 2026-09-20) — rail `udv-gain-and-honor.md`. Verified verbatim at `bo-udanavarga.md#^p442`. Grounded on **Dhp 365** (`pi-dhammapada.md#^365`, Sujato at the same anchor). ⚑ **Line 1 diverges three ways and the rail flags it:** the Tibetan is positive (`རང་གི་རྙེད་པ་བླང་བྱ` = *take up your own gain*), the Pali is negative (`Salābhaṁ nātimaññeyya` = *do not scorn your own gain*), and Sujato reads the scorn as directed outward ("a well-off mendicant ought not look down on others"). The card ships the Tibetan. Lines 2–4 are an exact parallel. Also note the card ships *samādhi* as **"meditative stillness"** (the `termbase.md` row's second option) rather than Sujato's "immersion," which is his own choice and not the termbase's.
 
 ### Udānavarga ch.18 (flowers, lotus from the rubbish-heap, Dhp 58-59 parallel) — udv-unstained-lotus
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p451]]
@@ -465,3 +465,33 @@ Not a systematic scan. Method worth reusing: the `en-toh*-84000.md` reference fi
 - note: a **list that works as a daily card**, which is unusual — the general guidance to avoid enumerations assumes technical dhamma lists, whereas all five items here are ordinary actions a lay reader can check themselves against today. The sūtra then expands each item with its karmic result over following folios; that expansion is not part of the quote.
 
 **Method note worth reusing:** both of the above, plus the (now-rejected) Toh 315, came from sorting `1-SOURCES/Translations/en-toh*-84000.md` by byte size and reading the smallest files. Short sūtras are where card-sized quotes live — the opposite of the Toh 149 failure mode, where a whole sūtra held nothing under ~180 chars. When the Kangyur is under-represented in the canon mix, start here rather than with the Udānavarga.
+
+---
+
+## Batch 86–90 additions (2026-08-03) — and the point at which the smallest-file method runs dry
+
+### Toh 249 (Teaching the Four Factors / ཆོས་བཞི་བསྟན་པ) — toh249-four-powers
+- link: [[1-SOURCES/Text/bo-toh249.md#^p120]]
+- quote: "བྱང་ཆུབ་སེམས་དཔའ་སེམས་དཔའ་ཆེན་པོ་ཆོས་བཞི་དང་ལྡན་ན་སྡིག་པ་བྱས་ཤིང་བསགས་པ་ཟིལ་གྱིས་ནོན་པར་འགྱུར་རོ། །བཞི་གང་ཞེ་ན། འདི་ལྟ་སྟེ། རྣམ་པར་སུན་འབྱིན་པ་ཀུན་ཏུ་སྤྱོད་པ་དང་། གཉེན་པོ་ཀུན་ཏུ་སྤྱོད་པ་དང་། སོར་ཆུད་པར་བྱེད་པའི་སྟོབས་དང་། རྟེན་གྱི་སྟོབས་སོ།" (vocative `བྱམས་པ` dropped)
+- buddhavacana: confirmed — the Blessed One addressing the bodhisattva Maitreya directly, no narrative wrapper
+- length_est: en 119 chars (exact, from day card) — fits whole
+- speaks_to: [discouraged, doubtful, hopeful]
+- theme: **purification-of-misdeeds** (new tag) — the four opponent powers. **Partly** answers the reopened `forgiveness` gap; the gap **stays open**, since this is self-directed repair rather than pardoning another person.
+- status: claimed (day 86, 2026-09-17) — rail `toh249-four-powers.md`
+- ⚑ **The one thing a future selector must know about this card:** the four quoted terms are *technical labels*, and rendered as bare labels they fail the §2 no-glossary test outright. The card ships the sūtra's **own definitions** of the four (regret / doing good instead / the resolve not to repeat / taking refuge), taken from the four sentences that immediately follow the quote in the same block. That is grounding, not invention — but it is a label-for-gloss substitution, and the day card puts it in front of the reviewer as the first question to settle. If a reviewer insists the labels stand, this verse cannot be a daily card at this length.
+- note: the fourth item is a **partial** rendering — `རྟེན་གྱི་སྟོབས` is glossed in the source as refuge *and* not abandoning the awakening mind, and only "taking refuge" fits the budget.
+
+**⚑ Method note — the smallest-file well is now largely dry, and this is why Days 87 and 89 are both Udānavarga.** This batch worked through the **eleven smallest remaining unexamined `en-toh*-84000.md` files** hunting for a third non-Udānavarga Tibetan pick, and got exactly one card (Toh 249) out of them. What the rest were, so nobody re-reads them:
+- **Toh 323 (The Single Stanza)** and **Toh 324 (The Four Stanzas)** — praise of / homage to the Buddha. **Gate 1 fail.** (Toh 323 was already on record as blocked for this in `verse-rail` rule 9; Toh 324 is now too.)
+- **Toh 177 (Mañjuśrī's Teaching)** — the entire teaching is spoken by **Mañjuśrī**, not the Buddha. **Gate 1 fail.**
+- **Toh 311 (Teaching the Eleven Thoughts)** — an eleven-item list of what to bring to mind at the time of death. Too long, and death-framed.
+- **Toh 254 (Dharmaketu)** — a ten-quality list for bodhisattvas; too long, and includes monastic/seclusion items.
+- **Toh 283 (The Three Bodies)** — dharmakāya/saṃbhogakāya/nirmāṇakāya; technical, accessibility fail.
+- **Toh 28 (Samantabhadra Perfection of Wisdom)** — the Buddha's only speech in it is a technical two-tier definition of wisdom.
+- **Toh 305 (Declaring What Is Supreme)** — three parallel "X is supreme" passages, each ending in a heavenly-rebirth reward clause; list-heavy.
+- **Toh 299 (Timings for the Gaṇḍī)** — a monastic timekeeping table (gnomon-shadow lengths by half-month). No teaching content at all.
+- **Toh 42 (The Sūtra of the Moon 1)** — genuinely charming (the Buddha tells Rāhu to release the eclipsed moon) and Buddha-spoken, but the verse needs the whole rescue narrative to mean anything. **§2 out-of-context fail**, same category as Toh 95's earth-as-witness.
+- **Toh 251 (The Four Factors)** — Mahāyāna, Buddha-spoken closing verse, and a near-miss: bodhicitta / the spiritual friend / tolerance / **dwelling in the wilderness**. The fourth item is monastic in a way a lay card cannot carry, and the verse is four lines of it. Worth a second look if a monastic-leaning card is ever wanted.
+- **Toh 155 (Questions of the Nāga King Sāgara)** — Mahāyāna, Buddha-spoken, the **four Dharma-seals**, and it *fits* (~114 chars). Passed over on the same objection Evan raised against Udānavarga 26: **four abstract propositions in a row** won't be understood. Flagged rather than rejected — a reviewer might disagree, and it is the cleanest short Mahāyāna Kangyur candidate left.
+
+**So the recommendation for the next batch is a real `candidate-tagging` pass over the mid-size Kangyur sūtras**, not another sort-by-filesize spot check. Per `SCAN-STATUS.md` the ~229 individual Kangyur sūtra files have never had a genuine scan, and the Tibetan pool's unclaimed entries are now overwhelmingly Udānavarga.
