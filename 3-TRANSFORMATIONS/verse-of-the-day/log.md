@@ -97,6 +97,9 @@ off + all seven renderings reviewed, ready/published.
 | 2026-09-14 | 83 | 法句經 T210 (安寧品) · Dhp 201 parallel | Chinese | peace-beyond-winning | resentful, irritated, equanimity | [[day-083-peace-beyond-winning-t210]] | draft |
 | 2026-09-15 | 84 | Dhp 382 | Pali | radiance-of-practice | discouraged, hopeful, aspiration | [[day-084-radiance-of-practice-dhp382]] | draft |
 | 2026-09-16 | 85 | Udānavarga 30 (Toh 326) · Dhp 207 parallel | Tibetan Kangyur | joy-of-good-company | lonely, grateful, hopeful | [[day-085-joy-of-good-company-udv]] | draft |
+| 2026-09-17 | 86 | Toh 249 (Teaching the Four Factors) | Tibetan Kangyur (Mahāyāna) | purification-of-misdeeds | discouraged, doubtful, hopeful | [[day-086-purification-toh249]] | draft |
+| 2026-09-18 | 87 | Udānavarga 10 (Toh 326) · Snp 1.10 parallel | Tibetan Kangyur | confidence | doubtful, discouraged, hopeful | [[day-087-confidence-udv]] | draft |
+| 2026-09-19 | 88 | DĀ 22 (種德經, Soṇadaṇḍa parallel) · DN 4 parallel | Chinese Āgama | threefold-training | aspiration, doubtful, hopeful | [[day-088-ethics-and-wisdom-da22]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 
