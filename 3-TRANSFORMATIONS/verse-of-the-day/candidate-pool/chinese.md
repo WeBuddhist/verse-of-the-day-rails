@@ -218,6 +218,7 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - note: the identical formula also appears in DA 3 (embedded after a long deva-narrated frame story) and DA 6 (embedded in the wheel-turning-king narrative) — DA 5 is the cleanest anchor since it's Buddha-speaking directly from the sutta's start with no narrative wrapper to untangle. Don't re-tag those two occurrences as separate candidates.
 
 ### DA 5 — da-5-b — karma bears its own fruit, not caste
+- ⚑ **USE THE POSITIVE TWIN INSTEAD (found 2026-08-03).** This entry's anchor is correct but points at the **negative** half. Twelve lines later, in the same continuous address to Vāseṭṭha, the Buddha states the **positive** twin: **`夫行善法必有善報，行清白行必有白報`** at **[[1-SOURCES/Text/zh-digha-agama.md#^pT01p0037a1704]]** (grep-verified, exactly one match) — *"Whoever does good is sure to have a good result; whoever lives cleanly is sure to have a clean one."* (en 99 chars). The positive form is strictly better on the warmth screen, the same move as Day 93's negative-mirror drop. **Propose the positive anchor, not this one.**
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0037a0105]]
 - quote: "夫不善行有不善報，為黑冥行則有黑冥報。" (part of the Buddha's argument that unwholesome result follows unwholesome conduct regardless of birth caste — self-contained as its own clause)
 - buddhavacana: confirmed — Buddha addressing Vāseṭṭha

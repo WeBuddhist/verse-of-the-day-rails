@@ -29,8 +29,8 @@ Same format as `chinese.md`/`tibetan.md`. All Pali sources here are CC0 (SuttaCe
 - quote: "Yo sahassaṁ sahassena, saṅgāme mānuse jine; Ekañca jeyyamattānaṁ, sa ve saṅgāmajuttamo."
 - buddhavacana: confirmed — corpus-level
 - length_est: ~120 chars EN (est., "Though one may conquer a thousand times a thousand men in battle, one who conquers just himself is the supreme victor.")
-- theme: self-mastery (fresh, extremely famous instance — the classic Pali "self-conquest" verse, distinct from the already-used T210 self-mastery card)
-- status: unclaimed
+- theme: self-mastery
+- status: **⚑ SPENT — pool entry was WRONG, corrected 2026-08-03.** This entry claimed Dhp 103 was "distinct from the already-used T210 self-mastery card." **It is not.** `day-004-self-mastery-t210.md` carries `source_ref: "法句經 T210 (述千品) · Dhp 103 parallel"` — Day 4 *is* this verse, via its Chinese parallel, and its shipped English is "though you conquer a thousand thousand in battle, to conquer yourself is the highest victory of all." **Do not propose Dhp 103.** General lesson: when a card ran on a T210 or Udānavarga verse, its **Pali parallel is also spent**, and the log's `source_ref` column does not always show the parallel — check the day card's frontmatter, not just the log row.
 
 ### Dhp 129 — the golden rule of non-harm
 - link: [[1-SOURCES/Text/pi-dhammapada.md#^129]]
