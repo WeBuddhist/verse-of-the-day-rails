@@ -1,6 +1,8 @@
 # Verse-of-the-day selection proposal — Days 86–90 (2026-09-17 → 2026-09-21)
 
-**Status: proposal only.** Per `verse-selection` Rule 6 / the log's process note, nothing is built until you sign off. No rails, no day cards, no log rows written yet.
+> **⚑ SUPERSEDED — this batch is now BUILT (2026-08-03).** All five rails, all five day cards, and all five `log.md` rows exist. **The built cards are canonical, not this file.** Two things changed after Evan's sign-off: Day 87 was swapped (see below), and the character counts quoted in this document are **2 to 3 characters low** across the board — a systematic mis-count caught by the verification pass. The true lengths are en 121 / 125 / 124 / 121 / 124 for Days 86–90, all inside the 126 ceiling; Day 88's English was 128 as first drafted and was shortened. Trust the cards and rails for figures, this file for the reasoning and the rejections.
+
+**Status when written: proposal only.** Per `verse-selection` Rule 6 / the log's process note, nothing was built until sign-off.
 
 Every quote below was **verified verbatim against `1-SOURCES/`** in this pass (line-level greps, not memory). The English is a *proposed* rendering with a measured character count, so you can judge the actual card.
 

@@ -180,7 +180,7 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p437]]
 - quote: "འདི་ན་སྐྱེས་བུའི་ནོར་མཆོག་དད་པ་སྟེ། །འདི་ན་ཆོས་ལ་ལེགས་སྤྱོད་བདེ་བ་འཐོབ། །བདེན་པ་ཁོ་ན་རོ་བྲོ་རྣམས་ཀྱི་ཕུལ། །ཤེས་རབ་ཀྱིས་འཚོ་འཚོ་བའི་མཆོག་ཅེས་གསུངས།"
 - buddhavacana: confirmed
-- length_est: **resolved — en 122 chars, bo 143. The "~155, needs compression" estimate was wrong**; a tighter rendering fits the whole quatrain, so the fallback plan of shipping only the first two lines was dropped. Worth noting as a pattern: several `length_est` figures in this file are pessimistic, and resolving one properly at claim time can turn a "needs compression" entry into a clean whole-verse card.
+- length_est: **resolved — en 125 chars, bo 143. The "~155, needs compression" estimate was wrong**; a tighter rendering fits the whole quatrain, so the fallback plan of shipping only the first two lines was dropped. Worth noting as a pattern: several `length_est` figures in this file are pessimistic, and resolving one properly at claim time can turn a "needs compression" entry into a clean whole-verse card.
 - speaks_to: [doubtful, discouraged, hopeful]
 - theme: confidence (fills the "refuge/confidence" checklist gap)
 - status: claimed (day 87, 2026-09-18) — rail `udv-faith-wealth.md`. Verified verbatim at `bo-udanavarga.md#^p437`. Grounded on **Snp 1.10** (Āḷavakasutta, `pi-sutta-nipata.md#^snp1-10-7-1`–`^snp1-10-7-4`, Sujato at the same anchors) — a **line-for-line four-for-four parallel**, the strongest grounding of any Udānavarga rail in the vault; duplicated verbatim at SN 1.73 and SN 10.12. Claimed as the **replacement for the rejected `udv-dear-ones`** above. Two flagged losses in the English for length: `ལེགས` ("well" practised) and `ཁོ་ན` ("truth *alone*"); both are restored in the zh and hi lines, so the card is deliberately inconsistent across languages in the source's favour. New `termbase.md` row added for `དད་པ` / *saddhā*.
@@ -207,7 +207,7 @@ Lightweight index of tagged candidates from the Tibetan Kangyur corpus (`1-SOURC
 - link: [[1-SOURCES/Text/bo-udanavarga.md#^p442]]
 - quote: "རང་གི་རྙེད་པ་བླང་བྱ་ཞིང་། །གཞན་གྱི་ལ་ནི་འདོད་མི་སྐྱེད། །དགེ་སློང་གཞན་གྱི་འདོད་བྱེད་པས། །ཏིང་འཛིན་ཐོབ་པར་མི་འགྱུར་རོ།"
 - buddhavacana: confirmed
-- length_est: **resolved — en 119 chars, bo 118.** The "~135" estimate was pessimistic; dropping the monastic subject `དགེ་སློང` and recasting line 3 as a conditional brought it well inside budget.
+- length_est: **resolved — en 121 chars, bo 118.** The "~135" estimate was pessimistic; dropping the monastic subject `དགེ་སློང` and recasting line 3 as a conditional brought it well inside budget.
 - speaks_to: [grasping, discontent, equanimity] (`discontent` added at claim time — the felt-state this verse actually meets is comparison/envy, which `grasping` alone undersells)
 - theme: detachment-from-gain-and-honor (fills the checklist gap — first Tibetan-canon instance)
 - status: claimed (day 89, 2026-09-20) — rail `udv-gain-and-honor.md`. Verified verbatim at `bo-udanavarga.md#^p442`. Grounded on **Dhp 365** (`pi-dhammapada.md#^365`, Sujato at the same anchor). ⚑ **Line 1 diverges three ways and the rail flags it:** the Tibetan is positive (`རང་གི་རྙེད་པ་བླང་བྱ` = *take up your own gain*), the Pali is negative (`Salābhaṁ nātimaññeyya` = *do not scorn your own gain*), and Sujato reads the scorn as directed outward ("a well-off mendicant ought not look down on others"). The card ships the Tibetan. Lines 2–4 are an exact parallel. Also note the card ships *samādhi* as **"meditative stillness"** (the `termbase.md` row's second option) rather than Sujato's "immersion," which is his own choice and not the termbase's.
@@ -458,7 +458,7 @@ Not a systematic scan. Method worth reusing: the `en-toh*-84000.md` reference fi
 - link: [[1-SOURCES/Text/bo-toh327.md#^p508]]
 - quote: "སྐྱེས་བུ་དམ་པ་ནི་དད་པས་སྦྱིན་པ་སྦྱིན་པར་བྱེད་པ་ཡིན། གུས་པར་བྱས་ཏེ་རང་གི་ལག་པ་ནས་དང་། དུས་སུ་གཞན་དག་ལ་མི་གནོད་པར་སྦྱིན་པ་སྦྱིན་པར་བྱེད་པ་ཡིན་ནོ།"
 - buddhavacana: confirmed — the Buddha addressing the monks directly
-- length_est: en 119 chars (exact, from day card) — **all five items fit; no trimming needed**
+- length_est: en 121 chars (exact, from day card) — **all five items fit; no trimming needed**
 - speaks_to: [grasping, hopeful, grateful]
 - theme: **how-to-give** — new tag, distinct from `generosity` (Days 13/54, *that* one should give) and `non-attached-giving` (Day 45, the spirit of giving). This one is the five conditions on the *manner*: with trust, respectfully, with one's own hands, at the right time, without harming others.
 - status: claimed (day 82, 2026-09-13) — rail `toh327-five-gifts.md`

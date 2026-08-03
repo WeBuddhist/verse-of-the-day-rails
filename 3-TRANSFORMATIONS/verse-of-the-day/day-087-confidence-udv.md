@@ -35,7 +35,7 @@ Pali parallel (Snp 1.10, `pi-sutta-nipata.md#^snp1-10-7-1`ff): *Saddhīdha vitta
 
 > **Note on bo:** the verbatim Degé text above is **the source**; the shipped `bo` rendering is **modern, plain Tibetan** like every other language, per the vault's standing rule (CLAUDE.md hard rule 5, `verse-rail` "Source-language output ships modern", `translation-qa` rule 8, `vault-annex.md` §4). **Do not "correct" it back to the classical text.**
 
-- **en** — Faith is a person's finest wealth; practising the teaching brings joy; truth is the sweetest taste; a life of wisdom is best.
+- **en** — Faith is a person's finest wealth; practicing the teaching brings joy; truth is the sweetest taste; a life of wisdom is best.
 - **zh** — 信心是人最上的財富；把教法好好實踐就會得到安樂；真實是最甘美的滋味；依智慧而活才是最好的一生。
 - **bo** — ⚑ འདིར་མིའི་ནོར་གྱི་མཆོག་ནི་དད་པ་རེད། ཆོས་ལ་ལེགས་པར་སྤྱོད་ན་བདེ་བ་འཐོབ། བདེན་པ་ནི་རོ་ཡོད་པའི་ནང་ནས་ཞིམ་ཤོས་རེད། ཤེས་རབ་ཀྱིས་འཚོ་བ་དེ་འཚོ་བའི་མཆོག་རེད།
 - **hi** — श्रद्धा मनुष्य की सबसे बड़ी संपत्ति है; धर्म को अच्छे से जीने पर सुख मिलता है; सत्य सबसे मधुर स्वाद है; प्रज्ञा से जीना ही सबसे अच्छा जीवन है।
@@ -46,7 +46,7 @@ Pali parallel (Snp 1.10, `pi-sutta-nipata.md#^snp1-10-7-1`ff): *Saddhīdha vitta
 
 ### en
 - Back-translation: n/a (source language of the rail's Disambiguated Meaning).
-- Findings: all four lines present, in source order, each mapping to its Pali line and to Sujato's rendering. **"Faith"** for `དད་པ` per rail flag (a), matching Sujato; the new `termbase.md` row permits "confidence" and a reviewer may prefer it. **Two acknowledged losses, both for length and both flagged in the rail:** `ལེགས` / *suciṇṇo* ("well" practised) is dropped from line 2 — flag (b); `ཁོ་ན` ("alone") is dropped from line 3 — flag (c). The sensory word **"taste"** is kept literal per flag (d), not abstracted. The repetition of finest/best across lines 1 and 4 mirrors the source's own `མཆོག … མཆོག` and is deliberate, per flag (e). No questioner or "the Buddha said" imported from the Pali frame ✓. 122 chars. No em dash ✓.
+- Findings: all four lines present, in source order, each mapping to its Pali line and to Sujato's rendering. **"Faith"** for `དད་པ` per rail flag (a), matching Sujato; the new `termbase.md` row permits "confidence" and a reviewer may prefer it. **Two acknowledged losses, both for length and both flagged in the rail:** `ལེགས` / *suciṇṇo* ("well" practised) is dropped from line 2 — flag (b); `ཁོ་ན` ("alone") is dropped from line 3 — flag (c). The sensory word **"taste"** is kept literal per flag (d), not abstracted. The repetition of finest/best across lines 1 and 4 mirrors the source's own `མཆོག … མཆོག` and is deliberate, per flag (e). No questioner or "the Buddha said" imported from the Pali frame ✓. 125 chars. No em dash ✓.
 - Net: clean for review.
 
 ### zh (Traditional)

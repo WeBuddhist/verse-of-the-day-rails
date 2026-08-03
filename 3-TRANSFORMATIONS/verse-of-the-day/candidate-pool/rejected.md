@@ -283,6 +283,46 @@ These three were accepted into the pool before `selection-criteria.md` §2 was s
 
 ---
 
+## Rejected on the surface-reading gate — a NEW category (2026-08-03)
+
+### Udānavarga ch.5 (Toh 326) — udv-dear-ones · Dhp 212 parallel
+- link: [[1-SOURCES/Text/bo-udanavarga.md#^p429]] · Pali parallel [[1-SOURCES/Text/pi-dhammapada.md#^212]]
+- quote (verified verbatim): "སྡུག་པ་རྣམས་ལས་མྱ་ངན་སྐྱེ། །སྡུག་པ་རྣམས་ལས་འཇིགས་པ་སྐྱེ། །སྡུག་པ་དག་ནི་རྣམ་སྤངས་ན། །མྱ་ངན་མེད་ཅིང་འཇིགས་པ་མེད།" (Pali: *Piyato jāyatī soko, piyato jāyatī bhayaṁ; Piyato vippamuttassa, natthi soko kuto bhayaṁ.*) Proposed rendering, 120 chars: "Grief is born of what we hold dear, and fear is born of it too. Let go of that holding, and neither grief nor fear remains."
+- reason: **surface-reading fail — a new gate category, not covered by any existing one.** Selected for Day 87 (2026-09-18), verbatim-verified, inside the length budget, exactly parallel to Dhp 212, self-contained, intelligible with no glossary, and it *resolves its own tension* (so it passed the "offer a way through" gate on paper). **Pulled by Evan before build** on the ground that on a standalone card with no room to distinguish *piya* / `སྡུག་པ` (clinging attachment) from ordinary affection, a casual reader hears **"do not love anyone."** The audience is cultural Buddhists with a casual practice, not readers who will supply the technical distinction themselves.
+- **the generalisable screen:** a verse whose ***surface* reading tells the reader to withdraw affection** fails for this audience even when the doctrine is exact and the verse resolves. This is **distinct** from the §2 accessibility gate (the verse is perfectly clear — that is the problem) and distinct from the Toh 315 deity-frame gate. Screen for it before proposing.
+- scope of the rejection: the same objection presumably applies to **Dhp 209–211** and to any other *piya*/`སྡུག་པ` verse built on the same move. It does **not** touch verses about craving for *things* (`freedom-from-craving`, Days 29/59) or about impermanence of loved ones handled as consolation rather than instruction (e.g. the banked EĀ 卷36 Ānanda-consolation quote), which say something different.
+- revival conditions: would need a rendering that carries the clinging/affection distinction **on the card itself**, which ~120 characters may not allow. Not impossible, but nobody should assume it is cheap.
+- consequence recorded in `log.md`: this was the Days 86–90 batch's **sober** card, and its removal left the sober-tone debt unpaid at eleven consecutive non-sober cards. Replaced on Day 87 by Udānavarga ch.10 (`udv-faith-wealth`).
+
+---
+
+## Rejected on gate 1 (praise of / not spoken by the Buddha) — 2026-08-03 short-sūtra sweep
+
+### Toh 324 (The Four Stanzas)
+- link: `1-SOURCES/Text/bo-toh324.md`
+- reason: four stanzas of **homage** — "I pay homage to all victorious ones… to all those places I bow… I also bow to all stūpas" — plus a closing promise of merit for reciting them. Devotional verse *about* the Buddha, not his speech. **Gate 1 fail**, same category as the already-listed Toh 323.
+
+### Toh 177 (Mañjuśrī's Teaching)
+- link: `1-SOURCES/Text/bo-toh177.md`
+- reason: the entire teaching (the ocean-never-full simile; the four purposes for making offerings) is spoken by **Youthful Mañjuśrī** to the god Susīma. The Buddha is present but silent throughout. **Gate 1 fail.** Flagged because the content is good enough that a future pass might reach for it without checking the speaker.
+
+### Toh 42 (The Sūtra of the Moon 1)
+- link: `1-SOURCES/Text/bo-toh42.md`
+- reason: the Buddha's verse *is* Buddha-spoken and is charming ("Since buddhas have compassion for the world… therefore, Rāhu, set the moon free!"), but it is **out-of-context fail (§2b)** — it means nothing without the eclipse-rescue narrative (Rāhu has seized the god Candramas, who calls on the Buddha). Same category as Toh 95's earth-as-witness.
+
+### Toh 311 · Toh 254 · Toh 283 · Toh 28 · Toh 305 · Toh 299 — read, no candidate
+- reason, in one line each: **Toh 311** an eleven-item list of thoughts to hold at the moment of death (too long, death-framed); **Toh 254** a ten-quality list for bodhisattvas including seclusion/monastic items; **Toh 283** the three bodies (dharmakāya/saṃbhogakāya/nirmāṇakāya) — technical, accessibility fail; **Toh 28** the Buddha's only speech is a two-tier technical definition of wisdom; **Toh 305** three parallel "X is supreme" passages each closing on a heavenly-rebirth reward clause, list-heavy; **Toh 299** a monastic timekeeping table (gnomon-shadow lengths by half-month) with no teaching content whatsoever.
+
+### Toh 251 (The Four Factors) — DEFERRED, not a clean reject
+- link: `1-SOURCES/Text/bo-toh251.md`
+- reason: Mahāyāna, cleanly Buddha-spoken, and it has a proper closing verse — but the four factors are bodhicitta / the spiritual friend / tolerance and lenience / **dwelling in the wilderness**, and the fourth is monastic in a way a lay card cannot carry, while the verse is four lines of all four. Worth a second look if a monastic-leaning card is ever wanted; not a daily card as it stands.
+
+### Toh 155 (The Questions of the Nāga King Sāgara) — DEFERRED, a genuine judgement call
+- link: `1-SOURCES/Text/bo-toh155.md`
+- reason: Mahāyāna, Buddha-spoken to the nāga king Sāgara, self-contained, and **it fits** (~114 chars for the four Dharma-seals: all compounded things impermanent, all tainted things suffering, all phenomena without self, nirvāṇa is peace). Passed over on the same objection Evan raised against Udānavarga ch.26: **four abstract propositions in a row** will not be understood by a casual reader. **Flagged as deferred rather than rejected** — a reviewer might reasonably disagree, and it is the cleanest short Mahāyāna Kangyur candidate still on the table. Note there is a Chinese counterpart already in the pool (EĀ 卷36, the four dharma-seals), so if the objection is ever waived there are two canons available.
+
+---
+
 ## Rejected on the length gate (§2 "must fit the app card", 2026-09 batch)
 
 ### Toh 149 (The Question of Maitreya) — toh149-gift-of-teaching

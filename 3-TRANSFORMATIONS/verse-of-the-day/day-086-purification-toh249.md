@@ -46,7 +46,7 @@ Short prose teaching, **quoted in full**. Meaning: harm you have already done is
 
 ### en
 - Back-translation: n/a (source language of the rail's Disambiguated Meaning).
-- Findings: both halves of the quote present — the claim (`ཟིལ་གྱིས་ནོན`) and all four items in source order. **"Overcome"** used for `ཟིལ་གྱིས་ནོན`, per rail flag (a), not "erased" or "purified" — the sūtra's own logic is that the deed cannot bear fruit, not that it never happened. **"Harm you have done"** for `སྡིག་པ` per flag (c), avoiding both "sin" and "negativity." The addressee is universalised from "bodhisattvas, great beings" per the rail's second ⚑ flag. **The fourth item is a partial rendering** — `རྟེན་གྱི་སྟོབས` is glossed in the source as refuge *plus* not abandoning the awakening mind, and only "taking refuge" fits; flagged, not hidden. 119 chars. No em dash ✓.
+- Findings: both halves of the quote present — the claim (`ཟིལ་གྱིས་ནོན`) and all four items in source order. **"Overcome"** used for `ཟིལ་གྱིས་ནོན`, per rail flag (a), not "erased" or "purified" — the sūtra's own logic is that the deed cannot bear fruit, not that it never happened. **"Harm you have done"** for `སྡིག་པ` per flag (c), avoiding both "sin" and "negativity." The addressee is universalised from "bodhisattvas, great beings" per the rail's second ⚑ flag. **The fourth item is a partial rendering** — `རྟེན་གྱི་སྟོབས` is glossed in the source as refuge *plus* not abandoning the awakening mind, and only "taking refuge" fits; flagged, not hidden. 121 chars. No em dash ✓.
 - Net: clean for review, with the rail's central ⚑ flag (labels rendered by in-text glosses) carried forward for the reviewer.
 
 ### zh (Traditional)

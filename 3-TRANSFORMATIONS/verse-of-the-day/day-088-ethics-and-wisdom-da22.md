@@ -35,7 +35,7 @@ Pali parallel (DN 4, `pi-digha-nikaya.md#^dn4-22-2` / `^dn4-22-5` / `^dn4-22-6`)
 
 > **Note on zh:** the verbatim CBETA classical Chinese above is **the source**; the shipped `zh` rendering is **modern Traditional Chinese** like every other language, per the vault's standing rule (CLAUDE.md hard rule 5, `verse-rail` "Source-language output ships modern", `translation-qa` rule 8, `vault-annex.md` §4). **Do not "correct" it back to the classical text.**
 
-- **en** — Hands wash each other, left cleaning right, right cleaning left. So too ethics and wisdom go together, each cleansing the other.
+- **en** — Hands wash each other, left cleaning right, right cleaning left. So too ethics and wisdom go together, cleansing each other.
 - **zh** — 就像兩隻手互相清洗，左手洗淨右手，右手洗淨左手；持戒與智慧也是如此，兩者相伴而行，彼此洗淨。
 - **bo** — ⚑ ལག་པ་གཉིས་ཀྱིས་ཕན་ཚུན་འཁྲུ་བ་བཞིན། གཡོན་པས་གཡས་པ་འཁྲུ། གཡས་པས་གཡོན་པ་འཁྲུ། དེ་བཞིན་ཚུལ་ཁྲིམས་དང་ཤེས་རབ་གཉིས་མཉམ་དུ་འགྲོ་ཞིང་། ཕན་ཚུན་གཙང་མ་བཟོ་གི་རེད།
 - **hi** — जैसे दोनों हाथ एक दूसरे को धोते हैं, बायाँ दायें को और दायाँ बायें को; वैसे ही शील और प्रज्ञा साथ चलते हैं और एक दूसरे को निर्मल करते हैं।
@@ -46,7 +46,7 @@ Pali parallel (DN 4, `pi-digha-nikaya.md#^dn4-22-2` / `^dn4-22-5` / `^dn4-22-6`)
 
 ### en
 - Back-translation: n/a (source language of the rail's Disambiguated Meaning).
-- Findings: the simile and both its applications are present. **"Ethics"** for `戒` per rail flag (a) — this is the `termbase.md` locked rendering *and* Sujato's own word at `^dn4-22-6`, so "virtue" was not used even though it is the commoner translation elsewhere. **"Cleansing"** rather than "purifying" per flag (b), following Sujato and keeping the image domestic. **The card's tightest join, per flag (c):** claims 2 and 3 are compressed into "go together, each cleansing the other" — "go together" is Sujato's wording for `有慧則有戒` (`^dn4-22-2`), "each cleansing the other" carries `戒能淨慧，慧能淨戒`. Both claims survive; this is a compression of wording, not a cut. **The Pali's second simile (foot washing foot) is deliberately absent** — it is not in the Chinese source, per the rail's ⚑ divergence flag; likewise the left/right specification is kept because the Chinese has it and the Pali does not. 125 chars, inside the 126 ceiling. No em dash ✓.
+- Findings: the simile and both its applications are present. **"Ethics"** for `戒` per rail flag (a) — this is the `termbase.md` locked rendering *and* Sujato's own word at `^dn4-22-6`, so "virtue" was not used even though it is the commoner translation elsewhere. **"Cleansing"** rather than "purifying" per flag (b), following Sujato and keeping the image domestic. **The card's tightest join, per flag (c):** claims 2 and 3 are compressed into "go together, each cleansing the other" — "go together" is Sujato's wording for `有慧則有戒` (`^dn4-22-2`), "each cleansing the other" carries `戒能淨慧，慧能淨戒`. Both claims survive; this is a compression of wording, not a cut. **The Pali's second simile (foot washing foot) is deliberately absent** — it is not in the Chinese source, per the rail's ⚑ divergence flag; likewise the left/right specification is kept because the Chinese has it and the Pali does not. 124 chars, inside the 126 ceiling. No em dash ✓.
 - Net: clean for review.
 
 ### zh (Traditional)
