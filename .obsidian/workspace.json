@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-SYSTEM/Skills/verse-selection/SKILL.md",
+                "file": "3-TRANSFORMATIONS/verse-of-the-day/day-111-dedication-of-merit-toh182.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SKILL"
+              "title": "day-111-dedication-of-merit-toh182"
             }
           }
         ]
@@ -198,12 +198,20 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/verse-of-the-day/day-110-speaking-well-of-others-an4-73.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-109-blessing-going-returning-toh95.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-111-dedication-of-merit-toh182.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-108-goodness-is-happiness-an7-62.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-107-loving-kindness-toh313.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-106-letting-go-of-anger-sn11-21.md",
+    "4-SYSTEM/Skills/verse-selection/SKILL.md",
+    "2-RAILS/Verses/toh182-dedication.md",
+    "2-RAILS/Verses/an4-73-speaks-well.md",
+    "2-RAILS/Verses/toh95-blessing-going-returning.md",
     "2-RAILS/Verses/an7-62-dont-fear-good.md",
     "4-SYSTEM/Skills/candidate-tagging/SKILL.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-107-loving-kindness-toh313.md",
     "3-TRANSFORMATIONS/verse-of-the-day/card-types.md",
     "0-INBOX/selection-proposal-days-108-113.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-106-letting-go-of-anger-sn11-21.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-105-harmlessness-ea.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-104-blessing-of-wellbeing-toh292.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-103-love-the-resented-an5-161.md",
@@ -216,14 +224,6 @@
     "2-RAILS/Verses/toh292-blessing.md",
     "2-RAILS/Verses/an5-161-love-the-resented.md",
     "2-RAILS/Verses/toh313-past-future.md",
-    "2-RAILS/Verses/an10-2-no-regrets.md",
-    "0-INBOX/selection-proposal-days-101-105.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-099-wholesome-action-da5.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-098-welcoming-correction-dhp76.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-097-merit-cannot-be-lost-toh329.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-096-good-company-iti76.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-093-gratitude-ea.md",
-    "2-RAILS/Verses/toh183-give-without-return.md",
     "0-INBOX/raw-data/data-tei",
     "0-INBOX/raw-data",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md.tmp.98633.07b3d0eb9a3d",

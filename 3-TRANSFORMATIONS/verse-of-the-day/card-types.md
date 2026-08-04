@@ -4,6 +4,43 @@
 
 Read this alongside [`selection-criteria.md`](selection-criteria.md) (which gates *whether* a verse qualifies) and the screens in [`log.md`](log.md)'s running balance (which gate *how* it must read). **This file governs the mix.**
 
+## ⚑ First — this is the FOURTH classification system, and it was added without checking the other three
+
+Evan: *"don't we have categories?"* **Yes, three already existed.** I created this file without looking, which is the kind of duplication that makes a vault unusable. The honest map:
+
+| Axis | Lives in | Classifies |
+|---|---|---|
+| **Felt-state** | [`discovery-by-feeling.md`](discovery-by-feeling.md) **Door A** (11 entries) | what the reader is *feeling* |
+| **Quality to grow** | [`discovery-by-feeling.md`](discovery-by-feeling.md) **Door B** (13 entries) | what the reader wants to *cultivate* |
+| **Doctrinal topic** | [`candidate-pool/theme-checklist.md`](candidate-pool/theme-checklist.md) + per-card `theme:` | what the verse is *about* |
+| **Form** | this file | whether it is a teaching, a blessing, a simile… |
+
+**Door B is almost certainly the list Evan meant** by *"a list of different kinds of quotes."* It already contains **aspiration**. So of the two new kinds, only **blessing** is genuinely new to it — the reconciliation is one line in Door B, not a new taxonomy.
+
+**This file's remaining justification is narrow:** *form* is a real axis that none of the other three captures, and it is the axis the type-clumping problem lives on. **But it is on probation** — if the form distinction does not earn its keep in sequencing decisions, fold the useful parts into `discovery-by-feeling.md` and delete this file rather than maintain a fourth list.
+
+---
+
+## ⚑ THE SPACING RULE, CORRECTED (Evan, 2026-08-03): **don't repeat themes within a batch**
+
+The old rule — *"don't run the same theme on consecutive days"* (`selection-criteria.md` §3, `verse-selection` rule 4) — **tests the tag string, not the subject.** Because themes are emergent free tags, two cards on the same ground get different tags and sail through. Evan's diagnosis: *"the verse selection skill talks about not repeating themes two days in a row, but you kind of did two similar themes and kept going back and forth."*
+
+**The evidence, from the cards actually shipped:**
+
+| Days | Tags | Actual subject |
+|---|---|---|
+| 97 · 99 · 100 | merit-cannot-be-lost · wholesome-action · giving-without-return | **your good action and its fruit — three times in four days** |
+| 103 · 105 · 106 · 107 | love-for-someone-you-resent · harmlessness · letting-go-of-anger · loving-kindness | **anger and kindness toward others — four times in five days** |
+
+Every adjacent pair passed the old rule. The week still read as two clumps alternating.
+
+**The corrected rule: no two cards in a batch may be on the same ground.** Not the same tag — the same *subject*. It is stricter than the old rule and simpler to apply, because a batch is what a curator actually reviews at once.
+
+- **Judge subject, not label.** "Harmlessness," "letting go of anger" and "loving-kindness" are one subject. "Merit cannot be lost," "doing good has a good result" and "giving without return" are one subject.
+- **The old consecutive-days rule still stands** across batch boundaries — check the last card of the previous batch too. (Day 107 was loving-kindness, so AN 8.1's "loving one being" cannot open Day 108, even though it is in a different batch.)
+- **Consequence to expect, and it is the point:** a set of approved candidates will usually contain fewer shippable cards than it appears to. Of the seven approved for Days 108–113, only four are on distinct ground — AN 3.155's morning verse repeats AN 7.62's, AN 3.155's blessing repeats Toh 95's, and AN 8.1 collides with Day 107. **Hold the duplicates for later batches rather than filling a week with them.**
+- **`selection-criteria.md` §3 has been amended.** The `verse-selection` skill (rule 4 and its Completion check) carries the old wording and lives in read-only `4-SYSTEM/` — **it needs Evan to update it**, or a future agent will follow the defective version.
+
 ---
 
 ## The distribution rule (Evan, 2026-08-03)

@@ -119,6 +119,10 @@ off + all seven renderings reviewed, ready/published.
 | 2026-10-04 | 105 | EĀ 增壹阿含經 (卷4) | Chinese Āgama | harmlessness | angry, irritated, compassion | [[day-105-harmlessness-ea]] | draft |
 | 2026-10-05 | 106 | SN 11.21 | Pali | letting-go-of-anger | angry, irritated, restless | [[day-106-letting-go-of-anger-sn11-21]] | draft |
 | 2026-10-06 | 107 | Toh 313 (Auspicious Night) | Tibetan Kangyur | loving-kindness | lonely, tender, grateful | [[day-107-loving-kindness-toh313]] | draft |
+| 2026-10-07 | 108 | AN 7.62 | Pali | goodness-is-happiness | discouraged, afraid, aspiration | [[day-108-goodness-is-happiness-an7-62]] | draft |
+| 2026-10-08 | 109 | Toh 95 (Lalitavistara) | Tibetan Kangyur | blessing-of-coming-and-going | lonely, anxious, grateful | [[day-109-blessing-going-returning-toh95]] | draft |
+| 2026-10-09 | 110 | AN 4.73 | Pali | speaking-well-of-others | resentful, irritated, aspiration | [[day-110-speaking-well-of-others-an4-73]] | draft |
+| 2026-10-10 | 111 | Toh 182 (The Perfection of Generosity) | Tibetan Kangyur (Mahāyāna) | dedication-of-merit | compassion, aspiration, overwhelmed | [[day-111-dedication-of-merit-toh182]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 

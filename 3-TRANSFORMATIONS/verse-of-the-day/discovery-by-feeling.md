@@ -43,7 +43,9 @@ So there are two doors into the corpus:
 > loving-kindness (*mettā*) · compassion (*karuṇā*) · joy in others' good
 > (*muditā*) · equanimity (*upekkhā*) · **spiritual friendship / sangha
 > (*kalyāṇa-mittatā*)** · **belonging / community** · gratitude · generosity ·
-> mindfulness · patience · contentment · calm · aspiration
+> mindfulness · patience · contentment · calm · aspiration · **blessing**
+
+*(**`blessing` added 2026-08-03**, per Evan's genre ruling: *"when they are blessings and aspirations, they are good."* Note **`aspiration` was already on this list** — of the two forms admitted that day, only *blessing* was actually new here. First cards: Day 104 (Toh 292, a blessing received) and Day 107 (Toh 313, an aspiration made). See [`card-types.md`](card-types.md) for the supply constraint: roughly ten to twelve Buddha-spoken verses of these two forms exist in the entire corpus, so they are a recurring note, not a register the calendar can run on.)*
 
 Door A is the "verses for when you feel…" mechanic. Door B — *"a verse to grow
 loving-kindness / friendship / gratitude today"* — is the Buddhist addition, and
