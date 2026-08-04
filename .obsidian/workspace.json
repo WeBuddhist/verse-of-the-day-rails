@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/verse-of-the-day/day-100-giving-without-return-toh183.md",
+                "file": "3-TRANSFORMATIONS/verse-of-the-day/day-107-loving-kindness-toh313.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-100-giving-without-return-toh183"
+              "title": "day-107-loving-kindness-toh313"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 200
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,19 +198,20 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/verse-of-the-day/day-106-letting-go-of-anger-sn11-21.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-105-harmlessness-ea.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-104-blessing-of-wellbeing-toh292.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-103-love-the-resented-an5-161.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-102-present-moment-toh313.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-101-joy-no-regrets-an10-2.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-100-giving-without-return-toh183.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-107-loving-kindness-toh313.md",
     "2-RAILS/Verses/toh313-may-all-be-happy.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-106-letting-go-of-anger-sn11-21.md",
     "2-RAILS/Verses/sn11-21-letting-go-anger.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-105-harmlessness-ea.md",
     "2-RAILS/Verses/ea-trouble-nothing-alive.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-104-blessing-of-wellbeing-toh292.md",
     "2-RAILS/Verses/toh292-blessing.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-103-love-the-resented-an5-161.md",
     "2-RAILS/Verses/an5-161-love-the-resented.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-102-present-moment-toh313.md",
     "2-RAILS/Verses/toh313-past-future.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-101-joy-no-regrets-an10-2.md",
     "2-RAILS/Verses/an10-2-no-regrets.md",
     "0-INBOX/selection-proposal-days-101-105.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-099-wholesome-action-da5.md",
@@ -217,7 +219,6 @@
     "3-TRANSFORMATIONS/verse-of-the-day/day-097-merit-cannot-be-lost-toh329.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-096-good-company-iti76.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-093-gratitude-ea.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-100-giving-without-return-toh183.md",
     "2-RAILS/Verses/toh183-give-without-return.md",
     "2-RAILS/Verses/da-5-good-result.md",
     "2-RAILS/Verses/dhp-76.md",
