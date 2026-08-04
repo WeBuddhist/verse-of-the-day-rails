@@ -23,7 +23,7 @@ review_status:
 Rail: [[2-RAILS/Verses/toh292-blessing]] · own translation from the Degé Kangyur (Public Domain); 84000 English as reference only.
 Short verse, **quoted in full**. Meaning: the Buddha wishing you well, hour by hour. **This card is a blessing, not a teaching.**
 
-> **⚑ NEEDS A CURATOR DECISION BEFORE PUBLISH.** All 100 preceding days have been teachings — something to understand or do. This is a benediction received. That may be exactly right for a daily touchpoint, or it may not be what the product is for. There is no precedent in `log.md`. See the rail.
+> **✅ GENRE APPROVED (Evan, 2026-08-03).** This card was built with an open question — all 100 preceding days had been *teachings*, and this is a benediction *received*. **Ruling: "These are both good. The problem before was the buddha praising himself. I don't want to include those, but when they are blessings and aspirations, they are good."** Blessings and aspirations are in scope; the gate is against the Buddha proclaiming his own attainment or being praised, which this is not. **No further genre decision needed.** The `སྡིག་པ` rendering ambiguity below is still open for the native reviewers.
 
 > **Output languages: six** (en · zh · bo · hi · ne · mn). Ladakhi (`lbj`) discontinued by Evan, 2026-08-03. The rule docs still say seven; **do not add an `lbj` line back on their strength.**
 

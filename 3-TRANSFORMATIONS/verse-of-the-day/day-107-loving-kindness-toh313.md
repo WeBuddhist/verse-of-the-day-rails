@@ -23,7 +23,7 @@ review_status:
 Rail: [[2-RAILS/Verses/toh313-may-all-be-happy]] · own translation from the Degé Kangyur (Public Domain); 84000 English as reference only.
 Short verse, **quoted in full** (first four pādas of a six-pāda stanza, stopped at an optative clause boundary). Meaning: a wish you can make right now for every living thing.
 
-> **⚑ Same genre question as Day 104.** This is an **aspiration**, not a teaching — the reader makes a wish rather than learning something. Day 104 is a blessing the reader *receives*; this is one they *make*. Both are new forms for this calendar and **Evan's decision on Day 104's genre question applies to this card too.** If the form is ruled out of scope, pull both.
+> **✅ GENRE APPROVED (Evan, 2026-08-03).** This is an **aspiration** rather than a teaching — the reader makes a wish. Built with an open question alongside Day 104's blessing; **ruling: "when they are blessings and aspirations, they are good."** The gate is against the Buddha praising himself, not against non-teaching forms. **No further genre decision needed.** The `ཉོན་མོངས` → "troubled" reduction below is still open for the native reviewers.
 
 > **Output languages: six** (en · zh · bo · hi · ne · mn). Ladakhi (`lbj`) discontinued by Evan, 2026-08-03. The rule docs still say seven; **do not add an `lbj` line back on their strength.**
 
