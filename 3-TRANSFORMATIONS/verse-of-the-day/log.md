@@ -107,6 +107,11 @@ off + all seven renderings reviewed, ready/published.
 | 2026-09-24 | 93 | EĀ 增壹阿含經 (卷11) · AN 2.32 parallel | Chinese Āgama | gratitude | grateful, lonely, hopeful | [[day-093-gratitude-ea]] | draft |
 | — | ~~94~~ | ~~Toh 329 (The Devatā Sūtra)~~ | — | — | — | *(never built)* | **declined at proposal** |
 | — | ~~95~~ | ~~Toh 293 (The Crest Insignia 2)~~ | — | — | — | *(never built)* | **declined at proposal** |
+| 2026-09-25 | 96 | Iti 76 | Pali | good-company | lonely, hopeful, aspiration | [[day-096-good-company-iti76]] | draft |
+| 2026-09-26 | 97 | Toh 329 (The Devatā Sūtra) | Tibetan Kangyur | merit-cannot-be-lost | discouraged, afraid, hopeful | [[day-097-merit-cannot-be-lost-toh329]] | draft |
+| 2026-09-27 | 98 | Dhp 76 | Pali | welcoming-correction | defensive, discouraged, aspiration | [[day-098-welcoming-correction-dhp76]] | draft |
+| 2026-09-28 | 99 | DĀ 5 (小緣經, Aggañña parallel) | Chinese Āgama | wholesome-action | discouraged, doubtful, hopeful | [[day-099-wholesome-action-da5]] | draft |
+| 2026-09-29 | 100 | Toh 183 (Teaching the Benefits of Generosity) | Tibetan Kangyur (Mahāyāna) | giving-without-return | grasping, aspiration, hopeful | [[day-100-giving-without-return-toh183]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 
