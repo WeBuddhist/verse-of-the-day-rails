@@ -22,7 +22,7 @@ Same format as `chinese.md`/`tibetan.md`. All Pali sources here are CC0 (SuttaCe
 - buddhavacana: confirmed — corpus-level
 - length_est: ~95 chars EN (est.)
 - theme: taming-the-mind (fresh instance, distinct from the already-claimed Dhp 1/Dhp 33 "restless mind" verses)
-- status: unclaimed
+- status: **claimed (day 27, 2026-07-20) — `day-027-taming-the-mind-dhp35`.** ⚑ Corrected 2026-10: this entry read `unclaimed`, but Dhp 35 ran on Day 27 and appears in this file's own already-claimed list at the top. A selection pass filtering on `status:` would have re-proposed a verse already on the calendar.
 
 ### Dhp 103 — conquering oneself is the greatest victory
 - link: [[1-SOURCES/Text/pi-dhammapada.md#^103]]
@@ -124,9 +124,13 @@ Same format as `chinese.md`/`tibetan.md`. All Pali sources here are CC0 (SuttaCe
 - link: [[1-SOURCES/Text/pi-sutta-nipata.md#^snp2-4-12-1]]
 - quote: "Phuṭṭhassa lokadhammehi, Cittaṁ yassa na kampati; Asokaṁ virajaṁ khemaṁ, Etaṁ maṅgalamuttamaṁ."
 - buddhavacana: confirmed — one of the 38 blessings the Buddha lists in reply to a deva's question, extracted as a self-contained unit per Rule 7 (each blessing-verse in this sutta is its own complete teaching)
-- length_est: ~140 chars EN (est., "One whose mind does not tremble when touched by the ways of the world — sorrowless, stainless, secure — this is the highest blessing.") — needs light compression
-- theme: detachment-from-gain-and-honor (fills the checklist gap with a Pali instance — the classic "eight worldly winds" equanimity teaching, distinct from the already-tagged Chinese EA juan 13 candidate)
-- status: unclaimed
+- length_est: **RESOLVED at claim time: en 118 chars** — "When the ups and downs of the world cannot shake your mind, sorrowless, unclouded, safe: this is the highest blessing." The ~140 estimate assumed Sujato's phrasing; `lokadhammā` → "the ups and downs of the world" and `viraja` → "unclouded" both fit inside the budget.
+- theme: unshaken-mind (ran under this tag; it is the `lokadhammā` framing of detachment-from-gain-and-honor, so **Iti 81 and EA juan 13 remain genuinely different angles** and are still worth running later)
+- card_type: blessing
+- status: claimed (day 114, 2026-10-13) — rail `snp-2-4-unshaken.md`
+- ⚑ **This card closed a gap `theme-checklist.md` had wrongly recorded as closed by Day 89** — Day 89 was skipped, so nothing had ever run that ground. Checklist corrected.
+- ⚑ **Disclosure the rail carries and any reuse must too: the Pali is impersonal and the card ships the second person.** `cittaṁ yassa na kampati` is a relative clause and even **Sujato** renders it "*their* mind does not tremble" (`^snp2-4-12-2`). "Your mind" is entirely ours, justified by the benediction genre rather than by the grammar. This is a sharper case than the Day 103 / AN 5.34 / MN 96 finding, where Sujato's own English supplied the second person.
+- ⚑ Rendering flags: `viraja` ships as "**unclouded**", not Sujato's "stainless" (which collocates with steel, not with a mind — the Day 106 collocation screen); `khema` as "**safe**"; `lokadhammā` as "**the ups and downs of the world**" rather than the eight-conditions enumeration. The three adjectives `asokaṁ virajaṁ khemaṁ` **stay three** — reducing to two for rhythm would be cutting the quote.
 
 ### Snp 2.10 (Uṭṭhānasutta) — get up, sit up
 - link: [[1-SOURCES/Text/pi-sutta-nipata.md#^snp2-10-1-1]]

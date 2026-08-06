@@ -149,8 +149,9 @@ Same format as `tibetan.md`. Backfilled entries (free, from existing rails) belo
 - status: claimed (day 50, 2026-08-12)
 
 ### 佛遺教經 T389 (Bequeathed Teachings) — t389-concentration
-- link: [[1-SOURCES/Text/zh-bequeathed-teachings.md#^pT12p1111c1701]]
+- link: [[1-SOURCES/Text/zh-bequeathed-teachings.md#^pT12p1111a0801]]
 - quote: "制之一處，無事不辦。"
+- ⚑ **ANCHOR CORRECTED 2026-10.** This entry previously cited `^pT12p1111c1701`. That is wrong: `^pT12p1111c1701` holds the 精進 / small-stream passage (now Day 116, `t389-steady-effort`), and `制之一處，無事不辦` sits at **`^pT12p1111a0801`**. Verified by grep against `zh-bequeathed-teachings.md`. Found only at build time, and it is the **second** instance of the mis-recorded-anchor pattern flagged at this file's line 941 — **a systematic anchor audit of the claimed Chinese Mahāyāna rails is now worth doing as its own task.**
 - buddhavacana: confirmed — the Buddha's final instructions
 - length_est: ~85 chars EN (est.)
 - speaks_to: [restless, overwhelmed, aspiration]
@@ -300,9 +301,10 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - link: [[1-SOURCES/Text/zh-digha-agama.md#^pT01p0026a2513]]
 - quote: "汝謂佛滅度後，無復覆護，失所持耶？勿造斯觀，我成佛來所說經戒，即是汝護，是汝所持。" (part of a longer Ānanda Q&A chain near the Buddha's death, but this rhetorical-question-plus-answer reads as a complete, self-contained unit on its own)
 - buddhavacana: confirmed — Buddha addressing Ānanda directly, near the parinirvāṇa
-- length_est: ~140 chars EN (est.) — over budget as quoted whole; will need compression at claim time (e.g. dropping the rhetorical-question framing and keeping just "the teaching and discipline I have taught are your refuge, your support")
-- theme: refuge (new — see theme-checklist.md; fills the "refuge / confidence" known gap)
-- status: unclaimed
+- length_est: **RESOLVED at claim time: en 70 chars** — the shipped unit is the single complete sentence `我成佛來所說經戒，即是汝護，是汝所持。`, not the rhetorical-question chain. The ~140 estimate was for the whole Q&A.
+- theme: the-teaching-as-shelter (ran as this; note it is *not* the `refuge` framing of Day 60 — see rail)
+- status: claimed (day 115, 2026-10-14) — rail `da-2-shelter.md`
+- ⚑ **Two build-time findings recorded on the rail.** (1) The **sentence boundary is grounded on the Pali**: CBETA punctuates `勿造斯觀，我成佛來所說經戒…` with a comma, but DN 16 punctuates the two as separate sentences (`^dn16-6-1-4` / `^dn16-6-1-5`), so the cut is the recension's own. (2) **The Chinese and Pali diverge on the key word** — Pali `satthā` ("teacher"), Chinese `護` ("shelter"). The card ships the Chinese; do not "correct" it to teacher. Also: `成佛來` was rendered "since my awakening" and the modern `zh` ships `成道以來`, to keep the word *Buddha* off the card.
 - note: found via a lead in a user-supplied secondary compilation (庄春江's 阿含经随身剪辑, cited there as 长‧二), then independently located and verified verbatim against `1-SOURCES/zh-digha-agama.md` directly — per Rule 10's "lead, not proof" standard.
 
 **DA 2 note:** targeted two-anchor check only (via an external lead, not a full read) — the other ~700 lines of this sutta remain unread. Both anchors above verified directly against the Chinese source.
@@ -412,9 +414,9 @@ MĀ 1 (Skillful Qualities), MĀ 2 (The Pārijāta Tree), MĀ 3 (The City Parable
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0635b1202]]
 - quote: "猶如山河、石壁、百草、五穀，皆依於地而得長大，然復此地最尊、最上。此亦如是，諸善道品之法，住不放逸之地，使諸善法而得長大。"
 - buddhavacana: confirmed — Buddha addressing the monks
-- length_est: ~130 chars EN (est.) — over budget, needs compression (the "石壁" clause could be trimmed)
+- length_est: ⚑ **the ~130 estimate was wrong — the true figure is 200 chars EN for the whole passage.** See the claimed entry below.
 - theme: effort
-- status: unclaimed
+- status: **DUPLICATE — do not use.** This is the same anchor as the "EA (juan 18) — non-negligence" entry further down, which is the live one and is now claimed (day 113). Deduped 2026-10.
 
 **EA — ea-h — the middle way of diligence**
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0612b1812]]
@@ -720,11 +722,14 @@ Three of the digest's 46 citations — the famous "do no evil, do all good, puri
 
 **EA (juan 18) — non-negligence, the ground all good qualities grow from**
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0635b1202]]
-- quote: "猶如山河、石壁、百草、五穀，皆依於地而得長大，然復此地最尊、最上。此亦如是，諸善道品之法，住不放逸之地，使諸善法而得長大。"
-- buddhavacana: confirmed — Buddha addressing the monks (the first of four parallel similes — earth, a cakravartin among lesser kings, the moon among stars, jasmine among flowers — all making the same point; this is the most vivid, the other three are redundant and not separately tagged)
-- length_est: ~110 chars EN (est.)
-- theme: heedfulness-as-foundation-of-virtue (new gap — see theme-checklist.md)
-- status: unclaimed
+- quote (full passage): "猶如山河、石壁、百草、五穀，皆依於地而得長大，然復此地最尊、最上。此亦如是，諸善道品之法，住不放逸之地，使諸善法而得長大。"
+- quote (**the portion that actually shipped**): "諸善道品之法，住不放逸之地，使諸善法而得長大。"
+- buddhavacana: confirmed — Buddha addressing the monks, `爾時，世尊告諸比丘` (the first of four parallel similes — earth, a cakravartin among lesser kings, the moon among stars, jasmine among flowers — all making the same point; this is the most vivid, the other three are redundant and not separately tagged)
+- length_est: ⚑ **the ~110 estimate was wrong and it cost the card its image.** Rendered whole as §2 requires, the two-sentence passage is **200 chars EN**, against a ~125 budget, and there is no legal way down: the simile half alone is a dangling "just as" clause. **The shipped card is the second sentence only, at 101 chars** — so it is an *observation*, not the simile it was approved as. See `ea-ground-of-diligence.md`.
+- theme: heedfulness-as-foundation-of-virtue (checklist gap now closed, with the caveat that the *image* never shipped)
+- status: claimed (day 113, 2026-10-12) — rail `ea-ground-of-diligence.md`
+- ⚑ **Pali parallels diverge and must not overwrite the Chinese:** SN 45.150 pairs the earth-and-plants simile with **ethics (`sīla`)**, not *appamāda*; AN 10.15 gives the *appamāda* formula but with elephant-footprint and roof-peak similes. The earth-plus-heedfulness combination is the Chinese recension's own.
+- ⚑ Anchor re-verified directly against `zh-ekottarika-agama.md` at build time (the file's standing warning about off-by-one Ekottarika anchors from the shortcut pass does not apply here — this one is correct).
 
 **EA (juan 18, King Prasenajit) — conduct decides your destiny, not your birth**
 - link: [[1-SOURCES/Text/zh-ekottarika-agama.md#^pT02p0636a1317]]
@@ -1014,3 +1019,56 @@ Fascicles 47 (remainder) through 49 (partial) continue the Devadatta narrative t
 **Note:** the remainder of fascicle 49 concludes the Anāthapiṇḍika cycle (his final illness, Śāriputra's profound emptiness-teaching to him on his deathbed — redundant with `innate-purity` candidates already in the pool — his rebirth as a deva, and the "wife like a mother/sister/thief/servant" teaching to his daughter-in-law Sujātā, redundant with already-covered relational-conduct material). Fascicle 50 is almost entirely the parinirvāṇa of Mahāpajāpatī Gotamī (Mahāprajāpatī/大愛道) and 500 arahant bhikkhunīs, including Bhaddā Kaccānā's (Kapilā's) extended past-life recollection across six Buddhas — moving narrative, no standalone declarative teaching distinct from material already in the pool. Fascicle 51 (the text's final fascicle) contains two aeon-length similes (a mustard-seed-filled iron city emptied one seed per century; a mountain worn away by a cloth brushed across it once a century) illustrating saṃsāra's vastness — vivid but too-compound/narrative-dependent to extract as a single line, redundant with `impermanence`; and closes with routine formulaic material on the five benefits of a generous donor (redundant with `generosity`/`non-attached-giving`, already well covered).
 
 This completes the sequential scan of the entire Ekottarika Āgama (zh-ekottarika-agama.md), fascicles 1 through 51.
+
+---
+
+## Added 2026-10 while building Days 112–116
+
+### 佛遺教經 T389 (Bequeathed Teachings) — t389-contentment
+- link: [[1-SOURCES/Text/zh-bequeathed-teachings.md#^pT12p1111c0501]]
+- quote: "不知足者雖富而貧，知足之人雖貧而富。"
+- buddhavacana: confirmed — block opens `汝等比丘，若欲脫諸苦惱，當觀知足`, the Buddha's bequeathed teaching to the assembly
+- length_est: en 88 chars, zh 31 — fits whole, verified at build
+- speaks_to: [discontent, comparing, grasping]
+- theme: contentment · card_type: reframe
+- status: claimed (day 112, 2026-10-11) — rail `t389-contentment.md`
+- ⚑ Rendering flag carried on the rail: `不知足` must ship as "never satisfied", **not** "greedy" — the term is *not-knowing-enough*, a state of never arriving, and a condemnation flips the card from reframe to rebuke. Also **excluded from the card** and not to be restored later: the same block's `不知足者常為五欲所牽…` (admonishing, needs a gloss for 五欲) and its `雖臥地上猶為安樂；雖處天堂亦不稱意` opening (same teaching, weaker, imports a heaven frame).
+
+### 佛遺教經 T389 (Bequeathed Teachings) — t389-steady-effort
+- link: [[1-SOURCES/Text/zh-bequeathed-teachings.md#^pT12p1111c1701]]
+- quote: "汝等比丘，若勤精進則事無難者，是故汝等當勤精進，譬如小水常流則能穿石。"
+- buddhavacana: confirmed — the Buddha's own imperative to the assembly
+- length_est: en 119 chars, zh 40 — fits whole (vocative dropped, the restatement `是故汝等當勤精進` compressed to "so keep at it", no content lost)
+- speaks_to: [discouraged, impatient, hopeful]
+- theme: steady-effort · card_type: encouragement
+- status: claimed (day 116, 2026-10-15) — rail `t389-steady-effort.md`
+- ⚑ **This is the anchor the Day 40 entry above was wrongly citing.** ⚑ Rendering flag: 精進 ships as "**steady effort**", deliberately NOT "diligence", which is reserved for *appamāda* / 不放逸 (Day 113, three days earlier) — new `viriya` termbase row records the distinction. **Excluded and not to be restored:** the following sentence's fire-drill simile (`若行者之心數數懈廢，譬如鑽火未熱而息…`), the negative mirror.
+
+### 妙法蓮華經 T262 (Lotus, 5 藥草喻品) — t262-for-one-person
+- link: [[1-SOURCES/Text/zh-lotus-sutra.md#^lgT09p0019c1001]]
+- quote: "如為一人，眾多亦然，常演說法，曾無他事。"
+- buddhavacana: confirmed — `爾時世尊欲重宣此義，而說偈言`, the Buddha in verse to Mahākāśyapa
+- length_est: en ~95 chars ("Whether for one person or for a great crowd, I teach the same, and I have never had any other work.")
+- speaks_to: [overlooked, lonely, unimportant]
+- theme: taught-as-one · card_type: consolation
+- status: unclaimed — **offered as an alternate for Day 113 and not used.** Reader feels individually held rather than a rounding error in a crowd of practitioners. ⚑ Risk the rail must own: it is a first-person statement about the Buddha's own conduct, so it sits on the same open line as Day 115 (`da-2-shelter`) — the word *Buddha* is absent but he is the subject. 法 must ship as "teach / the teaching", never "Dharma".
+
+### 法句經 T210 (5 戒慎品) — t210-sleep-easy
+- link: [[1-SOURCES/Text/zh-dharmapada.md#^lgT04p0560c2201]]
+- quote: "持戒者安，令身無惱，夜臥恬淡，寤則常歡。"
+- buddhavacana: confirmed — Dharmapada verse
+- length_est: en ~97 chars ("Live ethically and you rest easy: your body untroubled, your sleep calm, your waking always glad.")
+- speaks_to: [uneasy, restless at night, self-reproachful]
+- theme: ease-of-a-clear-conscience · card_type: encouragement
+- status: unclaimed — ⚑ **two things to resolve before proposing.** (1) **Ground collision:** Day 101 is `joy-from-a-clear-conscience` (AN 10.2) and Day 106 ships "let go of anger and you sleep at ease" (SN 11.21) — this is the third card in that family and needs real distance. (2) **Grounding:** T210 rails are normally grounded on a Pali Dhp parallel and **this verse has no clean one**; a grounding pass must locate an AN/Udānavarga "sleeps at ease" counterpart or accept weaker grounding. 戒 ships as "ethics" per termbase.
+
+### 佛遺教經 T389 — t389-content-on-bare-ground (swap-in for t389-contentment)
+- link: [[1-SOURCES/Text/zh-bequeathed-teachings.md#^pT12p1111c0501]] (same block as `t389-contentment`)
+- quote: "知足之人，雖臥地上猶為安樂；不知足者，雖處天堂亦不稱意。"
+- buddhavacana: confirmed — same frame
+- length_est: not resolved
+- theme: contentment
+- status: unclaimed, **and probably should stay that way** — same teaching as `t389-contentment` in a weaker form, and `天堂` imports a heaven frame the shorter verse avoids. Recorded only so a future pass does not think it is a fresh find.
+
+### ⚑ Standing note on this file's warm-register supply (2026-10)
+A dedicated warm-register sweep for Days 112–116 concluded that **this pool is dry on warmth.** Of ~55 unclaimed entries, the consolation/encouragement/blessing ones are all already claimed (`da-2-a`, `da-23-a/b`, `ea-tend-the-sick`, `ea-mind-not-sick`, `ea-mudita`, `ea-repay-kindness`); what remains unclaimed is overwhelmingly problem-naming (Māra, craving, the untamed mind), enumeration, monastic discipline, mortality, or merit-fruit. All four candidates added above were found by **grepping the raw sources**, not by filtering this file. **Next Chinese pass:** `zh-samyukta-agama.md` is 25,078 lines and only its 39 Patton-paired sūtras have ever been scanned — by far the largest unmined Chinese source. A keyword sweep of it (安樂 / 歡喜 / 慰 / 無畏 / 勿懼 / 莫憂 / 得安) surfaced mostly monastic instruction, so a real pass there is its own job.
