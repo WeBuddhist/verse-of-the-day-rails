@@ -24,3 +24,23 @@ Existing rails already drawn from a few of these files (see `2-RAILS/Verses/` �
 2. Check `log.md`'s running balance and `theme-checklist.md`'s open gaps first, so the scan is looking for something.
 3. Given the scale, parallel sub-agents per source file (or per chunk of a large file) are more practical than one sequential pass — see this session's approach for the verse collections as a template (each sub-agent reads its assigned range, returns candidates in the standard format, one person compiles into the pool file to avoid write conflicts).
 4. Update this file's "Done" / "Not yet done" lists when a chunk completes.
+
+---
+
+## Update 2026-10 — the Kangyur sūtras have now had a real scan (partial but substantial)
+
+This file has listed the ~229 individual Tibetan Kangyur sūtra files as **unscanned** since the vault began. That is no longer accurate. State as of 2026-10:
+
+- **Sub-12 kB band: EXHAUSTED.** Every file read. The productive ones are already claimed (Toh 300 → Day 80, Toh 327 → Day 82, Toh 249 → Day 86, Toh 329 → Day 97, Toh 183 → Day 100, Toh 292 → Day 104, Toh 95 → Day 109, Toh 182 → Day 111). The last three unexamined files (Toh 250, 309, 27) were read and all fail; recorded in `rejected.md`.
+- **12–27 kB band: SCANNED IN FULL (46 files).** Yield: **two** candidates — Toh 269 (fearlessness) and Toh 259 (the golden rule). Both banked in `candidate-pool/tibetan.md`. Every file that yielded nothing is listed in `rejected.md`.
+- **27–45 kB band: FILTER-SCREENED, NOT SCANNED (21 files).** Screened for second-person address, blessing/aspiration optatives, warm-keyword verses, simile-plus-"you", and imperatives — not read sequentially. Yield: **one** candidate, Toh 219 (the jewel-in-every-hand aspiration). Treat these as partially covered: a sequential read could still turn something up, but the shapes this card format wants have been checked.
+- **Above 45 kB: NOT TOUCHED.** The largest Kangyur files remain genuinely unscanned.
+
+**⚑ The finding that should govern the next pass, and it matters more than the coverage numbers.** Three candidates from 67 files is about **one per twenty**, and the limiting factor is **not** length, licensing, or buddhavacana — it is the *self-applying* and *warmth* screens. Kangyur Mahāyāna prose is overwhelmingly third-person doctrinal exposition, name-recitation merit, or framed narrative; its best lines sit inside scenes. It reliably speaks *to* the reader warmly in only three shapes:
+1. **protection / fearlessness sūtras**,
+2. **Buddha-prescribed formulas the reader says or does**,
+3. **the *anumodanā* blessing clusters** (Toh 292/312/313/95 — already mined).
+
+**So the next Tibetan pass should grep those three shapes directly across all 229 `bo-toh*.md` files rather than continuing file-by-file by size.** Search terms that worked: `འཇིགས་པ` / `མི་འཇིགས` / `སྐྲག` (fear); `ཁྱོད` / `ཁྱེད་ཅག` plus an imperative (`བྱོས` / `གྱིས` / `མཛོད` / `ཤིག`); `ང་སྨྲའོ` (first-person Buddha speech); `ཤོག` / `གྱུར་ཅིག` / `བདེ་ལེགས` / `བཀྲ་ཤིས` (optatives — but check the speaker every time, since most are spoken by bodhisattvas, gods, kings, or the reader and fail gate 1).
+
+**Also still open, unchanged by this pass:** (1) the Pali prose Nikāyas have had **one** scan (2026-08-03) whose filter required a literal second-person pronoun in Sujato's English, so it provably missed impersonal-voice and bare-imperative material — a second pass targeting those two classes is owed. (2) `zh-samyukta-agama.md` (25,078 lines) has only ever had its 39 Patton-paired sūtras looked at, and is by far the largest unmined Chinese source.
