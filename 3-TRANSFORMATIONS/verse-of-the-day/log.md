@@ -123,6 +123,10 @@ off + all seven renderings reviewed, ready/published.
 | 2026-10-08 | 109 | Toh 95 (Lalitavistara) | Tibetan Kangyur | blessing-of-coming-and-going | lonely, anxious, grateful | [[day-109-blessing-going-returning-toh95]] | draft |
 | 2026-10-09 | 110 | AN 4.73 | Pali | speaking-well-of-others | resentful, irritated, aspiration | [[day-110-speaking-well-of-others-an4-73]] | draft |
 | 2026-10-10 | 111 | Toh 182 (The Perfection of Generosity) | Tibetan Kangyur (Mahāyāna) | dedication-of-merit | compassion, aspiration, overwhelmed | [[day-111-dedication-of-merit-toh182]] | draft |
+| 2026-10-11 | 112 | 佛遺教經 T389 (Bequeathed Teachings) | Chinese (Mahāyāna) | contentment | discontent, comparing, grasping | [[day-112-contentment-t389]] | draft |
+| 2026-10-12 | 113 | EĀ 增壹阿含經 (卷18) · SN 45.150 / AN 10.15 parallels | Chinese Āgama | heedfulness-as-ground | discouraged, scattered, hopeful | [[day-113-ground-of-diligence-ea]] | draft |
+| 2026-10-13 | 114 | Snp 2.4 (Maṅgalasutta) | Pali | unshaken-mind | overwhelmed, anxious, grateful | [[day-114-unshaken-mind-snp2-4]] | draft |
+| 2026-10-14 | 115 | DĀ 2 (遊行經, Mahāparinibbāna parallel) · DN 16 parallel | Chinese Āgama | the-teaching-as-shelter | unmoored, afraid, lonely | [[day-115-teaching-as-shelter-da2]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 
