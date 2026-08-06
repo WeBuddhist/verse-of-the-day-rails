@@ -128,6 +128,8 @@ off + all seven renderings reviewed, ready/published.
 | 2026-10-13 | 114 | Snp 2.4 (Maṅgalasutta) | Pali | unshaken-mind | overwhelmed, anxious, grateful | [[day-114-unshaken-mind-snp2-4]] | draft |
 | 2026-10-14 | 115 | DĀ 2 (遊行經, Mahāparinibbāna parallel) · DN 16 parallel | Chinese Āgama | the-teaching-as-shelter | unmoored, afraid, lonely | [[day-115-teaching-as-shelter-da2]] | draft |
 | 2026-10-15 | 116 | 佛遺教經 T389 (Bequeathed Teachings) | Chinese (Mahāyāna) | steady-effort | discouraged, impatient, hopeful | [[day-116-steady-effort-t389]] | draft |
+| 2026-10-16 | 117 | SN 47.19 (Sedakasutta) | Pali | mutual-care | depleted, guilty about resting, caring for someone | [[day-117-mutual-care-sn47-19]] | draft |
+| 2026-10-17 | 118 | SĀ 345 (卷14, Susīma) · SN 12.70 parallel | Chinese Āgama | owning-a-fault | ashamed, regretful, stuck on something you did | [[day-118-owning-a-fault-sa345]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 
