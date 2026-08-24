@@ -173,8 +173,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -200,6 +200,10 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "gemini-scribe/Scheduled-Tasks/Runs",
+    "gemini-scribe/Skills",
+    "gemini-scribe/Background-Tasks",
+    "gemini-scribe/Agent-Sessions",
     "3-TRANSFORMATIONS/verse-of-the-day/day-112-contentment-t389.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-113-ground-of-diligence-ea.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-114-unshaken-mind-snp2-4.md",
@@ -225,16 +229,12 @@
     "4-SYSTEM/Skills/candidate-tagging/SKILL.md",
     "3-TRANSFORMATIONS/verse-of-the-day/card-types.md",
     "0-INBOX/selection-proposal-days-108-113.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-105-harmlessness-ea.md",
     "0-INBOX/raw-data/data-tei",
     "0-INBOX/raw-data",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md.tmp.98633.07b3d0eb9a3d",
     "4-SYSTEM/Skills/candidate-tagging",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
-    "gemini-scribe/Scheduled-Tasks/Runs",
-    "gemini-scribe/Scheduled-Tasks",
-    "gemini-scribe/Skills",
-    "gemini-scribe/Prompts"
+    "gemini-scribe/Scheduled-Tasks"
   ]
 }
