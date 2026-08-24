@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4-SYSTEM/Skills/vault-audit/SKILL.md",
+                "file": "4-SYSTEM/Skills/translation-qa/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -200,11 +200,11 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "4-SYSTEM/Skills/verse-rail/SKILL.md",
+    "4-SYSTEM/Skills/vault-audit/SKILL.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-001-friendship-dhp328.md",
     "3-TRANSFORMATIONS/verse-of-the-day/card-types.md",
-    "4-SYSTEM/Skills/vault-audit/SKILL.md",
     "4-SYSTEM/Skills/verse-selection/SKILL.md",
-    "4-SYSTEM/Skills/verse-rail/SKILL.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-118-owning-a-fault-sa345.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
