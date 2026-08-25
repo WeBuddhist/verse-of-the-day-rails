@@ -131,6 +131,8 @@ off + all seven renderings reviewed, ready/published.
 | 2026-10-16 | 117 | SN 47.19 (Sedakasutta) | Pali | mutual-care | depleted, guilty about resting, caring for someone | [[day-117-mutual-care-sn47-19]] | draft |
 | 2026-10-17 | 118 | SĀ 345 (卷14, Susīma) · SN 12.70 parallel | Chinese Āgama | owning-a-fault | ashamed, regretful, stuck on something you did | [[day-118-owning-a-fault-sa345]] | draft |
 | 2026-10-18 | 119 | SĀ 1222 (卷46, Attarakkhita parallel) · SN 3.5 parallel | Chinese Āgama | inward-protection | anxious, braced, over-defended | [[day-119-guard-within-sa1222]] | draft |
+| 2026-10-19 | 120 | Toh 56 (The Collected Teachings on the Bodhisatva) | Tibetan Kangyur (Mahāyāna) | peacemaking | caught between two people, watching a rift, wanting to help | [[day-120-peacemaking-toh56]] | draft |
+| 2026-10-20 | 121 | SĀ 963 (卷35, Sarabha) · AN 3.64 parallel | Chinese Āgama | nothing-to-prove | exposed as a beginner, afraid of being tested, embarrassed not to know | [[day-121-nothing-to-prove-sa963]] | draft |
 
 ## Running balance (current state — full batch history in [`log-history.md`](log-history.md))
 
