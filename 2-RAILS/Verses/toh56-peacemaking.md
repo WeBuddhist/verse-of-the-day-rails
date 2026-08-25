@@ -14,8 +14,15 @@ speaks_to: [caught between two people, watching a rift, wanting to help]
 buddhist_lens: "standing outside someone else's quarrel and not knowing what to do → stepping in to repair it is named as wisdom"
 occasions: []
 concepts: [བསྡུམ་པ (to reconcile, bring back together), མཁས་པ (the wise, the skilled)]
-status: draft
+status: declined
 ---
+
+---
+
+## ⚑ DECLINED BY EVAN, 2026-10 — DO NOT SCHEDULE THIS RAIL
+This rail was built for a day card that was then **declined at review**. The card was moved to `0-INBOX/rejected-day-cards/` and its log row removed; the rail is kept as a record of the verification work (verbatim quote, anchor, speaker frame all confirmed), **not** as pending work. Reason for the decline, in Evan's words, is recorded below. Do not re-propose this verse without addressing it.
+
+**Reason: "120 isn't super clear."** The stanza asks the reader to reconcile people who are harming each other with poison and weapons, and the concreteness that made it attractive in proposal did not survive contact with the card. Read against the standing screen — *does the reader know what this is saying TO THEM, on one read, with nothing else in front of them?* — the situation it describes is not one most readers are in, and the instruction has to be applied by analogy. **This is the same failure mode as the rejected Toh 205 beggar-lamp and Toh 293 verses: vivid does not mean understandable.** The rail's own "arrives already applied" note leaned on a gerundive-to-imperative move to get the reader into the sentence, which in hindsight was the tell.
 
 ## Source Text (Degé Kangyur — Public Domain)
 ![[1-SOURCES/Text/bo-toh56.md#^p197]]

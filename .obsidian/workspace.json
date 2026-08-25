@@ -199,6 +199,12 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/verse-of-the-day/day-121-do-not-lose-heart-toh176.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-120-care-does-not-bind-sn10-2.md",
+    "0-INBOX/rejected-day-cards/day-122-freedom-from-fear-toh269.md",
+    "0-INBOX/rejected-day-cards/day-121-nothing-to-prove-sa963.md",
+    "0-INBOX/rejected-day-cards/day-120-peacemaking-toh56.md",
+    "0-INBOX/rejected-day-cards",
     "3-TRANSFORMATIONS/verse-of-the-day/day-124-do-not-lose-heart-toh176.md",
     "2-RAILS/Verses/toh176-do-not-lose-heart.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-123-care-does-not-bind-sn10-2.md",
@@ -220,11 +226,6 @@
     "2-RAILS/Verses/sa-345-owning-a-fault.md",
     "2-RAILS/Verses/sn47-19-mutual-care.md",
     "0-INBOX/shipped-digest-2026-10.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-111-dedication-of-merit-toh182.md",
-    "2-RAILS/Verses/t389-steady-effort.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-110-speaking-well-of-others-an4-73.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-109-blessing-going-returning-toh95.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-108-goodness-is-happiness-an7-62.md",
     "0-INBOX/raw-data/data-tei",
     "0-INBOX/raw-data",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md.tmp.98633.07b3d0eb9a3d",
@@ -233,7 +234,6 @@
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Scheduled-Tasks",
-    "gemini-scribe/Skills",
-    "gemini-scribe/Prompts"
+    "gemini-scribe/Skills"
   ]
 }

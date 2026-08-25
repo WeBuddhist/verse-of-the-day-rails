@@ -14,8 +14,15 @@ speaks_to: [afraid, exposed, braced for hostility]
 buddhist_lens: "walking through the world braced against it → level regard leaves fear nowhere to enter"
 occasions: []
 concepts: [མཉམ་པ་ཉིད (equality, level regard), བརྙས་པ (to look down on, disparage), འཇིགས་པ (fear)]
-status: draft
+status: declined
 ---
+
+---
+
+## ⚑ DECLINED BY EVAN, 2026-10 — DO NOT SCHEDULE THIS RAIL
+This rail was built for a day card that was then **declined at review**. The card was moved to `0-INBOX/rejected-day-cards/` and its log row removed; the rail is kept as a record of the verification work (verbatim quote, anchor, speaker frame all confirmed), **not** as pending work. Reason for the decline, in Evan's words, is recorded below. Do not re-propose this verse without addressing it.
+
+**Reason: "We used 122 before."** Evan read the card as already covered, and **the rail had itself flagged the overlap**: the first two clauses (*see every living being as your equal, look down on no one*) duplicate **Day 51** (Toh 127, *"Do not look at others' faults… feel no anger, but always keep a loving mind"*). The rail argued the payload separated them — Day 51 ends in loving-kindness, this ends in fearlessness — and that argument did not hold with the curator. **The lesson is sharper than the individual card: a partial overlap flagged in a rail is not thereby licensed.** If the first half of a card duplicates a shipped card, the differing second half does not rescue it. Note this verse had now been offered three times (dropped from 112–116, not selected from the 120–124 slate of five, then built and declined) — it should not be offered a fourth time.
 
 ## Source Text (Degé Kangyur — Public Domain)
 ![[1-SOURCES/Text/bo-toh269.md#^p18]]

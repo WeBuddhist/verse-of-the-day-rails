@@ -1,6 +1,6 @@
 ---
-day: 123
-date: 2026-10-22
+day: 120
+date: 2026-10-19
 source_ref: "SN 10.2 (Sakkanāmasutta)"
 canon: Pali
 theme: care-does-not-bind
@@ -19,7 +19,7 @@ review_status:
   mn: escalate-native-review
 ---
 
-# Day 123 — Caring Does Not Tie You Down (SN 10.2)
+# Day 120 — Caring Does Not Tie You Down (SN 10.2)
 
 Rail: [[2-RAILS/Verses/sn10-2-care-does-not-bind]] · grounded in Sujato (CC0), directly aligned at the same four block anchors.
 Short verse, **quoted in full**. Meaning: caring about people does not cost you your freedom, if the heart it comes from is clear.

@@ -1,6 +1,6 @@
 ---
-day: 124
-date: 2026-10-23
+day: 121
+date: 2026-10-20
 source_ref: "Toh 176 (The Teaching of Vimalakīrti)"
 canon: Tibetan Kangyur (Mahāyāna)
 theme: discouragement
@@ -19,7 +19,7 @@ review_status:
   mn: escalate-native-review
 ---
 
-# Day 124 — Do Not Let Your Heart Sink (Toh 176)
+# Day 121 — Do Not Let Your Heart Sink (Toh 176)
 
 Rail: [[2-RAILS/Verses/toh176-do-not-lose-heart]] · own translation from the Degé Kangyur (Public Domain); 84000 English as reference only; Mahāyāna.
 Short sentence, **quoted in full**. Meaning: a hand on the shoulder, with no argument attached.
@@ -77,5 +77,5 @@ Short sentence, **quoted in full**. Meaning: a hand on the shoulder, with no arg
 
 ### mn ⚑
 - Back-translation (approx): "You must not let your spirit fall."
-- Confidence flags: (i) `сэтгэлээ унагах` ("to drop one's spirit") — confirm it is the idiomatic Mongolian for losing heart, and that it reads as the reader's own state rather than as dropping something. (ii) ⚑ `болохгүй` is a prohibition ("must not"), firmer than the source's permissive `མ་སྐྱེད` — the same over-firming flagged on Day 122's Mongolian line, and the two should be settled together. A softer construction may serve consolation better. (iii) The possessive is carried by the reflexive `-ээ` without an explicit "your" — confirm that is enough. (iv) The line is very short; confirm it does not read curt, since this card's whole function is warmth.
+- Confidence flags: (i) `сэтгэлээ унагах` ("to drop one's spirit") — confirm it is the idiomatic Mongolian for losing heart, and that it reads as the reader's own state rather than as dropping something. (ii) ⚑ `болохгүй` is a prohibition ("must not"), firmer than the source's permissive `མ་སྐྱེད` — the same over-firming pattern the Mongolian lines keep showing (see Day 119), worth settling as a standing question rather than per card. A softer construction may serve consolation better. (iii) The possessive is carried by the reflexive `-ээ` without an explicit "your" — confirm that is enough. (iv) The line is very short; confirm it does not read curt, since this card's whole function is warmth.
 - Net: escalate to native Mongolian dharma reviewer.

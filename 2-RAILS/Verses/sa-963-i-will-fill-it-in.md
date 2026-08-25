@@ -14,8 +14,15 @@ speaks_to: [exposed as a beginner, afraid of being tested, embarrassed not to kn
 buddhist_lens: "bracing to be caught out for not knowing enough → the offer is to be completed, not examined"
 occasions: []
 concepts: [隨喜 / muditā (gladness at another's good), 滿足 (complete, sufficient)]
-status: draft
+status: declined
 ---
+
+---
+
+## ⚑ DECLINED BY EVAN, 2026-10 — DO NOT SCHEDULE THIS RAIL
+This rail was built for a day card that was then **declined at review**. The card was moved to `0-INBOX/rejected-day-cards/` and its log row removed; the rail is kept as a record of the verification work (verbatim quote, anchor, speaker frame all confirmed), **not** as pending work. Reason for the decline, in Evan's words, is recorded below. Do not re-propose this verse without addressing it.
+
+**Reason: "121 is the Buddha talking in 1st person, which I don't want."** ⚑ **This is a NEW SCREEN and it is not written down anywhere else in the vault** — see the note added to `log.md`'s running balance. The card was *"If what you know is complete, I am glad for you; if it is not, I will help you complete it,"* and the first person is not incidental to it: the rail explicitly flagged that depersonalising the offer destroys the card. So this verse is not rescuable by rewording — it is out under the new screen, permanently. **The screen also reaches Day 115, which shipped earlier in the same session** (*"All I have taught since my awakening is your shelter and your support"*), and several older cards. Those are listed in `log.md`.
 
 ## Source Text (CBETA — CC BY-NC-SA)
 ![[1-SOURCES/Text/zh-samyukta-agama.md#^pT02p0250b1014]]
