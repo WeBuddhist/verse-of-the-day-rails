@@ -1,7 +1,13 @@
-# Every verse-of-the-day card shipped so far (Days 1-116)
+# Every verse-of-the-day card shipped so far (Days 1-119)
+
+Regenerated 2026-10 after Days 117-119 were built. Regenerate this at the start of every selection pass.
 
 Use this to check whether a candidate repeats a teaching ALREADY ON THE CALENDAR under a different citation.
-Judge the TEACHING, not the citation: a Pali verse and its Chinese Dharmapada or Tibetan Udanavarga parallel are the SAME card.
+**Judge the TEACHING, not the citation.** This vault is an anthology of three canons whose texts are largely
+parallel to each other, so a Pali verse and its Chinese Dharmapada (T210) or Tibetan Udanavarga parallel are
+the SAME card. Real kills, for calibration: Ud 1.9 was killed because its closing pada is identical to Dhp 393
+(Day 35); Toh 259's golden rule was killed as Day 23's reasoning in Day 105's grammar; Toh 219's 'may every
+being hold a jewel in their hands' was killed as Day 107's 'may all beings find only happiness'.
 
 Day 1 | Dhp 328 | theme: friendship
     EN: If you find a wise, good-hearted friend to walk beside, together overcome every hardship and journey on, glad and mindful.
@@ -335,3 +341,12 @@ Day 115 | DĀ 2 (遊行經, Mahāparinibbāna parallel) · DN 16 parallel | them
 
 Day 116 | 佛遺教經 T389 (Bequeathed Teachings) | theme: steady-effort
     EN: If you keep up steady effort, nothing is hard; so keep at it, like a small stream that runs on and wears through stone.
+
+Day 117 | SN 47.19 (Sedakasutta) | theme: mutual-care
+    EN: Looking after yourself, you look after others; looking after others, you look after yourself.
+
+Day 118 | SĀ 345 (卷14, Susīma) · SN 12.70 parallel | theme: owning-a-fault
+    EN: Whoever sees their own fault and owns it becomes steadier, grows in goodness from then on, and never falls back.
+
+Day 119 | SĀ 1222 (卷46, Attarakkhita parallel) · SN 3.5 parallel | theme: inward-protection
+    EN: Guarding what is within you is what truly keeps you safe, not defending what is outside.
