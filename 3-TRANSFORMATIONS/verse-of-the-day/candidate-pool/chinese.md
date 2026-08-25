@@ -1072,3 +1072,36 @@ This completes the sequential scan of the entire Ekottarika Āgama (zh-ekottarik
 
 ### ⚑ Standing note on this file's warm-register supply (2026-10)
 A dedicated warm-register sweep for Days 112–116 concluded that **this pool is dry on warmth.** Of ~55 unclaimed entries, the consolation/encouragement/blessing ones are all already claimed (`da-2-a`, `da-23-a/b`, `ea-tend-the-sick`, `ea-mind-not-sick`, `ea-mudita`, `ea-repay-kindness`); what remains unclaimed is overwhelmingly problem-naming (Māra, craving, the untamed mind), enumeration, monastic discipline, mortality, or merit-fruit. All four candidates added above were found by **grepping the raw sources**, not by filtering this file. **Next Chinese pass:** `zh-samyukta-agama.md` is 25,078 lines and only its 39 Patton-paired sūtras have ever been scanned — by far the largest unmined Chinese source. A keyword sweep of it (安樂 / 歡喜 / 慰 / 無畏 / 勿懼 / 莫憂 / 得安) surfaced mostly monastic instruction, so a real pass there is its own job.
+
+### SĀ 963 (卷35, Sarabha) — sa-963-i-will-fill-it-in
+- link: [[1-SOURCES/Text/zh-samyukta-agama.md#^pT02p0250b1014]]
+- quote: "汝所知滿足者，我則隨喜；不滿足者，我當令汝滿足。"
+- buddhavacana: confirmed — frame `佛告舍羅步` sits in the same block; the sentence is the Buddha's own first-person speech
+- length_est: en 91 chars, zh 34 — fits whole, verified at build
+- speaks_to: [exposed as a beginner, afraid of being tested, embarrassed not to know]
+- theme: nothing-to-prove (new tag) · card_type: encouragement
+- status: claimed (day 121, 2026-10-20) — rail `sa-963-i-will-fill-it-in.md`
+- pali_parallel: **AN 3.64 (Sarabhasutta), `^an3-64-4-3` / `^an3-64-4-4`** — sentence-for-sentence. Sujato: "If you've not learned it fully, I'll fill you in. But if you have learned it fully, I'll agree." No Patton pairing exists for SĀ 963.
+- ⚑ **The Chinese and the Pali order the two clauses oppositely and the card follows the Chinese**, which opens on gladness rather than on the reader's shortfall. Not an error; flagged so nobody "corrects" it to Sujato's order.
+- ⚑ Rendering flags: `隨喜` is **the muditā term** and ships as "I am glad for you", not Sujato's "I'll agree" (loses the muditā sense) or "I approve" (makes it an examination result); `滿足` ships as "complete", not "satisfied" (would make it about feelings) or "enough" (vague); the **first person is kept** — depersonalising the offer destroys the card, which puts it in the same known class as Day 115. In the modern `zh`, 隨喜 is unpacked to 為你歡喜 because bare 隨喜 has drifted toward "congratulations" and temple-donation contexts.
+- ⚑ Scene note for any reuse: Sarabha was a wanderer who had left the Sakyan order and boasted he knew and had rejected its teaching; the Buddha put this offer to him three times and he stayed silent each time. **The sentence is not sarcastic in the text** — it is his standing offer of fair questioning (`善諫善問`) — but a reviewer should know the frame is a challenge to a boaster.
+
+### SĀ 908 (卷32, Asibandhakaputta) — sa-908-one-line-understood
+- link: [[1-SOURCES/Text/zh-samyukta-agama.md#^pT02p0231b1801]]
+- quote: "彼若於我說一句法，知其義者，亦得長夜安隱樂住。"
+- buddhavacana: confirmed — frame `佛告聚落主` in the same block, the Buddha to a lay village headman (not a monastic commissioning)
+- length_est: en 112 chars — "Whoever understands the meaning of even one line I have spoken will be at ease and glad for a long time to come."
+- speaks_to: [overwhelmed by how much there is to learn, feeling you have barely started, doubting a small practice counts]
+- theme: a-little-is-enough · card_type: encouragement
+- status: unclaimed — **clean on every gate and genuinely warm; held from the 120–124 batch only because it lands on the same *sufficiency of what you have* ground as Day 121 (SĀ 963).** Good for a later batch once there is distance.
+- pali_parallel: **SN 42.7 (Desanāsutta)** — `yepi te ekaṁ padaṁ ājānanti, tesampi taṁ hoti dīgharattaṁ hitāya sukhāya`. The Chinese runs the same sutta with three water pots where the Pali has three fields.
+- ⚑ Dedupe note for whoever rails it: nearest shipped is **Day 12** (Dhp 100, "Better than a thousand meaningless words is one meaningful word…"), which is a *comparison about speaking* and instructs the speaker. This instructs the **listener** and makes a different claim — that one line you genuinely understand is sufficient. Rendering note: `亦` ("they too", i.e. even the cracked-and-leaking third vessel) is carried by "even one line", not by a second "too".
+
+### 妙法蓮華經 T262 (Lotus, 5 藥草喻品) — t262-rain-to-your-own-strength
+- link: [[1-SOURCES/Text/zh-lotus-sutra.md#^lgT09p0019c1001]]
+- quote: "我雨法雨，充滿世間，一味之法，隨力修行"
+- buddhavacana: confirmed — the Buddha in verse to Mahākāśyapa
+- length_est: not resolved
+- theme: practise-to-your-own-strength
+- status: unclaimed — **clean on every hard gate; parked because the relief it offers ("practise to your own strength") lands squarely on Day 124's discouragement ground.** Worth proposing once Day 124 has distance.
+- ⚑ **Useful structural note:** the Lotus `lg…` verse blocks **DO carry content**, unlike `zh-samyukta-agama.md` and `zh-madhyama-agama.md`, whose `<lg>` gāthā blocks were dropped at import. So the six Chinese Mahāyāna sūtras remain a live *verse* seam even while the two big Āgamas are missing theirs.

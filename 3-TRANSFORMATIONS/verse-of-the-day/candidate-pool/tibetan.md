@@ -594,7 +594,8 @@ Not a systematic scan. Method worth reusing: the `en-toh*-84000.md` reference fi
 - length_est: en 86 chars — "See every living being as your equal, look down on no one, and fear will not find you."
 - speaks_to: [afraid, exposed, braced for hostility]
 - theme: **freedom-from-fear** (new — not on `theme-checklist.md`'s covered list) · card_type: encouragement
-- status: unclaimed — **⚑ proposed for Day 113 and dropped by Evan (2026-10), who took a second T389 card instead. Not a rejection of the verse: he did not comment on its content, and it remains the strongest Tibetan candidate on file.** Worth re-proposing.
+- status: **claimed (day 122, 2026-10-21) — rail `toh269-fearlessness.md`.** Proposed twice before being taken: dropped from the 112–116 batch when Evan chose a second T389 card, and not selected from the 120–124 slate of five. Ran on the third offer. ⚑ **`freedom-from-fear` was not on `theme-checklist.md`'s covered list at all** — a genuinely new theme this late in the calendar.
+- ⚑ **Partial overlap a reviewer should know about:** the first two clauses (*see every being as your equal, look down on no one*) overlap **Day 51** (Toh 127). What separates them is the payload — Day 51 ends in loving-kindness, this ends in fearlessness — and the rail's strongest flag is that the rendering must keep the weight there.
 - ⚑ **84000 EMENDS THE DEGÉ HERE — the fourth confirmed instance** (after Toh 329, Toh 313, and a clean check on Toh 292). 84000's note n1: *"Reading Yongle, Lithang, Kangxi, Narthang, Choné, and Lhasa `འཇིགས་པ`. Degé reads `འཇིགས་པར`, which breaks from the pattern of similar passages here."* Degé at `^p18` does read `འཇིགས་པར་འབྱུང་མི་འགྱུར`. Grammatical only, sense identical — **ground on `འཇིགས་པར`** and note the emendation in the rail.
 - ⚑ Other flags for whoever rails it: (a) the payload must stay on **fearlessness**, since "equal regard for all beings" is adjacent to the recently used loving-kindness (Days 103–107) and universal-kinship (Day 76) grounds; (b) the sūtra's frame is a directional travel-protection rite full of long buddha-names, so the rail must show this verse is a self-standing general teaching — the other directional verses either name a buddha or are abstract, and this one does neither; (c) `མཉམ་པ་ཉིད` should stay plain ("as your equal"), not the technical "equanimity/sameness". Siblings checked and **failing**: `^p20` (loving-kindness + "the Victor") and `^p21` ("remember that buddha… do not abandon the awakening mind") — both name the Buddha.
 
@@ -615,3 +616,27 @@ Not a systematic scan. Method worth reusing: the `en-toh*-84000.md` reference fi
 - speaks_to: [worn down by scarcity, wanting to give and having nothing, tender toward strangers]
 - theme: wishing-abundance-for-all · card_type: aspiration
 - status: unclaimed — **offered as an alternate for Day 113 and not used** (Day 111 was already an aspiration). ⚑ **Host-passage risk the rail must own:** the sentence sits inside a confession-and-dedication-of-merit liturgy, and dedication of merit ran on Day 111 — the extracted wish is not about merit, but a reviewer reading the surroundings may object. ⚑ **The very next sentence is a long list** ("treasury of space, enjoyment that knows no end, merit that knows no end…") and must **not** be pulled in. ⚑ 84000's n1 records that this passage is *word for word* the same Tibetan translation as chapter 5 of **Toh 556** (Sublime Golden Light), and appears in a different translation in **Toh 555** — so do not treat those as independent sources. No 84000/Degé discrepancy on this sentence.
+
+### Toh 56 (The Collected Teachings on the Bodhisatva) — toh56-peacemaking
+- link: [[1-SOURCES/Text/bo-toh56.md#^p197]]
+- quote: "དུག་ལྡུད་མཚོན་གྱིས་འདེབས་པ་ཡི། །གཅིག་ལ་གཅིག་ནི་གནོད་བྱེད་པ། །སེམས་ཅན་དེ་དག་བསྡུམ་པར་བྱ། །དེ་ནི་མཁས་པའི་མཚན་ཉིད་དོ།"
+- buddhavacana: confirmed — nearest preceding frame in the file is `བཅོམ་ལྡན་འདས་ཀྱིས་དེའི་ཚེ་ཚིགས་སུ་བཅད་པ་འདི་དག་གསུངས་སོ།`; the intervening 557 characters are further stanzas of the same unbroken Buddha-spoken verse block, no other speaker attribution. Verified directly.
+- length_est: en 109 chars — fits whole, verified at build
+- speaks_to: [caught between two people, watching a rift, wanting to help]
+- theme: peacemaking (new tag) · card_type: teaching
+- status: claimed (day 120, 2026-10-19) — rail `toh56-peacemaking.md`
+- ⚑ **First card on the calendar about someone else's quarrel.** Every conflict card among the 114 shipped (Days 3, 7, 14, 65, 83, 103, 106) is about the reader's *own* — dropping your side of it, not answering anger with anger. This puts the reader outside the fight.
+- ⚑ Rendering flags on the rail: the gerundive `བསྡུམ་པར་བྱ` is agentless and **ships as an imperative** (rendered literally the card becomes a passive statement about the world and fails the arrives-already-applied screen); `དུག་ལྡུད་མཚོན` is **kept, not softened**, because the specificity is what makes it concrete and the violence is between *other* people; `མཁས་པ` ships as "the wise", not 84000's "the learned", which suggests scholarship in English.
+- ⚑ **Do not merge with the neighbouring stanza.** The stanza immediately before it in the same block is `སེམས་ཅན་རྣམས་ནི་ཐམས་ཅད་ལ། །མཉམ་པ་ཡི་ནི་སེམས་སུ་བྱ།` — the same "mind of equality" content as **Toh 269 / Day 122**. Verified that no `^p` folio marker falls inside the shipped stanza.
+
+### Toh 176 (The Teaching of Vimalakīrti) — toh176-do-not-lose-heart
+- link: [[1-SOURCES/Text/bo-toh176.md#^p457]]
+- quote: "ཀུན་དགའ་བོ་ཁྱོད་ཞུམ་པའི་སེམས་མ་སྐྱེད་ཅིག"
+- buddhavacana: confirmed — frame immediately preceding is `བཅོམ་ལྡན་འདས་ཀྱིས་བཀའ་སྩལ་པ།`; Ānanda speaks before, the Buddha speaks this.
+- length_est: en 27 chars — the shortest card on the calendar. Deliberate: the whole teaching is one imperative, and padding it would mean adding content the source does not have.
+- speaks_to: [deflated, measuring yourself against others, feeling not enough]
+- theme: discouragement (new tag) · card_type: consolation
+- status: claimed (day 124, 2026-10-23) — rail `toh176-do-not-lose-heart.md`
+- ⚑ **The scene is what makes the reading, and the card cannot carry it.** Ānanda has just heard that the wisdom of the Realized Ones is inconceivable and has said he will no longer claim to be foremost in learning; this is the Buddha's reply. **So the deflation is specifically the deflation of comparison.** Consequence: the *dharma, not general life advice* screen is the live question on this card — stripped of the scene, "don't lose heart" is something anyone might say. Flagged for a curator decision rather than resolved.
+- ⚑ Rendering flag: ships as **"Do not let your heart sink"** — the literal "do not give rise to a discouraged mind" is stilted and 84000's "do not be discouraged" is flat and slightly dismissive in English. The idiom preserves `སྐྱེད་པ` ("let arise") rather than commanding the feeling away. **Do not import the continuation** (`དེ་ཅིའི་ཕྱིར་ཞེ་ན།` and the long comparison of Ānanda's learning with the bodhisattvas').
+- ⚑ Note **Day 36 used the Chinese Vimalakīrti (T475)** — same text in another canon, different passage, different teaching. Permitted, but worth a reviewer's eye.

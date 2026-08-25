@@ -494,3 +494,35 @@ read the shortness of this section as "nothing here" — it means nobody has loo
 - theme: diligence (appamāda paired directly with impermanence; no glossary term needed, unlike the Day 66 "deathless" framing)
 - status: claimed (day 77, 2026-09-08) — rail `dn16-last-words.md`. Also closes the Nirvana Day acquisition gap in `occasions.md`.
 - note: **the first DN card in the vault** and the first pick against the long-owed Pali prose-Nikāya slot. Found by targeted grep, not by a scan — the DN is block-indexed and greps cleanly, which the old `occasions.md` note ("DN not verse-indexed yet") wrongly denied.
+
+---
+
+## Added 2026-10 — second-pass Nikāya scan (impersonal / imperative / speaker-attribution classes)
+
+### SN 10.2 (Sakkanāmasutta) — sn10-2-care-does-not-bind
+- link: [[1-SOURCES/Text/pi-samyutta-nikaya.md#^sn10-2-4-1]] … `#^sn10-2-4-4`
+- quote: "Manasā ce pasannena, / yadaññamanusāsati; / Na tena hoti saṁyutto, / yānukampā anuddayā."
+- sujato: "If you instruct others / with a mind clear and confident, / your compassion and empathy / don't create attachments." (`en-samyutta-nikaya-sujato.md`, same anchors)
+- buddhavacana: confirmed — a yakkha challenges the Buddha in verse at `^sn10-2-2-1`…`2-4`; stanzas 3 and 4 are his reply. This is stanza 4. The vocative `sakka` and the rebuke both sit in stanza 3, so nothing spirit-flavoured enters the quote.
+- length_est: en 100 chars — fits whole, verified at build
+- speaks_to: [drained by helping, pulling back to protect yourself, afraid caring will cost you]
+- theme: care-does-not-bind (new tag) · card_type: reframe
+- status: claimed (day 123, 2026-10-22) — rail `sn10-2-care-does-not-bind.md`
+- ⚑ **Why two earlier scans missed it, and it is a reusable lesson: a SPEAKER-ATTRIBUTION blind spot, not a pronoun one.** SN 10 is the yakkha saṁyutta, which the vault's notes flag as almost entirely non-buddhavacana — so a speaker screen applied at *collection* level discards the Buddha's own replies along with the challenges. **The same is true of SN 1 (deities) and SN 11 (Sakka). A pass over those three reading only the Buddha's replies is owed.**
+- ⚑ Impersonal Pali: conditional `ce` + 3sg `anusāsati`, no expressed subject on `na tena hoti saṁyutto`, and `yānukampā anuddayā` a bare nominal. **No pronoun of any person in the Pali; Sujato supplies "you"/"your".** The weaker form of the standing disclosure (we follow the translation rather than going beyond it, unlike Day 114).
+- ⚑ Rendering flags: `anusāsati` ships as **"guide"** (Sujato's "instruct" reads schoolmasterly, "advise" transactional); `pasanna` as **"a clear and confident heart"**; `anukampā anuddayā` as **"kindness and care" — never "compassion"**, which the termbase reserves for *karuṇā*, a different word this verse does not use (new `anukampā` termbase row added with this card, with three cells left ⚑ TBD because bo/ne/mn all had to borrow); `saṁyutta` as **"tie you down"**, a rope word rendered as a felt cost rather than the abstract "create attachments".
+
+### SN 1.35 (Ujjhānasaññisutta) — sn1-35-pardon — ⚑ **VERIFIED, HELD, NEEDS A CURATOR DECISION**
+- link: [[1-SOURCES/Text/pi-samyutta-nikaya.md#^sn1-35-11-1]] … `#^sn1-35-11-4`
+- quote: "Accayaṁ desayantīnaṁ, / yo ce na paṭigaṇhati; / Kopantaro dosagaru, / sa veraṁ paṭimuñcati;"
+- sujato: "If you don't give your pardon / when a mistake is confessed, / with hidden anger and heavy hate, / you're stuck in your enmity." (same anchors)
+- proposed rendering: "If you will not pardon someone who owns their mistake, the anger stays in you and the grudge holds you fast." — **108 chars**
+- speaks_to: [holding a grudge you are tired of, someone apologised and you cannot let it go, quietly angry at a person you keep seeing]
+- theme: **forgiveness** · card_type: reframe
+- status: **unclaimed — held from the 120–124 batch on purpose, and worth a decision rather than a re-scan.**
+- ⚑ **WHY THIS MATTERS: it would close the vault's oldest open gap.** `theme-checklist.md` has listed `forgiveness` as **STILL OPEN since July**, with the standing request for "a standalone-intelligible verse about forgiving someone else, one that makes sense with no backstory." **This one needs none**, and nothing among the 119 shipped cards teaches pardon. Nearest is Day 106 (SN 11.21, anger-in-general, payoff is rest) and Day 118 (SĀ 345, *owning* a fault — this is *receiving* one owned).
+- ⚑ **WHY IT WAS HELD — three disclosures, all real:**
+  1. **The four padas are the Buddha quoting a deity's verse back at them.** They appear first at `^sn1-35-7-1`…`7-4` spoken by a fault-finding deity; the Buddha repeats them verbatim at stanza 11 and then pardons (`^sn1-35-11-5`/`11-6`, "I don't approve of such enmity, and so I pardon your mistake"). He does speak them, so the gate is met — but the words originate elsewhere, and **Day 119 (SĀ 1222 / Pasenadi) already carries that same ratifies-someone-else's-formulation structure.** Two in five days is a pattern.
+  2. **The immediately preceding stanza is praise of the Buddha** — `^sn1-35-10-1`…`10-6`, "The Realized One, the Buddha, sympathetic for all beings: that's who makes no mistakes." The card excludes it, so no gate fails, but the local context is exactly what the vault bars.
+  3. **Fully impersonal Pali** (`yo ce na paṭigaṇhati`, `sa … paṭimuñcati`, both 3sg); Sujato supplies the second person. Routine, listed for completeness.
+- ⚑ If it is taken: quote the four padas **only** — the two-pada coda ("I pardon your mistake") is scene-bound and unusable, and stanza 10 must not be touched.

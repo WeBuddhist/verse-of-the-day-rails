@@ -130,6 +130,9 @@ Two different words, two different renderings — don't conflate:
 | bodhicitta (byang chub sems) | the awakening mind (never "Great Vehicle mind") | 菩提心 | བྱང་ཆུབ་སེམས | बोधिचित्त | बोधिचित्त | бодь сэтгэл ⚑ | ⚑ TBD |
 | śūnyatā (stong pa nyid) | emptiness, empty nature | 空性 | སྟོང་པ་ཉིད | शून्यता | शून्यता | хоосон чанар ⚑ | ⚑ TBD |
 
+> **`anukampā` / `anuddayā` row — added 2026-10 for Day 123** (`sn10-2-care-does-not-bind`, SN 10.2). **This row exists to stop a specific silent error.** SN 10.2's stanza is about `anukampā` (fellow-feeling, being moved by another's condition) and `anuddayā` (tenderness, solicitude) — **not** about `karuṇā`. Sujato renders the pair "compassion and empathy"; using "compassion" on the card would silently claim the `karuṇā` row above for a verse that does not use that word, and "empathy" is a modern psychological term that reads clinically. English and Chinese therefore ship the plain pair — **kindness and care** / 善意與關懷 — and the Chinese deliberately avoids 慈悲.
+> ⚑ **Three cells are `TBD` because Day 123 had to borrow, and a reviewer should see exactly what was borrowed.** The **Tibetan** line ships `བྱམས་སེམས་དང་གཅེས་སེམས`, and `བྱམས་སེམས` **is the *mettā* row's term** (`བྱམས་པ`) — used only because Tibetan has no ready plain word here. Candidates a reviewer should weigh: `སྙིང་བརྩེ`, `བརྩེ་སེམས`. The **Nepali** line ships सद्भाव / माया, and ⚑ माया reads as "love/affection", which is looser than tenderness-as-care and risks the affection misreading the vault has flagged before (Dhp 212). The **Mongolian** line ships `сайхан санаа` / `халамж`, and ⚑ `халамж` is also a candidate for the `rakkhati` row's caring sense on Day 117 — the two must not end up meaning different things in the same calendar week. **Settle all three cells together.**
+
 ## The four noble truths (catu-sacca)
 
 | Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) |
@@ -150,6 +153,7 @@ Two different words, two different renderings — don't conflate:
 |---|---|---|---|---|---|---|---|
 | mettā | loving-kindness | 慈 / 慈愛 | བྱམས་པ | मैत्री | मैत्री | энэрэл хайр ⚑ | ⚑ TBD |
 | karuṇā | compassion | 悲 / 慈悲 | སྙིང་རྗེ | करुणा | करुणा | нигүүлсэл | ⚑ TBD |
+| anukampā / anuddayā (sympathy, tenderness) | kindness and care (**never "compassion"** — that is karuṇā) | 善意 / 關懷 | ⚑ TBD — see note | भलमनसाहत / परवाह | ⚑ TBD — see note | ⚑ TBD — see note | — (discontinued) |
 | muditā | sympathetic joy | 喜 / 隨喜 | དགའ་བ | मुदिता | मुदिता | баясал ⚑ | ⚑ TBD |
 | upekkhā | equanimity | 捨 / 平等心 | བཏང་སྙོམས | उपेक्षा | उपेक्षा | тэгш сэтгэл ⚑ | ⚑ TBD |
 
