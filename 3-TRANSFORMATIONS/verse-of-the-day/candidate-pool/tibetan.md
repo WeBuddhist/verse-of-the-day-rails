@@ -563,7 +563,9 @@ Not a systematic scan. Method worth reusing: the `en-toh*-84000.md` reference fi
 - quote: "གཏོང་བས་མཛའ་བཤེས་འཕེལ་བར་འགྱུར། །བྱམས་པས་དགྲ་རྣམས་ཞི་བར་བྱེད།"
 - buddhavacana: confirmed — same frame
 - length_est: en 79 chars ("Giving makes friends increase, and loving-kindness makes enemies grow peaceful.")
-- status: unclaimed, **flagged borderline on the one-idea screen**: friends and enemies are arguably two different claims rather than two halves of one image — which is precisely the axis Day 87 was rejected on. Very warm and uses the locked terms; a reviewer may well accept it. Reported honestly rather than recommended.
+- status: **claimed — ran as Day 122 (2026-10-21)**, rail `2-RAILS/Verses/toh329-giving-makes-friends.md`, card `day-122-giving-and-kindness-toh329.md`.
+- ⚑ **The borderline flag was put to Evan and he overruled it (2026-08-26).** The flag read: *friends and enemies are arguably two different claims rather than two halves of one image — precisely the axis Day 87 was rejected on.* It was offered **with the flag stated** rather than withheld, and selected on the reading that it is one idea (*how you treat people comes back to you*) in its two natural directions. **Precedent: a borderline pool entry belongs in the proposal, not in the bin** — "don't select an open-flagged entry on your own" means don't decide it, don't refrain from offering it. `toh189-faith-and-awakening` and `toh303-vase-and-ethics` are still held back on the same footing and have never actually been offered.
+- ⚑ **Terminology, found at build time:** 84000's note [n11] on this pada records that `གཏོང་བ` (*tyāga*) is deliberately distinct from `སྦྱིན་པ` (*dāna*). The card ships the ordinary giving sense and keeps `གཞན་ལ་སྟེར་བ` in the `bo` line rather than substituting `སྦྱིན་པ`. Any future giving candidate from the Kangyur should check which of the two words its source actually uses.
 
 ### Toh 189 (The Prediction for Brahmaśrī) — toh189-faith-and-awakening — BORDERLINE, held back
 - link: [[1-SOURCES/Text/bo-toh189.md#^p403]]

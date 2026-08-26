@@ -146,6 +146,13 @@ Two different words, two different renderings — don't conflate:
 | Term | en | 中文 (Hant) | བོད་ཡིག | हिन्दी | नेपाली | Монгол | ལ་དྭགས་སྐད · Ladakhi (lbj) |
 |---|---|---|---|---|---|---|---|
 | adinnādāna / a-adinnādāna (taking what is not given / abstaining) | taking what isn't given / giving it up | 不與取 | མ་བྱིན་ལེན | अदत्तादान | अदत्तादान | өгөөгүйг авах ⚑ | ⚑ TBD |
+| tyāga / `གཏོང་བ` (giving, liberality — **not** the *dāna* perfection) | giving | 布施 ⚑ | གཞན་ལ་སྟེར་བ ⚑ | देना | दिनु | өглөг ⚑ | — (discontinued) |
+| dgra / verī (enemy, adversary) | enemies ⚑ | 敵人 ⚑ | དགྲ་བོ ⚑ | शत्रु ⚑ | शत्रु ⚑ | дайсан ⚑ | — (discontinued) |
+
+> **`tyāga` row — added 2026-08-26 for Day 122** (`toh329-giving-makes-friends`). It exists to stop *tyāga* silently collapsing into the **`dāna` row above**. 84000's note [n11] on Toh 329 records that `གཏོང་བ` (*tyāga*: giving up, sacrifice, liberality) is deliberately distinct from `སྦྱིན་པ` (*dāna*, the bodhisattva perfection). ⚑ **The Chinese and Mongolian cells are flagged because the card ships the *dāna* words anyway** — 布施 and `өглөг` — on the grounds that they are what a cultural Buddhist reader actually knows and the alternatives (慷慨付出 / 樂於施予) read stiff on a card. That is a knowing trade, not an oversight; a reviewer may take the other side. The **Tibetan cell deliberately does not use `སྦྱིན་པ`**, since that is the one language where the substitution would contradict the source's own word.
+>
+> **`dgra` row — added 2026-08-26 for Day 122.** ⚑ **Every cell is flagged, and the open question is register, not accuracy.** "Enemy" and its equivalents are all faithful to `དགྲ`, but the word is large for a reader whose actual situation is a difficult colleague or a relative who is not speaking to them. The alternative on file across all six languages is a periphrasis in the shape of "those who are set against you," which is relatable but wordier and slightly editorialising. Day 122 ships the plain word in every language so the choice is consistent and can be overturned in one pass. **Related but distinct: Day 103** (AN 5.161) is about someone you *resent*, which is a feeling of yours, not a standing adversary — do not let the two rows' vocabulary merge.
+
 
 ## Brahmavihāras (the four; the "grow" themes)
 
