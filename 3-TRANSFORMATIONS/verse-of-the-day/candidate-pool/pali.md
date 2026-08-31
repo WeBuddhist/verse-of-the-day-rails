@@ -78,7 +78,7 @@ Same format as `chinese.md`/`tibetan.md`. All Pali sources here are CC0 (SuttaCe
 - buddhavacana: confirmed — corpus-level
 - length_est: ~130 chars EN (est., "Health is the highest gain, contentment the greatest wealth, a trusted friend the best kinsman, Nibbāna the highest bliss.") — slightly over budget, minor compression likely needed
 - theme: contentment (fresh, extremely famous fourfold instance, distinct from the already-claimed Dhp 200)
-- status: unclaimed
+- status: **claimed (day 132, 2026-10-31) — `day-132-contentment-dhp204`, rail `dhp-204.md`.** ⚑ **Revived from `rejected.md`.** Evan ruled 2026-08-31 that a unified parallel *list* is fine and distinct from a "bunch of mixed ideas" — see the rail and the log running-balance note. `nibbāna` ships as "peace" (not named); flagged as the reviewer's one decision.
 
 ### Dhp 277 — "all conditioned things are impermanent"
 - link: [[1-SOURCES/Text/pi-dhammapada.md#^277]]
@@ -419,8 +419,8 @@ The Udāna's narrative-frame-then-verse structure is unusually well-suited to th
 - quote: "Jāgarantā suṇāthetaṁ, ye suttā te pabujjhatha; Suttā jāgaritaṁ seyyo, natthi jāgarato bhayaṁ."
 - buddhavacana: confirmed — corpus-level (first quatrain, cleanly separated)
 - length_est: ~130 chars EN (est.) — minor trim
-- theme: heedfulness (fresh, vivid "wake up!" instance)
-- status: unclaimed
+- theme: wakefulness (fresh, vivid "wake up!" instance)
+- status: **claimed (day 131, 2026-10-30) — `day-131-wakefulness-iti47`, rail `iti-47.md`.** Two-part address compressed to "wake up"; theme retagged heedfulness→wakefulness to mark the coming-awake angle (distinct from the diligence heedfulness cards).
 
 ### Iti 50 — the three poisons, self-produced
 - link: [[1-SOURCES/Text/pi-itivuttaka.md#^iti50-3-1]]
