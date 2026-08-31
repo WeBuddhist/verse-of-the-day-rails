@@ -436,7 +436,7 @@ The Udāna's narrative-frame-then-verse structure is unusually well-suited to th
 - buddhavacana: confirmed — corpus-level
 - length_est: ~127 chars EN (est.) — right at the edge, minor trim
 - theme: threefold-training (fresh instance with sun simile)
-- status: unclaimed
+- status: **claimed (day 130, 2026-10-29) — `day-130-threefold-training-iti59`, rail `iti-59.md`.** Ships `samādhi` as "stillness of mind" (termbase second option) and `māradheyya` as "Māra's reach"; a `māra` termbase row was added with this card. ⚑ The Māra question is open for Evan, not the reviewer — see the card banner.
 
 ### Iti 81 — unmoved by honor or its lack
 - link: [[1-SOURCES/Text/pi-itivuttaka.md#^iti81-9-1]]

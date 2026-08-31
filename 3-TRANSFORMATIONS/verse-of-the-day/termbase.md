@@ -90,6 +90,7 @@ Two different words, two different renderings — don't conflate:
 | sīla (ethics) | ethics, moral conduct | 戒 / 戒律 | ཚུལ་ཁྲིམས | शील | शील | ёс журам / шагшаабад ⚑ | ⚑ TBD |
 | samādhi (concentration) | concentration, meditative stillness | 定 / 三摩地 | ཏིང་ངེ་འཛིན | समाधि | समाधि | самади ⚑ | ⚑ TBD |
 | paññā (wisdom) | wisdom | 慧 / 智慧 | ཤེས་རབ | प्रज्ञा | प्रज्ञा | билиг ухаан ⚑ | ⚑ TBD |
+| māra (Māra) | Māra, Māra’s reach | 魔 / 魔羅 | བདུད | मार | मार | Мара ⚑ | ⚑ TBD |
 | khanti (patience) | patience, endurance | 忍 / 忍辱 | བཟོད་པ | क्षमा / सहनशीलता | धैर्य / सहनशीलता | тэвчээр ⚑ | ⚑ TBD |
 | appamāda (diligence) | diligence, heedfulness | 不放逸 | བག་ཡོད | अप्रमाद | अप्रमाद | сэрэмж ⚑ | ⚑ TBD |
 | viriya (effort, perseverance) | steady effort, perseverance | 精進 | བརྩོན་འགྲུས | प्रयत्न (not वीर्य — see note) | प्रयत्न | хичээл ⚑ | — (discontinued) |
@@ -122,6 +123,8 @@ Two different words, two different renderings — don't conflate:
 > ⚑ **The Mongolian cell is the live problem and is left empty on purpose.** Day 117 ships `хамгаалах` and its own QA note flags that word as leaning too *defensive* for a card about caring; Day 119 ships `сахих`. Those two may well be the wrong way round. A Mongolian reviewer should settle the pair and fill this cell, not patch one line. Related: the `saraṇa` row's Mongolian cell is **also** still empty (flagged since Day 86), and Day 115 shipped a fresh coinage, `хоргодох газар`, for want of one. **Guarding, sheltering and refuge are now three adjacent Mongolian gaps and are worth settling together.**
 >
 > **`saṃvara` row — added 2026-10 for Day 118** (`sa-345-owning-a-fault`, 律儀成就). The English cell is written as an instruction rather than a gloss because the obvious translations both fail on a card: **"restraint" reads as self-denial** to a lay reader, and **"the discipline" reads monastic**. Day 118 ships "**becomes steadier**," and the Tibetan cell likewise avoids the technical `སྡོམ་པ` in favour of `སྤྱོད་པ་བརྟན་པོ`. Keep the term distinct from `sīla` / 戒 / `ཚུལ་ཁྲིམས` above: *sīla* is the ethics one undertakes, *saṃvara* is the settled conduct that results.
+
+> **`māra` row — added 2026-08-31 for Day 130** (`iti-59`). No row existed and the term was about to be decided per-verse. **Why Māra is admitted where Brahmā was refused:** the screen that rejected Toh 315 is about *culture-specific deity or Vedic frames*; Māra is specifically Buddhist and appears under his own name in all three canons this vault draws on (`བདུད`, 魔), so he is recognisable across the whole audience rather than to one part of it. **The open question a reviewer should settle:** whether a named mythological figure clears the standing one-second-comprehension screen at all. If it does not, the fallback is to render the sense ("beyond temptation's reach") and accept the paraphrase, but that should be a ruling rather than a drift. The Mongolian cell is flagged because *Мара* is a transliteration rather than an established Mongolian dharma word; a reviewer should confirm it against current Mongolian Buddhist usage.
 
 ## Mahāyāna & wisdom terms
 

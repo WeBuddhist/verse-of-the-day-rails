@@ -579,7 +579,7 @@ Not a systematic scan. Method worth reusing: the `en-toh*-84000.md` reference fi
 - quote: "ཇི་ལྟར་བུམ་པ་བཟང་པོ་རིན་ཆེན་སྣོད། །དེ་བཞིན་ཚུལ་ཁྲིམས་ཆོས་རྣམས་སྐྱེད་པའི་གཞི།"
 - buddhavacana: confirmed — the Buddha to the monks
 - length_est: en 99 chars ("Just as a fine vase holds precious things, ethical conduct is the ground where good qualities grow.")
-- status: unclaimed, **flagged borderline on warmth**: one clean simile with a homely image, but it is the single salvageable unit in a text that is otherwise a wall of "moral discipline is the best ornament / the best fragrance / the source of all joy" — the compressed-parallel-praise shape already rejected — and the surrounding register is austere enough that the couplet may read as moralising by association.
+- status: **claimed (day 129, 2026-10-28) — `day-129-ethics-as-ground-toh303`, rail `toh303-vase-and-ethics.md`.** Offered to Evan WITH the borderline flag stated and selected 2026-08-31, per the Day 122 precedent. Original flag kept below so the reason survives if the card reads as moralising in review: **flagged borderline on warmth**: one clean simile with a homely image, but it is the single salvageable unit in a text that is otherwise a wall of "moral discipline is the best ornament / the best fragrance / the source of all joy" — the compressed-parallel-praise shape already rejected — and the surrounding register is austere enough that the couplet may read as moralising by association.
 
 ---
 

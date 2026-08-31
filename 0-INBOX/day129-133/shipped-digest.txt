@@ -1,0 +1,123 @@
+1 | Dhp 328 | friendship
+2 | SĀ 1 | impermanence
+3 | Dhp 5 | non-hatred
+4 | 法句經 T210 (述千品) | self-mastery
+5 | Dhp 1 | mind
+6 | SĀ 770 | right-view
+7 | Dhp 223 | overcoming-anger
+8 | Dhp 50 | self-reflection
+9 | SĀ 803 | mindfulness-of-breathing
+10 | Iti 27 | loving-kindness
+11 | Dhp 62 | not-self
+12 | Dhp 100 | speech
+13 | Iti 26 | generosity
+14 | Dhp 320 | patience
+15 | Dhp 25 | effort
+16 | Dhp 39 | peace-of-a-good-heart
+17 | Toh 282 | threefold-training
+18 | Dhp 81 | equanimity
+19 | Udānavarga 1.3 (Toh 326) | impermanence
+20 | Dhp 200 | contentment
+21 | Dhp 224 | truthfulness
+22 | Iti 22 | wholesome-action
+23 | Dhp 131 | harmlessness
+24 | Dhp 96 | inner-peace
+25 | Dhp 63 | self-knowledge
+26 | Dhp 290 | wise-priorities
+27 | Dhp 35 | taming-the-mind
+28 | 法句經 T210 (惡行品) | small-good-deeds
+29 | Udānavarga 2 (Toh 326) | freedom-from-craving
+30 | 法句經 T210 (愛身品) | self-responsibility
+31 | Udānavarga (Toh 326) · Dhp 239 | gradual-purification
+32 | Udānavarga (Toh 326) · Dhp 49 | living-lightly
+33 | 法句經 T210 (明哲品) · Dhp 82 | serenity-of-the-wise
+34 | 法句經 T210 (華香品) · Dhp 51 | words-and-deeds
+35 | 法句經 T210 (梵志品) · Dhp 393 | true-nobility
+36 | 維摩詰所說經 T475 · Vimalakīrti | purity-of-mind
+37 | 八大人覺經 T779 | bodhicitta
+38 | MN 19 (Dvedhāvitakka) | thought-shapes-mind
+39 | Wisdom at the Hour of Death (Toh 122) | great-compassion
+40 | 佛遺教經 T389 | concentration
+41 | AN 2.32 | gratitude
+42 | 妙法蓮華經 T262 · Lotus | buddhas-purpose
+43 | Dhp 354 | gift-of-teaching
+44 | The Inquiry of Jayamati (Toh 194) | patience
+45 | 金剛般若波羅蜜經 T235 · Diamond | non-attached-giving
+46 | Udānavarga (Toh 326) · Dhp 54 parallel | virtue-fragrance
+47 | 法句經 T210 (梵志品) · Dhp 264–265 parallel | true-renunciation
+48 | SN 1.1 (Oghataraṇasutta) | middle-way
+49 | Udānavarga (Toh 326) · Dhp 160 parallel | self-reliance
+50 | 佛說阿彌陀經 T366 · Amitābha | genuine-cultivation
+51 | The King of Samādhis (Toh 127) · Samādhirāja | seeing-the-good
+52 | Toh 26 (Sūryagarbha Perfection of Wisdom) | innate-purity
+53 | SĀ 379 | four-noble-truths
+54 | The Shorter Devatā Sūtra (Toh 330) | generosity
+55 | SĀ 33 | not-self
+56 | The Gold Sūtra (Toh 125) | bodhicitta-is-pure
+57 | Toh 59 (Array of Qualities in Mañjuśrī's Pure Realm) | karma-and-its-fruit
+58 | DĀ 8 (散陀那經, Udumbarikā parallel) | wholesome-action
+59 | Toh 231 (Jewel Cloud / Ratnamegha) | freedom-from-craving
+60 | DĀ 23 (究羅檀頭經, Kūṭadanta parallel) | refuge
+61 | Udānavarga 30 (Toh 326) · Dhp 194 parallel | communal-harmony
+62 | DĀ 2 (遊行經, Mahāparinibbāna parallel) | practice-as-true-offering
+63 | Toh 231 (Jewel Cloud / Ratnamegha) | wholesome-action
+64 | DĀ 26 (三明經, Tevijja parallel) | loving-kindness
+65 | Dhp 197 | non-hatred
+66 | Udānavarga 4 (Toh 326) · Dhp 21 parallel | heedfulness
+67 | EĀ 增壹阿含經 (卷6, Nakulapitā) | inner-peace
+68 | Toh 231 (Jewel Cloud / Ratnamegha) | karma-and-its-fruit
+69 | Ud 5.1 | harmlessness
+70 | EĀ 增壹阿含經 (卷5, caring for the sick) | great-compassion
+71 | Udānavarga 15 (Toh 326) · Dhp 296 parallel | confidence
+72 | DĀ 23 (究羅檀頭經, Kūṭadanta parallel) | loving-kindness
+73 | Toh 59 (Array of Qualities in Mañjuśrī's Buddhafield) | not-self
+74 | Ud 3.4 | steadfastness
+75 | EĀ 增壹阿含經 (卷38, Buddhas arise among humans) | precious-human-life
+76 | Toh 231 (Jewel Cloud / Ratnamegha) | universal-kinship
+77 | DN 16 (Mahāparinibbāna) | diligence
+78 | EĀ 增壹阿含經 (卷7, to Rāhula) · MN 62 parallel | sympathetic-joy
+79 | Udānavarga 9 (Toh 326) · AN 10.216 parallel | karma-and-its-fruit
+80 | Toh 300 (Reliance upon a Virtuous Spiritual Friend) | spiritual-friendship
+81 | Dhp 118 | joy-in-doing-good
+82 | Toh 327 (The Good Person) | how-to-give
+83 | 法句經 T210 (安寧品) · Dhp 201 parallel | peace-beyond-winning
+84 | Dhp 382 | radiance-of-practice
+85 | Udānavarga 30 (Toh 326) · Dhp 207 parallel | joy-of-good-company
+86 | Toh 249 (Teaching the Four Factors) | purification-of-misdeeds
+88 | DĀ 22 (種德經, Soṇadaṇḍa parallel) · DN 4 parallel | threefold-training
+90 | EĀ 增壹阿含經 (卷23, the Buddha's own account) · MN 36 parallel | middle-way
+92 | Iti 86 | inner-peace
+93 | EĀ 增壹阿含經 (卷11) · AN 2.32 parallel | gratitude
+96 | Iti 76 | good-company
+97 | Toh 329 (The Devatā Sūtra) | merit-cannot-be-lost
+98 | Dhp 76 | welcoming-correction
+99 | DĀ 5 (小緣經, Aggañña parallel) | wholesome-action
+100 | Toh 183 (Teaching the Benefits of Generosity) | giving-without-return
+101 | AN 10.2 | joy-from-a-clear-conscience
+102 | Toh 313 (Auspicious Night) | present-moment
+103 | AN 5.161 | love-for-someone-you-resent
+104 | Toh 292 (The Mahāsūtra The Crest Insignia 1) | blessing-of-wellbeing
+105 | EĀ 增壹阿含經 (卷4) | harmlessness
+106 | SN 11.21 | letting-go-of-anger
+107 | Toh 313 (Auspicious Night) | loving-kindness
+108 | AN 7.62 | goodness-is-happiness
+109 | Toh 95 (Lalitavistara) | blessing-of-coming-and-going
+110 | AN 4.73 | speaking-well-of-others
+111 | Toh 182 (The Perfection of Generosity) | dedication-of-merit
+112 | 佛遺教經 T389 (Bequeathed Teachings) | contentment
+113 | EĀ 增壹阿含經 (卷18) · SN 45.150 / AN 10.15 parallels | heedfulness-as-ground
+114 | Snp 2.4 (Maṅgalasutta) | unshaken-mind
+115 | DĀ 2 (遊行經, Mahāparinibbāna parallel) · DN 16 parallel | the-teaching-as-shelter
+116 | 佛遺教經 T389 (Bequeathed Teachings) | steady-effort
+117 | SN 47.19 (Sedakasutta) | mutual-care
+118 | SĀ 345 (卷14, Susīma) · SN 12.70 parallel | owning-a-fault
+119 | SĀ 1222 (卷46, Attarakkhita parallel) · SN 3.5 parallel | inward-protection
+120 | SN 10.2 (Sakkanāmasutta) | care-does-not-bind
+121 | Toh 176 (The Teaching of Vimalakīrti) | discouragement
+122 | Toh 329 (The Devatā Sūtra) | giving-and-kindness
+123 | Toh 101 (Upholding the Roots of Virtue) | blessing-of-health-and-long-life
+124 | Toh 302 (What Mendicants Hold Most Dear) | true-adornment
+125 | Toh 55 (The Teaching on the Effulgence of Light) | being-a-good-friend
+126 | SN 1.35 (Ujjhānasaññisutta) | forgiveness
+127 | Toh 93 (The Seer Vyāsa's Questions) | giving-however-small
+128 | Toh 141 (The Dhāraṇī of the Six Gates) | sharing-your-good-fortune
