@@ -17,6 +17,8 @@ concepts: [māyā (illusion), the five similes of emptiness, dharmacakra (the wh
 status: draft
 ---
 
+> **⚑ SET ASIDE 2026-11-18 — not on the calendar.** Built as Day 147, then replaced (Day 147 now runs `t210-good-heart`). Reason: the verse's plain reading is opaque for a casual reader (its literal subject is the *Dharma-wheel*, and the accessible "turning world" phrasing shifts the referent). Rail kept as a valid banked candidate; do not treat as scheduled.
+
 ## Source Text
 ![[1-SOURCES/Text/bo-toh95.md#^p426]]
 
