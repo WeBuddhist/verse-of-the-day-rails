@@ -199,6 +199,10 @@
   },
   "active": "d066ca5c15f520a5",
   "lastOpenFiles": [
+    "gemini-scribe/Scheduled-Tasks/Runs",
+    "gemini-scribe/Skills",
+    "gemini-scribe/Background-Tasks",
+    "gemini-scribe/Agent-Sessions",
     "3-TRANSFORMATIONS/verse-of-the-day/day-054-generosity-toh330.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-053-four-noble-truths-sa379.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-052-innate-purity-toh26.md",
@@ -224,16 +228,12 @@
     "3-TRANSFORMATIONS/verse-of-the-day/day-031-gradual-purification-udv.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-029-freedom-from-craving-udv.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-027-taming-the-mind-dhp35.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-024-inner-peace-dhp96.md",
     "0-INBOX/rejected-day-cards",
     "0-INBOX/raw-data/data-tei",
     "0-INBOX/raw-data",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md.tmp.98633.07b3d0eb9a3d",
     "4-SYSTEM/Skills/candidate-tagging",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool",
-    "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
-    "gemini-scribe/Scheduled-Tasks/Runs",
-    "gemini-scribe/Scheduled-Tasks",
-    "gemini-scribe/Skills"
+    "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json"
   ]
 }
