@@ -11,10 +11,14 @@
             "id": "1d6ba4c5163d366a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1-SOURCES/Text/bo-toh331.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "bo-toh331"
             }
           }
         ]
@@ -195,6 +199,7 @@
   },
   "active": "1d6ba4c5163d366a",
   "lastOpenFiles": [
+    "1-SOURCES/Text/bo-toh19.md",
     "0-INBOX/New Raw data/verse of poetry",
     "0-INBOX/selection-proposal-day-122.md",
     "0-INBOX/New Raw data/Verse of Buddha",
@@ -229,7 +234,6 @@
     "3-TRANSFORMATIONS/verse-of-the-day/day-033-serenity-t210.md",
     "0-INBOX/rejected-day-cards",
     "0-INBOX/raw-data/data-tei",
-    "0-INBOX/raw-data",
-    "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/SCAN-STATUS.md.tmp.98633.07b3d0eb9a3d"
+    "0-INBOX/raw-data"
   ]
 }
