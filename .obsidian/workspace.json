@@ -197,13 +197,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "15014ceefa497d3c",
+  "active": "1d6ba4c5163d366a",
   "lastOpenFiles": [
     "Untitled.md",
-    "gemini-scribe/Scheduled-Tasks/Runs",
-    "gemini-scribe/Skills",
-    "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions",
     "1-SOURCES/Text/bo-toh331.md",
     "1-SOURCES/Text/bo-toh19.md",
     "0-INBOX/New Raw data/verse of poetry",
@@ -217,6 +213,10 @@
     "1-SOURCES/Text/bo-toh357.md",
     "1-SOURCES/Text/bo-toh358.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-056-bodhicitta-toh125.md",
+    "gemini-scribe/Scheduled-Tasks/Runs",
+    "gemini-scribe/Skills",
+    "gemini-scribe/Background-Tasks",
+    "gemini-scribe/Agent-Sessions",
     "3-TRANSFORMATIONS/verse-of-the-day/day-054-generosity-toh330.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-053-four-noble-truths-sa379.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-052-innate-purity-toh26.md",
@@ -231,6 +231,7 @@
     "3-TRANSFORMATIONS/verse-of-the-day/day-043-gift-of-teaching-dhp354.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-042-buddhas-purpose-t262.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-040-concentration-t389.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-039-great-compassion-toh122.md",
     "0-INBOX/rejected-day-cards",
     "0-INBOX/raw-data/data-tei",
     "0-INBOX/raw-data"
