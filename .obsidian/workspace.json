@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Text/bo-toh331.md",
+                "file": "3-TRANSFORMATIONS/verse-of-the-day/day-001-friendship-dhp328.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bo-toh331"
+              "title": "day-001-friendship-dhp328"
             }
           }
         ]
@@ -197,14 +197,16 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "15014ceefa497d3c",
+  "active": "1d6ba4c5163d366a",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/verse-of-the-day/day-133-steadiness-of-mind-ud4-4.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-001-friendship-dhp328.md",
+    "1-SOURCES/Text/bo-toh331.md",
     "Untitled.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
     "gemini-scribe/Background-Tasks",
     "gemini-scribe/Agent-Sessions",
-    "1-SOURCES/Text/bo-toh331.md",
     "1-SOURCES/Text/bo-toh19.md",
     "0-INBOX/New Raw data/verse of poetry",
     "0-INBOX/selection-proposal-day-122.md",
@@ -230,7 +232,6 @@
     "3-TRANSFORMATIONS/verse-of-the-day/day-044-patience-toh194.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-043-gift-of-teaching-dhp354.md",
     "3-TRANSFORMATIONS/verse-of-the-day/day-042-buddhas-purpose-t262.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-040-concentration-t389.md",
     "0-INBOX/rejected-day-cards",
     "0-INBOX/raw-data/data-tei",
     "0-INBOX/raw-data"
