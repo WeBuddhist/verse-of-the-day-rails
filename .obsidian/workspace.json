@@ -196,8 +196,9 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "15014ceefa497d3c",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "1-SOURCES/Translations/chinese",
     "conflict-files-obsidian-git.md",
     "3-TRANSFORMATIONS/verse-of-the-day/discovery-by-feeling.md",
     "2-RAILS/Verses/an-5-198.md",
@@ -224,7 +225,6 @@
     "Untitled",
     "4-SYSTEM/How-to guides/Set up the vault.md",
     "4-SYSTEM/How-to guides/How to Fix Git Merge Conflicts in Obsidian.md",
-    "4-SYSTEM/How-to guides/Sync with rails-template.md",
     "0-INBOX/Daily Verse",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
