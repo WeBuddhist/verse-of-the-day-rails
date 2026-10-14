@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c80e053ce65a6665",
+        "id": "3f1712a0408e79e9",
         "type": "tabs",
         "children": [
           {
-            "id": "bd0ad488c2088d9a",
+            "id": "c9517f78d3d9f522",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -196,18 +196,19 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "c9517f78d3d9f522",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/verse-of-the-day/day-148-loving-kindness-udv.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-002-impermanence-sa1.md",
+    "3-TRANSFORMATIONS/verse-of-the-day/day-001-friendship-dhp328.md",
+    "3-TRANSFORMATIONS/About Transformations.md",
     "1-SOURCES/Translations/chinese",
     "conflict-files-obsidian-git.md",
     "3-TRANSFORMATIONS/verse-of-the-day/discovery-by-feeling.md",
     "2-RAILS/Verses/an-5-198.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-148-loving-kindness-udv.md",
     "3-TRANSFORMATIONS/verse-of-the-day/log.md",
     "CLAUDE.md",
     "3-TRANSFORMATIONS/verse-of-the-day/previously-used.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-002-impermanence-sa1.md",
-    "3-TRANSFORMATIONS/verse-of-the-day/day-001-friendship-dhp328.md",
     "3-TRANSFORMATIONS/verse-of-the-day/card-types.md",
     "3-TRANSFORMATIONS/verse-of-the-day/About verse-of-the-day.md",
     "1-SOURCES/Text/bo-toh282.md",
@@ -232,7 +233,6 @@
     "gemini-scribe/Agent-Sessions",
     "0-INBOX/New Raw data/verse of poetry",
     "0-INBOX/New Raw data/Verse of Buddha",
-    "0-INBOX/New Raw data",
-    "0-INBOX/rejected-day-cards"
+    "0-INBOX/New Raw data"
   ]
 }

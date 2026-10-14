@@ -1,14 +1,19 @@
 ---
 day: 148
 date: 2026-11-16
-source_ref: "Udānavarga (Toh 326)"
+source_ref: Udānavarga (Toh 326)
 canon: Tibetan Kangyur
 theme: loving-kindness
 card_type: encouragement
-speaks_to: [hardened, guarded, wanting to feel warmth toward others, lonely]
+speaks_to:
+  - hardened
+  - guarded
+  - wanting to feel warmth toward others
+  - lonely
 occasions: []
 source_rail: 2-RAILS/Verses/udv-loving-kindness.md
-context_packages: [2-RAILS/Verses/udv-loving-kindness.md]
+context_packages:
+  - 2-RAILS/Verses/udv-loving-kindness.md
 status: draft
 review_status:
   en: clean-for-review
