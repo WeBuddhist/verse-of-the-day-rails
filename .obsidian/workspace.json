@@ -194,15 +194,15 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "7ed822a7ef397b58",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "Attachments",
     "Untitled.base",
     "1-SOURCES/Translations/en-toh11-84000.md",
     "1-SOURCES/Text/bo-toh11.md",
     "2026-10-22.md",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "3-TRANSFORMATIONS/verse-of-the-day/candidate-pool/tibetan.md",
     "1-SOURCES/Text/pi-anguttara-nikaya.md",
     "CLAUDE.md",
@@ -232,7 +232,6 @@
     "0-INBOX/Daily Verse",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
-    "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions"
+    "gemini-scribe/Background-Tasks"
   ]
 }
